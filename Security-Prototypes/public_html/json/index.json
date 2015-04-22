@@ -1,0 +1,293 @@
+{
+    "moduleIconPath": "../resources/images/icons/softwares/security-software-white-icon.png",
+    "moduleName": "Security",
+    "menus": [
+        {
+            "denomination": "Cadastros Gerais",
+            "alias": "GeneralRegisters",
+            "menuItens": [
+                {
+                    "url": "data-entry/grids/generals/country-data-entry-grid",
+                    "name": "Países",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/generals/admdivisionstructure-data-entry-grid",
+                    "name": "Estruturas de Divisão Administrativa",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/generals/currency-data-entry-grid",
+                    "name": "Moedas",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/generals/idiom-data-entry-grid",
+                    "name": "Idiomas",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/generals/timezone-data-entry-grid",
+                    "name": "Fusos Horários",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/generals/licensed-data-entry-grid",
+                    "name": "Licenciados",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/generals/currencyquotation-data-entry-grid",
+                    "name": "Cotações de Moedas Globais",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/generals/translation-data-entry-grid",
+                    "name": "Traduções Globais",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "Divisão Administrativa do Brasil",
+            "alias": "BRAdmDivision",
+            "menuItens": [
+                {
+                    "url": "data-entry/grids/generals/brfederalunit-data-entry-grid",
+                    "name": "Unidades Federativas do Brasil",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/generals/brstatedistrict-data-entry-grid",
+                    "name": "Distritos Estaduais do Brasil",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/generals/brmunicipality-data-entry-grid",
+                    "name": "Municípios do Brasil",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/generals/brmunicipaldistrict-data-entry-grid",
+                    "name": "Distritos Municipais do Brasil",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/generals/bradmregion-data-entry-grid",
+                    "name": "Regiões Administrativas do Brasil",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "Cadastros da Empresa",
+            "alias": "CompanySRegisters",
+            "menuItens": [
+                {
+                    "url": "data-entry/grids/company-s/companyscurrencyquotation-data-entry-grid",
+                    "name": "Cotações de Moedas",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/company-s/companystranslation-data-entry-grid",
+                    "name": "Traduções",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/company-s/companysoffice-data-entry-grid",
+                    "name": "Cargos",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/company-s/companysbrphysicalperson-data-entry-grid",
+                    "name": "Pessoas Físicas Brasileiras",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/company-s/companysbrlegalentity-data-entry-grid",
+                    "name": "Pessoas Jurídicas Brasileiras",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/company-s/companysforeignphysicalperson-data-entry-grid",
+                    "name": "Pessoas Físicas Estrangeiras",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/company-s/companysforeignlegalentity-data-entry-grid",
+                    "name": "Pessoas Jurídicas Estrangeiras",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "Cadastros",
+            "alias": "Registers",
+            "menuItens": [
+                {
+                    "url": "data-entry/forms/licensed-s/parameters-data-entry-form",
+                    "name": "Parâmetros",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/licensed-s/licensedscurrencyquotation-data-entry-grid",
+                    "name": "Cotações de Moedas",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/licensed-s/licensedstranslation-data-entry-grid",
+                    "name": "Traduções",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/licensed-s/district-data-entry-grid",
+                    "name": "Bairros",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/licensed-s/publicpath-data-entry-grid",
+                    "name": "Logradouros",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/licensed-s/zipcode-data-entry-grid",
+                    "name": "Códigos de Endereçamento Postal",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/licensed-s/licensedsoffice-data-entry-grid",
+                    "name": "Cargos",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/licensed-s/licensedsbrphysicalperson-data-entry-grid",
+                    "name": "Pessoas Físicas Brasileiras",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/licensed-s/licensedsbrlegalentity-data-entry-grid",
+                    "name": "Pessoas Jurídicas Brasileiras",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/licensed-s/licensedsforeignphysicalperson-data-entry-grid",
+                    "name": "Pessoas Físicas Estrangeiras",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/licensed-s/licensedsforeignlegalentity-data-entry-grid",
+                    "name": "Pessoas Jurídicas Estrangeiras",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "Segurança Geral",
+            "alias": "GeneralSecurity",
+            "menuItens": [
+                {
+                    "url": "data-entry/grids/generals/node-data-entry-grid",
+                    "name": "Nós",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/generals/routine-data-entry-grid",
+                    "name": "Rotinas",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/generals/event-data-entry-grid",
+                    "name": "Eventos",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/generals/genericmodule-data-entry-grid",
+                    "name": "Módulos Genéricos",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "Segurança da Empresa",
+            "alias": "CompanySSecurity",
+            "menuItens": [
+                {
+                    "url": "data-entry/grids/company-s/companysprofile-data-entry-grid",
+                    "name": "Perfis",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/company-s/companysmodule-data-entry-grid",
+                    "name": "Módulos",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/company-s/companysmoduleprofile-data-entry-grid",
+                    "name": "Perfis dos Módulos",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/company-s/companysprogramuser-data-entry-grid",
+                    "name": "Usuários",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/company-s/companysmoduleprofileuser-data-entry-grid",
+                    "name": "Perfis dos Módulos dos Usuários",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/company-s/companysbookmark-data-entry-grid",
+                    "name": "Favoritos",
+                    "activeClass": ""
+                },
+                {
+                    "url": "recovery/grids/company-s/companyslogging-recovery-grid",
+                    "name": "Auditoria",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "Segurança",
+            "alias": "Security",
+            "menuItens": [
+                {
+                    "url": "data-entry/grids/licensed-s/licensedsprofile-data-entry-grid",
+                    "name": "Perfis",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/licensed-s/licensedsmodule-data-entry-grid",
+                    "name": "Módulos",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/licensed-s/licensedsmoduleprofile-data-entry-grid",
+                    "name": "Perfis dos Módulos",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/licensed-s/licensedsprogramuser-data-entry-grid",
+                    "name": "Usuários",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/licensed-s/licensedsmoduleprofileuser-data-entry-grid",
+                    "name": "Perfis dos Módulos dos Usuários",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/licensed-s/licensedsbookmark-data-entry-grid",
+                    "name": "Favoritos",
+                    "activeClass": ""
+                },
+                {
+                    "url": "recovery/grids/licensed-s/licensedslogging-recovery-grid",
+                    "name": "Auditoria",
+                    "activeClass": ""
+                }
+            ]
+        }
+    ]
+}

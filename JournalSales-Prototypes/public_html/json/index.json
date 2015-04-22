@@ -1,0 +1,69 @@
+{
+    "moduleIconPath": "../resources/images/icons/softwares/journalsales-software-white-icon.png",
+    "moduleName": "Journal Sales",
+    "menus": [
+        {
+            "denomination": "JournalSales menu 1",
+            "alias": "JournalSalesMenu1",
+            "menuItens": [
+                {
+                    "url": "data-entry/grids/generals/country-list",
+                    "name": "JournalSales menu 1 opção 1",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/generals/country-list",
+                    "name": "JournalSales menu 1 opção 2",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/generals/country-list",
+                    "name": "JournalSales menu 1 opção 3",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "JournalSales menu 2",
+            "alias": "JournalSalesMenu2",
+            "menuItens": [
+                {
+                    "url": "data-entry/grids/generals/country-list",
+                    "name": "JournalSales menu 2 opção 1",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/generals/country-list",
+                    "name": "JournalSales menu 2 opção 2",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/generals/country-list",
+                    "name": "JournalSales menu 2 opção 3",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "JournalSales menu 3",
+            "alias": "JournalSalesMenu3",
+            "menuItens": [
+                {
+                    "url": "data-entry/grids/generals/country-list",
+                    "name": "JournalSales menu 3 opção 1",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/generals/country-list",
+                    "name": "JournalSales menu 3 opção 2",
+                    "activeClass": ""
+                },
+                {
+                    "url": "data-entry/grids/generals/country-list",
+                    "name": "JournalSales menu 3 opção 3",
+                    "activeClass": ""
+                }
+            ]
+        }
+    ]
+}

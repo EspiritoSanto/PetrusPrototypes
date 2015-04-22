@@ -1,10 +1,24 @@
+module.controller('SystemCtrl', ['$scope', function ($scope) {
+        $scope.filterSChangeHandler = function () {
+            $scope.methods = eval('filterTypes.' + $scope.filterField.domain + '.operators');
+            $scope.method = $scope.methods[0];
+        };
+
+        $scope.filterFields = filterFields;
+        $scope.filterField = $scope.filterFields[1];
+        $scope.filterSChangeHandler();
+
+    }]);
+
+
+
 var security = angular.module('Security', ['ngRoute']);
 
 security.config(['$routeProvider', function ($routeProvider) {
         $routeProvider
-                .when('/forms/general/:name', {
+                .when('/forms/general/:bosta', {
                     templateUrl: function (urlattr) {
-                        return 'forms/general/' + urlattr.name + '.html';
+                        return 'forms/general/' + urlattr.bosta + '.html';
                     },
                     controller: 'DefaultCtrl'
                 })
@@ -44,7 +58,7 @@ security.config(['$routeProvider', function ($routeProvider) {
                 });
     }]);
 
-security.controller('DefaultCtrl', ['$scope', '$routeParams', function ($scope, $routeParams) {
+security.controller('SystemCtrl', ['$scope', '$routeParams', function ($scope, $routeParams) {
         $scope.mainMenuStructure = {
             moduleIconPath: '../resources/images/icons/softwares/security-software-white-icon.png',
             moduleName: "Security",
