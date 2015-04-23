@@ -1,0 +1,120 @@
+{
+    "moduleIconPath": "/security/resources/images/icons/softwares/costing-software-white-icon.png",
+    "moduleName": "Costing",
+    "menus": [
+        {
+            "denomination": "Costing data-entry menu",
+            "alias": "CostingDataEntryMenu",
+            "menuItens": [
+                {
+                    "url": "costing/data-entry/retrieval/general/costingoption1-data-entry-retrieval",
+                    "name": "Costing data-entry opção 1",
+                    "icon": "glyphicon glyphicon-list-alt text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "costing/data-entry/retrieval/internal/costingoption2-data-entry-retrieval",
+                    "name": "Costing data-entry opção 2",
+                    "icon": "glyphicon glyphicon-list-alt text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "costing/data-entry/retrieval/licensed-s/costingoption3-data-entry-retrieval",
+                    "name": "Costing data-entry opção 3",
+                    "icon": "glyphicon glyphicon-list-alt text-success",
+                    "activeClass": ""
+                },
+                {
+                    "url": "costing/data-entry/form/general/costingoption4-data-entry-form",
+                    "name": "Costing data-entry opção 4",
+                    "icon": "glyphicon glyphicon-th-list text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "costing/data-entry/form/internal/costingoption5-data-entry-form",
+                    "name": "Costing data-entry opção 5",
+                    "icon": "glyphicon glyphicon-th-list text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "costing/data-entry/form/licensed-s/costingoption6-data-entry-form",
+                    "name": "Costing data-entry opção 6",
+                    "icon": "glyphicon glyphicon-th-list text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "Costing processing menu",
+            "alias": "CostingProcessingMenu",
+            "menuItens": [
+                {
+                    "url": "costing/processing/general/costingoption1-processing",
+                    "name": "Costing processing opção 1",
+                    "icon": "glyphicon glyphicon-cog text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "costing/processing/internal/costingoption2-processing",
+                    "name": "Costing processing opção 2",
+                    "icon": "glyphicon glyphicon-cog text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "costing/processing/licensed-s/costingoption3-processing",
+                    "name": "Costing processing opção 3",
+                    "icon": "glyphicon glyphicon-cog text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "Costing retrieval menu",
+            "alias": "CostingRetrievalMenu",
+            "menuItens": [
+                {
+                    "url": "costing/retrieval/report-preview/general/costingoption1-retrieval-report-preview",
+                    "name": "Costing recovery opção 1",
+                    "icon": "glyphicon glyphicon-print text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "costing/retrieval/report-preview/internal/costingoption2-retrieval-report-preview",
+                    "name": "Costing recovery opção 2",
+                    "icon": "glyphicon glyphicon-print text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "costing/retrieval/report-preview/licensed-s/costingoption3-retrieval-report-preview",
+                    "name": "Costing recovery opção 3",
+                    "icon": "glyphicon glyphicon-print text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "Costing complex-routine menu",
+            "alias": "CostingComplexRoutineMenu",
+            "menuItens": [
+                {
+                    "url": "costing/complex-routine/general/costingoption1-complex-routine",
+                    "name": "Costing complex-routine opção 1",
+                    "icon": "glyphicon glyphicon-equalizer text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "costing/complex-routine/internal/costingoption2-complex-routine",
+                    "name": "Costing complex-routine opção 2",
+                    "icon": "glyphicon glyphicon-equalizer text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "costing/complex-routine/licensed-s/costingoption3-complex-routine",
+                    "name": "Costing complex-routine opção 3",
+                    "icon": "glyphicon glyphicon-equalizer text-success",
+                    "activeClass": ""
+                }
+            ]
+        }
+    ]
+}

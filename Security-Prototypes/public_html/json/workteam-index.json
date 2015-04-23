@@ -1,0 +1,120 @@
+{
+    "moduleIconPath": "/security/resources/images/icons/softwares/workteam-software-white-icon.png",
+    "moduleName": "WorkTeam",
+    "menus": [
+        {
+            "denomination": "WorkTeam data-entry menu",
+            "alias": "WorkTeamDataEntryMenu",
+            "menuItens": [
+                {
+                    "url": "workteam/data-entry/retrieval/general/workteamoption1-data-entry-retrieval",
+                    "name": "WorkTeam data-entry opção 1",
+                    "icon": "glyphicon glyphicon-list-alt text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "workteam/data-entry/retrieval/internal/workteamoption2-data-entry-retrieval",
+                    "name": "WorkTeam data-entry opção 2",
+                    "icon": "glyphicon glyphicon-list-alt text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "workteam/data-entry/retrieval/licensed-s/workteamoption3-data-entry-retrieval",
+                    "name": "WorkTeam data-entry opção 3",
+                    "icon": "glyphicon glyphicon-list-alt text-success",
+                    "activeClass": ""
+                },
+                {
+                    "url": "workteam/data-entry/form/general/workteamoption4-data-entry-form",
+                    "name": "WorkTeam data-entry opção 4",
+                    "icon": "glyphicon glyphicon-th-list text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "workteam/data-entry/form/internal/workteamoption5-data-entry-form",
+                    "name": "WorkTeam data-entry opção 5",
+                    "icon": "glyphicon glyphicon-th-list text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "workteam/data-entry/form/licensed-s/workteamoption6-data-entry-form",
+                    "name": "WorkTeam data-entry opção 6",
+                    "icon": "glyphicon glyphicon-th-list text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "WorkTeam processing menu",
+            "alias": "WorkTeamProcessingMenu",
+            "menuItens": [
+                {
+                    "url": "workteam/processing/general/workteamoption1-processing",
+                    "name": "WorkTeam processing opção 1",
+                    "icon": "glyphicon glyphicon-cog text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "workteam/processing/internal/workteamoption2-processing",
+                    "name": "WorkTeam processing opção 2",
+                    "icon": "glyphicon glyphicon-cog text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "workteam/processing/licensed-s/workteamoption3-processing",
+                    "name": "WorkTeam processing opção 3",
+                    "icon": "glyphicon glyphicon-cog text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "WorkTeam retrieval menu",
+            "alias": "WorkTeamRetrievalMenu",
+            "menuItens": [
+                {
+                    "url": "workteam/retrieval/report-preview/general/workteamoption1-retrieval-report-preview",
+                    "name": "WorkTeam recovery opção 1",
+                    "icon": "glyphicon glyphicon-print text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "workteam/retrieval/report-preview/internal/workteamoption2-retrieval-report-preview",
+                    "name": "WorkTeam recovery opção 2",
+                    "icon": "glyphicon glyphicon-print text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "workteam/retrieval/report-preview/licensed-s/workteamoption3-retrieval-report-preview",
+                    "name": "WorkTeam recovery opção 3",
+                    "icon": "glyphicon glyphicon-print text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "WorkTeam complex-routine menu",
+            "alias": "WorkTeamComplexRoutineMenu",
+            "menuItens": [
+                {
+                    "url": "workteam/complex-routine/general/workteamoption1-complex-routine",
+                    "name": "WorkTeam complex-routine opção 1",
+                    "icon": "glyphicon glyphicon-equalizer text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "workteam/complex-routine/internal/workteamoption2-complex-routine",
+                    "name": "WorkTeam complex-routine opção 2",
+                    "icon": "glyphicon glyphicon-equalizer text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "workteam/complex-routine/licensed-s/workteamoption3-complex-routine",
+                    "name": "WorkTeam complex-routine opção 3",
+                    "icon": "glyphicon glyphicon-equalizer text-success",
+                    "activeClass": ""
+                }
+            ]
+        }
+    ]
+}

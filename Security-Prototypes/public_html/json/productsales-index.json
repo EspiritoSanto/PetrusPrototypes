@@ -1,0 +1,120 @@
+{
+    "moduleIconPath": "/security/resources/images/icons/softwares/productsales-software-white-icon.png",
+    "moduleName": "ProductSales",
+    "menus": [
+        {
+            "denomination": "ProductSales data-entry menu",
+            "alias": "ProductSalesDataEntryMenu",
+            "menuItens": [
+                {
+                    "url": "productsales/data-entry/retrieval/general/productsalesoption1-data-entry-retrieval",
+                    "name": "ProductSales data-entry opção 1",
+                    "icon": "glyphicon glyphicon-list-alt text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "productsales/data-entry/retrieval/internal/productsalesoption2-data-entry-retrieval",
+                    "name": "ProductSales data-entry opção 2",
+                    "icon": "glyphicon glyphicon-list-alt text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "productsales/data-entry/retrieval/licensed-s/productsalesoption3-data-entry-retrieval",
+                    "name": "ProductSales data-entry opção 3",
+                    "icon": "glyphicon glyphicon-list-alt text-success",
+                    "activeClass": ""
+                },
+                {
+                    "url": "productsales/data-entry/form/general/productsalesoption4-data-entry-form",
+                    "name": "ProductSales data-entry opção 4",
+                    "icon": "glyphicon glyphicon-th-list text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "productsales/data-entry/form/internal/productsalesoption5-data-entry-form",
+                    "name": "ProductSales data-entry opção 5",
+                    "icon": "glyphicon glyphicon-th-list text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "productsales/data-entry/form/licensed-s/productsalesoption6-data-entry-form",
+                    "name": "ProductSales data-entry opção 6",
+                    "icon": "glyphicon glyphicon-th-list text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "ProductSales processing menu",
+            "alias": "ProductSalesProcessingMenu",
+            "menuItens": [
+                {
+                    "url": "productsales/processing/general/productsalesoption1-processing",
+                    "name": "ProductSales processing opção 1",
+                    "icon": "glyphicon glyphicon-cog text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "productsales/processing/internal/productsalesoption2-processing",
+                    "name": "ProductSales processing opção 2",
+                    "icon": "glyphicon glyphicon-cog text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "productsales/processing/licensed-s/productsalesoption3-processing",
+                    "name": "ProductSales processing opção 3",
+                    "icon": "glyphicon glyphicon-cog text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "ProductSales retrieval menu",
+            "alias": "ProductSalesRetrievalMenu",
+            "menuItens": [
+                {
+                    "url": "productsales/retrieval/report-preview/general/productsalesoption1-retrieval-report-preview",
+                    "name": "ProductSales recovery opção 1",
+                    "icon": "glyphicon glyphicon-print text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "productsales/retrieval/report-preview/internal/productsalesoption2-retrieval-report-preview",
+                    "name": "ProductSales recovery opção 2",
+                    "icon": "glyphicon glyphicon-print text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "productsales/retrieval/report-preview/licensed-s/productsalesoption3-retrieval-report-preview",
+                    "name": "ProductSales recovery opção 3",
+                    "icon": "glyphicon glyphicon-print text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "ProductSales complex-routine menu",
+            "alias": "ProductSalesComplexRoutineMenu",
+            "menuItens": [
+                {
+                    "url": "productsales/complex-routine/general/productsalesoption1-complex-routine",
+                    "name": "ProductSales complex-routine opção 1",
+                    "icon": "glyphicon glyphicon-equalizer text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "productsales/complex-routine/internal/productsalesoption2-complex-routine",
+                    "name": "ProductSales complex-routine opção 2",
+                    "icon": "glyphicon glyphicon-equalizer text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "productsales/complex-routine/licensed-s/productsalesoption3-complex-routine",
+                    "name": "ProductSales complex-routine opção 3",
+                    "icon": "glyphicon glyphicon-equalizer text-success",
+                    "activeClass": ""
+                }
+            ]
+        }
+    ]
+}

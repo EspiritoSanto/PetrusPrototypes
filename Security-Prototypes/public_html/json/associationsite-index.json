@@ -1,0 +1,120 @@
+{
+    "moduleIconPath": "/security/resources/images/icons/softwares/associationsite-software-white-icon.png",
+    "moduleName": "AssociationSite",
+    "menus": [
+        {
+            "denomination": "AssociationSite data-entry menu",
+            "alias": "AssociationSiteDataEntryMenu",
+            "menuItens": [
+                {
+                    "url": "associationsite/data-entry/retrieval/general/associationsiteoption1-data-entry-retrieval",
+                    "name": "AssociationSite data-entry opção 1",
+                    "icon": "glyphicon glyphicon-list-alt text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "associationsite/data-entry/retrieval/internal/associationsiteoption2-data-entry-retrieval",
+                    "name": "AssociationSite data-entry opção 2",
+                    "icon": "glyphicon glyphicon-list-alt text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "associationsite/data-entry/retrieval/licensed-s/associationsiteoption3-data-entry-retrieval",
+                    "name": "AssociationSite data-entry opção 3",
+                    "icon": "glyphicon glyphicon-list-alt text-success",
+                    "activeClass": ""
+                },
+                {
+                    "url": "associationsite/data-entry/form/general/associationsiteoption4-data-entry-form",
+                    "name": "AssociationSite data-entry opção 4",
+                    "icon": "glyphicon glyphicon-th-list text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "associationsite/data-entry/form/internal/associationsiteoption5-data-entry-form",
+                    "name": "AssociationSite data-entry opção 5",
+                    "icon": "glyphicon glyphicon-th-list text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "associationsite/data-entry/form/licensed-s/associationsiteoption6-data-entry-form",
+                    "name": "AssociationSite data-entry opção 6",
+                    "icon": "glyphicon glyphicon-th-list text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "AssociationSite processing menu",
+            "alias": "AssociationSiteProcessingMenu",
+            "menuItens": [
+                {
+                    "url": "associationsite/processing/general/associationsiteoption1-processing",
+                    "name": "AssociationSite processing opção 1",
+                    "icon": "glyphicon glyphicon-cog text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "associationsite/processing/internal/associationsiteoption2-processing",
+                    "name": "AssociationSite processing opção 2",
+                    "icon": "glyphicon glyphicon-cog text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "associationsite/processing/licensed-s/associationsiteoption3-processing",
+                    "name": "AssociationSite processing opção 3",
+                    "icon": "glyphicon glyphicon-cog text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "AssociationSite retrieval menu",
+            "alias": "AssociationSiteRetrievalMenu",
+            "menuItens": [
+                {
+                    "url": "associationsite/retrieval/report-preview/general/associationsiteoption1-retrieval-report-preview",
+                    "name": "AssociationSite recovery opção 1",
+                    "icon": "glyphicon glyphicon-print text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "associationsite/retrieval/report-preview/internal/associationsiteoption2-retrieval-report-preview",
+                    "name": "AssociationSite recovery opção 2",
+                    "icon": "glyphicon glyphicon-print text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "associationsite/retrieval/report-preview/licensed-s/associationsiteoption3-retrieval-report-preview",
+                    "name": "AssociationSite recovery opção 3",
+                    "icon": "glyphicon glyphicon-print text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "AssociationSite complex-routine menu",
+            "alias": "AssociationSiteComplexRoutineMenu",
+            "menuItens": [
+                {
+                    "url": "associationsite/complex-routine/general/associationsiteoption1-complex-routine",
+                    "name": "AssociationSite complex-routine opção 1",
+                    "icon": "glyphicon glyphicon-equalizer text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "associationsite/complex-routine/internal/associationsiteoption2-complex-routine",
+                    "name": "AssociationSite complex-routine opção 2",
+                    "icon": "glyphicon glyphicon-equalizer text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "associationsite/complex-routine/licensed-s/associationsiteoption3-complex-routine",
+                    "name": "AssociationSite complex-routine opção 3",
+                    "icon": "glyphicon glyphicon-equalizer text-success",
+                    "activeClass": ""
+                }
+            ]
+        }
+    ]
+}

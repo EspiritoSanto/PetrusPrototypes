@@ -1,0 +1,120 @@
+{
+    "moduleIconPath": "/security/resources/images/icons/softwares/events-software-white-icon.png",
+    "moduleName": "Events",
+    "menus": [
+        {
+            "denomination": "Events data-entry menu",
+            "alias": "EventsDataEntryMenu",
+            "menuItens": [
+                {
+                    "url": "events/data-entry/retrieval/general/eventsoption1-data-entry-retrieval",
+                    "name": "Events data-entry opção 1",
+                    "icon": "glyphicon glyphicon-list-alt text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "events/data-entry/retrieval/internal/eventsoption2-data-entry-retrieval",
+                    "name": "Events data-entry opção 2",
+                    "icon": "glyphicon glyphicon-list-alt text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "events/data-entry/retrieval/licensed-s/eventsoption3-data-entry-retrieval",
+                    "name": "Events data-entry opção 3",
+                    "icon": "glyphicon glyphicon-list-alt text-success",
+                    "activeClass": ""
+                },
+                {
+                    "url": "events/data-entry/form/general/eventsoption4-data-entry-form",
+                    "name": "Events data-entry opção 4",
+                    "icon": "glyphicon glyphicon-th-list text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "events/data-entry/form/internal/eventsoption5-data-entry-form",
+                    "name": "Events data-entry opção 5",
+                    "icon": "glyphicon glyphicon-th-list text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "events/data-entry/form/licensed-s/eventsoption6-data-entry-form",
+                    "name": "Events data-entry opção 6",
+                    "icon": "glyphicon glyphicon-th-list text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "Events processing menu",
+            "alias": "EventsProcessingMenu",
+            "menuItens": [
+                {
+                    "url": "events/processing/general/eventsoption1-processing",
+                    "name": "Events processing opção 1",
+                    "icon": "glyphicon glyphicon-cog text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "events/processing/internal/eventsoption2-processing",
+                    "name": "Events processing opção 2",
+                    "icon": "glyphicon glyphicon-cog text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "events/processing/licensed-s/eventsoption3-processing",
+                    "name": "Events processing opção 3",
+                    "icon": "glyphicon glyphicon-cog text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "Events retrieval menu",
+            "alias": "EventsRetrievalMenu",
+            "menuItens": [
+                {
+                    "url": "events/retrieval/report-preview/general/eventsoption1-retrieval-report-preview",
+                    "name": "Events recovery opção 1",
+                    "icon": "glyphicon glyphicon-print text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "events/retrieval/report-preview/internal/eventsoption2-retrieval-report-preview",
+                    "name": "Events recovery opção 2",
+                    "icon": "glyphicon glyphicon-print text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "events/retrieval/report-preview/licensed-s/eventsoption3-retrieval-report-preview",
+                    "name": "Events recovery opção 3",
+                    "icon": "glyphicon glyphicon-print text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "Events complex-routine menu",
+            "alias": "EventsComplexRoutineMenu",
+            "menuItens": [
+                {
+                    "url": "events/complex-routine/general/eventsoption1-complex-routine",
+                    "name": "Events complex-routine opção 1",
+                    "icon": "glyphicon glyphicon-equalizer text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "events/complex-routine/internal/eventsoption2-complex-routine",
+                    "name": "Events complex-routine opção 2",
+                    "icon": "glyphicon glyphicon-equalizer text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "events/complex-routine/licensed-s/eventsoption3-complex-routine",
+                    "name": "Events complex-routine opção 3",
+                    "icon": "glyphicon glyphicon-equalizer text-success",
+                    "activeClass": ""
+                }
+            ]
+        }
+    ]
+}

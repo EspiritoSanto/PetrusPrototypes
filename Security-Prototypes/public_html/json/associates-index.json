@@ -1,0 +1,120 @@
+{
+    "moduleIconPath": "/security/resources/images/icons/softwares/associates-software-white-icon.png",
+    "moduleName": "Associates",
+    "menus": [
+        {
+            "denomination": "Associates data-entry menu",
+            "alias": "AssociatesDataEntryMenu",
+            "menuItens": [
+                {
+                    "url": "associates/data-entry/retrieval/general/associatesoption1-data-entry-retrieval",
+                    "name": "Associates data-entry opção 1",
+                    "icon": "glyphicon glyphicon-list-alt text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "associates/data-entry/retrieval/internal/associatesoption2-data-entry-retrieval",
+                    "name": "Associates data-entry opção 2",
+                    "icon": "glyphicon glyphicon-list-alt text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "associates/data-entry/retrieval/licensed-s/associatesoption3-data-entry-retrieval",
+                    "name": "Associates data-entry opção 3",
+                    "icon": "glyphicon glyphicon-list-alt text-success",
+                    "activeClass": ""
+                },
+                {
+                    "url": "associates/data-entry/form/general/associatesoption4-data-entry-form",
+                    "name": "Associates data-entry opção 4",
+                    "icon": "glyphicon glyphicon-th-list text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "associates/data-entry/form/internal/associatesoption5-data-entry-form",
+                    "name": "Associates data-entry opção 5",
+                    "icon": "glyphicon glyphicon-th-list text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "associates/data-entry/form/licensed-s/associatesoption6-data-entry-form",
+                    "name": "Associates data-entry opção 6",
+                    "icon": "glyphicon glyphicon-th-list text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "Associates processing menu",
+            "alias": "AssociatesProcessingMenu",
+            "menuItens": [
+                {
+                    "url": "associates/processing/general/associatesoption1-processing",
+                    "name": "Associates processing opção 1",
+                    "icon": "glyphicon glyphicon-cog text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "associates/processing/internal/associatesoption2-processing",
+                    "name": "Associates processing opção 2",
+                    "icon": "glyphicon glyphicon-cog text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "associates/processing/licensed-s/associatesoption3-processing",
+                    "name": "Associates processing opção 3",
+                    "icon": "glyphicon glyphicon-cog text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "Associates retrieval menu",
+            "alias": "AssociatesRetrievalMenu",
+            "menuItens": [
+                {
+                    "url": "associates/retrieval/report-preview/general/associatesoption1-retrieval-report-preview",
+                    "name": "Associates recovery opção 1",
+                    "icon": "glyphicon glyphicon-print text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "associates/retrieval/report-preview/internal/associatesoption2-retrieval-report-preview",
+                    "name": "Associates recovery opção 2",
+                    "icon": "glyphicon glyphicon-print text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "associates/retrieval/report-preview/licensed-s/associatesoption3-retrieval-report-preview",
+                    "name": "Associates recovery opção 3",
+                    "icon": "glyphicon glyphicon-print text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "Associates complex-routine menu",
+            "alias": "AssociatesComplexRoutineMenu",
+            "menuItens": [
+                {
+                    "url": "associates/complex-routine/general/associatesoption1-complex-routine",
+                    "name": "Associates complex-routine opção 1",
+                    "icon": "glyphicon glyphicon-equalizer text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "associates/complex-routine/internal/associatesoption2-complex-routine",
+                    "name": "Associates complex-routine opção 2",
+                    "icon": "glyphicon glyphicon-equalizer text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "associates/complex-routine/licensed-s/associatesoption3-complex-routine",
+                    "name": "Associates complex-routine opção 3",
+                    "icon": "glyphicon glyphicon-equalizer text-success",
+                    "activeClass": ""
+                }
+            ]
+        }
+    ]
+}

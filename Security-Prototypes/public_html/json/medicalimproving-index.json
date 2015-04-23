@@ -1,0 +1,120 @@
+{
+    "moduleIconPath": "/security/resources/images/icons/softwares/medicalimproving-software-white-icon.png",
+    "moduleName": "MedicalImproving",
+    "menus": [
+        {
+            "denomination": "MedicalImproving data-entry menu",
+            "alias": "MedicalImprovingDataEntryMenu",
+            "menuItens": [
+                {
+                    "url": "medicalimproving/data-entry/retrieval/general/medicalimprovingoption1-data-entry-retrieval",
+                    "name": "MedicalImproving data-entry opção 1",
+                    "icon": "glyphicon glyphicon-list-alt text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "medicalimproving/data-entry/retrieval/internal/medicalimprovingoption2-data-entry-retrieval",
+                    "name": "MedicalImproving data-entry opção 2",
+                    "icon": "glyphicon glyphicon-list-alt text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "medicalimproving/data-entry/retrieval/licensed-s/medicalimprovingoption3-data-entry-retrieval",
+                    "name": "MedicalImproving data-entry opção 3",
+                    "icon": "glyphicon glyphicon-list-alt text-success",
+                    "activeClass": ""
+                },
+                {
+                    "url": "medicalimproving/data-entry/form/general/medicalimprovingoption4-data-entry-form",
+                    "name": "MedicalImproving data-entry opção 4",
+                    "icon": "glyphicon glyphicon-th-list text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "medicalimproving/data-entry/form/internal/medicalimprovingoption5-data-entry-form",
+                    "name": "MedicalImproving data-entry opção 5",
+                    "icon": "glyphicon glyphicon-th-list text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "medicalimproving/data-entry/form/licensed-s/medicalimprovingoption6-data-entry-form",
+                    "name": "MedicalImproving data-entry opção 6",
+                    "icon": "glyphicon glyphicon-th-list text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "MedicalImproving processing menu",
+            "alias": "MedicalImprovingProcessingMenu",
+            "menuItens": [
+                {
+                    "url": "medicalimproving/processing/general/medicalimprovingoption1-processing",
+                    "name": "MedicalImproving processing opção 1",
+                    "icon": "glyphicon glyphicon-cog text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "medicalimproving/processing/internal/medicalimprovingoption2-processing",
+                    "name": "MedicalImproving processing opção 2",
+                    "icon": "glyphicon glyphicon-cog text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "medicalimproving/processing/licensed-s/medicalimprovingoption3-processing",
+                    "name": "MedicalImproving processing opção 3",
+                    "icon": "glyphicon glyphicon-cog text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "MedicalImproving retrieval menu",
+            "alias": "MedicalImprovingRetrievalMenu",
+            "menuItens": [
+                {
+                    "url": "medicalimproving/retrieval/report-preview/general/medicalimprovingoption1-retrieval-report-preview",
+                    "name": "MedicalImproving recovery opção 1",
+                    "icon": "glyphicon glyphicon-print text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "medicalimproving/retrieval/report-preview/internal/medicalimprovingoption2-retrieval-report-preview",
+                    "name": "MedicalImproving recovery opção 2",
+                    "icon": "glyphicon glyphicon-print text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "medicalimproving/retrieval/report-preview/licensed-s/medicalimprovingoption3-retrieval-report-preview",
+                    "name": "MedicalImproving recovery opção 3",
+                    "icon": "glyphicon glyphicon-print text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "MedicalImproving complex-routine menu",
+            "alias": "MedicalImprovingComplexRoutineMenu",
+            "menuItens": [
+                {
+                    "url": "medicalimproving/complex-routine/general/medicalimprovingoption1-complex-routine",
+                    "name": "MedicalImproving complex-routine opção 1",
+                    "icon": "glyphicon glyphicon-equalizer text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "medicalimproving/complex-routine/internal/medicalimprovingoption2-complex-routine",
+                    "name": "MedicalImproving complex-routine opção 2",
+                    "icon": "glyphicon glyphicon-equalizer text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "medicalimproving/complex-routine/licensed-s/medicalimprovingoption3-complex-routine",
+                    "name": "MedicalImproving complex-routine opção 3",
+                    "icon": "glyphicon glyphicon-equalizer text-success",
+                    "activeClass": ""
+                }
+            ]
+        }
+    ]
+}

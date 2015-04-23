@@ -1,0 +1,120 @@
+{
+    "moduleIconPath": "/security/resources/images/icons/softwares/purchases-software-white-icon.png",
+    "moduleName": "Purchases",
+    "menus": [
+        {
+            "denomination": "Purchases data-entry menu",
+            "alias": "PurchasesDataEntryMenu",
+            "menuItens": [
+                {
+                    "url": "purchases/data-entry/retrieval/general/purchasesoption1-data-entry-retrieval",
+                    "name": "Purchases data-entry opção 1",
+                    "icon": "glyphicon glyphicon-list-alt text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "purchases/data-entry/retrieval/internal/purchasesoption2-data-entry-retrieval",
+                    "name": "Purchases data-entry opção 2",
+                    "icon": "glyphicon glyphicon-list-alt text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "purchases/data-entry/retrieval/licensed-s/purchasesoption3-data-entry-retrieval",
+                    "name": "Purchases data-entry opção 3",
+                    "icon": "glyphicon glyphicon-list-alt text-success",
+                    "activeClass": ""
+                },
+                {
+                    "url": "purchases/data-entry/form/general/purchasesoption4-data-entry-form",
+                    "name": "Purchases data-entry opção 4",
+                    "icon": "glyphicon glyphicon-th-list text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "purchases/data-entry/form/internal/purchasesoption5-data-entry-form",
+                    "name": "Purchases data-entry opção 5",
+                    "icon": "glyphicon glyphicon-th-list text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "purchases/data-entry/form/licensed-s/purchasesoption6-data-entry-form",
+                    "name": "Purchases data-entry opção 6",
+                    "icon": "glyphicon glyphicon-th-list text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "Purchases processing menu",
+            "alias": "PurchasesProcessingMenu",
+            "menuItens": [
+                {
+                    "url": "purchases/processing/general/purchasesoption1-processing",
+                    "name": "Purchases processing opção 1",
+                    "icon": "glyphicon glyphicon-cog text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "purchases/processing/internal/purchasesoption2-processing",
+                    "name": "Purchases processing opção 2",
+                    "icon": "glyphicon glyphicon-cog text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "purchases/processing/licensed-s/purchasesoption3-processing",
+                    "name": "Purchases processing opção 3",
+                    "icon": "glyphicon glyphicon-cog text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "Purchases retrieval menu",
+            "alias": "PurchasesRetrievalMenu",
+            "menuItens": [
+                {
+                    "url": "purchases/retrieval/report-preview/general/purchasesoption1-retrieval-report-preview",
+                    "name": "Purchases recovery opção 1",
+                    "icon": "glyphicon glyphicon-print text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "purchases/retrieval/report-preview/internal/purchasesoption2-retrieval-report-preview",
+                    "name": "Purchases recovery opção 2",
+                    "icon": "glyphicon glyphicon-print text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "purchases/retrieval/report-preview/licensed-s/purchasesoption3-retrieval-report-preview",
+                    "name": "Purchases recovery opção 3",
+                    "icon": "glyphicon glyphicon-print text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "Purchases complex-routine menu",
+            "alias": "PurchasesComplexRoutineMenu",
+            "menuItens": [
+                {
+                    "url": "purchases/complex-routine/general/purchasesoption1-complex-routine",
+                    "name": "Purchases complex-routine opção 1",
+                    "icon": "glyphicon glyphicon-equalizer text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "purchases/complex-routine/internal/purchasesoption2-complex-routine",
+                    "name": "Purchases complex-routine opção 2",
+                    "icon": "glyphicon glyphicon-equalizer text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "purchases/complex-routine/licensed-s/purchasesoption3-complex-routine",
+                    "name": "Purchases complex-routine opção 3",
+                    "icon": "glyphicon glyphicon-equalizer text-success",
+                    "activeClass": ""
+                }
+            ]
+        }
+    ]
+}

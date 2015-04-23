@@ -1,0 +1,120 @@
+{
+    "moduleIconPath": "/security/resources/images/icons/softwares/journalsite-software-white-icon.png",
+    "moduleName": "JournalSite",
+    "menus": [
+        {
+            "denomination": "JournalSite data-entry menu",
+            "alias": "JournalSiteDataEntryMenu",
+            "menuItens": [
+                {
+                    "url": "journalsite/data-entry/retrieval/general/journalsiteoption1-data-entry-retrieval",
+                    "name": "JournalSite data-entry opção 1",
+                    "icon": "glyphicon glyphicon-list-alt text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "journalsite/data-entry/retrieval/internal/journalsiteoption2-data-entry-retrieval",
+                    "name": "JournalSite data-entry opção 2",
+                    "icon": "glyphicon glyphicon-list-alt text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "journalsite/data-entry/retrieval/licensed-s/journalsiteoption3-data-entry-retrieval",
+                    "name": "JournalSite data-entry opção 3",
+                    "icon": "glyphicon glyphicon-list-alt text-success",
+                    "activeClass": ""
+                },
+                {
+                    "url": "journalsite/data-entry/form/general/journalsiteoption4-data-entry-form",
+                    "name": "JournalSite data-entry opção 4",
+                    "icon": "glyphicon glyphicon-th-list text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "journalsite/data-entry/form/internal/journalsiteoption5-data-entry-form",
+                    "name": "JournalSite data-entry opção 5",
+                    "icon": "glyphicon glyphicon-th-list text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "journalsite/data-entry/form/licensed-s/journalsiteoption6-data-entry-form",
+                    "name": "JournalSite data-entry opção 6",
+                    "icon": "glyphicon glyphicon-th-list text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "JournalSite processing menu",
+            "alias": "JournalSiteProcessingMenu",
+            "menuItens": [
+                {
+                    "url": "journalsite/processing/general/journalsiteoption1-processing",
+                    "name": "JournalSite processing opção 1",
+                    "icon": "glyphicon glyphicon-cog text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "journalsite/processing/internal/journalsiteoption2-processing",
+                    "name": "JournalSite processing opção 2",
+                    "icon": "glyphicon glyphicon-cog text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "journalsite/processing/licensed-s/journalsiteoption3-processing",
+                    "name": "JournalSite processing opção 3",
+                    "icon": "glyphicon glyphicon-cog text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "JournalSite retrieval menu",
+            "alias": "JournalSiteRetrievalMenu",
+            "menuItens": [
+                {
+                    "url": "journalsite/retrieval/report-preview/general/journalsiteoption1-retrieval-report-preview",
+                    "name": "JournalSite recovery opção 1",
+                    "icon": "glyphicon glyphicon-print text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "journalsite/retrieval/report-preview/internal/journalsiteoption2-retrieval-report-preview",
+                    "name": "JournalSite recovery opção 2",
+                    "icon": "glyphicon glyphicon-print text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "journalsite/retrieval/report-preview/licensed-s/journalsiteoption3-retrieval-report-preview",
+                    "name": "JournalSite recovery opção 3",
+                    "icon": "glyphicon glyphicon-print text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "JournalSite complex-routine menu",
+            "alias": "JournalSiteComplexRoutineMenu",
+            "menuItens": [
+                {
+                    "url": "journalsite/complex-routine/general/journalsiteoption1-complex-routine",
+                    "name": "JournalSite complex-routine opção 1",
+                    "icon": "glyphicon glyphicon-equalizer text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "journalsite/complex-routine/internal/journalsiteoption2-complex-routine",
+                    "name": "JournalSite complex-routine opção 2",
+                    "icon": "glyphicon glyphicon-equalizer text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "journalsite/complex-routine/licensed-s/journalsiteoption3-complex-routine",
+                    "name": "JournalSite complex-routine opção 3",
+                    "icon": "glyphicon glyphicon-equalizer text-success",
+                    "activeClass": ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,120 @@
+{
+    "moduleIconPath": "/security/resources/images/icons/softwares/journalsales-software-white-icon.png",
+    "moduleName": "JournalSales",
+    "menus": [
+        {
+            "denomination": "JournalSales data-entry menu",
+            "alias": "JournalSalesDataEntryMenu",
+            "menuItens": [
+                {
+                    "url": "journalsales/data-entry/retrieval/general/journalsalesoption1-data-entry-retrieval",
+                    "name": "JournalSales data-entry opção 1",
+                    "icon": "glyphicon glyphicon-list-alt text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "journalsales/data-entry/retrieval/internal/journalsalesoption2-data-entry-retrieval",
+                    "name": "JournalSales data-entry opção 2",
+                    "icon": "glyphicon glyphicon-list-alt text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "journalsales/data-entry/retrieval/licensed-s/journalsalesoption3-data-entry-retrieval",
+                    "name": "JournalSales data-entry opção 3",
+                    "icon": "glyphicon glyphicon-list-alt text-success",
+                    "activeClass": ""
+                },
+                {
+                    "url": "journalsales/data-entry/form/general/journalsalesoption4-data-entry-form",
+                    "name": "JournalSales data-entry opção 4",
+                    "icon": "glyphicon glyphicon-th-list text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "journalsales/data-entry/form/internal/journalsalesoption5-data-entry-form",
+                    "name": "JournalSales data-entry opção 5",
+                    "icon": "glyphicon glyphicon-th-list text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "journalsales/data-entry/form/licensed-s/journalsalesoption6-data-entry-form",
+                    "name": "JournalSales data-entry opção 6",
+                    "icon": "glyphicon glyphicon-th-list text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "JournalSales processing menu",
+            "alias": "JournalSalesProcessingMenu",
+            "menuItens": [
+                {
+                    "url": "journalsales/processing/general/journalsalesoption1-processing",
+                    "name": "JournalSales processing opção 1",
+                    "icon": "glyphicon glyphicon-cog text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "journalsales/processing/internal/journalsalesoption2-processing",
+                    "name": "JournalSales processing opção 2",
+                    "icon": "glyphicon glyphicon-cog text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "journalsales/processing/licensed-s/journalsalesoption3-processing",
+                    "name": "JournalSales processing opção 3",
+                    "icon": "glyphicon glyphicon-cog text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "JournalSales retrieval menu",
+            "alias": "JournalSalesRetrievalMenu",
+            "menuItens": [
+                {
+                    "url": "journalsales/retrieval/report-preview/general/journalsalesoption1-retrieval-report-preview",
+                    "name": "JournalSales recovery opção 1",
+                    "icon": "glyphicon glyphicon-print text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "journalsales/retrieval/report-preview/internal/journalsalesoption2-retrieval-report-preview",
+                    "name": "JournalSales recovery opção 2",
+                    "icon": "glyphicon glyphicon-print text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "journalsales/retrieval/report-preview/licensed-s/journalsalesoption3-retrieval-report-preview",
+                    "name": "JournalSales recovery opção 3",
+                    "icon": "glyphicon glyphicon-print text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "JournalSales complex-routine menu",
+            "alias": "JournalSalesComplexRoutineMenu",
+            "menuItens": [
+                {
+                    "url": "journalsales/complex-routine/general/journalsalesoption1-complex-routine",
+                    "name": "JournalSales complex-routine opção 1",
+                    "icon": "glyphicon glyphicon-equalizer text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "journalsales/complex-routine/internal/journalsalesoption2-complex-routine",
+                    "name": "JournalSales complex-routine opção 2",
+                    "icon": "glyphicon glyphicon-equalizer text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "journalsales/complex-routine/licensed-s/journalsalesoption3-complex-routine",
+                    "name": "JournalSales complex-routine opção 3",
+                    "icon": "glyphicon glyphicon-equalizer text-success",
+                    "activeClass": ""
+                }
+            ]
+        }
+    ]
+}

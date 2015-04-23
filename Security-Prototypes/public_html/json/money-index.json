@@ -1,0 +1,120 @@
+{
+    "moduleIconPath": "/security/resources/images/icons/softwares/money-software-white-icon.png",
+    "moduleName": "Accounting",
+    "menus": [
+        {
+            "denomination": "Accounting data-entry menu",
+            "alias": "AccountingDataEntryMenu",
+            "menuItens": [
+                {
+                    "url": "money/data-entry/retrieval/general/moneyoption1-data-entry-retrieval",
+                    "name": "Accounting data-entry opção 1",
+                    "icon": "glyphicon glyphicon-list-alt text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "money/data-entry/retrieval/internal/moneyoption2-data-entry-retrieval",
+                    "name": "Accounting data-entry opção 2",
+                    "icon": "glyphicon glyphicon-list-alt text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "money/data-entry/retrieval/licensed-s/moneyoption3-data-entry-retrieval",
+                    "name": "Accounting data-entry opção 3",
+                    "icon": "glyphicon glyphicon-list-alt text-success",
+                    "activeClass": ""
+                },
+                {
+                    "url": "money/data-entry/form/general/moneyoption4-data-entry-form",
+                    "name": "Accounting data-entry opção 4",
+                    "icon": "glyphicon glyphicon-th-list text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "money/data-entry/form/internal/moneyoption5-data-entry-form",
+                    "name": "Accounting data-entry opção 5",
+                    "icon": "glyphicon glyphicon-th-list text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "money/data-entry/form/licensed-s/moneyoption6-data-entry-form",
+                    "name": "Accounting data-entry opção 6",
+                    "icon": "glyphicon glyphicon-th-list text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "Accounting processing menu",
+            "alias": "AccountingProcessingMenu",
+            "menuItens": [
+                {
+                    "url": "money/processing/general/moneyoption1-processing",
+                    "name": "Accounting processing opção 1",
+                    "icon": "glyphicon glyphicon-cog text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "money/processing/internal/moneyoption2-processing",
+                    "name": "Accounting processing opção 2",
+                    "icon": "glyphicon glyphicon-cog text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "money/processing/licensed-s/moneyoption3-processing",
+                    "name": "Accounting processing opção 3",
+                    "icon": "glyphicon glyphicon-cog text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "Accounting retrieval menu",
+            "alias": "AccountingRetrievalMenu",
+            "menuItens": [
+                {
+                    "url": "money/retrieval/report-preview/general/moneyoption1-retrieval-report-preview",
+                    "name": "Accounting recovery opção 1",
+                    "icon": "glyphicon glyphicon-print text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "money/retrieval/report-preview/internal/moneyoption2-retrieval-report-preview",
+                    "name": "Accounting recovery opção 2",
+                    "icon": "glyphicon glyphicon-print text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "money/retrieval/report-preview/licensed-s/moneyoption3-retrieval-report-preview",
+                    "name": "Accounting recovery opção 3",
+                    "icon": "glyphicon glyphicon-print text-success",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
+            "denomination": "Accounting complex-routine menu",
+            "alias": "AccountingComplexRoutineMenu",
+            "menuItens": [
+                {
+                    "url": "money/complex-routine/general/moneyoption1-complex-routine",
+                    "name": "Accounting complex-routine opção 1",
+                    "icon": "glyphicon glyphicon-equalizer text-primary",
+                    "activeClass": ""
+                },
+                {
+                    "url": "money/complex-routine/internal/moneyoption2-complex-routine",
+                    "name": "Accounting complex-routine opção 2",
+                    "icon": "glyphicon glyphicon-equalizer text-muted",
+                    "activeClass": ""
+                },
+                {
+                    "url": "money/complex-routine/licensed-s/moneyoption3-complex-routine",
+                    "name": "Accounting complex-routine opção 3",
+                    "icon": "glyphicon glyphicon-equalizer text-success",
+                    "activeClass": ""
+                }
+            ]
+        }
+    ]
+}

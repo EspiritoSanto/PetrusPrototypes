@@ -54,173 +54,239 @@ function eventsOnLoad() {
 
 }
 
-var moduleName = $('html').attr('ng-app');
-var module = angular.module(moduleName, ['ngRoute']);
+var moduleName = window.location.hash.substring(2);
+
+var module = angular.module('security', ['ngRoute']);
 
 module.config(['$routeProvider', function ($routeProvider) {
         $routeProvider.
-                when('/data-entry/grids/generals/:functionalityId', {// data-entry/grids
+                when('/:module/data-entry/retrieval/general/:functionalityId', {// data-entry/retrieval
                     templateUrl: function (urlattr) {
-                        return '/' + module.name + '/views/data-entry/grids/generals/' + urlattr.functionalityId + '.html';
+                        return '/' + urlattr.module + '/views/data-entry/retrieval/general/' + urlattr.functionalityId + '.html';
                     },
-                    controller: 'DataEntryGridCtrl'
+                    controller: 'DataEntryRetrievalCtrl'
                 }).
-                when('/data-entry/grids/company-s/:functionalityId', {
+                when('/:module/data-entry/retrieval/internal/:functionalityId', {
                     templateUrl: function (urlattr) {
-                        return '/' + module.name + '/views/data-entry/grids/company-s/' + urlattr.functionalityId + '.html';
+                        return '/' + urlattr.module + '/views/data-entry/retrieval/internal/' + urlattr.functionalityId + '.html';
                     },
-                    controller: 'DataEntryGridCtrl'
+                    controller: 'DataEntryRetrievalCtrl'
                 }).
-                when('/data-entry/grids/licensed-s/:functionalityId', {
+                when('/:module/data-entry/retrieval/licensed-s/:functionalityId', {
                     templateUrl: function (urlattr) {
-                        return '/' + module.name + '/views/data-entry/grids/licensed-s/' + urlattr.functionalityId + '.html';
+                        return '/' + urlattr.module + '/views/data-entry/retrieval/licensed-s/' + urlattr.functionalityId + '.html';
                     },
-                    controller: 'DataEntryGridCtrl'
+                    controller: 'DataEntryRetrievalCtrl'
                 }).
-                when('/data-entry/grid-forms/generals/:functionalityId', {// data-entry/grid-forms
+                when('/:module/data-entry/retrieval-form/general/:functionalityId', {// data-entry/retrieval-form
                     templateUrl: function (urlattr) {
-                        return '/' + module.name + '/views/data-entry/grid-forms/generals/' + urlattr.functionalityId + '.html';
+                        return '/' + urlattr.module + '/views/data-entry/retrieval-form/general/' + urlattr.functionalityId + '.html';
                     },
-                    controller: 'DataEntryGridFormCtrl'
+                    controller: 'DataEntryRetrievalFormCtrl'
                 }).
-                when('/data-entry/grid-forms/company-s/:functionalityId', {
+                when('/:module/data-entry/retrieval-form/internal/:functionalityId', {
                     templateUrl: function (urlattr) {
-                        return '/' + module.name + '/views/data-entry/grid-forms/company-s/' + urlattr.functionalityId + '.html';
+                        return '/' + urlattr.module + '/views/data-entry/retrieval-form/internal/' + urlattr.functionalityId + '.html';
                     },
-                    controller: 'DataEntryGridFormCtrl'
+                    controller: 'DataEntryRetrievalFormCtrl'
                 }).
-                when('/data-entry/grid-forms/licensed-s/:functionalityId', {
+                when('/:module/data-entry/retrieval-form/licensed-s/:functionalityId', {
                     templateUrl: function (urlattr) {
-                        return '/' + module.name + '/views/data-entry/grid-forms/licensed-s/' + urlattr.functionalityId + '.html';
+                        return '/' + urlattr.module + '/views/data-entry/retrieval-form/licensed-s/' + urlattr.functionalityId + '.html';
                     },
-                    controller: 'DataEntryGridFormCtrl'
+                    controller: 'DataEntryRetrievalFormCtrl'
                 }).
-                when('/data-entry/forms/generals/:functionalityId', {// data-entry/forms
+                when('/:module/data-entry/form/general/:functionalityId', {// data-entry/form
                     templateUrl: function (urlattr) {
-                        return '/' + module.name + '/views/data-entry/forms/generals/' + urlattr.functionalityId + '.html';
-                    },
-                    controller: 'DataEntryFormCtrl'
-                }).
-                when('/data-entry/forms/company-s/:functionalityId', {
-                    templateUrl: function (urlattr) {
-                        return '/' + module.name + '/views/data-entry/forms/company-s/' + urlattr.functionalityId + '.html';
+                        return '/' + urlattr.module + '/views/data-entry/form/general/' + urlattr.functionalityId + '.html';
                     },
                     controller: 'DataEntryFormCtrl'
                 }).
-                when('/data-entry/forms/licensed-s/:functionalityId', {
+                when('/:module/data-entry/form/internal/:functionalityId', {
                     templateUrl: function (urlattr) {
-                        return '/' + module.name + '/views/data-entry/forms/licensed-s/' + urlattr.functionalityId + '.html';
+                        return '/' + urlattr.module + '/views/data-entry/form/internal/' + urlattr.functionalityId + '.html';
                     },
                     controller: 'DataEntryFormCtrl'
                 }).
-                when('/processing/generals/:functionalityId', {// processing
+                when('/:module/data-entry/form/licensed-s/:functionalityId', {
                     templateUrl: function (urlattr) {
-                        return '/' + module.name + '/views/processing/generals/' + urlattr.functionalityId + '.html';
+                        return '/' + urlattr.module + '/views/data-entry/form/licensed-s/' + urlattr.functionalityId + '.html';
+                    },
+                    controller: 'DataEntryFormCtrl'
+                }).
+                when('/:module/processing/general/:functionalityId', {// processing
+                    templateUrl: function (urlattr) {
+                        return '/' + urlattr.module + '/views/processing/general/' + urlattr.functionalityId + '.html';
                     },
                     controller: 'ProcessingCtrl'
                 }).
-                when('/processing/company-s/:functionalityId', {
+                when('/:module/processing/internal/:functionalityId', {
                     templateUrl: function (urlattr) {
-                        return '/' + module.name + '/views/processing/company-s/' + urlattr.functionalityId + '.html';
+                        return '/' + urlattr.module + '/views/processing/internal/' + urlattr.functionalityId + '.html';
                     },
                     controller: 'ProcessingCtrl'
                 }).
-                when('/processing/licensed-s/:functionalityId', {
+                when('/:module/processing/licensed-s/:functionalityId', {
                     templateUrl: function (urlattr) {
-                        return '/' + module.name + '/views/processing/licensed-s/' + urlattr.functionalityId + '.html';
+                        return '/' + urlattr.module + '/views/processing/licensed-s/' + urlattr.functionalityId + '.html';
                     },
                     controller: 'ProcessingCtrl'
                 }).
-                when('/recovery/grids/generals/:functionalityId', {// recovery/grids
+                when('/:module/retrieval/report-preview/general/:functionalityId', {// retrieval/report-preview
                     templateUrl: function (urlattr) {
-                        return '/' + module.name + '/views/recovery/grids/generals/' + urlattr.functionalityId + '.html';
+                        return '/' + urlattr.module + '/views/retrieval/report-preview/general/' + urlattr.functionalityId + '.html';
                     },
-                    controller: 'RecoveryGridCtrl'
+                    controller: 'RetrievalReportPreviewCtrl'
                 }).
-                when('/recovery/grids/company-s/:functionalityId', {
+                when('/:module/retrieval/report-preview/internal/:functionalityId', {
                     templateUrl: function (urlattr) {
-                        return '/' + module.name + '/views/recovery/grids/company-s/' + urlattr.functionalityId + '.html';
+                        return '/' + urlattr.module + '/views/retrieval/report-preview/internal/' + urlattr.functionalityId + '.html';
                     },
-                    controller: 'RecoveryGridCtrl'
+                    controller: 'RetrievalReportPreviewCtrl'
                 }).
-                when('/recovery/grids/licensed-s/:functionalityId', {
+                when('/:module/retrieval/report-preview/licensed-s/:functionalityId', {
                     templateUrl: function (urlattr) {
-                        return '/' + module.name + '/views/recovery/grids/licensed-s/' + urlattr.functionalityId + '.html';
+                        return '/' + urlattr.module + '/views/retrieval/report-preview/licensed-s/' + urlattr.functionalityId + '.html';
                     },
-                    controller: 'RecoveryGridCtrl'
+                    controller: 'RetrievalReportPreviewCtrl'
                 }).
-                when('/recovery/reports/generals/:functionalityId', {// recovery/reports
+                when('/:module/retrieval/report/general/:functionalityId', {// retrieval/report
                     templateUrl: function (urlattr) {
-                        return '/' + module.name + '/views/recovery/reports/generals/' + urlattr.functionalityId + '.html';
+                        return '/' + urlattr.module + '/views/retrieval/report/general/' + urlattr.functionalityId + '.html';
                     },
-                    controller: 'RecoveryReportCtrl'
+                    controller: 'RetrievalReportCtrl'
                 }).
-                when('/recovery/reports/company-s/:functionalityId', {
+                when('/:module/retrieval/report/internal/:functionalityId', {
                     templateUrl: function (urlattr) {
-                        return '/' + module.name + '/views/recovery/reports/company-s/' + urlattr.functionalityId + '.html';
+                        return '/' + urlattr.module + '/views/retrieval/report/internal/' + urlattr.functionalityId + '.html';
                     },
-                    controller: 'RecoveryReportCtrl'
+                    controller: 'RetrievalReportCtrl'
                 }).
-                when('/recovery/reports/licensed-s/:functionalityId', {
+                when('/:module/retrieval/report/licensed-s/:functionalityId', {
                     templateUrl: function (urlattr) {
-                        return '/' + module.name + '/views/recovery/reports/licensed-s/' + urlattr.functionalityId + '.html';
+                        return '/' + urlattr.module + '/views/retrieval/report/licensed-s/' + urlattr.functionalityId + '.html';
                     },
-                    controller: 'RecoveryReportCtrl'
+                    controller: 'RetrievalReportCtrl'
                 }).
-                when('/recovery/graphs/generals/:functionalityId', {// recovery/graphs
+                when('/:module/complex-routine/general/:functionalityId', {// complex-routine
                     templateUrl: function (urlattr) {
-                        return '/' + module.name + '/views/recovery/graphs/generals/' + urlattr.functionalityId + '.html';
-                    },
-                    controller: 'RecoveryGraphCtrl'
-                }).
-                when('/recovery/graphs/company-s/:functionalityId', {
-                    templateUrl: function (urlattr) {
-                        return '/' + module.name + '/views/recovery/graphs/company-s/' + urlattr.functionalityId + '.html';
-                    },
-                    controller: 'RecoveryGraphCtrl'
-                }).
-                when('/recovery/graphs/licensed-s/:functionalityId', {
-                    templateUrl: function (urlattr) {
-                        return '/' + module.name + '/views/recovery/graphs/licensed-s/' + urlattr.functionalityId + '.html';
-                    },
-                    controller: 'RecoveryGraphCtrl'
-                }).
-                when('/complex-routines/generals/:functionalityId', {// complex-routines
-                    templateUrl: function (urlattr) {
-                        return '/' + module.name + '/views/complex-routines/generals/' + urlattr.functionalityId + '.html';
+                        return '/' + urlattr.module + '/views/complex-routine/general/' + urlattr.functionalityId + '.html';
                     },
                     controller: 'ComplexRoutineCtrl'
                 }).
-                when('/complex-routines/company-s/:functionalityId', {
+                when('/:module/complex-routine/internal/:functionalityId', {
                     templateUrl: function (urlattr) {
-                        return '/' + module.name + '/views/complex-routines/company-s/' + urlattr.functionalityId + '.html';
+                        return '/' + urlattr.module + '/views/complex-routine/internal/' + urlattr.functionalityId + '.html';
                     },
                     controller: 'ComplexRoutineCtrl'
                 }).
-                when('/complex-routines/licensed-s/:functionalityId', {
+                when('/:module/complex-routine/licensed-s/:functionalityId', {
                     templateUrl: function (urlattr) {
-                        return '/' + module.name + '/views/complex-routines/licensed-s/' + urlattr.functionalityId + '.html';
+                        return '/' + urlattr.module + '/views/complex-routine/licensed-s/' + urlattr.functionalityId + '.html';
                     },
                     controller: 'ComplexRoutineCtrl'
                 }).
-                when('/', {// deafult
-                    templateUrl: 'default.html',
+                when('/accounting', {// defaults
+                    templateUrl: '/accounting/views/default.html',
+                    controller: 'SystemCtrl'
+                }).
+                when('/associates', {
+                    templateUrl: '/associates/views/default.html',
+                    controller: 'SystemCtrl'
+                }).
+                when('/associationsite', {
+                    templateUrl: '/associationsite/views/default.html',
+                    controller: 'SystemCtrl'
+                }).
+                when('/bookkeeping', {
+                    templateUrl: '/bookkeeping/views/default.html',
+                    controller: 'SystemCtrl'
+                }).
+                when('/contracts', {
+                    templateUrl: '/contracts/views/default.html',
+                    controller: 'SystemCtrl'
+                }).
+                when('/costing', {
+                    templateUrl: '/costing/views/default.html',
+                    controller: 'SystemCtrl'
+                }).
+                when('/events', {
+                    templateUrl: '/events/views/default.html',
+                    controller: 'SystemCtrl'
+                }).
+                when('/journalsales', {
+                    templateUrl: '/journalsales/views/default.html',
+                    controller: 'SystemCtrl'
+                }).
+                when('/journalsite', {
+                    templateUrl: '/journalsite/views/default.html',
+                    controller: 'SystemCtrl'
+                }).
+                when('/medicalimproving', {
+                    templateUrl: '/medicalimproving/views/default.html',
+                    controller: 'SystemCtrl'
+                }).
+                when('/medicalresidency', {
+                    templateUrl: '/medicalresidency/views/default.html',
+                    controller: 'SystemCtrl'
+                }).
+                when('/money', {
+                    templateUrl: '/money/views/default.html',
+                    controller: 'SystemCtrl'
+                }).
+                when('/papers', {
+                    templateUrl: '/papers/views/default.html',
+                    controller: 'SystemCtrl'
+                }).
+                when('/productsales', {
+                    templateUrl: '/productsales/views/default.html',
+                    controller: 'SystemCtrl'
+                }).
+                when('/purchases', {
+                    templateUrl: '/purchases/views/default.html',
+                    controller: 'SystemCtrl'
+                }).
+                when('/security', {
+                    templateUrl: '/security/views/default.html',
+                    controller: 'SystemCtrl'
+                }).
+                when('/specialisttitle', {
+                    templateUrl: '/specialisttitle/views/default.html',
+                    controller: 'SystemCtrl'
+                }).
+                when('/workteam', {
+                    templateUrl: '/workteam/views/default.html',
                     controller: 'SystemCtrl'
                 }).
                 otherwise({// not found
-                    templateUrl: 'route-not-forund.html',
+                    templateUrl: '/security/views/route-not-forund.html',
                     controller: 'SystemCtrl'
                 });
     }]);
 
-module.controller('SystemCtrl', ['$scope', '$http', '$location', function ($scope, $http, $location) {
-       
-        $http.get('/' + module.name + '/json/index.json').success(function (data) {
-            $scope.mainMenuStructure = data;
+module.controller('SystemCtrl', ['$scope', '$http', '$location', '$route', function ($scope, $http, $location, $route) {
+
+        $scope.$on('$routeChangeStart', function (next, current) {
+            console.log('Estou no On');
+
+            var newModule = $location.$$path.substring(1);
+            if ((newModule.indexOf('/')) !== -1) {
+                newModule = newModule.substring(0, newModule.indexOf('/'));
+            }
+            //console.log($scope.moduleName);
+            if ($scope.moduleName === newModule) {
+                
+                return;
+            }
+            $scope.moduleName = newModule;
+            $http.get('/security/json/' + $scope.moduleName + '-index.json').success(function (data) {
+                $scope.mainMenuStructure = data;
+            });
         });
-        $location.path('/');
+            console.log('Estou fora');
 
         $scope.updateActive = function (mainMenuItem) {
+            console.log('Estou no updateActive');
             for (var i = 0; i < $scope.mainMenuStructure.menus.length; i++) {
                 for (var j = 0; j < $scope.mainMenuStructure.menus[i].menuItens.length; j++) {
                     if ($scope.mainMenuStructure.menus[i].menuItens[j].activeClass === 'active') {
@@ -235,10 +301,10 @@ module.controller('SystemCtrl', ['$scope', '$http', '$location', function ($scop
         eventsOnLoad();
     }]);
 
-module.controller('DataEntryGridCtrl', ['$scope', '$http', function ($scope, $http) {
+module.controller('DataEntryRetrievalCtrl', ['$scope', '$http', function ($scope, $http) {
     }]);
 
-module.controller('DataEntryGridFormCtrl', ['$scope', '$http', function ($scope, $http) {
+module.controller('DataEntryRetrievalFormCtrl', ['$scope', '$http', function ($scope, $http) {
     }]);
 
 module.controller('DataEntryFormCtrl', ['$scope', '$http', function ($scope, $http) {
@@ -247,13 +313,10 @@ module.controller('DataEntryFormCtrl', ['$scope', '$http', function ($scope, $ht
 module.controller('ProcessingCtrl', ['$scope', '$http', function ($scope, $http) {
     }]);
 
-module.controller('RecoveryGridCtrl', ['$scope', '$http', function ($scope, $http) {
+module.controller('RetrievalReportPreviewCtrl', ['$scope', '$http', function ($scope, $http) {
     }]);
 
-module.controller('RecoveryReportCtrl', ['$scope', '$http', function ($scope, $http) {
-    }]);
-
-module.controller('RecoveryGraphCtrl', ['$scope', '$http', function ($scope, $http) {
+module.controller('RetrievalReportCtrl', ['$scope', '$http', function ($scope, $http) {
     }]);
 
 module.controller('ComplexRoutineCtrl', ['$scope', '$http', function ($scope, $http) {
