@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="pt-BR" ng-app="security">
+<html lang="en-US">
     <head>
-        <link rel="icon" href="/security/resources/images/favicons/petrus-favicon.ico" type="image/x-icon">
+        <link rel="icon" href="../resources/images/favicons/petrus-favicon.ico" type="image/x-icon">
 
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,14 +14,12 @@
 
         <title>Petrus</title>
 
-        <link href="/security/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="/security/resources/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" />
-
-        <link href="/security/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-
-        <link href="/security/resources/system/css/system.css" rel="stylesheet" />
+        <link href="../resources/bootstrap/css/bootstrap.min.css" rel="stylesheet" /> 
+        <link href="../resources/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" /> 
+        
+        <link href="../resources/system/css/system.css" rel="stylesheet" /> 
     </head>
-    <body ng-controller="SystemCtrl">
+    <body>
         <div class="gn1-wrapper">
             <div class="container-fluid">
 
@@ -31,7 +29,7 @@
                         <div class="row"> 
                             <div class="col-lg-5 col-md-6 col-sm-8 col-xs-8 gn1-header-column">
                                 <a href="/security/views/index.html">
-                                    <img src="/security/resources/images/logos/petrus-logo.png" alt="Suite Logo" class="img-responsive gn1-header-logo">
+                                    <img src="../resources/images/logos/petrus-logo.png" alt="Suite Logo" class="img-responsive gn1-header-logo">
                                 </a>
                             </div>
                             <div class="col-lg-offset-2 col-md-offset-0 col-sm-offset-0 col-xs-offset-0 col-lg-4 col-md-5 col-sm-12 col-xs-12 gn1-header-column gn1-header-loggeduser-column">
@@ -46,7 +44,7 @@
                                     <ul class="dropdown-menu gn1-position-menu row" role="menu" aria-labelledby="dropdownMenuLoggedUser">
                                         <li role="presentation">
                                             <p class="text-center">
-                                                <img src="/security/resources/images/icons/user-icon.png" alt="User image" height="150" width="150" class="img-rounded">
+                                                <img src="../resources/images/icons/user-icon.png" alt="User image" height="150" width="150" class="img-rounded">
                                             </p>
                                         </li>
                                         <li role="presentation" class="dropdown-header text-center">
@@ -57,10 +55,9 @@
                                             ABORL-CCF
                                         </li>
                                         <li role="presentation" class="divider"></li>
-                                        <li role="presentation" ><a role="menuitem" tabindex="-1" href="/security/views/edit-preferences.html">Editar preferências</a></li>
                                         <li role="presentation" ><a role="menuitem" tabindex="-1" href="/security/views/password-change.html">Alterar senha</a></li>
                                         <li role="presentation" class="divider"></li>
-                                        <li role="presentation" ><a role="menuitem" tabindex="-1" href="/security/views/home.html">Sair</a></li>
+                                        <li role="presentation" ><a role="menuitem" tabindex="-1" href="/security/home.html">Sair</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -73,10 +70,10 @@
                                         <li role="presentation">
 
                                             <div class="row text-center gn1-padding-md-top gn1-index-menu gn1-margin-xs-left">
-
+                                                
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="" ng-click="loadModule('accounting')" class="thumbnail gn1-header-index-thumbnail">
-                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="/security/resources/images/icons/softwares/accounting-software-icon.png" alt="Accounting software icon">
+                                                    <a href="/accounting" class="thumbnail gn1-header-index-thumbnail">
+                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="../resources/images/icons/softwares/accounting-software-icon.png" alt="Accounting software icon">
                                                         <div class="caption">
                                                             <p class="gn1-header-index-thumbnail-title">Accounting</p>
                                                         </div>
@@ -84,8 +81,8 @@
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="" ng-click="loadModule('associates')" class="thumbnail gn1-header-index-thumbnail">
-                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="/security/resources/images/icons/softwares/associates-software-icon.png" alt="Associates software icon">
+                                                    <a href="/associates" class="thumbnail gn1-header-index-thumbnail">
+                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="../resources/images/icons/softwares/associates-software-icon.png" alt="Associates software icon">
                                                         <div class="caption">
                                                             <p class="gn1-header-index-thumbnail-title">Associates</p>
                                                         </div>
@@ -93,8 +90,8 @@
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="" ng-click="loadModule('associationsite')" class="thumbnail gn1-header-index-thumbnail">
-                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="/security/resources/images/icons/softwares/associationsite-software-icon.png" alt="Association site software icon">
+                                                    <a href="/associationsite" class="thumbnail gn1-header-index-thumbnail">
+                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="../resources/images/icons/softwares/associationsite-software-icon.png" alt="Association site software icon">
                                                         <div class="caption">
                                                             <p class="gn1-header-index-thumbnail-title">Association Site</p>
                                                         </div>
@@ -102,8 +99,8 @@
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="" ng-click="loadModule('bookkeeping')" class="thumbnail gn1-header-index-thumbnail">
-                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="/security/resources/images/icons/softwares/bookkeeping-software-icon.png" alt="Bookkeeping software icon">
+                                                    <a href="/bookkeeping" class="thumbnail gn1-header-index-thumbnail">
+                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="../resources/images/icons/softwares/bookkeeping-software-icon.png" alt="Bookkeeping software icon">
                                                         <div class="caption">
                                                             <p class="gn1-header-index-thumbnail-title">Bookkeeping</p>
                                                         </div>
@@ -111,8 +108,8 @@
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="" ng-click="loadModule('contracts')" class="thumbnail gn1-header-index-thumbnail">
-                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="/security/resources/images/icons/softwares/contracts-software-icon.png" alt="Contracts software icon">
+                                                    <a href="/contracts" class="thumbnail gn1-header-index-thumbnail">
+                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="../resources/images/icons/softwares/contracts-software-icon.png" alt="Contracts software icon">
                                                         <div class="caption">
                                                             <p class="gn1-header-index-thumbnail-title">Contracts</p>
                                                         </div>
@@ -120,8 +117,8 @@
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="" ng-click="loadModule('costing')" class="thumbnail gn1-header-index-thumbnail">
-                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="/security/resources/images/icons/softwares/costing-software-icon.png" alt="Costing software icon">
+                                                    <a href="/costing" class="thumbnail gn1-header-index-thumbnail">
+                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="../resources/images/icons/softwares/costing-software-icon.png" alt="Costing software icon">
                                                         <div class="caption">
                                                             <p class="gn1-header-index-thumbnail-title">Costing</p>
                                                         </div>
@@ -129,8 +126,8 @@
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="" ng-click="loadModule('events')" class="thumbnail gn1-header-index-thumbnail">
-                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="/security/resources/images/icons/softwares/events-software-icon.png" alt="Events software icon">
+                                                    <a href="/events" class="thumbnail gn1-header-index-thumbnail">
+                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="../resources/images/icons/softwares/events-software-icon.png" alt="Events software icon">
                                                         <div class="caption">
                                                             <p class="gn1-header-index-thumbnail-title">Events</p>
                                                         </div>
@@ -138,8 +135,8 @@
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="" ng-click="loadModule('journalsales')" class="thumbnail gn1-header-index-thumbnail">
-                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="/security/resources/images/icons/softwares/journalsales-software-icon.png" alt="Journal Sales software icon">
+                                                    <a href="/journalsales" class="thumbnail gn1-header-index-thumbnail">
+                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="../resources/images/icons/softwares/journalsales-software-icon.png" alt="Journal Sales software icon">
                                                         <div class="caption">
                                                             <p class="gn1-header-index-thumbnail-title">Journal Sales</p>
                                                         </div>
@@ -147,8 +144,8 @@
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="" ng-click="loadModule('journalsite')" class="thumbnail gn1-header-index-thumbnail">
-                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="/security/resources/images/icons/softwares/journalsite-software-icon.png" alt="Journal Site software icon">
+                                                    <a href="/journalsite" class="thumbnail gn1-header-index-thumbnail">
+                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="../resources/images/icons/softwares/journalsite-software-icon.png" alt="Journal Site software icon">
                                                         <div class="caption">
                                                             <p class="gn1-header-index-thumbnail-title">Journal Site</p>
                                                         </div>
@@ -156,8 +153,8 @@
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="" ng-click="loadModule('medicalimproving')" class="thumbnail gn1-header-index-thumbnail">
-                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="/security/resources/images/icons/softwares/medicalimproving-software-icon.png" alt="Medical Improving software icon">
+                                                    <a href="/medicalimproving" class="thumbnail gn1-header-index-thumbnail">
+                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="../resources/images/icons/softwares/medicalimproving-software-icon.png" alt="Medical Improving software icon">
                                                         <div class="caption">
                                                             <p class="gn1-header-index-thumbnail-title">Medical Improving</p>
                                                         </div>
@@ -165,8 +162,8 @@
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="" ng-click="loadModule('medicalresidency')" class="thumbnail gn1-header-index-thumbnail">
-                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="/security/resources/images/icons/softwares/medicalresidency-software-icon.png" alt="Medical Residency software icon">
+                                                    <a href="/medicalresidency" class="thumbnail gn1-header-index-thumbnail">
+                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="../resources/images/icons/softwares/medicalresidency-software-icon.png" alt="Medical Residency software icon">
                                                         <div class="caption">
                                                             <p class="gn1-header-index-thumbnail-title">Medical Residency</p>
                                                         </div>
@@ -174,8 +171,8 @@
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="" ng-click="loadModule('money')" class="thumbnail gn1-header-index-thumbnail">
-                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="/security/resources/images/icons/softwares/money-software-icon.png" alt="Money software icon">
+                                                    <a href="/money" class="thumbnail gn1-header-index-thumbnail">
+                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="../resources/images/icons/softwares/money-software-icon.png" alt="Money software icon">
                                                         <div class="caption">
                                                             <p class="gn1-header-index-thumbnail-title">Money</p>
                                                         </div>
@@ -183,8 +180,8 @@
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="" ng-click="loadModule('papers')" class="thumbnail gn1-header-index-thumbnail">
-                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="/security/resources/images/icons/softwares/papers-software-icon.png" alt="Papers software icon">
+                                                    <a href="/papers" class="thumbnail gn1-header-index-thumbnail">
+                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="../resources/images/icons/softwares/papers-software-icon.png" alt="Papers software icon">
                                                         <div class="caption">
                                                             <p class="gn1-header-index-thumbnail-title">Papers</p>
                                                         </div>
@@ -192,8 +189,8 @@
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="" ng-click="loadModule('productsales')" class="thumbnail gn1-header-index-thumbnail">
-                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="/security/resources/images/icons/softwares/productsales-software-icon.png" alt="Product Sales software icon">
+                                                    <a href="/productsales" class="thumbnail gn1-header-index-thumbnail">
+                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="../resources/images/icons/softwares/productsales-software-icon.png" alt="Product Sales software icon">
                                                         <div class="caption">
                                                             <p class="gn1-header-index-thumbnail-title">Product Sales</p>
                                                         </div>
@@ -201,8 +198,8 @@
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="" ng-click="loadModule('purchases')" class="thumbnail gn1-header-index-thumbnail">
-                                                        <img  class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="/security/resources/images/icons/softwares/purchases-software-icon.png" alt="Purchases software icon">
+                                                    <a href="/purchases" class="thumbnail gn1-header-index-thumbnail">
+                                                        <img  class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="../resources/images/icons/softwares/purchases-software-icon.png" alt="Purchases software icon">
                                                         <div class="caption">
                                                             <p class="gn1-header-index-thumbnail-title">Purchases</p>
                                                         </div>
@@ -210,8 +207,8 @@
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="" ng-click="loadModule('security')" class="thumbnail gn1-header-index-thumbnail">
-                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="/security/resources/images/icons/softwares/security-software-icon.png" alt="Security software icon">
+                                                    <a href="/security" class="thumbnail gn1-header-index-thumbnail">
+                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="../resources/images/icons/softwares/security-software-icon.png" alt="Security software icon">
                                                         <div class="caption">
                                                             <p class="gn1-header-index-thumbnail-title">Security</p>
                                                         </div>
@@ -219,8 +216,8 @@
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="" ng-click="loadModule('specialisttitle')" class="thumbnail gn1-header-index-thumbnail">
-                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="/security/resources/images/icons/softwares/specialisttitle-software-icon.png" alt="Specialist Title software icon">
+                                                    <a href="/specialisttitle" class="thumbnail gn1-header-index-thumbnail">
+                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="../resources/images/icons/softwares/specialisttitle-software-icon.png" alt="Specialist Title software icon">
                                                         <div class="caption">
                                                             <p class="gn1-header-index-thumbnail-title">Specialist Title</p>
                                                         </div>
@@ -228,8 +225,8 @@
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="" ng-click="loadModule('workteam')" class="thumbnail gn1-header-index-thumbnail">
-                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="/security/resources/images/icons/softwares/workteam-software-icon.png" alt="Work Team software icon">
+                                                    <a href="/workteam" class="thumbnail gn1-header-index-thumbnail">
+                                                        <img class="gn1-padding-sm-top gn1-header-index-thumbnail-image" src="../resources/images/icons/softwares/workteam-software-icon.png" alt="Work Team software icon">
                                                         <div class="caption">
                                                             <p class="gn1-header-index-thumbnail-title">Work Team</p>
                                                         </div>
@@ -249,56 +246,10 @@
                 <!-- Content -->
                 <main>
                     <div class="container">
-                        <div class="row">
 
-                            <div class="col-lg-4 col-md-5 col-sm-12 col-sm-12 ng-cloak" id="sideMenu">
-                                <div class="container-fluid" id="sideMenuModuleHeading">
-                                    <div class="panel panel-primary">
-                                        <div class="panel-heading text-nowrap " ng-cloak>
-                                            <img ng-src="{{mainMenuStructure.moduleIconPath}}" alt="{{mainMenuStructure.moduleName}} software icon" height="30" width="30">
-                                            &nbsp;
-                                            <span>{{mainMenuStructure.moduleName}}</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a class="btn btn-default btn-lg" aria-label="Left Align" data-toggle="collapse" data-parent="#sideMenu" data-target="#sideMenuAccordion" id="sideMenuButton">
-                                    <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
-                                    &nbsp;
-                                    Menu
-                                </a>
-                                <div class="panel-group collapse in" id="sideMenuAccordion">
-                                    <div ng-repeat="menu in mainMenuStructure.menus" class="panel panel-default">
-                                        <div class="panel-heading gn1-padding-0">
-                                            <a data-toggle="collapse" data-parent="#sideMenuAccordion" data-target="#collapse{{menu.alias}}">
-                                                <p class="panel-title gn1-padding-xs">
-                                                    <span class="{{menu.icon}}"></span>
-                                                    &nbsp;
-                                                    {{menu.denomination}}
-                                                </p>
-                                            </a>
-                                        </div>
-                                        <div id="collapse{{menu.alias}}" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <ul class="nav nav-pills nav-stacked">
-                                                    <li id="{{menuItem.alias}}" ng-repeat="menuItem in menu.menuItens" class="{{menuItem.activeClass}}" ng-click="addActiveClassToMainMenuItem(menuItem.alias)">
-                                                        <a id="{{menuItem.alias}}-link" href="#/{{menuItem.url}}">
-                                                            <span class="{{menuItem.icon}}"></span>
-                                                            &nbsp;
-                                                            {{menuItem.name}}
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>                                    
-                                </div>
-                            </div>
+                        <h1>Mensagem de Erro</h1>
+                        <h1>Mensagem de Advertencia</h1>
 
-                            <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12 gn1-content-view" ng-view>
-                                Loading...
-                            </div>
-
-                        </div>
                     </div>
                 </main>
                 <!-- /Content -->
@@ -333,12 +284,7 @@
         </div>
         <!-- /Footer -->
 
-        <script src="/security/resources/jquery/jquery.min.js"></script>
-        <script src="/security/resources/bootstrap/js/bootstrap.min.js"></script>
-
-        <script src="/security/resources/angular/angular.min.js"></script>
-        <script src="/security/resources/angular/angular-route.min.js"></script>
-
-        <script src="/security/resources/system/js/system.js"></script>
+        <script src="../resources/jquery/jquery.min.js"></script>
+        <script src="../resources/bootstrap/js/bootstrap.min.js"></script>
     </body>
 </html>
