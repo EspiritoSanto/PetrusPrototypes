@@ -5,40 +5,47 @@
         {
             "denomination": "Accounting data-entry menu",
             "alias": "AccountingDataEntryMenu",
+            "icon": "glyphicon glyphicon-list-alt text-primary",
             "menuItens": [
                 {
                     "url": "accounting/data-entry/retrieval/general/accountingoption1-data-entry-retrieval",
                     "name": "Accounting data-entry opção 1",
-                    "icon": "glyphicon glyphicon-list-alt text-primary",
+                    "alias": "accountingoption1-data-entry-retrieval",
+                    "icon": "glyphicon glyphicon-list-alt text-warning",
                     "activeClass": ""
                 },
                 {
                     "url": "accounting/data-entry/retrieval/internal/accountingoption2-data-entry-retrieval",
                     "name": "Accounting data-entry opção 2",
+                    "alias": "accountingoption2-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-list-alt text-muted",
                     "activeClass": ""
                 },
                 {
                     "url": "accounting/data-entry/retrieval/licensed-s/accountingoption3-data-entry-retrieval",
                     "name": "Accounting data-entry opção 3",
+                    "alias": "accountingoption3-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-list-alt text-success",
                     "activeClass": ""
                 },
                 {
                     "url": "accounting/data-entry/form/general/accountingoption4-data-entry-form",
                     "name": "Accounting data-entry opção 4",
-                    "icon": "glyphicon glyphicon-th-list text-primary",
+                    "alias": "accountingoption4-data-entry-form",
+                    "icon": "glyphicon glyphicon-th-list text-warning",
                     "activeClass": ""
                 },
                 {
                     "url": "accounting/data-entry/form/internal/accountingoption5-data-entry-form",
                     "name": "Accounting data-entry opção 5",
-                    "icon": "glyphicon glyphicon-th-list text-muted",
+                    "alias": "accountingoption5-data-entry-form",
+                    "icon": "glyphicon glyphicon-th-list text-success",
                     "activeClass": ""
                 },
                 {
                     "url": "accounting/data-entry/form/licensed-s/accountingoption6-data-entry-form",
                     "name": "Accounting data-entry opção 6",
+                    "alias": "accountingoption6-data-entry-form",
                     "icon": "glyphicon glyphicon-th-list text-success",
                     "activeClass": ""
                 }
@@ -47,22 +54,26 @@
         {
             "denomination": "Accounting processing menu",
             "alias": "AccountingProcessingMenu",
+            "icon": "glyphicon glyphicon-cog text-warning",
             "menuItens": [
                 {
                     "url": "accounting/processing/general/accountingoption1-processing",
                     "name": "Accounting processing opção 1",
-                    "icon": "glyphicon glyphicon-cog text-primary",
+                    "alias": "accountingoption1-processing",
+                    "icon": "glyphicon glyphicon-cog text-warning",
                     "activeClass": ""
                 },
                 {
                     "url": "accounting/processing/internal/accountingoption2-processing",
                     "name": "Accounting processing opção 2",
+                    "alias": "accountingoption2-processing",
                     "icon": "glyphicon glyphicon-cog text-muted",
                     "activeClass": ""
                 },
                 {
                     "url": "accounting/processing/licensed-s/accountingoption3-processing",
                     "name": "Accounting processing opção 3",
+                    "alias": "accountingoption3-processing",
                     "icon": "glyphicon glyphicon-cog text-success",
                     "activeClass": ""
                 }
@@ -71,22 +82,26 @@
         {
             "denomination": "Accounting retrieval menu",
             "alias": "AccountingRetrievalMenu",
+            "icon": "glyphicon glyphicon-print text-primary",
             "menuItens": [
                 {
                     "url": "accounting/retrieval/report-preview/general/accountingoption1-retrieval-report-preview",
                     "name": "Accounting recovery opção 1",
-                    "icon": "glyphicon glyphicon-print text-primary",
+                    "alias": "accountingoption1-retrieval-report-preview",
+                    "icon": "glyphicon glyphicon-print text-warning",
                     "activeClass": ""
                 },
                 {
                     "url": "accounting/retrieval/report-preview/internal/accountingoption2-retrieval-report-preview",
                     "name": "Accounting recovery opção 2",
+                    "alias": "accountingoption2-retrieval-report-preview",
                     "icon": "glyphicon glyphicon-print text-muted",
                     "activeClass": ""
                 },
                 {
                     "url": "accounting/retrieval/report-preview/licensed-s/accountingoption3-retrieval-report-preview",
                     "name": "Accounting recovery opção 3",
+                    "alias": "accountingoption3-retrieval-report-preview",
                     "icon": "glyphicon glyphicon-print text-success",
                     "activeClass": ""
                 }
@@ -95,22 +110,26 @@
         {
             "denomination": "Accounting complex-routine menu",
             "alias": "AccountingComplexRoutineMenu",
+            "icon": "glyphicon glyphicon-equalizer text-danger",
             "menuItens": [
                 {
                     "url": "accounting/complex-routine/general/accountingoption1-complex-routine",
                     "name": "Accounting complex-routine opção 1",
-                    "icon": "glyphicon glyphicon-equalizer text-primary",
+                    "alias": "accountingoption1-complex-routine",
+                    "icon": "glyphicon glyphicon-equalizer text-warning",
                     "activeClass": ""
                 },
                 {
                     "url": "accounting/complex-routine/internal/accountingoption2-complex-routine",
                     "name": "Accounting complex-routine opção 2",
+                    "alias": "accountingoption2-complex-routine",
                     "icon": "glyphicon glyphicon-equalizer text-muted",
                     "activeClass": ""
                 },
                 {
                     "url": "accounting/complex-routine/licensed-s/accountingoption3-complex-routine",
                     "name": "Accounting complex-routine opção 3",
+                    "alias": "accountingoption3-complex-routine",
                     "icon": "glyphicon glyphicon-equalizer text-success",
                     "activeClass": ""
                 }

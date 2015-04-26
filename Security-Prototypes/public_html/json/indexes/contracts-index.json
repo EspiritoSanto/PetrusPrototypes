@@ -5,40 +5,47 @@
         {
             "denomination": "Contracts data-entry menu",
             "alias": "ContractsDataEntryMenu",
+            "icon": "glyphicon glyphicon-list-alt text-primary",
             "menuItens": [
                 {
                     "url": "contracts/data-entry/retrieval/general/contractsoption1-data-entry-retrieval",
                     "name": "Contracts data-entry opção 1",
-                    "icon": "glyphicon glyphicon-list-alt text-primary",
+                    "alias": "contractsoption1-data-entry-retrieval",
+                    "icon": "glyphicon glyphicon-list-alt text-warning",
                     "activeClass": ""
                 },
                 {
                     "url": "contracts/data-entry/retrieval/internal/contractsoption2-data-entry-retrieval",
                     "name": "Contracts data-entry opção 2",
+                    "alias": "contractsoption2-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-list-alt text-muted",
                     "activeClass": ""
                 },
                 {
                     "url": "contracts/data-entry/retrieval/licensed-s/contractsoption3-data-entry-retrieval",
                     "name": "Contracts data-entry opção 3",
+                    "alias": "contractsoption3-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-list-alt text-success",
                     "activeClass": ""
                 },
                 {
                     "url": "contracts/data-entry/form/general/contractsoption4-data-entry-form",
                     "name": "Contracts data-entry opção 4",
-                    "icon": "glyphicon glyphicon-th-list text-primary",
+                    "alias": "contractsoption4-data-entry-form",
+                    "icon": "glyphicon glyphicon-th-list text-warning",
                     "activeClass": ""
                 },
                 {
                     "url": "contracts/data-entry/form/internal/contractsoption5-data-entry-form",
                     "name": "Contracts data-entry opção 5",
-                    "icon": "glyphicon glyphicon-th-list text-muted",
+                    "alias": "contractsoption5-data-entry-form",
+                    "icon": "glyphicon glyphicon-th-list text-success",
                     "activeClass": ""
                 },
                 {
                     "url": "contracts/data-entry/form/licensed-s/contractsoption6-data-entry-form",
                     "name": "Contracts data-entry opção 6",
+                    "alias": "contractsoption6-data-entry-form",
                     "icon": "glyphicon glyphicon-th-list text-success",
                     "activeClass": ""
                 }
@@ -47,22 +54,26 @@
         {
             "denomination": "Contracts processing menu",
             "alias": "ContractsProcessingMenu",
+            "icon": "glyphicon glyphicon-cog text-warning",
             "menuItens": [
                 {
                     "url": "contracts/processing/general/contractsoption1-processing",
                     "name": "Contracts processing opção 1",
-                    "icon": "glyphicon glyphicon-cog text-primary",
+                    "alias": "contractsoption1-processing",
+                    "icon": "glyphicon glyphicon-cog text-warning",
                     "activeClass": ""
                 },
                 {
                     "url": "contracts/processing/internal/contractsoption2-processing",
                     "name": "Contracts processing opção 2",
+                    "alias": "contractsoption2-processing",
                     "icon": "glyphicon glyphicon-cog text-muted",
                     "activeClass": ""
                 },
                 {
                     "url": "contracts/processing/licensed-s/contractsoption3-processing",
                     "name": "Contracts processing opção 3",
+                    "alias": "contractsoption3-processing",
                     "icon": "glyphicon glyphicon-cog text-success",
                     "activeClass": ""
                 }
@@ -71,22 +82,26 @@
         {
             "denomination": "Contracts retrieval menu",
             "alias": "ContractsRetrievalMenu",
+            "icon": "glyphicon glyphicon-print text-primary",
             "menuItens": [
                 {
                     "url": "contracts/retrieval/report-preview/general/contractsoption1-retrieval-report-preview",
                     "name": "Contracts recovery opção 1",
-                    "icon": "glyphicon glyphicon-print text-primary",
+                    "alias": "contractsoption1-retrieval-report-preview",
+                    "icon": "glyphicon glyphicon-print text-warning",
                     "activeClass": ""
                 },
                 {
                     "url": "contracts/retrieval/report-preview/internal/contractsoption2-retrieval-report-preview",
                     "name": "Contracts recovery opção 2",
+                    "alias": "contractsoption2-retrieval-report-preview",
                     "icon": "glyphicon glyphicon-print text-muted",
                     "activeClass": ""
                 },
                 {
                     "url": "contracts/retrieval/report-preview/licensed-s/contractsoption3-retrieval-report-preview",
                     "name": "Contracts recovery opção 3",
+                    "alias": "contractsoption3-retrieval-report-preview",
                     "icon": "glyphicon glyphicon-print text-success",
                     "activeClass": ""
                 }
@@ -95,22 +110,26 @@
         {
             "denomination": "Contracts complex-routine menu",
             "alias": "ContractsComplexRoutineMenu",
+            "icon": "glyphicon glyphicon-equalizer text-danger",
             "menuItens": [
                 {
                     "url": "contracts/complex-routine/general/contractsoption1-complex-routine",
                     "name": "Contracts complex-routine opção 1",
-                    "icon": "glyphicon glyphicon-equalizer text-primary",
+                    "alias": "contractsoption1-complex-routine",
+                    "icon": "glyphicon glyphicon-equalizer text-warning",
                     "activeClass": ""
                 },
                 {
                     "url": "contracts/complex-routine/internal/contractsoption2-complex-routine",
                     "name": "Contracts complex-routine opção 2",
+                    "alias": "contractsoption2-complex-routine",
                     "icon": "glyphicon glyphicon-equalizer text-muted",
                     "activeClass": ""
                 },
                 {
                     "url": "contracts/complex-routine/licensed-s/contractsoption3-complex-routine",
                     "name": "Contracts complex-routine opção 3",
+                    "alias": "contractsoption3-complex-routine",
                     "icon": "glyphicon glyphicon-equalizer text-success",
                     "activeClass": ""
                 }

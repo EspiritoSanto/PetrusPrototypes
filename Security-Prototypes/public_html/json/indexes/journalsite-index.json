@@ -1,44 +1,51 @@
 {
     "moduleIconPath": "/security/resources/images/icons/softwares/journalsite-software-white-icon.png",
-    "moduleName": "JournalSite",
+    "moduleName": "Journal Site",
     "menus": [
         {
             "denomination": "JournalSite data-entry menu",
             "alias": "JournalSiteDataEntryMenu",
+            "icon": "glyphicon glyphicon-list-alt text-primary",
             "menuItens": [
                 {
                     "url": "journalsite/data-entry/retrieval/general/journalsiteoption1-data-entry-retrieval",
                     "name": "JournalSite data-entry opção 1",
-                    "icon": "glyphicon glyphicon-list-alt text-primary",
+                    "alias": "journalsiteoption1-data-entry-retrieval",
+                    "icon": "glyphicon glyphicon-list-alt text-warning",
                     "activeClass": ""
                 },
                 {
                     "url": "journalsite/data-entry/retrieval/internal/journalsiteoption2-data-entry-retrieval",
                     "name": "JournalSite data-entry opção 2",
+                    "alias": "journalsiteoption2-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-list-alt text-muted",
                     "activeClass": ""
                 },
                 {
                     "url": "journalsite/data-entry/retrieval/licensed-s/journalsiteoption3-data-entry-retrieval",
                     "name": "JournalSite data-entry opção 3",
+                    "alias": "journalsiteoption3-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-list-alt text-success",
                     "activeClass": ""
                 },
                 {
                     "url": "journalsite/data-entry/form/general/journalsiteoption4-data-entry-form",
                     "name": "JournalSite data-entry opção 4",
-                    "icon": "glyphicon glyphicon-th-list text-primary",
+                    "alias": "journalsiteoption4-data-entry-form",
+                    "icon": "glyphicon glyphicon-th-list text-warning",
                     "activeClass": ""
                 },
                 {
                     "url": "journalsite/data-entry/form/internal/journalsiteoption5-data-entry-form",
                     "name": "JournalSite data-entry opção 5",
-                    "icon": "glyphicon glyphicon-th-list text-muted",
+                    "alias": "journalsiteoption5-data-entry-form",
+                    "icon": "glyphicon glyphicon-th-list text-success",
                     "activeClass": ""
                 },
                 {
                     "url": "journalsite/data-entry/form/licensed-s/journalsiteoption6-data-entry-form",
                     "name": "JournalSite data-entry opção 6",
+                    "alias": "journalsiteoption6-data-entry-form",
                     "icon": "glyphicon glyphicon-th-list text-success",
                     "activeClass": ""
                 }
@@ -47,22 +54,26 @@
         {
             "denomination": "JournalSite processing menu",
             "alias": "JournalSiteProcessingMenu",
+            "icon": "glyphicon glyphicon-cog text-warning",
             "menuItens": [
                 {
                     "url": "journalsite/processing/general/journalsiteoption1-processing",
                     "name": "JournalSite processing opção 1",
-                    "icon": "glyphicon glyphicon-cog text-primary",
+                    "alias": "journalsiteoption1-processing",
+                    "icon": "glyphicon glyphicon-cog text-warning",
                     "activeClass": ""
                 },
                 {
                     "url": "journalsite/processing/internal/journalsiteoption2-processing",
                     "name": "JournalSite processing opção 2",
+                    "alias": "journalsiteoption2-processing",
                     "icon": "glyphicon glyphicon-cog text-muted",
                     "activeClass": ""
                 },
                 {
                     "url": "journalsite/processing/licensed-s/journalsiteoption3-processing",
                     "name": "JournalSite processing opção 3",
+                    "alias": "journalsiteoption3-processing",
                     "icon": "glyphicon glyphicon-cog text-success",
                     "activeClass": ""
                 }
@@ -71,22 +82,26 @@
         {
             "denomination": "JournalSite retrieval menu",
             "alias": "JournalSiteRetrievalMenu",
+            "icon": "glyphicon glyphicon-print text-primary",
             "menuItens": [
                 {
                     "url": "journalsite/retrieval/report-preview/general/journalsiteoption1-retrieval-report-preview",
                     "name": "JournalSite recovery opção 1",
-                    "icon": "glyphicon glyphicon-print text-primary",
+                    "alias": "journalsiteoption1-retrieval-report-preview",
+                    "icon": "glyphicon glyphicon-print text-warning",
                     "activeClass": ""
                 },
                 {
                     "url": "journalsite/retrieval/report-preview/internal/journalsiteoption2-retrieval-report-preview",
                     "name": "JournalSite recovery opção 2",
+                    "alias": "journalsiteoption2-retrieval-report-preview",
                     "icon": "glyphicon glyphicon-print text-muted",
                     "activeClass": ""
                 },
                 {
                     "url": "journalsite/retrieval/report-preview/licensed-s/journalsiteoption3-retrieval-report-preview",
                     "name": "JournalSite recovery opção 3",
+                    "alias": "journalsiteoption3-retrieval-report-preview",
                     "icon": "glyphicon glyphicon-print text-success",
                     "activeClass": ""
                 }
@@ -95,22 +110,26 @@
         {
             "denomination": "JournalSite complex-routine menu",
             "alias": "JournalSiteComplexRoutineMenu",
+            "icon": "glyphicon glyphicon-equalizer text-danger",
             "menuItens": [
                 {
                     "url": "journalsite/complex-routine/general/journalsiteoption1-complex-routine",
                     "name": "JournalSite complex-routine opção 1",
-                    "icon": "glyphicon glyphicon-equalizer text-primary",
+                    "alias": "journalsiteoption1-complex-routine",
+                    "icon": "glyphicon glyphicon-equalizer text-warning",
                     "activeClass": ""
                 },
                 {
                     "url": "journalsite/complex-routine/internal/journalsiteoption2-complex-routine",
                     "name": "JournalSite complex-routine opção 2",
+                    "alias": "journalsiteoption2-complex-routine",
                     "icon": "glyphicon glyphicon-equalizer text-muted",
                     "activeClass": ""
                 },
                 {
                     "url": "journalsite/complex-routine/licensed-s/journalsiteoption3-complex-routine",
                     "name": "JournalSite complex-routine opção 3",
+                    "alias": "journalsiteoption3-complex-routine",
                     "icon": "glyphicon glyphicon-equalizer text-success",
                     "activeClass": ""
                 }

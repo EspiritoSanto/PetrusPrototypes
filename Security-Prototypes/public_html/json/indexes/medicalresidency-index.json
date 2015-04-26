@@ -1,44 +1,51 @@
 {
     "moduleIconPath": "/security/resources/images/icons/softwares/medicalresidency-software-white-icon.png",
-    "moduleName": "MedicalResidency",
+    "moduleName": "Medical Residency",
     "menus": [
         {
             "denomination": "MedicalResidency data-entry menu",
             "alias": "MedicalResidencyDataEntryMenu",
+            "icon": "glyphicon glyphicon-list-alt text-primary",
             "menuItens": [
                 {
                     "url": "medicalresidency/data-entry/retrieval/general/medicalresidencyoption1-data-entry-retrieval",
                     "name": "MedicalResidency data-entry opção 1",
-                    "icon": "glyphicon glyphicon-list-alt text-primary",
+                    "alias": "medicalresidencyoption1-data-entry-retrieval",
+                    "icon": "glyphicon glyphicon-list-alt text-warning",
                     "activeClass": ""
                 },
                 {
                     "url": "medicalresidency/data-entry/retrieval/internal/medicalresidencyoption2-data-entry-retrieval",
                     "name": "MedicalResidency data-entry opção 2",
+                    "alias": "medicalresidencyoption2-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-list-alt text-muted",
                     "activeClass": ""
                 },
                 {
                     "url": "medicalresidency/data-entry/retrieval/licensed-s/medicalresidencyoption3-data-entry-retrieval",
                     "name": "MedicalResidency data-entry opção 3",
+                    "alias": "medicalresidencyoption3-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-list-alt text-success",
                     "activeClass": ""
                 },
                 {
                     "url": "medicalresidency/data-entry/form/general/medicalresidencyoption4-data-entry-form",
                     "name": "MedicalResidency data-entry opção 4",
-                    "icon": "glyphicon glyphicon-th-list text-primary",
+                    "alias": "medicalresidencyoption4-data-entry-form",
+                    "icon": "glyphicon glyphicon-th-list text-warning",
                     "activeClass": ""
                 },
                 {
                     "url": "medicalresidency/data-entry/form/internal/medicalresidencyoption5-data-entry-form",
                     "name": "MedicalResidency data-entry opção 5",
-                    "icon": "glyphicon glyphicon-th-list text-muted",
+                    "alias": "medicalresidencyoption5-data-entry-form",
+                    "icon": "glyphicon glyphicon-th-list text-success",
                     "activeClass": ""
                 },
                 {
                     "url": "medicalresidency/data-entry/form/licensed-s/medicalresidencyoption6-data-entry-form",
                     "name": "MedicalResidency data-entry opção 6",
+                    "alias": "medicalresidencyoption6-data-entry-form",
                     "icon": "glyphicon glyphicon-th-list text-success",
                     "activeClass": ""
                 }
@@ -47,22 +54,26 @@
         {
             "denomination": "MedicalResidency processing menu",
             "alias": "MedicalResidencyProcessingMenu",
+            "icon": "glyphicon glyphicon-cog text-warning",
             "menuItens": [
                 {
                     "url": "medicalresidency/processing/general/medicalresidencyoption1-processing",
                     "name": "MedicalResidency processing opção 1",
-                    "icon": "glyphicon glyphicon-cog text-primary",
+                    "alias": "medicalresidencyoption1-processing",
+                    "icon": "glyphicon glyphicon-cog text-warning",
                     "activeClass": ""
                 },
                 {
                     "url": "medicalresidency/processing/internal/medicalresidencyoption2-processing",
                     "name": "MedicalResidency processing opção 2",
+                    "alias": "medicalresidencyoption2-processing",
                     "icon": "glyphicon glyphicon-cog text-muted",
                     "activeClass": ""
                 },
                 {
                     "url": "medicalresidency/processing/licensed-s/medicalresidencyoption3-processing",
                     "name": "MedicalResidency processing opção 3",
+                    "alias": "medicalresidencyoption3-processing",
                     "icon": "glyphicon glyphicon-cog text-success",
                     "activeClass": ""
                 }
@@ -71,22 +82,26 @@
         {
             "denomination": "MedicalResidency retrieval menu",
             "alias": "MedicalResidencyRetrievalMenu",
+            "icon": "glyphicon glyphicon-print text-primary",
             "menuItens": [
                 {
                     "url": "medicalresidency/retrieval/report-preview/general/medicalresidencyoption1-retrieval-report-preview",
                     "name": "MedicalResidency recovery opção 1",
-                    "icon": "glyphicon glyphicon-print text-primary",
+                    "alias": "medicalresidencyoption1-retrieval-report-preview",
+                    "icon": "glyphicon glyphicon-print text-warning",
                     "activeClass": ""
                 },
                 {
                     "url": "medicalresidency/retrieval/report-preview/internal/medicalresidencyoption2-retrieval-report-preview",
                     "name": "MedicalResidency recovery opção 2",
+                    "alias": "medicalresidencyoption2-retrieval-report-preview",
                     "icon": "glyphicon glyphicon-print text-muted",
                     "activeClass": ""
                 },
                 {
                     "url": "medicalresidency/retrieval/report-preview/licensed-s/medicalresidencyoption3-retrieval-report-preview",
                     "name": "MedicalResidency recovery opção 3",
+                    "alias": "medicalresidencyoption3-retrieval-report-preview",
                     "icon": "glyphicon glyphicon-print text-success",
                     "activeClass": ""
                 }
@@ -95,22 +110,26 @@
         {
             "denomination": "MedicalResidency complex-routine menu",
             "alias": "MedicalResidencyComplexRoutineMenu",
+            "icon": "glyphicon glyphicon-equalizer text-danger",
             "menuItens": [
                 {
                     "url": "medicalresidency/complex-routine/general/medicalresidencyoption1-complex-routine",
                     "name": "MedicalResidency complex-routine opção 1",
-                    "icon": "glyphicon glyphicon-equalizer text-primary",
+                    "alias": "medicalresidencyoption1-complex-routine",
+                    "icon": "glyphicon glyphicon-equalizer text-warning",
                     "activeClass": ""
                 },
                 {
                     "url": "medicalresidency/complex-routine/internal/medicalresidencyoption2-complex-routine",
                     "name": "MedicalResidency complex-routine opção 2",
+                    "alias": "medicalresidencyoption2-complex-routine",
                     "icon": "glyphicon glyphicon-equalizer text-muted",
                     "activeClass": ""
                 },
                 {
                     "url": "medicalresidency/complex-routine/licensed-s/medicalresidencyoption3-complex-routine",
                     "name": "MedicalResidency complex-routine opção 3",
+                    "alias": "medicalresidencyoption3-complex-routine",
                     "icon": "glyphicon glyphicon-equalizer text-success",
                     "activeClass": ""
                 }

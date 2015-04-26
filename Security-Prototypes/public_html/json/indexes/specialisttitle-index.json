@@ -1,44 +1,51 @@
 {
     "moduleIconPath": "/security/resources/images/icons/softwares/specialisttitle-software-white-icon.png",
-    "moduleName": "SpecialistTitle",
+    "moduleName": "Specialist Title",
     "menus": [
         {
             "denomination": "SpecialistTitle data-entry menu",
             "alias": "SpecialistTitleDataEntryMenu",
+            "icon": "glyphicon glyphicon-list-alt text-primary",
             "menuItens": [
                 {
                     "url": "specialisttitle/data-entry/retrieval/general/specialisttitleoption1-data-entry-retrieval",
                     "name": "SpecialistTitle data-entry opção 1",
-                    "icon": "glyphicon glyphicon-list-alt text-primary",
+                    "alias": "specialisttitleoption1-data-entry-retrieval",
+                    "icon": "glyphicon glyphicon-list-alt text-warning",
                     "activeClass": ""
                 },
                 {
                     "url": "specialisttitle/data-entry/retrieval/internal/specialisttitleoption2-data-entry-retrieval",
                     "name": "SpecialistTitle data-entry opção 2",
+                    "alias": "specialisttitleoption2-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-list-alt text-muted",
                     "activeClass": ""
                 },
                 {
                     "url": "specialisttitle/data-entry/retrieval/licensed-s/specialisttitleoption3-data-entry-retrieval",
                     "name": "SpecialistTitle data-entry opção 3",
+                    "alias": "specialisttitleoption3-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-list-alt text-success",
                     "activeClass": ""
                 },
                 {
                     "url": "specialisttitle/data-entry/form/general/specialisttitleoption4-data-entry-form",
                     "name": "SpecialistTitle data-entry opção 4",
-                    "icon": "glyphicon glyphicon-th-list text-primary",
+                    "alias": "specialisttitleoption4-data-entry-form",
+                    "icon": "glyphicon glyphicon-th-list text-warning",
                     "activeClass": ""
                 },
                 {
                     "url": "specialisttitle/data-entry/form/internal/specialisttitleoption5-data-entry-form",
                     "name": "SpecialistTitle data-entry opção 5",
-                    "icon": "glyphicon glyphicon-th-list text-muted",
+                    "alias": "specialisttitleoption5-data-entry-form",
+                    "icon": "glyphicon glyphicon-th-list text-success",
                     "activeClass": ""
                 },
                 {
                     "url": "specialisttitle/data-entry/form/licensed-s/specialisttitleoption6-data-entry-form",
                     "name": "SpecialistTitle data-entry opção 6",
+                    "alias": "specialisttitleoption6-data-entry-form",
                     "icon": "glyphicon glyphicon-th-list text-success",
                     "activeClass": ""
                 }
@@ -47,22 +54,26 @@
         {
             "denomination": "SpecialistTitle processing menu",
             "alias": "SpecialistTitleProcessingMenu",
+            "icon": "glyphicon glyphicon-cog text-warning",
             "menuItens": [
                 {
                     "url": "specialisttitle/processing/general/specialisttitleoption1-processing",
                     "name": "SpecialistTitle processing opção 1",
-                    "icon": "glyphicon glyphicon-cog text-primary",
+                    "alias": "specialisttitleoption1-processing",
+                    "icon": "glyphicon glyphicon-cog text-warning",
                     "activeClass": ""
                 },
                 {
                     "url": "specialisttitle/processing/internal/specialisttitleoption2-processing",
                     "name": "SpecialistTitle processing opção 2",
+                    "alias": "specialisttitleoption2-processing",
                     "icon": "glyphicon glyphicon-cog text-muted",
                     "activeClass": ""
                 },
                 {
                     "url": "specialisttitle/processing/licensed-s/specialisttitleoption3-processing",
                     "name": "SpecialistTitle processing opção 3",
+                    "alias": "specialisttitleoption3-processing",
                     "icon": "glyphicon glyphicon-cog text-success",
                     "activeClass": ""
                 }
@@ -71,22 +82,26 @@
         {
             "denomination": "SpecialistTitle retrieval menu",
             "alias": "SpecialistTitleRetrievalMenu",
+            "icon": "glyphicon glyphicon-print text-primary",
             "menuItens": [
                 {
                     "url": "specialisttitle/retrieval/report-preview/general/specialisttitleoption1-retrieval-report-preview",
                     "name": "SpecialistTitle recovery opção 1",
-                    "icon": "glyphicon glyphicon-print text-primary",
+                    "alias": "specialisttitleoption1-retrieval-report-preview",
+                    "icon": "glyphicon glyphicon-print text-warning",
                     "activeClass": ""
                 },
                 {
                     "url": "specialisttitle/retrieval/report-preview/internal/specialisttitleoption2-retrieval-report-preview",
                     "name": "SpecialistTitle recovery opção 2",
+                    "alias": "specialisttitleoption2-retrieval-report-preview",
                     "icon": "glyphicon glyphicon-print text-muted",
                     "activeClass": ""
                 },
                 {
                     "url": "specialisttitle/retrieval/report-preview/licensed-s/specialisttitleoption3-retrieval-report-preview",
                     "name": "SpecialistTitle recovery opção 3",
+                    "alias": "specialisttitleoption3-retrieval-report-preview",
                     "icon": "glyphicon glyphicon-print text-success",
                     "activeClass": ""
                 }
@@ -95,22 +110,26 @@
         {
             "denomination": "SpecialistTitle complex-routine menu",
             "alias": "SpecialistTitleComplexRoutineMenu",
+            "icon": "glyphicon glyphicon-equalizer text-danger",
             "menuItens": [
                 {
                     "url": "specialisttitle/complex-routine/general/specialisttitleoption1-complex-routine",
                     "name": "SpecialistTitle complex-routine opção 1",
-                    "icon": "glyphicon glyphicon-equalizer text-primary",
+                    "alias": "specialisttitleoption1-complex-routine",
+                    "icon": "glyphicon glyphicon-equalizer text-warning",
                     "activeClass": ""
                 },
                 {
                     "url": "specialisttitle/complex-routine/internal/specialisttitleoption2-complex-routine",
                     "name": "SpecialistTitle complex-routine opção 2",
+                    "alias": "specialisttitleoption2-complex-routine",
                     "icon": "glyphicon glyphicon-equalizer text-muted",
                     "activeClass": ""
                 },
                 {
                     "url": "specialisttitle/complex-routine/licensed-s/specialisttitleoption3-complex-routine",
                     "name": "SpecialistTitle complex-routine opção 3",
+                    "alias": "specialisttitleoption3-complex-routine",
                     "icon": "glyphicon glyphicon-equalizer text-success",
                     "activeClass": ""
                 }
