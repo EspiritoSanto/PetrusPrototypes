@@ -1,3 +1,5 @@
+jQuery.noConflict();
+
 var hasOwnProperty = Object.prototype.hasOwnProperty;
 
 function isEmpty(obj) {

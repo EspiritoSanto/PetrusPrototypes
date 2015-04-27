@@ -188,19 +188,19 @@ module.config(['$routeProvider', function ($routeProvider) {
                     templateUrl: function (urlattr) {
                         return '/' + urlattr.module + '/views/default.html';
                     },
-                    controller: 'SystemCtrl'
+                    controller: 'DefaultCtrl'
                 }).
                 when('/:module/', {
                     templateUrl: function (urlattr) {
                         return '/' + urlattr.module + '/views/default.html';
                     },
-                    controller: 'SystemCtrl'
+                    controller: 'DefaultCtrl'
                 }).
                 when('/:module/default', {
                     templateUrl: function (urlattr) {
                         return '/' + urlattr.module + '/views/default.html';
                     },
-                    controller: 'SystemCtrl'
+                    controller: 'DefaultCtrl'
                 }).
                 otherwise({// not found
                     controller: function () {
@@ -287,49 +287,97 @@ module.controller('SystemCtrl', [
         };
 
         /*
-         * Adiciona a classe .active para o item de menu selecionado e retira
-         * dos demais.
-         * 
-         * @param {type} mainMenuItemAlias
-         * @returns {undefined}
-         */
-        $scope.addActiveClassToMainMenuItem = function (mainMenuItemAlias) {
-            if ($scope.mainMenuStructure !== undefined) {
-                for (var i = 0; i < $scope.mainMenuStructure.menus.length; i++) {
-                    for (var j = 0; j < $scope.mainMenuStructure.menus[i].menuItens.length; j++) {
-                        $scope.mainMenuStructure.menus[i].menuItens[j].activeClass = '';
-                        if ($scope.mainMenuStructure.menus[i].menuItens[j].alias === mainMenuItemAlias) {
-                            $scope.mainMenuStructure.menus[i].menuItens[j].activeClass = 'active';
-                        }
-                    }
-                }
-            }
-        };
-
-        /*
-         * Reescreve a rota para a página defaul do módulo de segurança
-         * (security) quando o módulo não é informado na barra de endereço do
-         * navegador.
+         * Inicializa o menu principal de acordo com a rota informada.
          */
         $scope.$on('$routeChangeStart', function (event, next, current) {
-            if (isEmpty($location.$$url) || $location.$$url === '/') { // url vazia ou igual a '/'
+            if (current === undefined && !next.pathParams.module) {
+                console.log('if (current === undefined && !next.pathParams.module) {');
                 $location.path('/security/default');
-            }
-        });
+            } else if (current === undefined && next.pathParams.module && !next.pathParams.functionalityId) {
+                console.log('} else if (current === undefined && next.pathParams.module && !next.pathParams.functionalityId) {');
+                $location.path('/' + next.pathParams.module + '/default');
+                $scope.setMainMenuStructure(next.pathParams.module);
+            } else if (current === undefined && next.pathParams.module && next.pathParams.functionalityId) {
+                console.log('} else if (current === undefined && next.pathParams.module && next.pathParams.functionalityId) {');
+                $scope.setMainMenuStructure(next.pathParams.module);
+                setTimeout(function () {
+                    var nextFunctionalityId = jQuery('#' + next.pathParams.functionalityId);
+                    var nextFunctionalityIdLink = jQuery('#' + next.pathParams.functionalityId + '-link');
 
-        /*
-         * Inicializa o menu principal do módulo informado na rota
-         * ($routeParams.module) e adiciona a classe .active para o item de menu
-         * selecionado.
-         */
-        $scope.$on('$routeChangeSuccess', function (event, next, current) {
-            if (!isEmpty($routeParams)) {
-                $scope.setMainMenuStructure($routeParams.module);
-                if ($routeParams.functionalityId) {
-                    $scope.addActiveClassToMainMenuItem($routeParams.functionalityId);
-                    $('#' + $routeParams.functionalityId + '-link').focus();
-                }
+                    if (!(jQuery("#" + nextFunctionalityId.attr("menu-id")).hasClass("in"))) {
+                        jQuery("#" + nextFunctionalityId.attr("menu-id")).collapse('toggle');
+                    }
+
+                    nextFunctionalityId.addClass('active');
+                    nextFunctionalityIdLink.focus();
+                }, 100);
+            } else if (current !== undefined && !current.pathParams.functionalityId && !next.pathParams.module) {
+                console.log('} else if (current !== undefined && !current.pathParams.functionalityId && !next.pathParams.module) {');
+                $location.path('/security/default');
+            } else if (current !== undefined && !current.pathParams.functionalityId && next.pathParams.module && !next.pathParams.functionalityId) {
+                console.log('} else if (current !== undefined && !current.pathParams.functionalityId && next.pathParams.module && !next.pathParams.functionalityId) {');
+                $location.path('/' + next.pathParams.module + '/default');
+                $scope.setMainMenuStructure(next.pathParams.module);
+            } else if (current !== undefined && !current.pathParams.functionalityId && next.pathParams.module && next.pathParams.functionalityId) {
+                console.log('} else if (current !== undefined && !current.pathParams.functionalityId && next.pathParams.module && next.pathParams.functionalityId) {');
+                $scope.setMainMenuStructure(next.pathParams.module);
+                setTimeout(function () {
+                    var nextFunctionalityId = jQuery('#' + next.pathParams.functionalityId);
+                    var nextFunctionalityIdLink = jQuery('#' + next.pathParams.functionalityId + '-link');
+
+                    if (!(jQuery("#" + nextFunctionalityId.attr("menu-id")).hasClass("in"))) {
+                        jQuery("#" + nextFunctionalityId.attr("menu-id")).collapse('toggle');
+                    }
+
+                    nextFunctionalityId.addClass('active');
+                    nextFunctionalityIdLink.focus();
+                }, 100);
+            } else if (current !== undefined && current.pathParams.functionalityId && !next.pathParams.module) {
+                console.log('} else if (current !== undefined && current.pathParams.functionalityId && !next.pathParams.module) {');
+                $location.path('/security/default');
+            } else if (current !== undefined && current.pathParams.functionalityId && next.pathParams.module && !next.pathParams.functionalityId) {
+                console.log('} else if (current !== undefined && current.pathParams.functionalityId && next.pathParams.module && !next.pathParams.functionalityId) {');
+                $location.path('/' + next.pathParams.module + '/default');
+                $scope.setMainMenuStructure(next.pathParams.module);
+                setTimeout(function () {
+                    if (next.pathParams.module) {
+                        if (current.pathParams.module === next.pathParams.module) {
+                            var currentFunctionalityId = jQuery('#' + current.pathParams.functionalityId);
+
+                            if ((jQuery("#" + currentFunctionalityId.attr("menu-id")).hasClass("in"))) {
+                                jQuery("#" + currentFunctionalityId.attr("menu-id")).collapse('toggle');
+                            }
+
+                            currentFunctionalityId.removeClass('active');
+                        }
+                    }
+                }, 100);
+            } else if (current !== undefined && current.pathParams.functionalityId && next.pathParams.module && next.pathParams.functionalityId) {
+                console.log('} else if (current !== undefined && current.pathParams.functionalityId && next.pathParams.module && next.pathParams.functionalityId) {');
+                $scope.setMainMenuStructure(next.pathParams.module);
+                setTimeout(function () {
+                    var currentFunctionalityId = jQuery('#' + current.pathParams.functionalityId);
+                    var nextFunctionalityId = jQuery('#' + next.pathParams.functionalityId);
+                    var nextFunctionalityIdLink = jQuery('#' + next.pathParams.functionalityId + '-link');
+
+                    if (current.pathParams.module === next.pathParams.module) {
+                        currentFunctionalityId.removeClass('active');
+                    }
+
+                    // primeiro este teste
+                    if (!(jQuery("#" + nextFunctionalityId.attr("menu-id")).hasClass("in"))) {
+                        jQuery("#" + nextFunctionalityId.attr("menu-id")).collapse('toggle');
+                    }
+                    // depois este teste, não inverter a ordem.
+                    if (currentFunctionalityId.attr("menu-id") !== nextFunctionalityId.attr("menu-id")) {
+                        jQuery("#" + currentFunctionalityId.attr("menu-id")).collapse('hide');
+                    }
+
+                    nextFunctionalityId.addClass('active');
+                    nextFunctionalityIdLink.focus();
+                }, 100);
             }
+
         });
 
         /*
@@ -457,6 +505,24 @@ module.controller('RetrievalReportCtrl', [
     }]);
 
 module.controller('ComplexRoutineCtrl', [
+    '$rootScope',
+    '$scope',
+    '$http',
+    '$location',
+    '$route',
+    '$routeParams',
+    '$window',
+    function (
+            $rootScope,
+            $scope,
+            $http,
+            $location,
+            $route,
+            $routeParams,
+            $window) {
+    }]);
+
+module.controller('DefaultCtrl', [
     '$rootScope',
     '$scope',
     '$http',

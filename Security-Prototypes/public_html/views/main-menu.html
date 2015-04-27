@@ -274,10 +274,10 @@
                                                 </p>
                                             </a>
                                         </div>
-                                        <div id="collapse{{menu.alias}}" class="panel-collapse collapse">
+                                        <div id="collapse{{menu.alias}}" ng-id="collapse{{menu.alias}}" class="panel-collapse collapse">
                                             <div class="panel-body">
                                                 <ul class="nav nav-pills nav-stacked">
-                                                    <li id="{{menuItem.alias}}" ng-repeat="menuItem in menu.menuItens" class="{{menuItem.activeClass}}" ng-click="addActiveClassToMainMenuItem(menuItem.alias)">
+                                                    <li id="{{menuItem.alias}}" ng-repeat="menuItem in menu.menuItens" class="{{menuItem.activeClass}}" menu-id="collapse{{menu.alias}}"> <!--//ng-click="addActiveClassToMainMenuItem(menuItem.alias)"-->
                                                         <a id="{{menuItem.alias}}-link" href="#/{{menuItem.url}}">
                                                             <span class="{{menuItem.icon}}"></span>
                                                             &nbsp;
