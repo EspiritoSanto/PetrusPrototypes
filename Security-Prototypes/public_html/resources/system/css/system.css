@@ -35,6 +35,10 @@ body {
     cursor: pointer;
 }
 
+.active {
+    
+}
+
 /* Put here elements with responsive attributes */
 
 @media (max-width: 768px) {

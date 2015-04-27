@@ -3,7 +3,7 @@
     "moduleName": "Accounting",
     "menus": [
         {
-            "denomination": "Accounting data-entry menu",
+            "denomination": "Tabelas da Contabilidade",
             "alias": "AccountingDataEntryMenu",
             "icon": "glyphicon glyphicon-list-alt text-primary",
             "menuItens": [
