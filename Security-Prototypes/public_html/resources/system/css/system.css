@@ -3,12 +3,14 @@
 html {
     overflow-y: -moz-scrollbars-vertical;
     overflow-y: scroll;
-    height: 100%; // modified because of the footer
+    //height: 100%; // modified because of the footer
 }
 
-body {
+/*body {
     height: 100%; // modified because of the footer
-}
+}*/
+
+body { padding-top: 60px; }
 
 /* Put here elements with responsive attributes */
 
@@ -35,19 +37,58 @@ body {
     cursor: pointer;
 }
 
-.active {
-    
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    color: #337ab7;
+    background-color: #e3e3e3;
 }
 
 /* Put here elements with responsive attributes */
 
 @media (max-width: 768px) {
+    .navbar-fixed-bottom {
+        position: relative;
+    }
+
+    .navbar-collapse {
+        padding-left: 22px !important;
+        padding-right: 22px !important;
+    }
+    
+    .navbar-form {
+        border: 1px solid;
+        border-radius: 3px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
 }
 @media (min-width: 768px) and (max-width: 992px) {
+    .navbar-fixed-bottom {
+        position: relative;
+    }
+
+    /*.navbar-form {
+        border: none;
+    }*/
 }
 @media (min-width: 992px) and (max-width: 1200px) {
+    .navbar-fixed-bottom {
+        position: fixed;
+    }
+
+    /*.navbar-form {
+        border: none;
+    }*/
 }
 @media (min-width: 1200px) {
+    .navbar-fixed-bottom {
+        position: fixed;
+    }
+
+    /*.navbar-form {
+        border: none;
+    }*/
 }
 
 
@@ -560,7 +601,7 @@ body {
         height: 160px; // The .gn1-content-push height must be the same height as .gn1-footer
     }
 
-    #sideMenuButton {
+    #sideMenuButton{
         display: block;
     }
 
@@ -615,6 +656,7 @@ body {
     }
 
     #sideMenuAccordion {
+        height: auto !important;
         display: block;
     }
 
@@ -645,7 +687,8 @@ body {
     }
 
     #sideMenuAccordion {
-        display: block;
+        display: block;        
+        height: auto !important;
     }
 
     .gn1-content-view {
