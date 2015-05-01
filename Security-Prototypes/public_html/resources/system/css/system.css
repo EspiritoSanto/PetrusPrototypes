@@ -308,7 +308,7 @@ body {
 .sys-wrapper {
     min-height: 100%;
     height: auto !important;
-    min-width: 380px;
+    min-width: 360px;
     margin: 0 auto -115px; // The bottom margin is the negative value of the footer's height
 }
 
@@ -428,7 +428,7 @@ body {
 /* System content elements */
 
 .sys-jumbotron {
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 .sys-jumbotrom-title {
@@ -500,7 +500,7 @@ body {
 }
 @media (min-width: 768px) and (max-width: 992px) {
     .sys-jumbotron {
-        margin-top: 10%;
+        margin-top: 3%;
     }
 
     .sys-jumbotrom-paragraph {
@@ -557,7 +557,7 @@ body {
     height: 115px; // The .sys-content-push height must be the same height as .sys-footer
     margin-top: 20px;
     padding-top: 20px;
-    min-width: 380px; 
+    min-width: 360px; 
 }
 
 /* Put here elements with responsive attributes */

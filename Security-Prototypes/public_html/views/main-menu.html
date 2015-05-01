@@ -62,7 +62,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            
+
                             <div class="col-lg-1 col-md-1 col-sm-2 col-xs-12 sys-header-column sys-header-column-mobile">
                                 <div class="dropdown">
                                     <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" id="dropdownMenuIndex">
@@ -252,11 +252,15 @@
 
                             <div class="col-lg-4 col-md-4 col-sm-12 col-sm-12 ng-cloak" id="sideMenu">
                                 <div class="container-fluid" id="sideMenuModuleHeading">
-                                    <div class="panel panel-primary">
-                                        <div class="panel-heading text-nowrap " ng-cloak>
-                                            <img ng-src="{{mainMenuStructure.moduleIconPath}}" alt="{{mainMenuStructure.moduleName}} software icon" height="30" width="30">
-                                            &nbsp;
-                                            <span>{{mainMenuStructure.moduleName}}</span>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="panel panel-primary">
+                                                <div class="panel-heading text-nowrap " ng-cloak>
+                                                    <img ng-src="{{mainMenuStructure.moduleIconPath}}" alt="{{mainMenuStructure.moduleName}} software icon" height="30" width="30">
+                                                    &nbsp;
+                                                    <span>{{mainMenuStructure.moduleName}}</span>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -276,10 +280,10 @@
                                                 </p>
                                             </a>
                                         </div>
-                                        <div id="collapse{{menu.alias}}" ng-id="collapse{{menu.alias}}" class="panel-collapse collapse">
+                                        <div id="collapse{{menu.alias}}" class="panel-collapse collapse">
                                             <div class="panel-body">
                                                 <ul class="nav nav-pills nav-stacked">
-                                                    <li id="{{menuItem.alias}}" ng-repeat="menuItem in menu.menuItens" class="{{menuItem.activeClass}}" menu-id="collapse{{menu.alias}}"> <!--//ng-click="addActiveClassToMainMenuItem(menuItem.alias)"-->
+                                                    <li id="{{menuItem.alias}}" ng-repeat="menuItem in menu.menuItens" class="{{menuItem.activeClass}}" menu-id="collapse{{menu.alias}}">
                                                         <a id="{{menuItem.alias}}-link" href="#/{{menuItem.url}}">
                                                             <span class="{{menuItem.icon}}"></span>
                                                             &nbsp;

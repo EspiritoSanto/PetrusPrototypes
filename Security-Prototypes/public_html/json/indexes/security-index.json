@@ -212,28 +212,28 @@
             "menuItens": [
                 {
                     "url": "security/data-entry/retrieval/general/brfederalunit-data-entry-retrieval",
-                    "name": "Unidades Federativas",
+                    "name": "Unidades Federativas do Brasil",
                     "alias": "brfederalunit-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-list-alt text-primary",
                     "activeClass": ""
                 },
                 {
                     "url": "security/data-entry/retrieval/general/brstatedistrict-data-entry-retrieval",
-                    "name": "Distritos Estaduais",
+                    "name": "Distritos Estaduais do Brasil",
                     "alias": "brstatedistrict-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-list-alt text-primary",
                     "activeClass": ""
                 },
                 {
                     "url": "security/data-entry/retrieval/general/brmunicipality-data-entry-retrieval",
-                    "name": "Municípios",
+                    "name": "Municípios do Brasil",
                     "alias": "brmunicipality-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-list-alt text-primary",
                     "activeClass": ""
                 },
                 {
                     "url": "security/data-entry/retrieval/general/brmunicipaldistrict-data-entry-retrieval",
-                    "name": "Distritos Municipais",
+                    "name": "Distritos Municipais do Brasil",
                     "alias": "brmunicipaldistrict-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-list-alt text-primary",
                     "activeClass": ""
@@ -246,23 +246,23 @@
                     "activeClass": ""
                 },
                 {
-                    "url": "security/data-entry/retrieval/licensed-s/district-data-entry-retrieval",
-                    "name": "Bairros",
-                    "alias": "district-data-entry-retrieval",
+                    "url": "security/data-entry/retrieval/licensed-s/brdistrict-data-entry-retrieval",
+                    "name": "Bairros do Brasil",
+                    "alias": "brdistrict-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-list-alt text-success",
                     "activeClass": ""
                 },
                 {
-                    "url": "security/data-entry/retrieval/licensed-s/publicpath-data-entry-retrieval",
-                    "name": "Logradouros",
-                    "alias": "publicpath-data-entry-retrieval",
+                    "url": "security/data-entry/retrieval/licensed-s/brpublicpath-data-entry-retrieval",
+                    "name": "Logradouros do Brasil",
+                    "alias": "brpublicpath-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-list-alt text-success",
                     "activeClass": ""
                 },
                 {
-                    "url": "security/data-entry/retrieval/licensed-s/zipcode-data-entry-retrieval",
-                    "name": "Códigos de Endereçamento Postal",
-                    "alias": "zipcode-data-entry-retrieval",
+                    "url": "security/data-entry/retrieval/licensed-s/brzipcode-data-entry-retrieval",
+                    "name": "Códigos Postais do Brasil",
+                    "alias": "brzipcode-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-list-alt text-success",
                     "activeClass": ""
                 }
