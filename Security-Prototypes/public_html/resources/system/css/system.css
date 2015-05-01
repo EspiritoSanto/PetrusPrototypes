@@ -3,14 +3,12 @@
 html {
     overflow-y: -moz-scrollbars-vertical;
     overflow-y: scroll;
-    //height: 100%; // modified because of the footer
+    height: 100%; // modified because of the footer
 }
 
-/*body {
+body {
     height: 100%; // modified because of the footer
-}*/
-
-body { padding-top: 60px; }
+}
 
 /* Put here elements with responsive attributes */
 
@@ -47,48 +45,12 @@ body { padding-top: 60px; }
 /* Put here elements with responsive attributes */
 
 @media (max-width: 768px) {
-    .navbar-fixed-bottom {
-        position: relative;
-    }
-
-    .navbar-collapse {
-        padding-left: 22px !important;
-        padding-right: 22px !important;
-    }
-    
-    .navbar-form {
-        border: 1px solid;
-        border-radius: 3px;
-        padding-left: 8px;
-        padding-right: 8px;
-    }
 }
 @media (min-width: 768px) and (max-width: 992px) {
-    .navbar-fixed-bottom {
-        position: relative;
-    }
-
-    /*.navbar-form {
-        border: none;
-    }*/
 }
 @media (min-width: 992px) and (max-width: 1200px) {
-    .navbar-fixed-bottom {
-        position: fixed;
-    }
-
-    /*.navbar-form {
-        border: none;
-    }*/
 }
 @media (min-width: 1200px) {
-    .navbar-fixed-bottom {
-        position: fixed;
-    }
-
-    /*.navbar-form {
-        border: none;
-    }*/
 }
 
 
@@ -103,469 +65,391 @@ body { padding-top: 60px; }
 
 /* System global elements */
 
-.gn1-margin-0 {
+.sys-margin-0 {
     margin: 0; 
 }
 
-.gn1-margin-0-top {
+.sys-margin-0-top {
     margin-top: 0; 
 }
 
-.gn1-margin-0-right {
+.sys-margin-0-right {
     margin-right: 0; 
 }
 
-.gn1-margin-0-bottom {
+.sys-margin-0-bottom {
     margin-bottom: 0; 
 }
 
-.gn1-margin-0-left {
+.sys-margin-0-left {
     margin-left: 0; 
 }
 
-.gn1-margin-xs {
+.sys-margin-xs {
     margin: 5px; 
 }
 
-.gn1-margin-xs-top {
+.sys-margin-xs-top {
     margin-top: 5px; 
 }
 
-.gn1-margin-xs-right {
+.sys-margin-xs-right {
     margin-right: 5px; 
 }
 
-.gn1-margin-xs-bottom {
+.sys-margin-xs-bottom {
     margin-bottom: 5px; 
 }
 
-.gn1-margin-xs-left {
+.sys-margin-xs-left {
     margin-left: 5px; 
 }
 
-.gn1-margin-sm {
+.sys-margin-sm {
     margin: 10px; 
 }
 
-.gn1-margin-sm-top {
+.sys-margin-sm-top {
     margin-top: 10px; 
 }
 
-.gn1-margin-sm-right {
+.sys-margin-sm-right {
     margin-right: 10px; 
 }
 
-.gn1-margin-sm-bottom {
+.sys-margin-sm-bottom {
     margin-bottom: 10px; 
 }
 
-.gn1-margin-sm-left {
+.sys-margin-sm-left {
     margin-left: 10px; 
 }
 
-.gn1-margin-md {
+.sys-margin-md {
     margin: 15px; 
 }
 
-.gn1-margin-md-top {
+.sys-margin-md-top {
     margin-top: 15px; 
 }
 
-.gn1-margin-md-right {
+.sys-margin-md-right {
     margin-right: 15px; 
 }
 
-.gn1-margin-md-bottom {
+.sys-margin-md-bottom {
     margin-bottom: 15px; 
 }
 
-.gn1-margin-md-left {
+.sys-margin-md-left {
     margin-left: 15px; 
 }
 
-.gn1-margin-lg {
+.sys-margin-lg {
     margin: 30px; 
 }
 
-.gn1-margin-lg-top {
+.sys-margin-lg-top {
     margin-top: 30px; 
 }
 
-.gn1-margin-lg-right {
+.sys-margin-lg-right {
     margin-right: 30px; 
 }
 
-.gn1-margin-lg-bottom {
+.sys-margin-lg-bottom {
     margin-bottom: 30px; 
 }
 
-.gn1-margin-lg-left {
+.sys-margin-lg-left {
     margin-left: 30px; 
 }
 
-.gn1-margin-xl {
+.sys-margin-xl {
     margin: 45px; 
 }
 
-.gn1-margin-xl-top {
+.sys-margin-xl-top {
     margin-top: 45px; 
 }
 
-.gn1-margin-xl-right {
+.sys-margin-xl-right {
     margin-right: 45px; 
 }
 
-.gn1-margin-xl-bottom {
+.sys-margin-xl-bottom {
     margin-bottom: 45px; 
 }
 
-.gn1-margin-xl-left {
+.sys-margin-xl-left {
     margin-left: 45px; 
 }
 
-.gn1-padding-0 {
+.sys-padding-0 {
     padding: 0; 
 }
 
-.gn1-padding-0-top {
+.sys-padding-0-top {
     padding-top: 0; 
 }
 
-.gn1-padding-0-right {
+.sys-padding-0-right {
     padding-right: 0; 
 }
 
-.gn1-padding-0-bottom {
+.sys-padding-0-bottom {
     padding-bottom: 0; 
 }
 
-.gn1-padding-0-left {
+.sys-padding-0-left {
     padding-left: 0; 
 }
 
-.gn1-padding-xs {
+.sys-padding-xs {
     padding: 5px; 
 }
 
-.gn1-padding-xs-top {
+.sys-padding-xs-top {
     padding-top: 5px; 
 }
 
-.gn1-padding-xs-right {
+.sys-padding-xs-right {
     padding-right: 5px; 
 }
 
-.gn1-padding-xs-bottom {
+.sys-padding-xs-bottom {
     padding-bottom: 5px; 
 }
 
-.gn1-padding-xs-left {
+.sys-padding-xs-left {
     padding-left: 5px; 
 }
 
-.gn1-padding-sm {
+.sys-padding-sm {
     padding: 10px; 
 }
 
-.gn1-padding-sm-top {
+.sys-padding-sm-top {
     padding-top: 10px; 
 }
 
-.gn1-padding-sm-right {
+.sys-padding-sm-right {
     padding-right: 10px; 
 }
 
-.gn1-padding-sm-bottom {
+.sys-padding-sm-bottom {
     padding-bottom: 10px; 
 }
 
-.gn1-padding-sm-left {
+.sys-padding-sm-left {
     padding-left: 10px; 
 }
 
-.gn1-padding-md {
+.sys-padding-md {
     padding: 15px; 
 }
 
-.gn1-padding-md-top {
+.sys-padding-md-top {
     padding-top: 15px; 
 }
 
-.gn1-padding-md-right {
+.sys-padding-md-right {
     padding-right: 15px; 
 }
 
-.gn1-padding-md-bottom {
+.sys-padding-md-bottom {
     padding-bottom: 15px; 
 }
 
-.gn1-padding-md-left {
+.sys-padding-md-left {
     padding-left: 15px; 
 }
 
-.gn1-padding-lg {
+.sys-padding-lg {
     padding: 30px; 
 }
 
-.gn1-padding-lg-top {
+.sys-padding-lg-top {
     padding-top: 30px; 
 }
 
-.gn1-padding-lg-right {
+.sys-padding-lg-right {
     padding-right: 30px; 
 }
 
-.gn1-padding-lg-bottom {
+.sys-padding-lg-bottom {
     padding-bottom: 30px; 
 }
 
-.gn1-padding-lg-left {
+.sys-padding-lg-left {
     padding-left: 30px; 
 }
 
-.gn1-padding-xl {
+.sys-padding-xl {
     padding: 45px; 
 }
 
-.gn1-padding-xl-top {
+.sys-padding-xl-top {
     padding-top: 45px; 
 }
 
-.gn1-padding-xl-right {
+.sys-padding-xl-right {
     padding-right: 45px; 
 }
 
-.gn1-padding-xl-bottom {
+.sys-padding-xl-bottom {
     padding-bottom: 45px; 
 }
 
-.gn1-padding-xl-left {
+.sys-padding-xl-left {
     padding-left: 45px; 
 }
 
-.gn1-wrapper {
+.sys-wrapper {
     min-height: 100%;
     height: auto !important;
+    min-width: 380px;
+    margin: 0 auto -115px; // The bottom margin is the negative value of the footer's height
 }
 
 /* Put here elements with responsive attributes */
 
 @media (max-width: 768px) {
-    .gn1-wrapper {
-        margin: 0 auto -160px; // The bottom margin is the negative value of the footer's height
+    .sys-wrapper {
+        margin: 0 auto -120px; // The bottom margin is the negative value of the footer's height
     }
 }
 @media (min-width: 768px) and (max-width: 992px) {
-    .gn1-wrapper {
-        margin: 0 auto -115px; // The bottom margin is the negative value of the footer's height
-    }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
-    .gn1-wrapper {
-        margin: 0 auto -115px; // The bottom margin is the negative value of the footer's height
-    }
 }
 @media (min-width: 1200px) {
-    .gn1-wrapper {
-        margin: 0 auto -115px; // The bottom margin is the negative value of the footer's height
-    }
 }
 
 
 
 /* System header elements */
 
-.gn1-header {
-    background-color: #f5f5f5;
+.sys-header {
+    background-image: -webkit-linear-gradient(top, #fff 0%, #d8d8d8 100%);
+    background-image:      -o-linear-gradient(top, #fff 0%, #d8d8d8 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#d8d8d8));
+    background-image:         linear-gradient(to bottom, #fff 0%, #d8d8d8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffd8d8d8', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    background-repeat: repeat-x;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
     border-bottom: 1px solid #e3e3e3;
 }
 
-.gn1-header-column {
-    margin-top: 15px;
+.sys-header-column {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.gn1-header-single-column {
-    margin-top: 15px;
+.sys-header-column-single {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sys-header-logo {
+    height: 34px;
+    width: 160px; 
+}
+
+.sys-header-column-mobile {
+    text-align: right;
+}
+
+.sys-dropdown-menu-mobile {
+    right: 0;
+    left: auto;
 }
 
 #dropdownMenuLoggedUser {
     max-width: 100%;
 }
 
-.gn1-header-index-thumbnail {
+.sys-dropdown-menu-index {
+    width: 645px;
+}
+
+.sys-dropdown-menu-index-thumbnail {
     height: 110px;
     width: 120px;
     margin-bottom: 10px !important;
     cursor: pointer;
 }
 
-.gn1-header-index-thumbnail-image {
+.sys-dropdown-menu-index-thumbnail-image {
     height: 40px;
     width: 40px;
 }
 
-.gn1-header-index-thumbnail-title {
+.sys-dropdown-menu-index-thumbnail-title {
     font-size: 14px !important;
 }
 
 /* Put here elements with responsive attributes */
 
 @media (max-width: 768px) {
-    .gn1-header {
-        padding-bottom: 0;
+    .sys-header-column {
+        margin-bottom: 0;
     }
 
-    .gn1-header-column {
-        height: auto;
-    }
-
-    .gn1-header-single-column {
-        height: auto;
-        padding-bottom: 10px;
-    }
-
-    .gn1-header-logo {
-        padding-top: 0;
-    }
-
-    .gn1-header-login-btnSubmit {
-        margin-top: 15px;
-    }
-
-    .gn1-header-loggeduser-column {
-        padding-bottom: 15px;
+    .sys-header-column-mobile {
+        margin-bottom: 10px;
         text-align: left;
     }
 
-    .gn1-position-menu {
+    .sys-dropdown-menu-mobile {
         right: auto;
         left: 0;
     }
 
-    .gn1-index-menu {
+    .sys-dropdown-menu-index {
         width: 325px;
     }
 }
 @media (min-width: 768px) and (max-width: 992px) {
-    .gn1-header {
-        padding-bottom: 0;
-    }
-
-    .gn1-header-column {
-        height: auto;
-    }
-
-    .gn1-header-single-column {
-        height: auto;
-        padding-bottom: 10px;
-    }
-
-    .gn1-header-logo {
-        padding-top: 0;
-    }
-
-    .gn1-header-login-btnSubmit {
-        margin-top: 15px;
-    }
-
-    .gn1-header-loggeduser-column {
-        padding-bottom: 15px;
-        text-align: left;
-    }
-
-    .gn1-position-menu {
-        right: auto;
-        left: 0;
-    }
-
-    .gn1-index-menu {
-        width: 645px;
-    }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
-    .gn1-header {
-        padding-bottom: 15px;
-    }
-
-    .gn1-header-column {
-        height: 126px;
-    }
-
-    .gn1-header-single-column {
-        height: 126px;
-        padding-bottom: 10px;
-    }
-
-    .gn1-header-logo {
-        padding-top: 10px;
-    }
-
-    .gn1-header-login-btnSubmit {
-        margin-top: 0;
-    }
-
-    .gn1-header-loggeduser-column {
-        padding-top: 45px;
-        text-align: right;
-    }
-
-    .gn1-position-menu {
-        right: 0;
-        left: auto;
-    }
-
-    .gn1-index-menu {
-        width: 645px;
+    .sys-header-column-mobile {
+        padding-right: 10px; 
     }
 }
 @media (min-width: 1200px) {
-    .gn1-header {
-        padding-bottom: 15px;
-    }
-
-    .gn1-header-column {
-        height: 126px;
-    }
-
-    .gn1-header-single-column {
-        height: 126px;
-        padding-bottom: 10px;
-    }
-
-    .gn1-header-logo {
-        padding-top: 10px;
-    }
-
-    .gn1-header-login-btnSubmit {
-        margin-top: 0;
-    }
-
-    .gn1-header-loggeduser-column {
-        padding-top: 45px;
-        text-align: right;
-    }
-
-    .gn1-position-menu {
-        right: 0;
-        left: auto;
-    }
-
-    .gn1-index-menu {
-        width: 645px;
-    }
 }
 
 
 
 /* System content elements */
 
-.gn1-thumbnail-paragraph {
-    font-size: 100% !important;
+.sys-jumbotron {
+    margin-top: 20%;
 }
 
-.gn1-index-thumbnail {
+.sys-jumbotrom-title {
+    font-size: 360% !important;
+}
+
+.sys-jumbotrom-paragraph {
+    font-size: 200%;
+}
+
+.sys-thumbnail-index {
     height: 270px;
     background-color: #f5f5f5;
+}
+
+.sys-thumbnail-index-title {
+    font-size: 180% !important;
+}
+
+.sys-content-push {
+    height: 115px; // The .sys-content-push height must be the same height as .sys-footer
 }
 
 #sideMenu {
@@ -578,6 +462,7 @@ body { padding-top: 60px; }
 }
 
 #sideMenuButton {
+    display: none;
     margin-bottom: 10px;
     width: 100%;
 }
@@ -585,113 +470,69 @@ body { padding-top: 60px; }
 /* Put here elements with responsive attributes */
 
 @media (max-width: 768px) {
-    .gn1-jumbotrom-title {
+    .sys-jumbotron {
+        margin-top: 10px;
+    }
+
+    .sys-jumbotrom-title {
         font-size: 200% !important;
     }
 
-    .gn1-jumbotrom-paragraph {
+    .sys-jumbotrom-paragraph {
         font-size: 110%;
     }
 
-    .gn1-thumbnail-title {
+    .sys-thumbnail-index-title {
         font-size: 150% !important;
     }
 
-    .gn1-content-push {
-        height: 160px; // The .gn1-content-push height must be the same height as .gn1-footer
+    .sys-content-push {
+        height: 120px; // The .sys-content-push height must be the same height as .sys-footer
     }
 
     #sideMenuButton{
         display: block;
     }
 
-    .gn1-content-view {
+    .sys-content-view {
         padding: 0;
     }
 }
 @media (min-width: 768px) and (max-width: 992px) {
-    .gn1-jumbotrom-title {
-        font-size: 360% !important;
+    .sys-jumbotron {
+        margin-top: 10%;
     }
 
-    .gn1-jumbotrom-paragraph {
+    .sys-jumbotrom-paragraph {
         font-size: 175%;
-    }
-
-    .gn1-thumbnail-title {
-        font-size: 180% !important;
-    }
-
-    .gn1-content-push {
-        height: 115px; // The .gn1-content-push height must be the same height as .gn1-footer
     }
 
     #sideMenuButton {
         display: block;
     }
 
-    .gn1-content-view {
+    .sys-content-view {
         padding: 0;
     }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
-    .gn1-jumbotrom-title {
-        font-size: 360% !important;
-    }
-
-    .gn1-jumbotrom-paragraph {
-        font-size: 200%;
-    }
-
-    .gn1-thumbnail-title {
-        font-size: 180% !important;
-    }
-
-    .gn1-content-push {
-        height: 115px; // The .gn1-content-push height must be the same height as .gn1-footer
-    }
-
-    #sideMenuButton {
-        display: none;
-    }
-
     #sideMenuAccordion {
         height: auto !important;
         display: block;
     }
 
-    .gn1-content-view {
+    .sys-content-view {
         padding-top: 15px;
         padding-right: 10px;
     }
 }
 @media (min-width: 1200px) {
-    .gn1-jumbotrom-title {
-        font-size: 360% !important;
-    }
-
-    .gn1-jumbotrom-paragraph {
-        font-size: 200%;
-    }
-
-    .gn1-thumbnail-title {
-        font-size: 180% !important;
-    }
-
-    .gn1-content-push {
-        height: 115px; // The .gn1-content-push height must be the same height as .gn1-footer
-    }
-
-    #sideMenuButton {
-        display: none;
-    }
-
     #sideMenuAccordion {
         display: block;        
         height: auto !important;
     }
 
-    .gn1-content-view {
+    .sys-content-view {
         padding-top: 15px;
         padding-right: 15px;
     }
@@ -701,38 +542,36 @@ body { padding-top: 60px; }
 
 /* System footer elements */
 
-.gn1-footer {
-    background-color: #f5f5f5;
+.sys-footer {
+    background-image: -webkit-linear-gradient(top, #fff 0%, #a8a8a8 100%);
+    background-image:      -o-linear-gradient(top, #fff 0%, #a8a8a8 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#a8a8a8));
+    background-image:         linear-gradient(to bottom, #fff 0%, #a8a8a8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffa8a8a8', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    background-repeat: repeat-x;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
     border-top: 1px solid #e3e3e3;
+    height: 115px; // The .sys-content-push height must be the same height as .sys-footer
+    margin-top: 20px;
+    padding-top: 20px;
+    min-width: 380px; 
 }
 
 /* Put here elements with responsive attributes */
 
 @media (max-width: 768px) {
-    .gn1-footer {
-        height: 160px; // The .gn1-content-push height must be the same height as .gn1-footer
+    .sys-footer {
+        height: 120px; // The .sys-content-push height must be the same height as .sys-footer
         margin-top: 10px;
         padding-top: 10px;
     }
 }
 @media (min-width: 768px) and (max-width: 992px) {
-    .gn1-footer {
-        height: 115px; // The .gn1-content-push height must be the same height as .gn1-footer
-        margin-top: 20px;
-        padding-top: 20px;
-    }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
-    .gn1-footer {
-        height: 115px; // The .gn1-content-push height must be the same height as .gn1-footer
-        margin-top: 20px;
-        padding-top: 20px;
-    }
 }
 @media (min-width: 1200px) {
-    .gn1-footer {
-        height: 115px; // The .gn1-content-push height must be the same height as .gn1-footer
-        margin-top: 20px;
-        padding-top: 20px;
-    }
 }
