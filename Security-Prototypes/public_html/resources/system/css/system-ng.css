@@ -1,0 +1,150 @@
+/* HTML elements */
+
+/* Put here elements with responsive attributes */
+
+@media (max-width: 768px) {
+}
+@media (min-width: 768px) and (max-width: 992px) {
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+@media (min-width: 1200px) {
+}
+
+
+
+/* Bootstrap elements */
+
+.panel-heading > a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    color: #337ab7;
+    background-color: #e3e3e3;
+}
+
+/* Put here elements with responsive attributes */
+
+@media (max-width: 768px) {
+}
+@media (min-width: 768px) and (max-width: 992px) {
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+@media (min-width: 1200px) {
+}
+
+
+
+/* AngularJS elements */
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+/* Put here elements with responsive attributes */
+
+@media (max-width: 768px) {
+}
+@media (min-width: 768px) and (max-width: 992px) {
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+@media (min-width: 1200px) {
+}
+
+
+
+/* System header elements */
+
+/* Put here elements with responsive attributes */
+
+@media (max-width: 768px) {
+}
+@media (min-width: 768px) and (max-width: 992px) {
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+@media (min-width: 1200px) {
+}
+
+
+
+/* System content elements */
+
+#sideMenu {
+    padding: 15px 0; 
+}
+
+#sideMenuModuleHeading {
+    padding: 0;
+    font-size: 22px;
+}
+
+#sideMenuButton {
+    display: none;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+/* Put here elements with responsive attributes */
+
+@media (max-width: 768px) {
+    #sideMenuButton{
+        display: block;
+    }
+
+    .sys-content-view {
+        padding: 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    #sideMenuButton {
+        display: block;
+    }
+
+    .sys-content-view {
+        padding: 0;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    #sideMenuAccordion {
+        height: auto !important;
+        display: block;
+    }
+
+    .sys-content-view {
+        padding-top: 15px;
+        padding-right: 10px;
+    }
+}
+@media (min-width: 1200px) {
+    #sideMenuAccordion {
+        display: block;        
+        height: auto !important;
+    }
+
+    .sys-content-view {
+        padding-top: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+
+/* System footer elements */
+
+/* Put here elements with responsive attributes */
+
+@media (max-width: 768px) {
+}
+@media (min-width: 768px) and (max-width: 992px) {
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+@media (min-width: 1200px) {
+}

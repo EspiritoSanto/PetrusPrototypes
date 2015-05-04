@@ -30,18 +30,6 @@ body {
     background-position: initial; // modified to correct problem in original button
 }
 
-.panel-heading > a {
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus {
-    color: #337ab7;
-    background-color: #e3e3e3;
-}
-
 /* Put here elements with responsive attributes */
 
 @media (max-width: 768px) {
@@ -51,14 +39,6 @@ body {
 @media (min-width: 992px) and (max-width: 1200px) {
 }
 @media (min-width: 1200px) {
-}
-
-
-
-/* AngularJS elements */
-
-[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
-    display: none !important;
 }
 
 
@@ -452,21 +432,6 @@ body {
     height: 115px; // The .sys-content-push height must be the same height as .sys-footer
 }
 
-#sideMenu {
-    padding: 15px 0; 
-}
-
-#sideMenuModuleHeading {
-    padding: 0;
-    font-size: 22px;
-}
-
-#sideMenuButton {
-    display: none;
-    margin-bottom: 10px;
-    width: 100%;
-}
-
 /* Put here elements with responsive attributes */
 
 @media (max-width: 768px) {
@@ -489,14 +454,6 @@ body {
     .sys-content-push {
         height: 120px; // The .sys-content-push height must be the same height as .sys-footer
     }
-
-    #sideMenuButton{
-        display: block;
-    }
-
-    .sys-content-view {
-        padding: 0;
-    }
 }
 @media (min-width: 768px) and (max-width: 992px) {
     .sys-jumbotron {
@@ -506,36 +463,10 @@ body {
     .sys-jumbotrom-paragraph {
         font-size: 175%;
     }
-
-    #sideMenuButton {
-        display: block;
-    }
-
-    .sys-content-view {
-        padding: 0;
-    }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
-    #sideMenuAccordion {
-        height: auto !important;
-        display: block;
-    }
-
-    .sys-content-view {
-        padding-top: 15px;
-        padding-right: 10px;
-    }
 }
 @media (min-width: 1200px) {
-    #sideMenuAccordion {
-        display: block;        
-        height: auto !important;
-    }
-
-    .sys-content-view {
-        padding-top: 15px;
-        padding-right: 15px;
-    }
 }
 
 

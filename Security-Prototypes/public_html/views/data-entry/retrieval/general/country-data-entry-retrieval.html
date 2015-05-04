@@ -6,10 +6,16 @@
 
         <title>Países</title>
 
-        <link href="/security/resources/system/css/functionality.css" rel="stylesheet" />
+        <link href="/security/resources/system/css/system-ng-data-entry-retrieval.css" rel="stylesheet" />
+               
+         <script>
+
+
+
+</script>
+
     </head>
     <body>
-
         <!-- Header -->
         <div class="container-fluid sys-container-heading-functionality">
             <div class="panel panel-default sys-panel-heading-functionality">
@@ -63,10 +69,10 @@
                 <div id="collapseFilter" class="panel-collapse collapse">
                     <div class="panel-body">
                         <label>Filtrar pelo campo:</label>
-                        <div class="row">
+                        <div class="row" ng-controller="DataEntryRetrievalFilterCtrl">
                             <div class="col-md-3">
                                 <label class="gn1-margin-xs-top">Campo</label>
-                                <select class="form-control input-sm selectpicker" ng-model="filterField" ng-change="filterSChangeHandler()" ng-options="filterField.columnLabel for filterField in filterFields"></select>
+                                <select class="form-control input-sm selectpicker" ng-model="filterField" ng-change="filterFieldChange()" ng-options="filterField.columnLabel for filterField in filterFields"></select>
                             </div>
                             <div class="col-md-3">
                                 <label class="gn1-margin-xs-top">Método</label>
