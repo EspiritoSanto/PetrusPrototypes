@@ -288,7 +288,7 @@ body {
 .sys-wrapper {
     min-height: 100%;
     height: auto !important;
-    min-width: 360px;
+    min-width: 320px;
     margin: 0 auto -115px; // The bottom margin is the negative value of the footer's height
 }
 
@@ -488,7 +488,7 @@ body {
     height: 115px; // The .sys-content-push height must be the same height as .sys-footer
     margin-top: 20px;
     padding-top: 20px;
-    min-width: 360px; 
+    min-width: 320px; 
 }
 
 /* Put here elements with responsive attributes */
