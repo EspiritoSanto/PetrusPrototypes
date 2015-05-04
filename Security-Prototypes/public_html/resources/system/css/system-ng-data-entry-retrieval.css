@@ -1,0 +1,28 @@
+/* Elements with non-responsive attributes */
+
+.sys-container-heading-functionality {
+    padding: 0;
+    font-size: 22px;
+}
+
+/* Put here elements with responsive attributes */
+
+@media (max-width: 768px) {
+    .sys-container-heading-functionality {
+        font-size: 14px;
+        font-weight: bolder;
+    }
+
+    .sys-panel-heading-functionality {
+        margin-bottom: 5px;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .sys-panel-heading-functionality {
+        margin-bottom: 5px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+@media (min-width: 1200px) {
+}
