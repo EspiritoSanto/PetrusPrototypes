@@ -1,7 +1,7 @@
 /* Elements with non-responsive attributes */
 
 .sys-container-heading-functionality {
-    padding: 0;
+//    padding: 0;
     font-size: 22px;
 }
 
@@ -14,12 +14,12 @@
     }
 
     .sys-panel-heading-functionality {
-        margin-bottom: 5px;
+       // margin-bottom: 5px;
     }
 }
 @media (min-width: 768px) and (max-width: 992px) {
     .sys-panel-heading-functionality {
-        margin-bottom: 5px;
+       // margin-bottom: 5px;
     }
 }
 @media (min-width: 992px) and (max-width: 1200px) {

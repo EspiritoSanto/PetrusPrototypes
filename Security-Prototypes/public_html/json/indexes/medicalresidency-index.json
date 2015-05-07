@@ -3,6 +3,20 @@
     "moduleName": "Medical Residency",
     "menus": [
         {
+            "denomination": "Avaliação",
+            "alias": "Evaluation",
+            "icon": "glyphicon glyphicon-certificate text-success",
+            "menuItens": [
+                {
+                    "url": "medicalresidency/data-entry/retrieval/licensed-s/evaluation-data-entry-retrieval",
+                    "name": "Avaliações Pendentes",
+                    "alias": "evaluation-data-entry-retrieval",
+                    "icon": "glyphicon glyphicon-list-alt text-warning",
+                    "activeClass": ""
+                }
+            ]
+        },
+        {
             "denomination": "MedicalResidency data-entry menu",
             "alias": "MedicalResidencyDataEntryMenu",
             "icon": "glyphicon glyphicon-list-alt text-primary",
