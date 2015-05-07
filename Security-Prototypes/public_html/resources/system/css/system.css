@@ -289,21 +289,29 @@ body {
     min-height: 100%;
     height: auto !important;
     min-width: 320px;
-    margin: 0 auto -115px; // The bottom margin is the negative value of the footer's height
 }
 
 /* Put here elements with responsive attributes */
 
 @media (max-width: 768px) {
     .sys-wrapper {
-        margin: 0 auto -120px; // The bottom margin is the negative value of the footer's height
+        margin: 0 auto -150px; // The bottom margin is the negative value of the footer's height
     }
 }
 @media (min-width: 768px) and (max-width: 992px) {
+    .sys-wrapper {
+        margin: 0 auto -115px; // The bottom margin is the negative value of the footer's height
+    }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
+    .sys-wrapper {
+        margin: 0 auto -115px; // The bottom margin is the negative value of the footer's height
+    }
 }
 @media (min-width: 1200px) {
+    .sys-wrapper {
+        margin: 0 auto -115px; // The bottom margin is the negative value of the footer's height
+    }
 }
 
 
@@ -329,18 +337,32 @@ body {
     margin-bottom: 10px;
 }
 
+.sys-header-column-first {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    //padding-left: 0;
+}
+
+.sys-header-column-last {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    //padding-right: 0;
+}
+
 .sys-header-column-single {
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.sys-header-column-mobile {
+    text-align: right;
 }
 
 .sys-header-logo {
     height: 34px;
     width: 160px; 
-}
-
-.sys-header-column-mobile {
-    text-align: right;
 }
 
 .sys-dropdown-menu-mobile {
@@ -356,9 +378,18 @@ body {
     width: 645px;
 }
 
+.sys-dropdown-menu-index-row {
+    margin-left: 17px;
+    margin-right: 0;
+}
+
+.sys-dropdown-menu-index-row > div {
+    padding-left: 0;   
+}
+
 .sys-dropdown-menu-index-thumbnail {
     height: 110px;
-    width: 120px;
+    width: 140px;
     margin-bottom: 10px !important;
     cursor: pointer;
 }
@@ -379,8 +410,21 @@ body {
         margin-bottom: 0;
     }
 
+    .sys-header-column-first {
+        margin-bottom: 0;
+        //padding-left: 15px;
+    }
+
+    .sys-header-column-last {
+        //padding-right: 15px;
+    }
+
+    .sys-header-column-single {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
     .sys-header-column-mobile {
-        margin-bottom: 10px;
         text-align: left;
     }
 
@@ -390,15 +434,61 @@ body {
     }
 
     .sys-dropdown-menu-index {
-        width: 325px;
+        width: 290px;
+    }
+
+    .sys-dropdown-menu-index-row {
+        margin-left: 10px;
+    }
+
+    .sys-dropdown-menu-index-thumbnail {
+        width: 130px;
     }
 }
 @media (min-width: 768px) and (max-width: 992px) {
+
+    /* Items repeated here because of the iPad. */
+
+    .sys-header-column {
+        margin-bottom: 10px;
+    }
+
+    .sys-header-column-first {
+        margin-bottom: 10px;
+        //padding-left: 0;
+    }
+
+    .sys-header-column-last {
+        //padding-right: 0;
+    }
+
+    .sys-header-column-single {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .sys-header-column-mobile {
+        text-align: right;
+    }
+
+    .sys-dropdown-menu-mobile {
+        right: 0;
+        left: auto;
+    }
+
+    .sys-dropdown-menu-index {
+        width: 645px;
+    }
+
+    .sys-dropdown-menu-index-row {
+        margin-left: 17px;
+    }
+
+    .sys-dropdown-menu-index-thumbnail {
+        width: 140px;
+    }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
-    .sys-header-column-mobile {
-        padding-right: 10px; 
-    }
 }
 @media (min-width: 1200px) {
 }
@@ -409,14 +499,6 @@ body {
 
 .sys-jumbotron {
     margin-top: 10%;
-}
-
-.sys-jumbotrom-title {
-    font-size: 360% !important;
-}
-
-.sys-jumbotrom-paragraph {
-    font-size: 200%;
 }
 
 .sys-thumbnail-index {
@@ -439,29 +521,17 @@ body {
         margin-top: 10px;
     }
 
-    .sys-jumbotrom-title {
-        font-size: 200% !important;
-    }
-
-    .sys-jumbotrom-paragraph {
-        font-size: 110%;
-    }
-
     .sys-thumbnail-index-title {
         font-size: 150% !important;
     }
 
     .sys-content-push {
-        height: 120px; // The .sys-content-push height must be the same height as .sys-footer
+        height: 150px; // The .sys-content-push height must be the same height as .sys-footer
     }
 }
 @media (min-width: 768px) and (max-width: 992px) {
     .sys-jumbotron {
         margin-top: 3%;
-    }
-
-    .sys-jumbotrom-paragraph {
-        font-size: 175%;
     }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -495,7 +565,7 @@ body {
 
 @media (max-width: 768px) {
     .sys-footer {
-        height: 120px; // The .sys-content-push height must be the same height as .sys-footer
+        height: 150px; // The .sys-content-push height must be the same height as .sys-footer
         margin-top: 10px;
         padding-top: 10px;
     }

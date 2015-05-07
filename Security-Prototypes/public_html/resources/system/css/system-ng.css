@@ -25,6 +25,7 @@
 .nav-pills > li.active > a:focus {
     color: #337ab7;
     background-color: #e3e3e3;
+    outline: 0;
 }
 
 /* Put here elements with responsive attributes */
@@ -76,10 +77,6 @@
 
 /* System content elements */
 
-#sideMenu {
-    padding: 15px 0; 
-}
-
 #sideMenuModuleHeading {
     padding: 0;
     font-size: 22px;
@@ -99,7 +96,7 @@
     }
 
     .sys-content-view {
-        padding: 0;
+       // padding: 0;
     }
 }
 @media (min-width: 768px) and (max-width: 992px) {
@@ -108,7 +105,7 @@
     }
 
     .sys-content-view {
-        padding: 0;
+       // padding: 0;
     }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -118,8 +115,8 @@
     }
 
     .sys-content-view {
-        padding-top: 15px;
-        padding-right: 10px;
+       // padding-top: 15px;
+       // padding-right: 10px;
     }
 }
 @media (min-width: 1200px) {
@@ -129,8 +126,8 @@
     }
 
     .sys-content-view {
-        padding-top: 15px;
-        padding-right: 15px;
+       // padding-top: 15px;
+        //padding-right: 15px;
     }
 }
 

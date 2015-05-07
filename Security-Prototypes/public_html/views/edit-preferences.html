@@ -16,7 +16,7 @@
 
         <link href="../resources/bootstrap/css/bootstrap.min.css" rel="stylesheet" /> 
         <link href="../resources/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" /> 
-        
+
         <link href="../resources/system/css/system.css" rel="stylesheet" /> 
     </head>
     <body>
@@ -26,12 +26,14 @@
                 <!-- Header -->
                 <header class="row sys-header">
                     <div class="container">
-                        <div class="row"> 
-                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 sys-header-column">
+                        <div class="row">
+
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 sys-header-column-first">
                                 <a href="/security/views/index.html">
                                     <img src="/security/resources/images/logos/petrus-logo.png" alt="Suite Logo" class="sys-header-logo">
                                 </a>
                             </div>
+
                             <div class="col-lg-offset-4 col-md-offset-3 col-sm-offset-0 col-xs-offset-0 col-lg-5 col-md-6 col-sm-8 col-xs-12 sys-header-column sys-header-column-mobile">
                                 <div class="dropdown">
                                     <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" id="dropdownMenuLoggedUser">
@@ -62,8 +64,8 @@
                                     </ul>
                                 </div>
                             </div>
-                            
-                            <div class="col-lg-1 col-md-1 col-sm-2 col-xs-12 sys-header-column sys-header-column-mobile">
+
+                            <div class="col-lg-1 col-md-1 col-sm-2 col-xs-12 sys-header-column-last sys-header-column-mobile">
                                 <div class="dropdown">
                                     <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" id="dropdownMenuIndex">
                                         &nbsp;&nbsp;<span class="glyphicon glyphicon-th"></span>&nbsp; 
@@ -71,7 +73,7 @@
                                     <ul class="dropdown-menu sys-dropdown-menu-mobile sys-dropdown-menu-index" role="menu" aria-labelledby="dropdownMenuIndex">
                                         <li role="presentation">
 
-                                            <div class="row text-center sys-padding-md-top sys-margin-xs-left">
+                                            <div class="row text-center sys-padding-sm-top sys-dropdown-menu-index-row">
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                                                     <a href="/security/views/main-menu.html#/accounting/default" class="thumbnail sys-dropdown-menu-index-thumbnail">
                                                         <img class="sys-padding-sm-top sys-dropdown-menu-index-thumbnail-image" src="/security/resources/images/icons/softwares/accounting-software-icon.png" alt="Accounting software icon">
@@ -246,11 +248,13 @@
                 <!-- /Header -->
 
                 <!-- Content -->
-                <main>
+                <main class="row">
                     <div class="container">
+                        <div class="row">
 
-                        <h1>edit-preferences</h1>
+                            <h1>edit-preferences</h1>
 
+                        </div>
                     </div>
                 </main>
                 <!-- /Content -->
@@ -285,9 +289,9 @@
         </div>
         <!-- /Footer -->
 
-        <script src="../resources/jquery/jquery.min.js"></script>
-        <script src="../resources/bootstrap/js/bootstrap.min.js"></script>
+        <script src="/security/resources/jquery/jquery.min.js"></script>
+        <script src="/security/resources/bootstrap/js/bootstrap.min.js"></script>
 
-        <script src="../resources/system/js/system.js"></script>
+        <script src="/security/resources/system/js/system.js"></script>
     </body>
 </html>
