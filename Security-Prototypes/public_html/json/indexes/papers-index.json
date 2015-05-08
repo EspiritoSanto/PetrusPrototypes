@@ -2,5 +2,37 @@
     "moduleIconPath": "/security/resources/images/icons/softwares/papers-software-white-icon.png",
     "moduleName": "Papers",
     "menus": [
+        {
+            "denomination": "Tabelas Internas",
+            "alias": "InternalTables",
+            "icon": "glyphicon glyphicon-list-alt text-muted",
+            "menuItens": [
+                {
+                    "url": "papers/data-entry/retrieval/internal/internaljournal-data-entry-retrieval",
+                    "name": "Revistas",
+                    "alias": "internaljournal-data-entry-retrieval",
+                    "icon": "glyphicon glyphicon-duplicate text-muted"
+                }
+            ]
+        },
+        {
+            "denomination": "Tabelas",
+            "alias": "Tables",
+            "icon": "glyphicon glyphicon-list-alt text-danger",
+            "menuItens": [
+                {
+                    "url": "papers/data-entry/retrieval/licensed-s/licensedsjournal-data-entry-retrieval",
+                    "name": "Revistas",
+                    "alias": "internaljournal-data-entry-retrieval",
+                    "icon": "glyphicon glyphicon-duplicate text-primary"
+                },
+                {
+                    "url": "papers/data-entry/retrieval/licensed-s/editorialstep-data-entry-retrieval",
+                    "name": "Passos Editoriais",
+                    "alias": "editorialstep-data-entry-retrieval",
+                    "icon": "glyphicon glyphicon-retweet text-danger"
+                }
+            ]
+        }
     ]
 }
