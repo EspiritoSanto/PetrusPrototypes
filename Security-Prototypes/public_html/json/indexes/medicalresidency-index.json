@@ -8,6 +8,18 @@
             "icon": "glyphicon glyphicon-cloud-upload text-primary",
             "menuItens": [
                 {
+                    "url": "medicalresidency/data-entry/retrieval/licensed-s/healthservicechief-data-entry-retrieval",
+                    "name": "Chefes de Serviços de Saúde",
+                    "alias": "healthservicechief-data-entry-retrieval",
+                    "icon": "glyphicon glyphicon-user text-success"
+                },
+                {
+                    "url": "medicalresidency/data-entry/retrieval/licensed-s/healthservice-data-entry-retrieval",
+                    "name": "Serviços de Saúde",
+                    "alias": "healthservice-data-entry-retrieval",
+                    "icon": "glyphicon glyphicon-plus-sign text-danger"
+                },
+                {
                     "url": "medicalresidency/data-entry/retrieval/licensed-s/datasheetsubmission-data-entry-retrieval",
                     "name": "Submissão de Memorial Descritivo",
                     "alias": "datasheetsubmission-data-entry-retrieval",
