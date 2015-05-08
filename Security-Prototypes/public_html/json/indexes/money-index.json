@@ -18,7 +18,7 @@
                     "url": "money/data-entry/retrieval/internal/moneyoption2-data-entry-retrieval",
                     "name": "Contas a receber",
                     "alias": "moneyoption2-data-entry-retrieval",
-                    "icon": "glyphicon glyphicon-list-alt text-muted",
+                    "icon": "glyphicon glyphicon-list-alt text-danger",
                     "activeClass": ""
                 },
                 {
@@ -32,7 +32,7 @@
                     "url": "money/data-entry/form/general/moneyoption4-data-entry-form",
                     "name": "Conciliação bancária",
                     "alias": "moneyoption4-data-entry-form",
-                    "icon": "glyphicon glyphicon-th-list text-warning",
+                    "icon": "glyphicon glyphicon-th-list text-primary",
                     "activeClass": ""
                 },
                 {
@@ -60,14 +60,14 @@
                     "url": "money/retrieval/report-preview/general/moneyoption1-retrieval-report-preview",
                     "name": "Money recovery opção 1",
                     "alias": "moneyoption1-retrieval-report-preview",
-                    "icon": "glyphicon glyphicon-print text-warning",
+                    "icon": "glyphicon glyphicon-print text-primary",
                     "activeClass": ""
                 },
                 {
                     "url": "money/retrieval/report-preview/internal/moneyoption2-retrieval-report-preview",
                     "name": "Money recovery opção 2",
                     "alias": "moneyoption2-retrieval-report-preview",
-                    "icon": "glyphicon glyphicon-print text-muted",
+                    "icon": "glyphicon glyphicon-print text-danger",
                     "activeClass": ""
                 },
                 {

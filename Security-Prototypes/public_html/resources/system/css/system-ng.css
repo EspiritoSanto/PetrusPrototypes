@@ -96,7 +96,7 @@
     }
 
     .sys-content-view {
-       // padding: 0;
+        // padding: 0;
     }
 }
 @media (min-width: 768px) and (max-width: 992px) {
@@ -105,7 +105,7 @@
     }
 
     .sys-content-view {
-       // padding: 0;
+        // padding: 0;
     }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -115,8 +115,8 @@
     }
 
     .sys-content-view {
-       // padding-top: 15px;
-       // padding-right: 10px;
+        // padding-top: 15px;
+        // padding-right: 10px;
     }
 }
 @media (min-width: 1200px) {
@@ -126,7 +126,7 @@
     }
 
     .sys-content-view {
-       // padding-top: 15px;
+        // padding-top: 15px;
         //padding-right: 15px;
     }
 }
@@ -138,6 +138,29 @@
 /* Put here elements with responsive attributes */
 
 @media (max-width: 768px) {
+}
+@media (min-width: 768px) and (max-width: 992px) {
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+@media (min-width: 1200px) {
+}
+
+
+
+/* System child template elements */
+
+.sys-template-child-header-panel {
+    font-size: 22px;    
+}
+
+/* Put here elements with responsive attributes */
+
+@media (max-width: 768px) {
+    .sys-template-child-header-panel {
+        font-size: 14px;
+        font-weight: bolder;
+    }
 }
 @media (min-width: 768px) and (max-width: 992px) {
 }

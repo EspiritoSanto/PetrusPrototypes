@@ -74,28 +74,28 @@
                     "url": "security/data-entry/retrieval/internal/licensed-data-entry-retrieval",
                     "name": "Licenciados",
                     "alias": "licensed-data-entry-retrieval",
-                    "icon": "glyphicon glyphicon-list-alt text-muted",
+                    "icon": "glyphicon glyphicon-list-alt text-danger",
                     "activeClass": ""
                 },
                 {
                     "url": "security/data-entry/retrieval/internal/internalcurrencyquotation-data-entry-retrieval",
                     "name": "Cotações de Moedas",
                     "alias": "internalcurrencyquotation-data-entry-retrieval",
-                    "icon": "glyphicon glyphicon-list-alt text-muted",
+                    "icon": "glyphicon glyphicon-list-alt text-danger",
                     "activeClass": ""
                 },
                 {
                     "url": "security/data-entry/retrieval/internal/internaltranslation-data-entry-retrieval",
                     "name": "Traduções",
                     "alias": "internaltranslation-data-entry-retrieval",
-                    "icon": "glyphicon glyphicon-list-alt text-muted",
+                    "icon": "glyphicon glyphicon-list-alt text-danger",
                     "activeClass": ""
                 },
                 {
                     "url": "security/data-entry/retrieval/internal/internaloffice-data-entry-retrieval",
                     "name": "Cargos",
                     "alias": "internaloffice-data-entry-retrieval",
-                    "icon": "glyphicon glyphicon-list-alt text-muted",
+                    "icon": "glyphicon glyphicon-list-alt text-danger",
                     "activeClass": ""
                 }
             ]
@@ -144,28 +144,28 @@
                     "url": "security/data-entry/retrieval/internal/internalbrphysicalperson-data-entry-retrieval",
                     "name": "Pessoas Físicas Brasileiras",
                     "alias": "internalbrphysicalperson-data-entry-retrieval",
-                    "icon": "glyphicon glyphicon-list-alt text-muted",
+                    "icon": "glyphicon glyphicon-list-alt text-danger",
                     "activeClass": ""
                 },
                 {
                     "url": "security/data-entry/retrieval/internal/internalbrlegalentity-data-entry-retrieval",
                     "name": "Pessoas Jurídicas Brasileiras",
                     "alias": "internalbrlegalentity-data-entry-retrieval",
-                    "icon": "glyphicon glyphicon-list-alt text-muted",
+                    "icon": "glyphicon glyphicon-list-alt text-danger",
                     "activeClass": ""
                 },
                 {
                     "url": "security/data-entry/retrieval/internal/internalforeignphysicalperson-data-entry-retrieval",
                     "name": "Pessoas Físicas Estrangeiras",
                     "alias": "internalforeignphysicalperson-data-entry-retrieval",
-                    "icon": "glyphicon glyphicon-list-alt text-muted",
+                    "icon": "glyphicon glyphicon-list-alt text-danger",
                     "activeClass": ""
                 },
                 {
                     "url": "security/data-entry/retrieval/internal/internalforeignlegalentity-data-entry-retrieval",
                     "name": "Pessoas Jurídicas Estrangeiras",
                     "alias": "internalforeignlegalentity-data-entry-retrieval",
-                    "icon": "glyphicon glyphicon-list-alt text-muted",
+                    "icon": "glyphicon glyphicon-list-alt text-danger",
                     "activeClass": ""
                 }
             ]
@@ -312,21 +312,21 @@
                     "url": "security/data-entry/retrieval/internal/internalprofile-data-entry-retrieval",
                     "name": "Perfis",
                     "alias": "internalprofile-data-entry-retrieval",
-                    "icon": "glyphicon glyphicon-list-alt text-muted",
+                    "icon": "glyphicon glyphicon-list-alt text-danger",
                     "activeClass": ""
                 },
                 {
                     "url": "security/data-entry/retrieval/internal/internalmodule-data-entry-retrieval",
                     "name": "Módulos",
                     "alias": "internalmodule-data-entry-retrieval",
-                    "icon": "glyphicon glyphicon-list-alt text-muted",
+                    "icon": "glyphicon glyphicon-list-alt text-danger",
                     "activeClass": ""
                 },
                 {
                     "url": "security/data-entry/retrieval/internal/internalprogramuser-data-entry-retrieval",
                     "name": "Usuários",
                     "alias": "internalprogramuser-data-entry-retrieval",
-                    "icon": "glyphicon glyphicon-list-alt text-muted",
+                    "icon": "glyphicon glyphicon-list-alt text-danger",
                     "activeClass": ""
                 }
             ]
@@ -375,7 +375,7 @@
                     "url": "security/processing/internal/internalmailing-processing",
                     "name": "Envio de E-mails Internos",
                     "alias": "internalmailing-processing",
-                    "icon": "glyphicon glyphicon-cog text-muted",
+                    "icon": "glyphicon glyphicon-cog text-danger",
                     "activeClass": ""
                 },
                 {
@@ -396,35 +396,35 @@
                     "url": "security/retrieval/report-preview/internal/licensed-retrieval-report-preview",
                     "name": "Licenciados",
                     "alias": "licensed-retrieval-report-preview",
-                    "icon": "glyphicon glyphicon-print text-muted",
+                    "icon": "glyphicon glyphicon-print text-danger",
                     "activeClass": ""
                 },
                 {
                     "url": "security/retrieval/report-preview/internal/internalbrphysicalperson-retrieval-report-preview",
                     "name": "Pessoas Físicas Brasileiras",
                     "alias": "internalbrphysicalperson-retrieval-report-preview",
-                    "icon": "glyphicon glyphicon-print text-muted",
+                    "icon": "glyphicon glyphicon-print text-danger",
                     "activeClass": ""
                 },
                 {
                     "url": "security/retrieval/report-preview/internal/internalbrlegalentity-retrieval-report-preview",
                     "name": "Pessoas Jurídicas Brasileiras",
                     "alias": "internalbrlegalentity-retrieval-report-preview",
-                    "icon": "glyphicon glyphicon-print text-muted",
+                    "icon": "glyphicon glyphicon-print text-danger",
                     "activeClass": ""
                 },
                 {
                     "url": "security/retrieval/report-preview/internal/internalforeignphysicalperson-retrieval-report-preview",
                     "name": "Pessoas Físicas Estrangeiras",
                     "alias": "internalforeignphysicalperson-retrieval-report-preview",
-                    "icon": "glyphicon glyphicon-print text-muted",
+                    "icon": "glyphicon glyphicon-print text-danger",
                     "activeClass": ""
                 },
                 {
                     "url": "security/retrieval/report-preview/internal/internalforeignlegalentity-retrieval-report-preview",
                     "name": "Pessoas Jurídicas Estrangeiras",
                     "alias": "internalforeignlegalentity-retrieval-report-preview",
-                    "icon": "glyphicon glyphicon-print text-muted",
+                    "icon": "glyphicon glyphicon-print text-danger",
                     "activeClass": ""
                 }
             ]
@@ -473,35 +473,35 @@
                     "url": "security/retrieval/report-preview/internal/internaluserdossier-retrieval-report-preview",
                     "name": "Dociê de Usuário",
                     "alias": "internaluserdossier-retrieval-report-preview",
-                    "icon": "glyphicon glyphicon-print text-muted",
+                    "icon": "glyphicon glyphicon-print text-danger",
                     "activeClass": ""
                 },
                 {
                     "url": "security/retrieval/report-preview/internal/internaloperationlogginganalysis-retrieval-report-preview",
                     "name": "Auditoria de Operação",
                     "alias": "internaloperationlogginganalysis-retrieval-report-preview",
-                    "icon": "glyphicon glyphicon-print text-muted",
+                    "icon": "glyphicon glyphicon-print text-danger",
                     "activeClass": ""
                 },
                 {
                     "url": "security/retrieval/report-preview/internal/internaloperationloggingstatistic-retrieval-report-preview",
                     "name": "Estatística de Operação",
                     "alias": "internaloperationloggingstatistic-retrieval-report-preview",
-                    "icon": "glyphicon glyphicon-print text-muted",
+                    "icon": "glyphicon glyphicon-print text-danger",
                     "activeClass": ""
                 },
                 {
                     "url": "security/retrieval/report-preview/internal/systemloganalysis-retrieval-report-preview",
                     "name": "Análise de Log do Sistema",
                     "alias": "systemloganalysis-retrieval-report-preview",
-                    "icon": "glyphicon glyphicon-print text-muted",
+                    "icon": "glyphicon glyphicon-print text-danger",
                     "activeClass": ""
                 },
                 {
                     "url": "security/retrieval/report-preview/internal/systemlogstatistic-retrieval-report-preview",
                     "name": "Estatística de Log do Sistema",
                     "alias": "systemlogstatistic-retrieval-report-preview",
-                    "icon": "glyphicon glyphicon-print text-muted",
+                    "icon": "glyphicon glyphicon-print text-danger",
                     "activeClass": ""
                 }
             ]
