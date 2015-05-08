@@ -154,6 +154,13 @@
     font-size: 22px;    
 }
 
+.accordion-title-link {
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+}
+
 /* Put here elements with responsive attributes */
 
 @media (max-width: 768px) {
