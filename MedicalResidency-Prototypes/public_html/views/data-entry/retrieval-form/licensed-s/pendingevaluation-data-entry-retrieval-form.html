@@ -1,5 +1,24 @@
 <link href="/security/resources/system/css/system-ng-data-entry-retrieval-form.css" rel="stylesheet" />
 
+<style>
+    .panel-group .panel-heading {
+        padding: 0;
+        height: 38px;
+    }
+
+    .panel-group .panel-title {
+        height: 18px
+    }
+    
+    .panel-group .panel-title a {
+        text-decoration:none;
+        display: block;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 18px;
+    }
+</style>
+
 <!-- Header -->
 <div class="panel panel-default sys-template-child-header-panel">
     <div class="panel-heading">
@@ -12,12 +31,12 @@
 <!-- Content -->
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
     <div class="panel panel-default">
-        <div class="panel-heading sys-padding-0" role="tab" id="headingOne">
-            <a class="sys-padding-sm accordion-title-link" data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                I - Caracterização Geral do Programa
-            </a>
-            <!--<h1 class="panel-title">
-            </h1>-->
+        <div class="panel-heading" role="tab" id="headingOne">
+            <h2 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    I - Caracterização Geral do Programa
+                </a>
+            </h2>
         </div>
         <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
             <div class="panel-body">
@@ -25,12 +44,14 @@
             </div>
         </div>
     </div>
-    
+
     <div class="panel panel-default">
-        <div class="panel-heading sys-padding-0" role="tab" id="headingTwo">
-                <a class="sys-padding-sm accordion-title-link" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <div class="panel-heading" role="tab" id="headingTwo">
+            <h2 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     II - Infraestrutura
                 </a>
+            </h2>
         </div>
         <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
             <div class="panel-body">
@@ -38,12 +59,14 @@
             </div>
         </div>
     </div>
-    
+
     <div class="panel panel-default">
-        <div class="panel-heading sys-padding-0" role="tab" id="headingThree">
-                <a class="sys-padding-sm accordion-title-link" data-toggle="collapse" data-parent="#accordion" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <div class="panel-heading" role="tab" id="headingThree">
+            <h2 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     III - Corpo Docente
                 </a>
+            </h2>
         </div>
         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
             <div class="panel-body">
@@ -51,12 +74,14 @@
             </div>
         </div>
     </div>
-    
+
     <div class="panel panel-default">
-        <div class="panel-heading sys-padding-0" role="tab" id="headingFour">
-                <a class="sys-padding-sm accordion-title-link" data-toggle="collapse" data-parent="#accordion" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
+        <div class="panel-heading" role="tab" id="headingFour">
+            <h2 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
                     IV - Atividades de Formação
                 </a>
+            </h2>
         </div>
         <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
             <div class="panel-body">
@@ -66,10 +91,12 @@
     </div>
 
     <div class="panel panel-default">
-        <div class="panel-heading sys-padding-0" role="tab" id="headingFive">
-                <a class="sys-padding-sm accordion-title-link" data-toggle="collapse" data-parent="#accordion" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
+        <div class="panel-heading" role="tab" id="headingFive">
+            <h2 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
                     V - Atividades de Pesquisa e Produção Científica
                 </a>
+            </h2>
         </div>
         <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
             <div class="panel-body">
@@ -482,10 +509,12 @@
     </div>
 
     <div class="panel panel-default">
-        <div class="panel-heading sys-padding-0" role="tab" id="headingSix">
-                <a class="sys-padding-sm accordion-title-link" data-toggle="collapse" data-parent="#accordion" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+        <div class="panel-heading" role="tab" id="headingSix">
+            <h2 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
                     VI - Corpo Discente
                 </a>
+            </h2>
         </div>
         <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
             <div class="panel-body">
@@ -548,10 +577,12 @@
     </div>
 
     <div class="panel panel-default">
-        <div class="panel-heading sys-padding-0" role="tab" id="headingSeven">
-                <a class="sys-padding-sm accordion-title-link" data-toggle="collapse" data-parent="#accordion" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
+        <div class="panel-heading" role="tab" id="headingSeven">
+            <h2 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
                     VII - Avaliação do Serviço pelo Corpo Discente
                 </a>
+            </h2>
         </div>
         <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
             <div class="panel-body">
@@ -582,10 +613,12 @@
     </div>
 
     <div class="panel panel-default">
-        <div class="panel-heading sys-padding-0" role="tab" id="headingEight">
-                <a class="sys-padding-sm accordion-title-link" data-toggle="collapse" data-parent="#accordion" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseThree">
+        <div class="panel-heading" role="tab" id="headingEight">
+            <h2 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseThree">
                     VIII - Avaliação do Serviço pelo(s) Avaliador(es)
                 </a>
+            </h2>
         </div>
         <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
             <div class="panel-body">
@@ -637,7 +670,7 @@
             </div>
         </div>
     </div>
-    
+
 </div>
-    <!-- Content -->
+<!-- Content -->
 
