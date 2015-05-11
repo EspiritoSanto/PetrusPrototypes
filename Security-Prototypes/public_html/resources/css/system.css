@@ -381,6 +381,7 @@ body {
 .sys-dropdown-menu-index-row {
     margin-left: 17px;
     margin-right: 0;
+    padding-top: 10px; 
 }
 
 .sys-dropdown-menu-index-row > div {
@@ -395,6 +396,7 @@ body {
 }
 
 .sys-dropdown-menu-index-thumbnail-image {
+    padding-top: 10px;
     height: 40px;
     width: 40px;
 }
@@ -497,15 +499,6 @@ body {
 
 /* System content elements */
 
-.sys-jumbotron {
-    margin-top: 10%;
-}
-
-.sys-thumbnail-index {
-    height: 270px;
-    background-color: #f5f5f5;
-}
-
 .sys-thumbnail-index-title {
     font-size: 180% !important;
 }
@@ -517,10 +510,6 @@ body {
 /* Put here elements with responsive attributes */
 
 @media (max-width: 768px) {
-    .sys-jumbotron {
-        margin-top: 10px;
-    }
-
     .sys-thumbnail-index-title {
         font-size: 150% !important;
     }
@@ -530,9 +519,6 @@ body {
     }
 }
 @media (min-width: 768px) and (max-width: 992px) {
-    .sys-jumbotron {
-        margin-top: 3%;
-    }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
 }
