@@ -395,6 +395,10 @@ body {
     cursor: pointer;
 }
 
+.sys-dropdown-menu-index-thumbnail:hover {
+    text-decoration: none;
+}
+
 .sys-dropdown-menu-index-thumbnail-image {
     padding-top: 10px;
     height: 40px;
@@ -554,6 +558,29 @@ body {
         height: 150px; // The .sys-content-push height must be the same height as .sys-footer
         margin-top: 10px;
         padding-top: 10px;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+@media (min-width: 1200px) {
+}
+
+
+
+/* System child template elements */
+
+.sys-template-child-header-panel {
+    font-size: 22px;    
+}
+
+/* Put here elements with responsive attributes */
+
+@media (max-width: 768px) {
+    .sys-template-child-header-panel {
+        font-size: 14px;
+        font-weight: bolder;
     }
 }
 @media (min-width: 768px) and (max-width: 992px) {

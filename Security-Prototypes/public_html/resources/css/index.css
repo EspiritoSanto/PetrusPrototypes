@@ -1,3 +1,5 @@
+/* Elements with non-responsive attributes */
+
 main > div > div {
     padding-top: 15px;
 }
@@ -21,4 +23,15 @@ div > a > div > h3 {
 
 div > a > div > p {
     margin-bottom: 0;
+}
+
+/* Put here elements with responsive attributes */
+
+@media (max-width: 768px) {
+}
+@media (min-width: 768px) and (max-width: 992px) {
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+@media (min-width: 1200px) {
 }

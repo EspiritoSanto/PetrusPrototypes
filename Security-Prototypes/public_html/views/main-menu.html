@@ -17,8 +17,8 @@
         <link href="/security/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
         <link href="/security/resources/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" />
 
-        <link href="/security/resources/system/css/system.css" rel="stylesheet" />
-        <link href="/security/resources/system/css/system-ng.css" rel="stylesheet" />
+        <link href="/security/resources/css/system.css" rel="stylesheet" />
+        <link href="/security/resources/css/main-menu.css" rel="stylesheet" />
     </head>
     <body ng-controller="SystemCtrl">
         <div class="sys-wrapper">
@@ -40,14 +40,14 @@
                                     <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" id="dropdownMenuLoggedUser">
                                         <span class="glyphicon glyphicon-user"></span>
                                         &nbsp;
-                                        <strong>Raimundo Santo (ABORL-CCF)</strong>
+                                        <strong>Raimundo Santo (GN1)</strong>
                                         &nbsp;
                                         <span class="caret"></span>
                                     </button>
                                     <ul class="dropdown-menu sys-dropdown-menu-mobile" role="menu" aria-labelledby="dropdownMenuLoggedUser">
                                         <li role="presentation">
                                             <p class="text-center">
-                                                <img src="../resources/images/icons/user-icon.png" alt="User image" height="150" width="150" class="img-rounded">
+                                                <img src="/security/resources/images/icons/user-icon.png" alt="User image" height="150" width="150" class="img-rounded">
                                             </p>
                                         </li>
                                         <li role="presentation" class="dropdown-header text-center">
@@ -74,7 +74,7 @@
                                     <ul class="dropdown-menu sys-dropdown-menu-mobile sys-dropdown-menu-index" role="menu" aria-labelledby="dropdownMenuIndex">
                                         <li role="presentation">
 
-                                            <div class="row text-center sys-padding-sm-top sys-dropdown-menu-index-row">
+                                            <div class="row text-center sys-dropdown-menu-index-row">
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                                                     <a href="/security/views/main-menu.html#/accounting/default" class="thumbnail sys-dropdown-menu-index-thumbnail">
                                                         <img class="sys-padding-sm-top sys-dropdown-menu-index-thumbnail-image" src="/security/resources/images/icons/softwares/accounting-software-icon.png" alt="Accounting software icon">
@@ -254,12 +254,12 @@
                         <div class="row ng-cloak">
 
                             <div class="col-lg-4 col-md-4 col-sm-12 col-sm-12">
-                                <div class="sys-margin-sm-top" id="sideMenu">
+                                <div id="sideMenu">
                                     <div class="container-fluid" id="sideMenuModuleHeading">
                                         <div class="row">
                                             <div class="col-lg-12">
                                                 <div class="panel panel-primary">
-                                                    <div class="panel-heading text-nowrap " ng-cloak>
+                                                    <div class="panel-heading text-nowrap" ng-cloak>
                                                         <img ng-src="{{mainMenuStructure.moduleIconPath}}" alt="{{mainMenuStructure.moduleName}} software icon" height="26" width="26">
                                                         &nbsp;
                                                         <span>{{mainMenuStructure.moduleName}}</span>
@@ -275,12 +275,9 @@
                                     </a>
                                     <div class="panel-group collapse in" id="sideMenuAccordion">
                                         <div ng-repeat="menu in mainMenuStructure.menus" class="panel panel-default">
-                                            <div class="panel-heading sys-padding-0">
+                                            <div class="panel-heading">
                                                 <a data-toggle="collapse" data-parent="#sideMenuAccordion" data-target="#collapse{{menu.alias}}">
-                                                    <p class="panel-title sys-padding-xs">
-                                                        &nbsp;
-                                                        <span class="{{menu.icon}}"></span>
-                                                        &nbsp;
+                                                    <p class="panel-title">
                                                         {{menu.denomination}}
                                                     </p>
                                                 </a>
@@ -304,7 +301,7 @@
                             </div>
 
                             <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                                <div class="sys-margin-sm-top sys-content-view" ng-view>
+                                <div id="childTemplateView" ng-view>
                                     Loading...
                                 </div>
                             </div>
@@ -350,14 +347,7 @@
         <script src="/security/resources/angular/angular.min.js"></script>
         <script src="/security/resources/angular/angular-route.min.js"></script>
 
-        <script src="/security/resources/system/js/system.js"></script>
-        <script src="/security/resources/system/js/system-ng.js"></script>
-        <script src="/security/resources/system/js/system-ng-default.js"></script>
-        <script src="/security/resources/system/js/system-ng-data-entry-retrieval.js"></script>
-        <script src="/security/resources/system/js/system-ng-data-entry-form.js"></script>
-        <script src="/security/resources/system/js/system-ng-processing.js"></script>
-        <script src="/security/resources/system/js/system-ng-retrieval-report-preview.js"></script>
-        <script src="/security/resources/system/js/system-ng-retrieval-report.js"></script>
-        <script src="/security/resources/system/js/system-ng-complex-routine.js"></script>
+        <script src="/security/resources/js/system.js"></script>
+        <script src="/security/resources/js/main-menu.js"></script>
     </body>
 </html>
