@@ -89,6 +89,30 @@ module.directive('menuItemLink', ['$location', function ($location) {
             link: function (scope, element) {
                 scope.location = $location;
                 scope.$watch('location.path()', function (newValue, oldValue) {
+
+                    var newValueDataEntryRetrievalDetailSufix = newValue.substring(newValue.length - 27);
+                    var newValueDataEntryRetrievalFormSufix = newValue.substring(newValue.length - 25);
+
+                    var oldValueDataEntryRetrievalDetailSufix = oldValue.substring(oldValue.length - 27);
+                    var oldValueDataEntryRetrievalFormSufix = oldValue.substring(oldValue.length - 25);
+
+                    if (newValueDataEntryRetrievalDetailSufix === 'data-entry-retrieval-detail') {
+                        newValue = newValue.substring(0, newValue.length - 27).replace('-detail', '') + 'data-entry-retrieval';
+                    }
+                    if (newValueDataEntryRetrievalFormSufix === 'data-entry-retrieval-form') {
+                        newValue = newValue.substring(0, newValue.length - 25).replace('-form', '') + 'data-entry-retrieval';
+                    }
+
+                    if (oldValueDataEntryRetrievalDetailSufix === 'data-entry-retrieval-detail') {
+                        oldValue = oldValue.substring(0, oldValue.length - 27).replace('-detail', '') + 'data-entry-retrieval';
+                    }
+                    if (oldValueDataEntryRetrievalFormSufix === 'data-entry-retrieval-form') {
+                        oldValue = oldValue.substring(0, oldValue.length - 25).replace('-form', '') + 'data-entry-retrieval';
+                    }
+
+                    //console.log(newValue);
+                    //console.log(oldValue);
+
                     if ('#' + newValue === element[0].attributes['href'].value) {
                         element.parent().addClass('active');
                         element.focus();
@@ -103,7 +127,7 @@ module.directive('menuItemLink', ['$location', function ($location) {
                                 value = value.substring(0, value.indexOf("/")).split("").reverse().join("");
                                 return jQuery('#' + value).closest('.collapse').attr('id');
                             };
-                            
+
                             newCollapse = getCollapseIdByValue(newValue);
                             oldCollapse = getCollapseIdByValue(oldValue);
                             if (oldCollapse !== undefined && oldCollapse !== newCollapse) {
