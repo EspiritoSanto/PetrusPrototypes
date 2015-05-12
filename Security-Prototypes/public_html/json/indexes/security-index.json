@@ -91,9 +91,9 @@
             "alias": "Tables",
             "menuItens": [
                 {
-                    "url": "security/data-entry/form/licensed-s/parameters-data-entry-form",
+                    "url": "security/data-entry/form-detail/licensed-s/parameters-data-entry-form-detail",
                     "name": "Parâmetros",
-                    "alias": "parameters-data-entry-form",
+                    "alias": "parameters-data-entry-form-detail",
                     "icon": "glyphicon glyphicon-th-list text-danger"
                 },
                 {
