@@ -68,19 +68,19 @@
                 },
                 {
                     "url": "security/data-entry/retrieval/internal/internalcurrencyquotation-data-entry-retrieval",
-                    "name": "Cotações de Moedas",
+                    "name": "Cotações de Moedas Internas",
                     "alias": "internalcurrencyquotation-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-th-list text-danger"
                 },
                 {
                     "url": "security/data-entry/retrieval/internal/internaltranslation-data-entry-retrieval",
-                    "name": "Traduções",
+                    "name": "Traduções Internas",
                     "alias": "internaltranslation-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-th-list text-danger"
                 },
                 {
                     "url": "security/data-entry/retrieval/internal/internaloffice-data-entry-retrieval",
-                    "name": "Cargos",
+                    "name": "Cargos Internos",
                     "alias": "internaloffice-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-th-list text-danger"
                 }
@@ -122,25 +122,25 @@
             "menuItens": [
                 {
                     "url": "security/data-entry/retrieval/internal/internalbrphysicalperson-data-entry-retrieval",
-                    "name": "Pessoas Físicas Brasileiras",
+                    "name": "Pessoas Físicas Brasileiras Internas",
                     "alias": "internalbrphysicalperson-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-th-list text-danger"
                 },
                 {
                     "url": "security/data-entry/retrieval/internal/internalbrlegalentity-data-entry-retrieval",
-                    "name": "Pessoas Jurídicas Brasileiras",
+                    "name": "Pessoas Jurídicas Brasileiras Internas",
                     "alias": "internalbrlegalentity-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-th-list text-danger"
                 },
                 {
                     "url": "security/data-entry/retrieval/internal/internalforeignphysicalperson-data-entry-retrieval",
-                    "name": "Pessoas Físicas Estrangeiras",
+                    "name": "Pessoas Físicas Estrangeiras Internas",
                     "alias": "internalforeignphysicalperson-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-th-list text-danger"
                 },
                 {
                     "url": "security/data-entry/retrieval/internal/internalforeignlegalentity-data-entry-retrieval",
-                    "name": "Pessoas Jurídicas Estrangeiras",
+                    "name": "Pessoas Jurídicas Estrangeiras Internas",
                     "alias": "internalforeignlegalentity-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-th-list text-danger"
                 }
@@ -266,19 +266,19 @@
             "menuItens": [
                 {
                     "url": "security/data-entry/retrieval/internal/internalprofile-data-entry-retrieval",
-                    "name": "Perfis",
+                    "name": "Perfis Internos",
                     "alias": "internalprofile-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-th-list text-danger"
                 },
                 {
                     "url": "security/data-entry/retrieval/internal/internalmodule-data-entry-retrieval",
-                    "name": "Módulos",
+                    "name": "Módulos Internos",
                     "alias": "internalmodule-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-th-list text-danger"
                 },
                 {
                     "url": "security/data-entry/retrieval/internal/internalprogramuser-data-entry-retrieval",
-                    "name": "Usuários",
+                    "name": "Usuários Internos",
                     "alias": "internalprogramuser-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-th-list text-danger"
                 }
@@ -337,33 +337,33 @@
             "alias": "InternalReports",
             "menuItens": [
                 {
-                    "url": "security/retrieval/report-preview/internal/licensed-retrieval-report-preview",
+                    "url": "security/retrieval/preview/internal/licensed-retrieval-preview",
                     "name": "Licenciados",
-                    "alias": "licensed-retrieval-report-preview",
+                    "alias": "licensed-retrieval-preview",
                     "icon": "glyphicon glyphicon-print text-danger"
                 },
                 {
-                    "url": "security/retrieval/report-preview/internal/internalbrphysicalperson-retrieval-report-preview",
-                    "name": "Pessoas Físicas Brasileiras",
-                    "alias": "internalbrphysicalperson-retrieval-report-preview",
+                    "url": "security/retrieval/preview/internal/internalbrphysicalperson-retrieval-preview",
+                    "name": "Pessoas Físicas Brasileiras Internas",
+                    "alias": "internalbrphysicalperson-retrieval-preview",
                     "icon": "glyphicon glyphicon-print text-danger"
                 },
                 {
-                    "url": "security/retrieval/report-preview/internal/internalbrlegalentity-retrieval-report-preview",
-                    "name": "Pessoas Jurídicas Brasileiras",
-                    "alias": "internalbrlegalentity-retrieval-report-preview",
+                    "url": "security/retrieval/preview/internal/internalbrlegalentity-retrieval-preview",
+                    "name": "Pessoas Jurídicas Brasileiras Internas",
+                    "alias": "internalbrlegalentity-retrieval-preview",
                     "icon": "glyphicon glyphicon-print text-danger"
                 },
                 {
-                    "url": "security/retrieval/report-preview/internal/internalforeignphysicalperson-retrieval-report-preview",
-                    "name": "Pessoas Físicas Estrangeiras",
-                    "alias": "internalforeignphysicalperson-retrieval-report-preview",
+                    "url": "security/retrieval/preview/internal/internalforeignphysicalperson-retrieval-preview",
+                    "name": "Pessoas Físicas Estrangeiras Internas",
+                    "alias": "internalforeignphysicalperson-retrieval-preview",
                     "icon": "glyphicon glyphicon-print text-danger"
                 },
                 {
-                    "url": "security/retrieval/report-preview/internal/internalforeignlegalentity-retrieval-report-preview",
-                    "name": "Pessoas Jurídicas Estrangeiras",
-                    "alias": "internalforeignlegalentity-retrieval-report-preview",
+                    "url": "security/retrieval/preview/internal/internalforeignlegalentity-retrieval-preview",
+                    "name": "Pessoas Jurídicas Estrangeiras Internas",
+                    "alias": "internalforeignlegalentity-retrieval-preview",
                     "icon": "glyphicon glyphicon-print text-danger"
                 }
             ]
@@ -373,27 +373,27 @@
             "alias": "Reports",
             "menuItens": [
                 {
-                    "url": "security/retrieval/report-preview/licensed-s/licensedsbrphysicalperson-retrieval-report-preview",
+                    "url": "security/retrieval/preview/licensed-s/licensedsbrphysicalperson-retrieval-preview",
                     "name": "Pessoas Físicas Brasileiras",
-                    "alias": "licensedsbrphysicalperson-retrieval-report-preview",
+                    "alias": "licensedsbrphysicalperson-retrieval-preview",
                     "icon": "glyphicon glyphicon-print text-danger"
                 },
                 {
-                    "url": "security/retrieval/report-preview/licensed-s/licensedsbrlegalentity-retrieval-report-preview",
+                    "url": "security/retrieval/preview/licensed-s/licensedsbrlegalentity-retrieval-preview",
                     "name": "Pessoas Jurídicas Brasileiras",
-                    "alias": "licensedsbrlegalentity-retrieval-report-preview",
+                    "alias": "licensedsbrlegalentity-retrieval-preview",
                     "icon": "glyphicon glyphicon-print text-danger"
                 },
                 {
-                    "url": "security/retrieval/report-preview/licensed-s/licensedsforeignphysicalperson-retrieval-report-preview",
+                    "url": "security/retrieval/preview/licensed-s/licensedsforeignphysicalperson-retrieval-preview",
                     "name": "Pessoas Físicas Estrangeiras",
-                    "alias": "licensedsforeignphysicalperson-retrieval-report-preview",
+                    "alias": "licensedsforeignphysicalperson-retrieval-preview",
                     "icon": "glyphicon glyphicon-print text-danger"
                 },
                 {
-                    "url": "security/retrieval/report-preview/licensed-s/licensedsforeignlegalentity-retrieval-report-preview",
+                    "url": "security/retrieval/preview/licensed-s/licensedsforeignlegalentity-retrieval-preview",
                     "name": "Pessoas Jurídicas Estrangeiras",
-                    "alias": "licensedsforeignlegalentity-retrieval-report-preview",
+                    "alias": "licensedsforeignlegalentity-retrieval-preview",
                     "icon": "glyphicon glyphicon-print text-danger"
                 }
             ]
@@ -403,33 +403,33 @@
             "alias": "InternalSecurityReports",
             "menuItens": [
                 {
-                    "url": "security/retrieval/report-preview/internal/internaluserdossier-retrieval-report-preview",
-                    "name": "Dociê de Usuário",
-                    "alias": "internaluserdossier-retrieval-report-preview",
+                    "url": "security/retrieval/preview/internal/internaluserdossier-retrieval-preview",
+                    "name": "Dociê de Usuário Interno",
+                    "alias": "internaluserdossier-retrieval-preview",
                     "icon": "glyphicon glyphicon-print text-danger"
                 },
                 {
-                    "url": "security/retrieval/report-preview/internal/internaloperationlogginganalysis-retrieval-report-preview",
-                    "name": "Auditoria de Operação",
-                    "alias": "internaloperationlogginganalysis-retrieval-report-preview",
+                    "url": "security/retrieval/preview/internal/internaloperationlogginganalysis-retrieval-preview",
+                    "name": "Auditoria de Operação Interna",
+                    "alias": "internaloperationlogginganalysis-retrieval-preview",
                     "icon": "glyphicon glyphicon-print text-danger"
                 },
                 {
-                    "url": "security/retrieval/report-preview/internal/internaloperationloggingstatistic-retrieval-report-preview",
-                    "name": "Estatística de Operação",
-                    "alias": "internaloperationloggingstatistic-retrieval-report-preview",
+                    "url": "security/retrieval/preview/internal/internaloperationloggingstatistic-retrieval-preview",
+                    "name": "Estatística de Operação Interna",
+                    "alias": "internaloperationloggingstatistic-retrieval-preview",
                     "icon": "glyphicon glyphicon-print text-danger"
                 },
                 {
-                    "url": "security/retrieval/report-preview/internal/systemloganalysis-retrieval-report-preview",
+                    "url": "security/retrieval/preview/internal/systemloganalysis-retrieval-preview",
                     "name": "Análise de Log do Sistema",
-                    "alias": "systemloganalysis-retrieval-report-preview",
+                    "alias": "systemloganalysis-retrieval-preview",
                     "icon": "glyphicon glyphicon-print text-danger"
                 },
                 {
-                    "url": "security/retrieval/report-preview/internal/systemlogstatistic-retrieval-report-preview",
+                    "url": "security/retrieval/preview/internal/systemlogstatistic-retrieval-preview",
                     "name": "Estatística de Log do Sistema",
-                    "alias": "systemlogstatistic-retrieval-report-preview",
+                    "alias": "systemlogstatistic-retrieval-preview",
                     "icon": "glyphicon glyphicon-print text-danger"
                 }
             ]
@@ -439,21 +439,21 @@
             "alias": "SecurityReports",
             "menuItens": [
                 {
-                    "url": "security/retrieval/report-preview/licensed-s/licensedsuserdossier-retrieval-report-preview",
+                    "url": "security/retrieval/preview/licensed-s/licensedsuserdossier-retrieval-preview",
                     "name": "Dociê de Usuário",
-                    "alias": "licensedsuserdossier-retrieval-report-preview",
+                    "alias": "licensedsuserdossier-retrieval-preview",
                     "icon": "glyphicon glyphicon-print text-danger"
                 },
                 {
-                    "url": "security/retrieval/report-preview/licensed-s/licensedsoperationlogginganalysis-retrieval-report-preview",
+                    "url": "security/retrieval/preview/licensed-s/licensedsoperationlogginganalysis-retrieval-preview",
                     "name": "Auditoria de Operação",
-                    "alias": "licensedsoperationlogginganalysis-retrieval-report-preview",
+                    "alias": "licensedsoperationlogginganalysis-retrieval-preview",
                     "icon": "glyphicon glyphicon-print text-danger"
                 },
                 {
-                    "url": "security/retrieval/report-preview/licensed-s/licensedsoperationloggingstatistic-report-preview",
+                    "url": "security/retrieval/preview/licensed-s/licensedsoperationloggingstatistic-retrieval-preview",
                     "name": "Estatística de Operação",
-                    "alias": "licensedsoperationloggingstatistic-report-preview",
+                    "alias": "licensedsoperationloggingstatistic-retrieval-preview",
                     "icon": "glyphicon glyphicon-print text-danger"
                 }
             ]

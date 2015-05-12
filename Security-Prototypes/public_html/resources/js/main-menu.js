@@ -93,9 +93,6 @@ module.directive('menuItemLink', ['$location', function ($location) {
                     var newValueDataEntryRetrievalDetailSufix = newValue.substring(newValue.length - 27);
                     var newValueDataEntryRetrievalFormSufix = newValue.substring(newValue.length - 25);
 
-                    var oldValueDataEntryRetrievalDetailSufix = oldValue.substring(oldValue.length - 27);
-                    var oldValueDataEntryRetrievalFormSufix = oldValue.substring(oldValue.length - 25);
-
                     if (newValueDataEntryRetrievalDetailSufix === 'data-entry-retrieval-detail') {
                         newValue = newValue.substring(0, newValue.length - 27).replace('-detail', '') + 'data-entry-retrieval';
                     }
@@ -103,15 +100,15 @@ module.directive('menuItemLink', ['$location', function ($location) {
                         newValue = newValue.substring(0, newValue.length - 25).replace('-form', '') + 'data-entry-retrieval';
                     }
 
+                    var oldValueDataEntryRetrievalDetailSufix = oldValue.substring(oldValue.length - 27);
+                    var oldValueDataEntryRetrievalFormSufix = oldValue.substring(oldValue.length - 25);
+
                     if (oldValueDataEntryRetrievalDetailSufix === 'data-entry-retrieval-detail') {
                         oldValue = oldValue.substring(0, oldValue.length - 27).replace('-detail', '') + 'data-entry-retrieval';
                     }
                     if (oldValueDataEntryRetrievalFormSufix === 'data-entry-retrieval-form') {
                         oldValue = oldValue.substring(0, oldValue.length - 25).replace('-form', '') + 'data-entry-retrieval';
                     }
-
-                    //console.log(newValue);
-                    //console.log(oldValue);
 
                     if ('#' + newValue === element[0].attributes['href'].value) {
                         element.parent().addClass('active');
