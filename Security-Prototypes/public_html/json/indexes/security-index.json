@@ -49,7 +49,7 @@
                     "icon": "glyphicon glyphicon-th-list text-danger"
                 },
                 {
-                    "url": "security/data-entry/retrieval/general/non-businessdays-data-entry-retrieval",
+                    "url": "security/data-entry/retrieval/general/nonbusinessdays-data-entry-retrieval",
                     "name": "Dias Não Úteis",
                     "alias": "non-businessdays-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-th-list text-danger"
