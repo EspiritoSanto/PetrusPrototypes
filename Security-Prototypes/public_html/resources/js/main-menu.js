@@ -115,22 +115,22 @@ module.directive('menuItemLink', ['$location', function ($location) {
                         element.focus();
                         element.closest('.collapse').addClass('in').css('height', 'auto');
                     }
+
+                    var getCollapseIdByValue = function (value) {
+                        value = value.split("").reverse().join("");
+                        value = value.substring(0, value.indexOf("/")).split("").reverse().join("");
+                        return jQuery('#' + value).closest('.collapse').attr('id');
+                    };
+
+                    var newCollapse = getCollapseIdByValue(newValue);
+
                     if (newValue !== oldValue) {
                         if ('#' + oldValue === element[0].attributes['href'].value) {
                             element.parent().removeClass('active');
-
-                            var getCollapseIdByValue = function (value) {
-                                value = value.split("").reverse().join("");
-                                value = value.substring(0, value.indexOf("/")).split("").reverse().join("");
-                                return jQuery('#' + value).closest('.collapse').attr('id');
-                            };
-
-                            newCollapse = getCollapseIdByValue(newValue);
-                            oldCollapse = getCollapseIdByValue(oldValue);
-                            if (oldCollapse !== undefined && oldCollapse !== newCollapse) {
-                                element.closest('.collapse').removeClass('in');
-                            }
                         }
+                    }
+                    if (element.closest('.collapse').attr('id') !== newCollapse) {
+                        element.closest('.collapse').removeClass('in');
                     }
                 });
             }
