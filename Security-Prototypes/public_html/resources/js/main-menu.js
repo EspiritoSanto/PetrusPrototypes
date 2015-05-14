@@ -92,6 +92,7 @@ module.directive('menuItemLink', ['$location', function ($location) {
 
                     var newValueDataEntryRetrievalDetailSufix = newValue.substring(newValue.length - 27);
                     var newValueDataEntryRetrievalFormSufix = newValue.substring(newValue.length - 25);
+                    var newValueDataEntryFormSufix = newValue.substring(newValue.length - 15);
 
                     if (newValueDataEntryRetrievalDetailSufix === 'data-entry-retrieval-detail') {
                         newValue = newValue.substring(0, newValue.length - 27).replace('-detail', '') + 'data-entry-retrieval';
@@ -99,15 +100,22 @@ module.directive('menuItemLink', ['$location', function ($location) {
                     if (newValueDataEntryRetrievalFormSufix === 'data-entry-retrieval-form') {
                         newValue = newValue.substring(0, newValue.length - 25).replace('-form', '') + 'data-entry-retrieval';
                     }
+                    if (newValueDataEntryFormSufix === 'data-entry-form') {
+                        newValue = newValue.substring(0, newValue.length - 15).replace('/form', '/form-detail') + 'data-entry-form-detail';
+                    }
 
                     var oldValueDataEntryRetrievalDetailSufix = oldValue.substring(oldValue.length - 27);
                     var oldValueDataEntryRetrievalFormSufix = oldValue.substring(oldValue.length - 25);
+                    var oldValueDataEntryFormSufix = oldValue.substring(oldValue.length - 15);
 
                     if (oldValueDataEntryRetrievalDetailSufix === 'data-entry-retrieval-detail') {
                         oldValue = oldValue.substring(0, oldValue.length - 27).replace('-detail', '') + 'data-entry-retrieval';
                     }
                     if (oldValueDataEntryRetrievalFormSufix === 'data-entry-retrieval-form') {
                         oldValue = oldValue.substring(0, oldValue.length - 25).replace('-form', '') + 'data-entry-retrieval';
+                    }
+                    if (oldValueDataEntryFormSufix === 'data-entry-form') {
+                        oldValue = oldValue.substring(0, oldValue.length - 15).replace('/form', '/form-detail') + 'data-entry-form-detail';
                     }
 
                     if ('#' + newValue === element[0].attributes['href'].value) {

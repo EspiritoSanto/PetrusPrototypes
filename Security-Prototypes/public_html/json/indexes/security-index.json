@@ -38,13 +38,13 @@
                 },
                 {
                     "url": "security/data-entry/retrieval/general/currencyquotation-data-entry-retrieval",
-                    "name": "Cotações de Moedas",
+                    "name": "Cotações de Moedas Gerais",
                     "alias": "currencyquotation-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-th-list text-danger"
                 },
                 {
                     "url": "security/data-entry/retrieval/general/translation-data-entry-retrieval",
-                    "name": "Traduções",
+                    "name": "Traduções Gerais",
                     "alias": "translation-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-th-list text-danger"
                 },

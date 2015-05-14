@@ -1,0 +1,29 @@
+[
+    {
+        "flagPath": "/security/fake/images/country-flags/BR.PNG",
+        "id": "1",
+        "country": "Brasil",
+        "iso2Code": "BR",
+        "iso3Code": "BRA",
+        "internationalDialingCode": "55",
+        "active": "Sim"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/US.PNG",
+        "id": "2",
+        "country": "Estados Unidos da Amárica",
+        "iso2Code": "US",
+        "iso3Code": "USA",
+        "internationalDialingCode": "11",
+        "active": "Sim"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/AR.PNG",
+        "id": "3",
+        "country": "Argentina",
+        "iso2Code": "AR",
+        "iso3Code": "ARG",
+        "internationalDialingCode": "13",
+        "active": "Não"
+    }
+]

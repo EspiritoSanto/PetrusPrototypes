@@ -1,8 +1,26 @@
+<link href="/security/resources/bootstrap-table/bootstrap-table.min.css" rel="stylesheet" />
 <link href="/security/resources/css/data-entry/retrieval/data-entry-retrieval.css" rel="stylesheet" />
 <link href="/security/resources/css/data-entry/retrieval/general/country-data-entry-retrieval.css" rel="stylesheet" />
 
+<script src="/security/resources/bootstrap-table/bootstrap-table.min.js"></script>
+<script src="/security/resources/bootstrap-table/locale/bootstrap-table-pt-BR.min.js"></script>
 <script src="/security/resources/js/data-entry/retrieval/data-entry-retrieval.js"></script>
 <script src="/security/resources/js/data-entry/retrieval/general/country-data-entry-retrieval.js"></script>
+
+<script>
+    //jQuery('.table').bootstrapTable('destroy').bootstrapTable();
+    function funcao() {
+        
+    }
+    window.setTimeout("funcao()", 13000);
+
+
+    function imageFormatter(value, row) {
+        console.log(value);
+        return '<img src="' + value + '" alt="Flag" style="width:30px" />';
+    }
+
+</script>
 
 <!-- Header -->
 <div class="panel panel-default sys-template-child-header-panel">
@@ -14,7 +32,7 @@
 <!-- Header -->
 
 <!-- Filter -->
-<div class="accordion" id="panelFilterAccordion">
+<!--<div class="accordion" id="panelFilterAccordion">
     <div class="panel panel-default">
 
         <div class="panel-heading">
@@ -55,7 +73,7 @@
         <div id="collapseFilter" class="panel-collapse collapse">
             <div class="panel-body">
                 <label>Filtrar pelo campo:</label>
-                <div class="row"> <!-- ng-controller="DataEntryRetrievalFilterCtrl" -->
+                <div class="row">
                     <div class="col-md-3">
                         <label class="gn1-margin-xs-top">Campo</label>
                         <select class="form-control input-sm selectpicker" ng-model="filterField" ng-change="filterFieldChange()" ng-options="filterField.columnLabel for filterField in filterFields"></select>
@@ -101,7 +119,34 @@
         </div>
 
     </div>
-</div>
+</div>-->
 <!-- /Filter -->
 
+<table data-toggle="table"
+       data-url="/security/json/retrievals/country.json"
+       data-classes="table table-hover table-condensed"
+       data-striped="true"
+       data-sort-name="country"
+       data-search="true"
+       data-show-refresh="true"
+       data-show-toggle="true"
+       data-show-columns="true"
+       data-pagination="true"
+       data-show-pagination-switch="true"
+       data-page-list="[10, 25, 50, 100, Todos]">
+    <thead>
+        <tr>
+            <th class="col-xs-1" data-halign="center" data-formatter="imageFormatter" data-align="center"  data-sortable="false" data-switchable="true" data-field="flagPath">Foto</th>
+            <th class="col-xs-1" data-halign="right"  data-align="right"  data-sortable="true" data-switchable="true" data-field="id">Código</th>
+            <th class="col-xs-6" data-halign="left"   data-align="left"   data-sortable="true" data-switchable="false" data-field="country">País</th>
+            <th class="col-xs-1" data-halign="center" data-align="center" data-sortable="true" data-switchable="true" data-field="iso2Code">ISO Alfa 2</th>
+            <th class="col-xs-1" data-halign="center" data-align="center" data-sortable="true" data-switchable="true"  data-field="iso3Code">ISO Alfa 3</th>
+            <th class="col-xs-1" data-halign="center" data-align="center" data-sortable="true" data-switchable="true"  data-field="internationalDialingCode">CDI</th>
+            <th class="col-xs-1" data-halign="center" data-align="center" data-sortable="true" data-switchable="true" data-field="active">Ativo</th>
+        </tr>
+    </thead>
+</table>
+
+
 <a href="#/security/data-entry/retrieval-detail/general/country-data-entry-retrieval-detail">Ir para o detalhe</a>
+
