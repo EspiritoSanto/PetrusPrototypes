@@ -2,7 +2,7 @@
 <link href="/security/resources/css/data-entry/retrieval/data-entry-retrieval.css" rel="stylesheet" />
 <link href="/security/resources/css/data-entry/retrieval/general/country-data-entry-retrieval.css" rel="stylesheet" />
 
-
+<div ng-controller="countryDataEntryRetrievalCtrl">
 <!-- Header -->
 <div class="panel panel-default sys-template-child-header-panel">
     <div class="panel-heading">
@@ -104,7 +104,7 @@
 <!-- /Filter -->
 
 <table id="CountryTable"
-       data-url="/security/json/retrievals/country.json"
+       country-data-entry-retrieval-directive
        data-classes="table table-hover table-condensed bs-table"
        data-striped="true"
        data-sort-name="country"
@@ -164,7 +164,7 @@
         return '<img src="' + value + '" alt="Country flag of ID: ' + row.id + '" style="width:30px" />';
     }
 
-    jQuery('#CountryTable').bootstrapTable({
+    jQuery('#CountryTable').bootstrapTable({        
         pageList: [10, 25, 50, 100, jQuery.fn.bootstrapTable.defaults.formatAllRows()]
     });
 </script>
@@ -172,3 +172,5 @@
     //bootstrap-table
 
 </style>
+
+</div> 

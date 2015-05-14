@@ -1,4 +1,4 @@
-var module = angular.module('application', ['ngRoute']);
+var module = angular.module('system', ['ngRoute','system.countryDataEntryRetrieval']);
 
 module.config(['$routeProvider', function ($routeProvider) {
         $routeProvider
