@@ -1,1 +1,4 @@
 /* css here */
+.bootstrap-table .pagination-detail {
+    padding-right: 10px;
+}

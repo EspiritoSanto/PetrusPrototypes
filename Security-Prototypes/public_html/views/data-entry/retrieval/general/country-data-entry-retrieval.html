@@ -2,25 +2,6 @@
 <link href="/security/resources/css/data-entry/retrieval/data-entry-retrieval.css" rel="stylesheet" />
 <link href="/security/resources/css/data-entry/retrieval/general/country-data-entry-retrieval.css" rel="stylesheet" />
 
-<script src="/security/resources/bootstrap-table/bootstrap-table.min.js"></script>
-<script src="/security/resources/bootstrap-table/locale/bootstrap-table-pt-BR.min.js"></script>
-<script src="/security/resources/js/data-entry/retrieval/data-entry-retrieval.js"></script>
-<script src="/security/resources/js/data-entry/retrieval/general/country-data-entry-retrieval.js"></script>
-
-<script>
-    //jQuery('.table').bootstrapTable('destroy').bootstrapTable();
-    function funcao() {
-        
-    }
-    window.setTimeout("funcao()", 13000);
-
-
-    function imageFormatter(value, row) {
-        console.log(value);
-        return '<img src="' + value + '" alt="Flag" style="width:30px" />';
-    }
-
-</script>
 
 <!-- Header -->
 <div class="panel panel-default sys-template-child-header-panel">
@@ -122,9 +103,9 @@
 </div>-->
 <!-- /Filter -->
 
-<table data-toggle="table"
+<table id="CountryTable"
        data-url="/security/json/retrievals/country.json"
-       data-classes="table table-hover table-condensed"
+       data-classes="table table-hover table-condensed bs-table"
        data-striped="true"
        data-sort-name="country"
        data-search="true"
@@ -132,16 +113,20 @@
        data-show-toggle="true"
        data-show-columns="true"
        data-pagination="true"
-       data-show-pagination-switch="true"
-       data-page-list="[10, 25, 50, 100, Todos]">
+       data-minimum-count-columns=0
+       data-id-field="id"
+       data-pagination-v-align="both"
+       data-search-align="left"
+       data-buttons-align="left"
+       data-pagination-h-align="left">  
     <thead>
         <tr>
-            <th class="col-xs-1" data-halign="center" data-formatter="imageFormatter" data-align="center"  data-sortable="false" data-switchable="true" data-field="flagPath">Foto</th>
-            <th class="col-xs-1" data-halign="right"  data-align="right"  data-sortable="true" data-switchable="true" data-field="id">Código</th>
-            <th class="col-xs-6" data-halign="left"   data-align="left"   data-sortable="true" data-switchable="false" data-field="country">País</th>
+            <th class="col-xs-1" data-halign="right" data-align="right" data-sortable="true" data-switchable="true" data-field="id">Código</th>
+            <th class="col-xs-6" data-halign="left" data-align="left" data-sortable="true" data-switchable="false" data-field="country" data-formatter="countryFormatter">País</th>
+            <th class="col-xs-1" data-halign="center" data-align="center" data-sortable="false" data-switchable="true" data-field="flagPath" data-formatter="flagPathFormatter">Bandeira</th>
             <th class="col-xs-1" data-halign="center" data-align="center" data-sortable="true" data-switchable="true" data-field="iso2Code">ISO Alfa 2</th>
-            <th class="col-xs-1" data-halign="center" data-align="center" data-sortable="true" data-switchable="true"  data-field="iso3Code">ISO Alfa 3</th>
-            <th class="col-xs-1" data-halign="center" data-align="center" data-sortable="true" data-switchable="true"  data-field="internationalDialingCode">CDI</th>
+            <th class="col-xs-1" data-halign="center" data-align="center" data-sortable="true" data-switchable="true" data-field="iso3Code">ISO Alfa 3</th>
+            <th class="col-xs-1" data-halign="center" data-align="center" data-sortable="true" data-switchable="true" data-field="internationalDialingCode">CDI</th>
             <th class="col-xs-1" data-halign="center" data-align="center" data-sortable="true" data-switchable="true" data-field="active">Ativo</th>
         </tr>
     </thead>
@@ -150,3 +135,40 @@
 
 <a href="#/security/data-entry/retrieval-detail/general/country-data-entry-retrieval-detail">Ir para o detalhe</a>
 
+
+<script src="/security/resources/bootstrap-table/bootstrap-table.js"></script>
+<script src="/security/resources/bootstrap-table/locale/bootstrap-table-pt-BR.min.js"></script>
+<script src="/security/resources/js/data-entry/retrieval/data-entry-retrieval.js"></script>
+<script src="/security/resources/js/data-entry/retrieval/general/country-data-entry-retrieval.js"></script>
+
+<style>
+
+    // custom
+    .bs-table td > a {
+        display: block;
+        margin: -8px;
+        padding: 8px;
+        text-decoration: none;
+    }
+    .bs-table td > a:hover {
+        text-decoration: none;
+    }
+</style>
+
+<script>
+    function countryFormatter(value, row) {
+        return '<a class="bs-table-link" href="#/security/data-entry/retrieval-detail/general/country-data-entry-retrieval-detail?id=' + row.id + '">' + value + '</a>';
+    }
+
+    function flagPathFormatter(value, row) {
+        return '<img src="' + value + '" alt="Country flag of ID: ' + row.id + '" style="width:30px" />';
+    }
+
+    jQuery('#CountryTable').bootstrapTable({
+        pageList: [10, 25, 50, 100, jQuery.fn.bootstrapTable.defaults.formatAllRows()]
+    });
+</script>
+<style>
+    //bootstrap-table
+
+</style>
