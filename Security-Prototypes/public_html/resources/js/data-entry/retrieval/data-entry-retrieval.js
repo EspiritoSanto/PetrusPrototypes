@@ -15,27 +15,17 @@ dataEntryRetrieval.directive('dataEntryRetrievalDirectiveLoadData', [function ()
         };
     }]);
 
-dataEntryRetrieval.factory('dataEntryRetrievalServiceLoadData', ['$http', '$log',
-    function ($http, $log) {
+dataEntryRetrieval.factory('dataEntryRetrievalServiceLoadData', ['$http', 
+    function ($http) {
 
         function getPath(module, funcionality, model) {
             return '/security/json/retrievals/country.json';
         }
 
         return {
-            getList: function (module, funcionality, model, callback) {
+            getList: function (module, funcionality, model) {
                 var path = getPath(module, funcionality, model);
-                
-                $http.get(path).success(function (data) {
-                    callback(data);
-                });
-                /*$http.get(path).then(function(response) {                    
-                 callback(response.data);
-                 //return response.data;
-                 }, function(data){
-                 // onError
-                 $log.log(data);
-                 });*/
+                return $http.get(path);
             },
             find: function (module, funcionality, id) {
 
