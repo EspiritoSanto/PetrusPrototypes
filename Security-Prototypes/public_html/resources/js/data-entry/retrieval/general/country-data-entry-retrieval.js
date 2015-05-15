@@ -1,26 +1,12 @@
 /* js here */
 
-var app = angular.module('system.countryDataEntryRetrieval', []);
+/*var app = angular.module('system.countryDataEntryRetrieval', ['system.dataEntryRetrieval']);*/
 
-app.controller('countryDataEntryRetrievalCtrl', ['$scope', '$http',
-    function($scope, $http){
-        $scope.data = [];
+system.controller('countryDataEntryRetrievalCtrl', ['$scope', 'dataEntryRetrievalServiceLoadData',
+    function($scope, serviceLoadData){        
+        //$scope.data = serviceLoadData.getList('security', 'country', null);
         
-        $http.get('/security/json/retrievals/country.json')
-                .success(function(data){
-                    $scope.data = data;
-                }).error(function(data){
-                    console.log('erro ao carregar');
-                });
+        serviceLoadData.getList('security', 'country', null, function(data){            
+            $scope.data = data;
+        });
     }]);
-
-app.directive('countryDataEntryRetrievalDirective', [function(){
-        return {
-            restrict : 'A',
-            link : function(scope, element){
-                scope.$watch('data', function(newValue, oldValue){                    
-                    jQuery('#CountryTable').bootstrapTable('load', newValue);
-                });
-            }
-        };
-}]);

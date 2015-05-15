@@ -1,6 +1,18 @@
-var module = angular.module('system', ['ngRoute','system.countryDataEntryRetrieval']);
+var system = angular.module('system', [
+    'ngRoute',
+    'system.dataEntryRetrieval',
+    'system.dataEntryRetrievalDetail',
+    'system.dataEntryRetrievalForm',
+    'system.dataEntryDetail',
+    'system.dataEntryDetailForm',
+    'system.processing',
+    'system.retrievalPreview',
+    'system.retrievalReport',
+    'system.complexRoutine'
+]);
 
-module.config(['$routeProvider', function ($routeProvider) {
+
+system.config(['$routeProvider', function ($routeProvider) {
         $routeProvider
                 .when('/:module/:functionalityType/:functionalitySubtype/:functionalityScope/:functionalityId', {
                     templateUrl: function (urlattr) {
@@ -40,7 +52,7 @@ module.config(['$routeProvider', function ($routeProvider) {
                 });
     }]);
 
-module.controller('SystemCtrl', [
+system.controller('SystemCtrl', [
     '$rootScope',
     '$scope',
     '$http',
@@ -83,7 +95,7 @@ module.controller('SystemCtrl', [
         });
     }]);
 
-module.directive('menuItemLink', ['$location', function ($location) {
+system.directive('menuItemLink', ['$location', function ($location) {
         return {
             restrict: 'A',
             link: function (scope, element) {

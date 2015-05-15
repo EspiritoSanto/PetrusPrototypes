@@ -104,7 +104,7 @@
 <!-- /Filter -->
 
 <table id="CountryTable"
-       country-data-entry-retrieval-directive
+    data-data-entry-retrieval-directive-load-data
        data-classes="table table-hover table-condensed bs-table"
        data-striped="true"
        data-sort-name="country"
@@ -138,8 +138,6 @@
 
 <script src="/security/resources/bootstrap-table/bootstrap-table.js"></script>
 <script src="/security/resources/bootstrap-table/locale/bootstrap-table-pt-BR.min.js"></script>
-<script src="/security/resources/js/data-entry/retrieval/data-entry-retrieval.js"></script>
-<script src="/security/resources/js/data-entry/retrieval/general/country-data-entry-retrieval.js"></script>
 
 <style>
 
@@ -163,10 +161,10 @@
     function flagPathFormatter(value, row) {
         return '<img src="' + value + '" alt="Country flag of ID: ' + row.id + '" style="width:30px" />';
     }
-
-    jQuery('#CountryTable').bootstrapTable({        
+    
+    /*jQuery('#CountryTable').bootstrapTable({        
         pageList: [10, 25, 50, 100, jQuery.fn.bootstrapTable.defaults.formatAllRows()]
-    });
+    });*/
 </script>
 <style>
     //bootstrap-table
