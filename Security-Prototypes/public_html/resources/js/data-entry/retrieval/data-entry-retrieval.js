@@ -1,12 +1,26 @@
+function tableLinkFormatter(classes, path, text) {
+    if (!classes || classes === null) {
+        classes = 'bs-table-link';
+    }
+    return '<a class="' + classes + '" href="' + path + '">' + text + '</a>';
+}
+
+function tableImageFormatter(classes, path, altText) {
+    if (!classes || classes === null) {
+        classes = 'bs-table-image';
+    }
+    return '<img class="' + classes + '" src="' + path + '" alt="' + altText + '" />';
+}
+
 var dataEntryRetrieval = angular.module('system.dataEntryRetrieval', []);
 
-dataEntryRetrieval.directive('dataEntryRetrievalDirectiveLoadData', [function () {
+dataEntryRetrieval.directive('dataEntryRetrievalDirectiveLoadData', [
+    function () {
         return {
             restrict: 'A',
             link: function (scope, element) {
-                scope.$watch('data', function (newValue) {                    
-                    element.bootstrapTable('destroy');
-                    element.bootstrapTable({
+                scope.$watch('data', function (newValue) {
+                    element.bootstrapTable('destroy').bootstrapTable({
                         data: newValue,
                         pageList: [10, 25, 50, 100, jQuery.fn.bootstrapTable.defaults.formatAllRows()]
                     });
@@ -15,36 +29,32 @@ dataEntryRetrieval.directive('dataEntryRetrievalDirectiveLoadData', [function ()
         };
     }]);
 
-dataEntryRetrieval.factory('dataEntryRetrievalServiceLoadData', ['$http', 
+dataEntryRetrieval.factory('dataEntryRetrievalServiceLoadData', [
+    '$http',
     function ($http) {
 
-        function getPath(module, funcionality, model) {
-            return '/security/json/retrievals/country.json';
+        function getPathRefresh(module, funcionality, model) {
+            return '/' + module + '/json/retrievals/' + funcionality + '.json';
+        }
+
+        function getPathFind(module, funcionality, id) {
+            return '/' + module + '/json/records/' + funcionality + '/' + funcionality + id + '.json';
         }
 
         return {
-            getList: function (module, funcionality, model) {
-                var path = getPath(module, funcionality, model);
+            refresh: function (module, funcionality, model) {
+                var path = getPathRefresh(module, funcionality, model);
                 return $http.get(path);
             },
             find: function (module, funcionality, id) {
-
+                var path = getPathFind(module, funcionality, id);
+                return $http.get(path);
             }
-        }
+        };
     }]);
 
 /*
- dataEntryRetrieval.controller('countryDataEntryRetrievalCtrl', ['$scope', '$http',
- function($scope, $http){
- $scope.data = [];
  
- $http.get('/security/json/retrievals/country.json')
- .success(function(data){
- $scope.data = data;
- }).error(function(data){
- console.log('erro ao carregar');
- });
- }]);
  
  
  module.controller('DataEntryRetrievalCtrl', [

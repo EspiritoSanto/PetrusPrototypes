@@ -1,5 +1,31 @@
 /* Elements with non-responsive attributes */
 
+.bs-table-image {
+    width: 30px;
+    border: 1px solid;
+}
+
+.bs-table-link {
+    display: block;
+    margin: -8px;
+    padding: 8px;
+    text-decoration: none;
+}
+.bs-table-link:hover {
+    text-decoration: none;
+}
+
+.fixed-table-toolbar .bars,
+.fixed-table-toolbar .columns,
+.fixed-table-toolbar .search {
+    margin-top: 0;
+}
+
+.bootstrap-table #toolbar {
+    vertical-align: top;
+    padding-right: 10px;
+}
+
 /* Put here elements with responsive attributes */
 
 @media (max-width: 768px) {

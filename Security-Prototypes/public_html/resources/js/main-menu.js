@@ -12,31 +12,30 @@ var system = angular.module('system', [
 ]);
 
 
-system.config(['$routeProvider', function ($routeProvider) {
+system.config(['$routeProvider', '$controllerProvider', function ($routeProvider, $controllerProvider) {
+
+        system.registerCtrl = $controllerProvider.register;
+
         $routeProvider
                 .when('/:module/:functionalityType/:functionalitySubtype/:functionalityScope/:functionalityId', {
                     templateUrl: function (urlattr) {
                         return '/' + urlattr.module + '/views/' + urlattr.functionalityType + '/' + urlattr.functionalitySubtype + '/' + urlattr.functionalityScope + '/' + urlattr.functionalityId + '.html';
-                    },
-                    controller: 'SystemCtrl'
+                    }
                 })
                 .when('/:module/:functionalityType/:functionalityScope/:functionalityId', {
                     templateUrl: function (urlattr) {
                         return '/' + urlattr.module + '/views/' + urlattr.functionalityType + '/' + urlattr.functionalityScope + '/' + urlattr.functionalityId + '.html';
-                    },
-                    controller: 'SystemCtrl'
+                    }
                 })
                 .when('/:module', {
                     templateUrl: function (urlattr) {
                         return '/' + urlattr.module + '/views/default.html';
-                    },
-                    controller: 'SystemCtrl'
+                    }
                 })
                 .when('/:module/', {
                     templateUrl: function (urlattr) {
                         return '/' + urlattr.module + '/views/default.html';
-                    },
-                    controller: 'SystemCtrl'
+                    }
                 })
                 .when('/:module/default', {
                     templateUrl: function (urlattr) {

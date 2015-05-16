@@ -1,2279 +1,2243 @@
 [
     {
-        "flagPath": "/security/fake/images/flags/BR.png",
+        "flagPath": "/security/fake/images/country-flags/1.png",
         "id": "1",
+        "country": "Andorra",
+        "iso2Code": "AD",
+        "iso3Code": "AND",
+        "internationalDialingCode": "376",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/2.png",
+        "id": "2",
+        "country": "Emirados Árabes Unidos",
+        "iso2Code": "AE",
+        "iso3Code": "ARE",
+        "internationalDialingCode": "971",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/3.png",
+        "id": "3",
+        "country": "Afeganistão",
+        "iso2Code": "AF",
+        "iso3Code": "AFG",
+        "internationalDialingCode": "93",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/4.png",
+        "id": "4",
+        "country": "Antígua e Barbuda",
+        "iso2Code": "AG",
+        "iso3Code": "ATG",
+        "internationalDialingCode": "1268",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/5.png",
+        "id": "5",
+        "country": "Anguilla",
+        "iso2Code": "AI",
+        "iso3Code": "AIA",
+        "internationalDialingCode": "1264",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/6.png",
+        "id": "6",
+        "country": "Albânia",
+        "iso2Code": "AL",
+        "iso3Code": "ALB",
+        "internationalDialingCode": "355",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/7.png",
+        "id": "7",
+        "country": "Armênia",
+        "iso2Code": "AM",
+        "iso3Code": "ARM",
+        "internationalDialingCode": "374",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/8.png",
+        "id": "8",
+        "country": "Antilhas Holandesas",
+        "iso2Code": "AN",
+        "iso3Code": "ANT",
+        "internationalDialingCode": "599",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/9.png",
+        "id": "9",
+        "country": "Angola",
+        "iso2Code": "AO",
+        "iso3Code": "AGO",
+        "internationalDialingCode": "244",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/10.png",
+        "id": "10",
+        "country": "Antártida",
+        "iso2Code": "AQ",
+        "iso3Code": "ATA",
+        "internationalDialingCode": "672",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/11.png",
+        "id": "11",
+        "country": "Argentina",
+        "iso2Code": "AR",
+        "iso3Code": "ARG",
+        "internationalDialingCode": "54",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/12.png",
+        "id": "12",
+        "country": "Samoa Americana",
+        "iso2Code": "AS",
+        "iso3Code": "ASM",
+        "internationalDialingCode": "1684",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/13.png",
+        "id": "13",
+        "country": "Áustria",
+        "iso2Code": "AT",
+        "iso3Code": "AUT",
+        "internationalDialingCode": "43",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/14.png",
+        "id": "14",
+        "country": "Austrália",
+        "iso2Code": "AU",
+        "iso3Code": "AUS",
+        "internationalDialingCode": "61",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/15.png",
+        "id": "15",
+        "country": "Aruba",
+        "iso2Code": "AW",
+        "iso3Code": "ABW",
+        "internationalDialingCode": "297",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/16.png",
+        "id": "16",
+        "country": "Ilhas Aland",
+        "iso2Code": "AX",
+        "iso3Code": "ALA",
+        "internationalDialingCode": "358",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/17.png",
+        "id": "17",
+        "country": "Azerbaijão",
+        "iso2Code": "AZ",
+        "iso3Code": "AZE",
+        "internationalDialingCode": "994",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/18.png",
+        "id": "18",
+        "country": "Bósnia-Herzegovina",
+        "iso2Code": "BA",
+        "iso3Code": "BIH",
+        "internationalDialingCode": "387",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/19.png",
+        "id": "19",
+        "country": "Barbados",
+        "iso2Code": "BB",
+        "iso3Code": "BRB",
+        "internationalDialingCode": "1246",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/20.png",
+        "id": "20",
+        "country": "Bangladesh",
+        "iso2Code": "BD",
+        "iso3Code": "BGD",
+        "internationalDialingCode": "880",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/21.png",
+        "id": "21",
+        "country": "Bélgica",
+        "iso2Code": "BE",
+        "iso3Code": "BEL",
+        "internationalDialingCode": "32",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/22.png",
+        "id": "22",
+        "country": "Burquina Faso",
+        "iso2Code": "BF",
+        "iso3Code": "BFA",
+        "internationalDialingCode": "226",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/23.png",
+        "id": "23",
+        "country": "Bulgária",
+        "iso2Code": "BG",
+        "iso3Code": "BGR",
+        "internationalDialingCode": "359",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/24.png",
+        "id": "24",
+        "country": "Bahrain",
+        "iso2Code": "BH",
+        "iso3Code": "BHR",
+        "internationalDialingCode": "973",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/25.png",
+        "id": "25",
+        "country": "Burundi",
+        "iso2Code": "BI",
+        "iso3Code": "BDI",
+        "internationalDialingCode": "257",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/26.png",
+        "id": "26",
+        "country": "Benin",
+        "iso2Code": "BJ",
+        "iso3Code": "BEN",
+        "internationalDialingCode": "229",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/27.png",
+        "id": "27",
+        "country": "Saint Barthélemy",
+        "iso2Code": "BL",
+        "iso3Code": "BLM",
+        "internationalDialingCode": "590",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/28.png",
+        "id": "28",
+        "country": "Bermudas",
+        "iso2Code": "BM",
+        "iso3Code": "BMU",
+        "internationalDialingCode": "1441",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/29.png",
+        "id": "29",
+        "country": "Brunei",
+        "iso2Code": "BN",
+        "iso3Code": "BRN",
+        "internationalDialingCode": "673",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/30.png",
+        "id": "30",
+        "country": "Bolívia",
+        "iso2Code": "BO",
+        "iso3Code": "BOL",
+        "internationalDialingCode": "591",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/31.png",
+        "id": "31",
+        "country": "Bonaire, Sint Eustatius and Saba",
+        "iso2Code": "BQ",
+        "iso3Code": "BES",
+        "internationalDialingCode": "599",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/32.png",
+        "id": "32",
         "country": "Brasil",
         "iso2Code": "BR",
         "iso3Code": "BRA",
         "internationalDialingCode": "55",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
-    },
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/33.png",
+        "id": "33",
+        "country": "Bahamas",
+        "iso2Code": "BS",
+        "iso3Code": "BHS",
+        "internationalDialingCode": "1242",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/34.png",
+        "id": "34",
+        "country": "Butão",
+        "iso2Code": "BT",
+        "iso3Code": "BTN",
+        "internationalDialingCode": "975",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/35.png",
+        "id": "35",
+        "country": "Ilha Bouvet",
+        "iso2Code": "BV",
+        "iso3Code": "BVT",
+        "internationalDialingCode": "",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/36.png",
+        "id": "36",
+        "country": "Botsuana",
+        "iso2Code": "BW",
+        "iso3Code": "BWA",
+        "internationalDialingCode": "267",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/37.png",
+        "id": "37",
+        "country": "Belarus",
+        "iso2Code": "BY",
+        "iso3Code": "BLR",
+        "internationalDialingCode": "375",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/38.png",
+        "id": "38",
+        "country": "Belize",
+        "iso2Code": "BZ",
+        "iso3Code": "BLZ",
+        "internationalDialingCode": "501",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/39.png",
+        "id": "39",
+        "country": "Canadá",
+        "iso2Code": "CA",
+        "iso3Code": "CAN",
+        "internationalDialingCode": "1",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/40.png",
+        "id": "40",
+        "country": "Ilhas Cocos (Keeling)",
+        "iso2Code": "CC",
+        "iso3Code": "CCK",
+        "internationalDialingCode": "61",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/41.png",
+        "id": "41",
+        "country": "Congo, República Democrática do",
+        "iso2Code": "CD",
+        "iso3Code": "COD",
+        "internationalDialingCode": "243",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/42.png",
+        "id": "42",
+        "country": "República Centro-Africana",
+        "iso2Code": "CF",
+        "iso3Code": "CAF",
+        "internationalDialingCode": "236",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/43.png",
+        "id": "43",
+        "country": "Congo",
+        "iso2Code": "CG",
+        "iso3Code": "COG",
+        "internationalDialingCode": "242",
+        "active": "1"
+    },
     {
-        "flagPath": "/security/fake/images/flags/US.png",
-        "id": "2",
-        "country": "Estados Unidos da Amárica",
-        "iso2Code": "US",
-        "iso3Code": "USA",
-        "internationalDialingCode": "11",
-        "active": "Sim"
-    },
-    {
-        "flagPath": "/security/fake/images/flags/AR.png",
-        "id": "3",
-        "country": "Argentina",
-        "iso2Code": "AR",
-        "iso3Code": "ARG",
-        "internationalDialingCode": "13",
-        "active": "Não"
+        "flagPath": "/security/fake/images/country-flags/44.png",
+        "id": "44",
+        "country": "Suíça",
+        "iso2Code": "CH",
+        "iso3Code": "CHE",
+        "internationalDialingCode": "41",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/45.png",
+        "id": "45",
+        "country": "Costa do Marfim",
+        "iso2Code": "CI",
+        "iso3Code": "CIV",
+        "internationalDialingCode": "225",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/46.png",
+        "id": "46",
+        "country": "Ilhas Cook",
+        "iso2Code": "CK",
+        "iso3Code": "COK",
+        "internationalDialingCode": "682",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/47.png",
+        "id": "47",
+        "country": "Chile",
+        "iso2Code": "CL",
+        "iso3Code": "CHL",
+        "internationalDialingCode": "56",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/48.png",
+        "id": "48",
+        "country": "República dos Camarões",
+        "iso2Code": "CM",
+        "iso3Code": "CMR",
+        "internationalDialingCode": "237",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/49.png",
+        "id": "49",
+        "country": "China",
+        "iso2Code": "CN",
+        "iso3Code": "CHN",
+        "internationalDialingCode": "86",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/50.png",
+        "id": "50",
+        "country": "Colômbia",
+        "iso2Code": "CO",
+        "iso3Code": "COL",
+        "internationalDialingCode": "57",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/51.png",
+        "id": "51",
+        "country": "Costa Rica",
+        "iso2Code": "CR",
+        "iso3Code": "CRI",
+        "internationalDialingCode": "506",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/52.png",
+        "id": "52",
+        "country": "Cuba",
+        "iso2Code": "CU",
+        "iso3Code": "CUB",
+        "internationalDialingCode": "53",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/53.png",
+        "id": "53",
+        "country": "Cabo Verde",
+        "iso2Code": "CV",
+        "iso3Code": "CPV",
+        "internationalDialingCode": "238",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/54.png",
+        "id": "54",
+        "country": "Curaçao",
+        "iso2Code": "CW",
+        "iso3Code": "CUW",
+        "internationalDialingCode": "599",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/55.png",
+        "id": "55",
+        "country": "Ilhas Natal",
+        "iso2Code": "CX",
+        "iso3Code": "CXR",
+        "internationalDialingCode": "61",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/56.png",
+        "id": "56",
+        "country": "Chipre",
+        "iso2Code": "CY",
+        "iso3Code": "CYP",
+        "internationalDialingCode": "357",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/57.png",
+        "id": "57",
+        "country": "República Tcheca",
+        "iso2Code": "CZ",
+        "iso3Code": "CZE",
+        "internationalDialingCode": "420",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/58.png",
+        "id": "58",
+        "country": "Alemanha",
+        "iso2Code": "DE",
+        "iso3Code": "DEU",
+        "internationalDialingCode": "49",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/59.png",
+        "id": "59",
+        "country": "Djibuti",
+        "iso2Code": "DJ",
+        "iso3Code": "DJI",
+        "internationalDialingCode": "253",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/60.png",
+        "id": "60",
+        "country": "Dinamarca",
+        "iso2Code": "DK",
+        "iso3Code": "DNK",
+        "internationalDialingCode": "45",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/61.png",
+        "id": "61",
+        "country": "Dominica",
+        "iso2Code": "DM",
+        "iso3Code": "DMA",
+        "internationalDialingCode": "1767",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/62.png",
+        "id": "62",
+        "country": "República Dominicana",
+        "iso2Code": "DO",
+        "iso3Code": "DOM",
+        "internationalDialingCode": "1809",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/63.png",
+        "id": "63",
+        "country": "Argélia",
+        "iso2Code": "DZ",
+        "iso3Code": "DZA",
+        "internationalDialingCode": "213",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/64.png",
+        "id": "64",
+        "country": "Equador",
+        "iso2Code": "EC",
+        "iso3Code": "ECU",
+        "internationalDialingCode": "593",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/65.png",
+        "id": "65",
+        "country": "Estônia",
+        "iso2Code": "EE",
+        "iso3Code": "EST",
+        "internationalDialingCode": "372",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/66.png",
+        "id": "66",
+        "country": "Egito",
+        "iso2Code": "EG",
+        "iso3Code": "EGY",
+        "internationalDialingCode": "20",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/67.png",
+        "id": "67",
+        "country": "Saara Ocidental",
+        "iso2Code": "EH",
+        "iso3Code": "ESH",
+        "internationalDialingCode": "212",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/68.png",
+        "id": "68",
+        "country": "Eritréia",
+        "iso2Code": "ER",
+        "iso3Code": "ERI",
+        "internationalDialingCode": "291",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/69.png",
+        "id": "69",
+        "country": "Espanha",
+        "iso2Code": "ES",
+        "iso3Code": "ESP",
+        "internationalDialingCode": "34",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/70.png",
+        "id": "70",
+        "country": "Etiópia",
+        "iso2Code": "ET",
+        "iso3Code": "ETH",
+        "internationalDialingCode": "251",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/71.png",
+        "id": "71",
+        "country": "Finlândia",
+        "iso2Code": "FI",
+        "iso3Code": "FIN",
+        "internationalDialingCode": "358",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/72.png",
+        "id": "72",
+        "country": "Fiji",
+        "iso2Code": "FJ",
+        "iso3Code": "FJI",
+        "internationalDialingCode": "679",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/73.png",
+        "id": "73",
+        "country": "Ilhas Malvinas",
+        "iso2Code": "FK",
+        "iso3Code": "FLK",
+        "internationalDialingCode": "500",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/74.png",
+        "id": "74",
+        "country": "Micronésia, Estados Federados da",
+        "iso2Code": "FM",
+        "iso3Code": "FSM",
+        "internationalDialingCode": "691",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/75.png",
+        "id": "75",
+        "country": "Ilhas Faroe",
+        "iso2Code": "FO",
+        "iso3Code": "FRO",
+        "internationalDialingCode": "298",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/76.png",
+        "id": "76",
+        "country": "França",
+        "iso2Code": "FR",
+        "iso3Code": "FRA",
+        "internationalDialingCode": "33",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/77.png",
+        "id": "77",
+        "country": "Gabão",
+        "iso2Code": "GA",
+        "iso3Code": "GAB",
+        "internationalDialingCode": "241",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/78.png",
+        "id": "78",
+        "country": "Reino Unido",
+        "iso2Code": "GB",
+        "iso3Code": "GBR",
+        "internationalDialingCode": "44",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/79.png",
+        "id": "79",
+        "country": "Granada",
+        "iso2Code": "GD",
+        "iso3Code": "GRD",
+        "internationalDialingCode": "1473",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/80.png",
+        "id": "80",
+        "country": "Geórgia",
+        "iso2Code": "GE",
+        "iso3Code": "GEO",
+        "internationalDialingCode": "995",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/81.png",
+        "id": "81",
+        "country": "Guiana Francesa",
+        "iso2Code": "GF",
+        "iso3Code": "GUF",
+        "internationalDialingCode": "594",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/82.png",
+        "id": "82",
+        "country": "Guernsey",
+        "iso2Code": "GG",
+        "iso3Code": "GGY",
+        "internationalDialingCode": "44",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/83.png",
+        "id": "83",
+        "country": "Gana",
+        "iso2Code": "GH",
+        "iso3Code": "GHA",
+        "internationalDialingCode": "233",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/84.png",
+        "id": "84",
+        "country": "Gibraltar",
+        "iso2Code": "GI",
+        "iso3Code": "GIB",
+        "internationalDialingCode": "350",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/85.png",
+        "id": "85",
+        "country": "Groênlandia",
+        "iso2Code": "GL",
+        "iso3Code": "GRL",
+        "internationalDialingCode": "299",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/86.png",
+        "id": "86",
+        "country": "Gâmbia",
+        "iso2Code": "GM",
+        "iso3Code": "GMB",
+        "internationalDialingCode": "220",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/87.png",
+        "id": "87",
+        "country": "Guiné",
+        "iso2Code": "GN",
+        "iso3Code": "GIN",
+        "internationalDialingCode": "224",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/88.png",
+        "id": "88",
+        "country": "Guadalupe",
+        "iso2Code": "GP",
+        "iso3Code": "GLP",
+        "internationalDialingCode": "590",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/89.png",
+        "id": "89",
+        "country": "Guiné Equatorial",
+        "iso2Code": "GQ",
+        "iso3Code": "GNQ",
+        "internationalDialingCode": "240",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/90.png",
+        "id": "90",
+        "country": "Grécia",
+        "iso2Code": "GR",
+        "iso3Code": "GRC",
+        "internationalDialingCode": "30",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/91.png",
+        "id": "91",
+        "country": "Geórgia do Sul e Ilhas Sandwich do Sul",
+        "iso2Code": "GS",
+        "iso3Code": "SGS",
+        "internationalDialingCode": "",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/92.png",
+        "id": "92",
+        "country": "Guatemala",
+        "iso2Code": "GT",
+        "iso3Code": "GTM",
+        "internationalDialingCode": "502",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/93.png",
+        "id": "93",
+        "country": "Guam",
+        "iso2Code": "GU",
+        "iso3Code": "GUM",
+        "internationalDialingCode": "1671",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/94.png",
+        "id": "94",
+        "country": "Guiné Bissau",
+        "iso2Code": "GW",
+        "iso3Code": "GNB",
+        "internationalDialingCode": "245",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/95.png",
+        "id": "95",
+        "country": "Guiana",
+        "iso2Code": "GY",
+        "iso3Code": "GUY",
+        "internationalDialingCode": "592",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/96.png",
+        "id": "96",
+        "country": "Hong Kong, Região Admin. Especial da China",
+        "iso2Code": "HK",
+        "iso3Code": "HKG",
+        "internationalDialingCode": "852",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/97.png",
+        "id": "97",
+        "country": "Ilha Heard e Ilhas McDonald",
+        "iso2Code": "HM",
+        "iso3Code": "HMD",
+        "internationalDialingCode": "",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/98.png",
+        "id": "98",
+        "country": "Honduras",
+        "iso2Code": "HN",
+        "iso3Code": "HND",
+        "internationalDialingCode": "504",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/99.png",
+        "id": "99",
+        "country": "Croácia",
+        "iso2Code": "HR",
+        "iso3Code": "HRV",
+        "internationalDialingCode": "385",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/100.png",
+        "id": "100",
+        "country": "Haiti",
+        "iso2Code": "HT",
+        "iso3Code": "HTI",
+        "internationalDialingCode": "509",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/101.png",
+        "id": "101",
+        "country": "Hungria",
+        "iso2Code": "HU",
+        "iso3Code": "HUN",
+        "internationalDialingCode": "36",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/102.png",
+        "id": "102",
+        "country": "Indonésia",
+        "iso2Code": "ID",
+        "iso3Code": "IDN",
+        "internationalDialingCode": "62",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/103.png",
+        "id": "103",
+        "country": "Irlanda",
+        "iso2Code": "IE",
+        "iso3Code": "IRL",
+        "internationalDialingCode": "353",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/104.png",
+        "id": "104",
+        "country": "Israel",
+        "iso2Code": "IL",
+        "iso3Code": "ISR",
+        "internationalDialingCode": "972",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/105.png",
+        "id": "105",
+        "country": "Isle Of Man",
+        "iso2Code": "IM",
+        "iso3Code": "IMN",
+        "internationalDialingCode": "44",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/106.png",
+        "id": "106",
+        "country": "Índia",
+        "iso2Code": "IN",
+        "iso3Code": "IND",
+        "internationalDialingCode": "91",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/107.png",
+        "id": "107",
+        "country": "Território Britânico do Oceano Índico",
+        "iso2Code": "IO",
+        "iso3Code": "IOT",
+        "internationalDialingCode": "246",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/108.png",
+        "id": "108",
+        "country": "Iraque",
+        "iso2Code": "IQ",
+        "iso3Code": "IRQ",
+        "internationalDialingCode": "964",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/109.png",
+        "id": "109",
+        "country": "Irã",
+        "iso2Code": "IR",
+        "iso3Code": "IRN",
+        "internationalDialingCode": "98",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/110.png",
+        "id": "110",
+        "country": "Islândia",
+        "iso2Code": "IS",
+        "iso3Code": "ISL",
+        "internationalDialingCode": "354",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/111.png",
+        "id": "111",
+        "country": "Itália",
+        "iso2Code": "IT",
+        "iso3Code": "ITA",
+        "internationalDialingCode": "39",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/112.png",
+        "id": "112",
+        "country": "Jersey",
+        "iso2Code": "JE",
+        "iso3Code": "JEY",
+        "internationalDialingCode": "44",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/113.png",
+        "id": "113",
+        "country": "Jamaica",
+        "iso2Code": "JM",
+        "iso3Code": "JAM",
+        "internationalDialingCode": "1876",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/114.png",
+        "id": "114",
+        "country": "Jordânia",
+        "iso2Code": "JO",
+        "iso3Code": "JOR",
+        "internationalDialingCode": "962",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/115.png",
+        "id": "115",
+        "country": "Japão",
+        "iso2Code": "JP",
+        "iso3Code": "JPN",
+        "internationalDialingCode": "81",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/116.png",
+        "id": "116",
+        "country": "Quênia",
+        "iso2Code": "KE",
+        "iso3Code": "KEN",
+        "internationalDialingCode": "254",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/117.png",
+        "id": "117",
+        "country": "Quirguistão",
+        "iso2Code": "KG",
+        "iso3Code": "KGZ",
+        "internationalDialingCode": "996",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/118.png",
+        "id": "118",
+        "country": "Camboja",
+        "iso2Code": "KH",
+        "iso3Code": "KHM",
+        "internationalDialingCode": "855",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/119.png",
+        "id": "119",
+        "country": "Quiribati",
+        "iso2Code": "KI",
+        "iso3Code": "KIR",
+        "internationalDialingCode": "686",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/120.png",
+        "id": "120",
+        "country": "Comores",
+        "iso2Code": "KM",
+        "iso3Code": "COM",
+        "internationalDialingCode": "269",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/121.png",
+        "id": "121",
+        "country": "São Cristovão e Nevis",
+        "iso2Code": "KN",
+        "iso3Code": "KNA",
+        "internationalDialingCode": "1869",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/122.png",
+        "id": "122",
+        "country": "Coréia do Norte",
+        "iso2Code": "KP",
+        "iso3Code": "PRK",
+        "internationalDialingCode": "850",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/123.png",
+        "id": "123",
+        "country": "Coréia, Sul",
+        "iso2Code": "KR",
+        "iso3Code": "KOR",
+        "internationalDialingCode": "82",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/124.png",
+        "id": "124",
+        "country": "Kuwait",
+        "iso2Code": "KW",
+        "iso3Code": "KWT",
+        "internationalDialingCode": "965",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/125.png",
+        "id": "125",
+        "country": "Ilhas Caiman",
+        "iso2Code": "KY",
+        "iso3Code": "CYM",
+        "internationalDialingCode": "1345",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/126.png",
+        "id": "126",
+        "country": "Casaquistão",
+        "iso2Code": "KZ",
+        "iso3Code": "KAZ",
+        "internationalDialingCode": "7",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/127.png",
+        "id": "127",
+        "country": "República Democrática Popular de Lao",
+        "iso2Code": "LA",
+        "iso3Code": "LAO",
+        "internationalDialingCode": "856",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/128.png",
+        "id": "128",
+        "country": "Líbano",
+        "iso2Code": "LB",
+        "iso3Code": "LBN",
+        "internationalDialingCode": "961",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/129.png",
+        "id": "129",
+        "country": "Santa Lúcia",
+        "iso2Code": "LC",
+        "iso3Code": "LCA",
+        "internationalDialingCode": "1758",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/130.png",
+        "id": "130",
+        "country": "Liechtenstein",
+        "iso2Code": "LI",
+        "iso3Code": "LIE",
+        "internationalDialingCode": "423",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/131.png",
+        "id": "131",
+        "country": "Sri Lanka",
+        "iso2Code": "LK",
+        "iso3Code": "LKA",
+        "internationalDialingCode": "94",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/132.png",
+        "id": "132",
+        "country": "Libéria",
+        "iso2Code": "LR",
+        "iso3Code": "LBR",
+        "internationalDialingCode": "231",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/133.png",
+        "id": "133",
+        "country": "Lesoto",
+        "iso2Code": "LS",
+        "iso3Code": "LSO",
+        "internationalDialingCode": "266",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/134.png",
+        "id": "134",
+        "country": "Lituânia",
+        "iso2Code": "LT",
+        "iso3Code": "LTU",
+        "internationalDialingCode": "370",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/135.png",
+        "id": "135",
+        "country": "Luxemburgo",
+        "iso2Code": "LU",
+        "iso3Code": "LUX",
+        "internationalDialingCode": "352",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/136.png",
+        "id": "136",
+        "country": "Letônia",
+        "iso2Code": "LV",
+        "iso3Code": "LVA",
+        "internationalDialingCode": "371",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/137.png",
+        "id": "137",
+        "country": "Líbia",
+        "iso2Code": "LY",
+        "iso3Code": "LBY",
+        "internationalDialingCode": "218",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/138.png",
+        "id": "138",
+        "country": "Marrocos",
+        "iso2Code": "MA",
+        "iso3Code": "MAR",
+        "internationalDialingCode": "212",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/139.png",
+        "id": "139",
+        "country": "Mônaco",
+        "iso2Code": "MC",
+        "iso3Code": "MCO",
+        "internationalDialingCode": "377",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/140.png",
+        "id": "140",
+        "country": "Moldova, República de",
+        "iso2Code": "MD",
+        "iso3Code": "MDA",
+        "internationalDialingCode": "373",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/141.png",
+        "id": "141",
+        "country": "Montenegro",
+        "iso2Code": "ME",
+        "iso3Code": "MNE",
+        "internationalDialingCode": "382",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/142.png",
+        "id": "142",
+        "country": "Saint Martin",
+        "iso2Code": "MF",
+        "iso3Code": "MAF",
+        "internationalDialingCode": "1599",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/143.png",
+        "id": "143",
+        "country": "Madagascar",
+        "iso2Code": "MG",
+        "iso3Code": "MDG",
+        "internationalDialingCode": "261",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/144.png",
+        "id": "144",
+        "country": "Ilhas Marshall",
+        "iso2Code": "MH",
+        "iso3Code": "MHL",
+        "internationalDialingCode": "692",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/145.png",
+        "id": "145",
+        "country": "Macedônia",
+        "iso2Code": "MK",
+        "iso3Code": "MKD",
+        "internationalDialingCode": "389",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/146.png",
+        "id": "146",
+        "country": "Mali",
+        "iso2Code": "ML",
+        "iso3Code": "MLI",
+        "internationalDialingCode": "223",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/147.png",
+        "id": "147",
+        "country": "Mianmá",
+        "iso2Code": "MM",
+        "iso3Code": "MMR",
+        "internationalDialingCode": "95",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/148.png",
+        "id": "148",
+        "country": "Mongólia",
+        "iso2Code": "MN",
+        "iso3Code": "MNG",
+        "internationalDialingCode": "976",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/149.png",
+        "id": "149",
+        "country": "Macau, Região Admin. Especial da China",
+        "iso2Code": "MO",
+        "iso3Code": "MAC",
+        "internationalDialingCode": "853",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/150.png",
+        "id": "150",
+        "country": "Ilhas Marianas do Norte",
+        "iso2Code": "MP",
+        "iso3Code": "MNP",
+        "internationalDialingCode": "1670",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/151.png",
+        "id": "151",
+        "country": "Martinica",
+        "iso2Code": "MQ",
+        "iso3Code": "MTQ",
+        "internationalDialingCode": "222",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/152.png",
+        "id": "152",
+        "country": "Mauritânia",
+        "iso2Code": "MR",
+        "iso3Code": "MRT",
+        "internationalDialingCode": "1664",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/153.png",
+        "id": "153",
+        "country": "Montserrat",
+        "iso2Code": "MS",
+        "iso3Code": "MSR",
+        "internationalDialingCode": "1664",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/154.png",
+        "id": "154",
+        "country": "Malta",
+        "iso2Code": "MT",
+        "iso3Code": "MLT",
+        "internationalDialingCode": "356",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/155.png",
+        "id": "155",
+        "country": "Maurício",
+        "iso2Code": "MU",
+        "iso3Code": "MUS",
+        "internationalDialingCode": "230",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/156.png",
+        "id": "156",
+        "country": "Maldivas",
+        "iso2Code": "MV",
+        "iso3Code": "MDV",
+        "internationalDialingCode": "960",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/157.png",
+        "id": "157",
+        "country": "Malawi",
+        "iso2Code": "MW",
+        "iso3Code": "MWI",
+        "internationalDialingCode": "265",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/158.png",
+        "id": "158",
+        "country": "México",
+        "iso2Code": "MX",
+        "iso3Code": "MEX",
+        "internationalDialingCode": "52",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/159.png",
+        "id": "159",
+        "country": "Malásia",
+        "iso2Code": "MY",
+        "iso3Code": "MYS",
+        "internationalDialingCode": "60",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/160.png",
+        "id": "160",
+        "country": "Moçambique",
+        "iso2Code": "MZ",
+        "iso3Code": "MOZ",
+        "internationalDialingCode": "258",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/161.png",
+        "id": "161",
+        "country": "Namíbia",
+        "iso2Code": "NA",
+        "iso3Code": "NAM",
+        "internationalDialingCode": "264",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/162.png",
+        "id": "162",
+        "country": "Nova Caledônia",
+        "iso2Code": "NC",
+        "iso3Code": "NCL",
+        "internationalDialingCode": "687",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/163.png",
+        "id": "163",
+        "country": "Níger",
+        "iso2Code": "NE",
+        "iso3Code": "NER",
+        "internationalDialingCode": "227",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/164.png",
+        "id": "164",
+        "country": "Ilha Norfolk",
+        "iso2Code": "NF",
+        "iso3Code": "NFK",
+        "internationalDialingCode": "672",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/165.png",
+        "id": "165",
+        "country": "Nigéria",
+        "iso2Code": "NG",
+        "iso3Code": "NGA",
+        "internationalDialingCode": "234",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/166.png",
+        "id": "166",
+        "country": "Nicarágua",
+        "iso2Code": "NI",
+        "iso3Code": "NIC",
+        "internationalDialingCode": "505",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/167.png",
+        "id": "167",
+        "country": "Países Baixos",
+        "iso2Code": "NL",
+        "iso3Code": "NLD",
+        "internationalDialingCode": "31",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/168.png",
+        "id": "168",
+        "country": "Noruega",
+        "iso2Code": "NO",
+        "iso3Code": "NOR",
+        "internationalDialingCode": "47",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/169.png",
+        "id": "169",
+        "country": "Nepal",
+        "iso2Code": "NP",
+        "iso3Code": "NPL",
+        "internationalDialingCode": "977",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/170.png",
+        "id": "170",
+        "country": "Nauru",
+        "iso2Code": "NR",
+        "iso3Code": "NRU",
+        "internationalDialingCode": "674",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/171.png",
+        "id": "171",
+        "country": "Niue",
+        "iso2Code": "NU",
+        "iso3Code": "NIU",
+        "internationalDialingCode": "683",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/172.png",
+        "id": "172",
+        "country": "Nova Zelândia",
+        "iso2Code": "NZ",
+        "iso3Code": "NZL",
+        "internationalDialingCode": "64",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/173.png",
+        "id": "173",
+        "country": "Omã",
+        "iso2Code": "OM",
+        "iso3Code": "OMN",
+        "internationalDialingCode": "968",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/174.png",
+        "id": "174",
+        "country": "Panamá",
+        "iso2Code": "PA",
+        "iso3Code": "PAN",
+        "internationalDialingCode": "507",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/175.png",
+        "id": "175",
+        "country": "Peru",
+        "iso2Code": "PE",
+        "iso3Code": "PER",
+        "internationalDialingCode": "51",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/176.png",
+        "id": "176",
+        "country": "Polinésia Francesa",
+        "iso2Code": "PF",
+        "iso3Code": "PYF",
+        "internationalDialingCode": "689",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/177.png",
+        "id": "177",
+        "country": "Papua-Nova Guiné",
+        "iso2Code": "PG",
+        "iso3Code": "PNG",
+        "internationalDialingCode": "675",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/178.png",
+        "id": "178",
+        "country": "Filipinas",
+        "iso2Code": "PH",
+        "iso3Code": "PHL",
+        "internationalDialingCode": "63",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/179.png",
+        "id": "179",
+        "country": "Paquistão",
+        "iso2Code": "PK",
+        "iso3Code": "PAK",
+        "internationalDialingCode": "92",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/180.png",
+        "id": "180",
+        "country": "Polônia",
+        "iso2Code": "PL",
+        "iso3Code": "POL",
+        "internationalDialingCode": "48",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/181.png",
+        "id": "181",
+        "country": "Saint Pierre e Miquelon",
+        "iso2Code": "PM",
+        "iso3Code": "SPM",
+        "internationalDialingCode": "508",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/182.png",
+        "id": "182",
+        "country": "Pitcairn",
+        "iso2Code": "PN",
+        "iso3Code": "PCN",
+        "internationalDialingCode": "870",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/183.png",
+        "id": "183",
+        "country": "Porto Rico",
+        "iso2Code": "PR",
+        "iso3Code": "PRI",
+        "internationalDialingCode": "1",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/184.png",
+        "id": "184",
+        "country": "Território da Palestina",
+        "iso2Code": "PS",
+        "iso3Code": "PSE",
+        "internationalDialingCode": "970",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/185.png",
+        "id": "185",
+        "country": "Portugal",
+        "iso2Code": "PT",
+        "iso3Code": "PRT",
+        "internationalDialingCode": "351",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/186.png",
+        "id": "186",
+        "country": "Palau",
+        "iso2Code": "PW",
+        "iso3Code": "PLW",
+        "internationalDialingCode": "680",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/187.png",
+        "id": "187",
+        "country": "Paraguai",
+        "iso2Code": "PY",
+        "iso3Code": "PRY",
+        "internationalDialingCode": "595",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/188.png",
+        "id": "188",
+        "country": "Catar",
+        "iso2Code": "QA",
+        "iso3Code": "QAT",
+        "internationalDialingCode": "974",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/189.png",
+        "id": "189",
+        "country": "Reunião",
+        "iso2Code": "RE",
+        "iso3Code": "REU",
+        "internationalDialingCode": "262",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/190.png",
+        "id": "190",
+        "country": "Romênia",
+        "iso2Code": "RO",
+        "iso3Code": "ROU",
+        "internationalDialingCode": "40",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/191.png",
+        "id": "191",
+        "country": "Serbia",
+        "iso2Code": "RS",
+        "iso3Code": "SRB",
+        "internationalDialingCode": "381",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/192.png",
+        "id": "192",
+        "country": "Rússia",
+        "iso2Code": "RU",
+        "iso3Code": "RUS",
+        "internationalDialingCode": "7",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/193.png",
+        "id": "193",
+        "country": "Ruanda",
+        "iso2Code": "RW",
+        "iso3Code": "RWA",
+        "internationalDialingCode": "250",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/194.png",
+        "id": "194",
+        "country": "Arábia Saudita",
+        "iso2Code": "SA",
+        "iso3Code": "SAU",
+        "internationalDialingCode": "966",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/195.png",
+        "id": "195",
+        "country": "Ilhas Salomão",
+        "iso2Code": "SB",
+        "iso3Code": "SLB",
+        "internationalDialingCode": "677",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/196.png",
+        "id": "196",
+        "country": "Seychelles",
+        "iso2Code": "SC",
+        "iso3Code": "SYC",
+        "internationalDialingCode": "248",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/197.png",
+        "id": "197",
+        "country": "Sudão",
+        "iso2Code": "SD",
+        "iso3Code": "SDN",
+        "internationalDialingCode": "249",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/198.png",
+        "id": "198",
+        "country": "Suécia",
+        "iso2Code": "SE",
+        "iso3Code": "SWE",
+        "internationalDialingCode": "46",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/199.png",
+        "id": "199",
+        "country": "Cingapura",
+        "iso2Code": "SG",
+        "iso3Code": "SGP",
+        "internationalDialingCode": "65",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/200.png",
+        "id": "200",
+        "country": "Santa Helena",
+        "iso2Code": "SH",
+        "iso3Code": "SHN",
+        "internationalDialingCode": "290",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/201.png",
+        "id": "201",
+        "country": "Eslovênia",
+        "iso2Code": "SI",
+        "iso3Code": "SVN",
+        "internationalDialingCode": "386",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/202.png",
+        "id": "202",
+        "country": "Svalbard e Jan Mayen",
+        "iso2Code": "SJ",
+        "iso3Code": "SJM",
+        "internationalDialingCode": "47",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/203.png",
+        "id": "203",
+        "country": "Eslováquia",
+        "iso2Code": "SK",
+        "iso3Code": "SVK",
+        "internationalDialingCode": "421",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/204.png",
+        "id": "204",
+        "country": "Serra Leoa",
+        "iso2Code": "SL",
+        "iso3Code": "SLE",
+        "internationalDialingCode": "232",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/205.png",
+        "id": "205",
+        "country": "San Marino",
+        "iso2Code": "SM",
+        "iso3Code": "SMR",
+        "internationalDialingCode": "378",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/206.png",
+        "id": "206",
+        "country": "Senegal",
+        "iso2Code": "SN",
+        "iso3Code": "SEN",
+        "internationalDialingCode": "221",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/207.png",
+        "id": "207",
+        "country": "Somália",
+        "iso2Code": "SO",
+        "iso3Code": "SOM",
+        "internationalDialingCode": "252",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/208.png",
+        "id": "208",
+        "country": "Suriname",
+        "iso2Code": "SR",
+        "iso3Code": "SUR",
+        "internationalDialingCode": "597",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/209.png",
+        "id": "209",
+        "country": "São Tomé e Príncipe",
+        "iso2Code": "ST",
+        "iso3Code": "STP",
+        "internationalDialingCode": "239",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/210.png",
+        "id": "210",
+        "country": "El Salvador",
+        "iso2Code": "SV",
+        "iso3Code": "SLV",
+        "internationalDialingCode": "503",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/211.png",
+        "id": "211",
+        "country": "Sint Maarten (Dutch part)",
+        "iso2Code": "SX",
+        "iso3Code": "SXM",
+        "internationalDialingCode": "1",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/212.png",
+        "id": "212",
+        "country": "Síria",
+        "iso2Code": "SY",
+        "iso3Code": "SYR",
+        "internationalDialingCode": "963",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/213.png",
+        "id": "213",
+        "country": "Suazilândia",
+        "iso2Code": "SZ",
+        "iso3Code": "SWZ",
+        "internationalDialingCode": "268",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/214.png",
+        "id": "214",
+        "country": "Ilhas Turks e Caicos",
+        "iso2Code": "TC",
+        "iso3Code": "TCA",
+        "internationalDialingCode": "1649",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/215.png",
+        "id": "215",
+        "country": "Chade",
+        "iso2Code": "TD",
+        "iso3Code": "TCD",
+        "internationalDialingCode": "235",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/216.png",
+        "id": "216",
+        "country": "Territórios Franceses do Sul",
+        "iso2Code": "TF",
+        "iso3Code": "ATF",
+        "internationalDialingCode": "262",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/217.png",
+        "id": "217",
+        "country": "Togo",
+        "iso2Code": "TG",
+        "iso3Code": "TGO",
+        "internationalDialingCode": "228",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/218.png",
+        "id": "218",
+        "country": "Tailândia",
+        "iso2Code": "TH",
+        "iso3Code": "THA",
+        "internationalDialingCode": "66",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/219.png",
+        "id": "219",
+        "country": "Tadjiquistão",
+        "iso2Code": "TJ",
+        "iso3Code": "TJK",
+        "internationalDialingCode": "992",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/220.png",
+        "id": "220",
+        "country": "Tokelau",
+        "iso2Code": "TK",
+        "iso3Code": "TKL",
+        "internationalDialingCode": "690",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/221.png",
+        "id": "221",
+        "country": "Timor Leste",
+        "iso2Code": "TL",
+        "iso3Code": "TLS",
+        "internationalDialingCode": "670",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/222.png",
+        "id": "222",
+        "country": "Turcomenistão",
+        "iso2Code": "TM",
+        "iso3Code": "TKM",
+        "internationalDialingCode": "993",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/223.png",
+        "id": "223",
+        "country": "Tunísia",
+        "iso2Code": "TN",
+        "iso3Code": "TUN",
+        "internationalDialingCode": "216",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/224.png",
+        "id": "224",
+        "country": "Tonga",
+        "iso2Code": "TO",
+        "iso3Code": "TON",
+        "internationalDialingCode": "676",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/225.png",
+        "id": "225",
+        "country": "Turquia",
+        "iso2Code": "TR",
+        "iso3Code": "TUR",
+        "internationalDialingCode": "90",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/226.png",
+        "id": "226",
+        "country": "Trinidad e Tobago",
+        "iso2Code": "TT",
+        "iso3Code": "TTO",
+        "internationalDialingCode": "1868",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/227.png",
+        "id": "227",
+        "country": "Tuvalu",
+        "iso2Code": "TV",
+        "iso3Code": "TUV",
+        "internationalDialingCode": "688",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/228.png",
+        "id": "228",
+        "country": "Taiwan",
+        "iso2Code": "TW",
+        "iso3Code": "TWN",
+        "internationalDialingCode": "886",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/229.png",
+        "id": "229",
+        "country": "Tanzânia",
+        "iso2Code": "TZ",
+        "iso3Code": "TZA",
+        "internationalDialingCode": "255",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/230.png",
+        "id": "230",
+        "country": "Ucrânia",
+        "iso2Code": "UA",
+        "iso3Code": "UKR",
+        "internationalDialingCode": "380",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/231.png",
+        "id": "231",
+        "country": "Uganda",
+        "iso2Code": "UG",
+        "iso3Code": "UGA",
+        "internationalDialingCode": "256",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/232.png",
+        "id": "232",
+        "country": "Ilhas Menores Distantes dos Estados Unidos",
+        "iso2Code": "UM",
+        "iso3Code": "UMI",
+        "internationalDialingCode": "1",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/233.png",
+        "id": "233",
+        "country": "Estados Unidos",
+        "iso2Code": "US",
+        "iso3Code": "USA",
+        "internationalDialingCode": "1",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/234.png",
+        "id": "234",
+        "country": "Uruguai",
+        "iso2Code": "UY",
+        "iso3Code": "URY",
+        "internationalDialingCode": "598",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/235.png",
+        "id": "235",
+        "country": "Uzbequistão",
+        "iso2Code": "UZ",
+        "iso3Code": "UZB",
+        "internationalDialingCode": "998",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/236.png",
+        "id": "236",
+        "country": "Vaticano",
+        "iso2Code": "VA",
+        "iso3Code": "VAT",
+        "internationalDialingCode": "39",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/237.png",
+        "id": "237",
+        "country": "São Vicente e Granadinas",
+        "iso2Code": "VC",
+        "iso3Code": "VCT",
+        "internationalDialingCode": "1784",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/238.png",
+        "id": "238",
+        "country": "Venezuela",
+        "iso2Code": "VE",
+        "iso3Code": "VEN",
+        "internationalDialingCode": "58",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/239.png",
+        "id": "239",
+        "country": "Ilhas Virgens Britânicas",
+        "iso2Code": "VG",
+        "iso3Code": "VGB",
+        "internationalDialingCode": "1284",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/240.png",
+        "id": "240",
+        "country": "Ilhas Virgens dos EUA",
+        "iso2Code": "VI",
+        "iso3Code": "VIR",
+        "internationalDialingCode": "1340",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/241.png",
+        "id": "241",
+        "country": "Vietnã",
+        "iso2Code": "VN",
+        "iso3Code": "VNM",
+        "internationalDialingCode": "84",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/242.png",
+        "id": "242",
+        "country": "Vanuatu",
+        "iso2Code": "VU",
+        "iso3Code": "VUT",
+        "internationalDialingCode": "678",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/243.png",
+        "id": "243",
+        "country": "Wallis e Futuna",
+        "iso2Code": "WF",
+        "iso3Code": "WLF",
+        "internationalDialingCode": "681",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/244.png",
+        "id": "244",
+        "country": "Samoa",
+        "iso2Code": "WS",
+        "iso3Code": "WSM",
+        "internationalDialingCode": "685",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/245.png",
+        "id": "245",
+        "country": "Iêmen",
+        "iso2Code": "YE",
+        "iso3Code": "YEM",
+        "internationalDialingCode": "967",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/246.png",
+        "id": "246",
+        "country": "Mayotte",
+        "iso2Code": "YT",
+        "iso3Code": "MYT",
+        "internationalDialingCode": "262",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/247.png",
+        "id": "247",
+        "country": "África do Sul",
+        "iso2Code": "ZA",
+        "iso3Code": "ZAF",
+        "internationalDialingCode": "27",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/248.png",
+        "id": "248",
+        "country": "Zâmbia",
+        "iso2Code": "ZM",
+        "iso3Code": "ZMB",
+        "internationalDialingCode": "260",
+        "active": "1"
+    },
+    {
+        "flagPath": "/security/fake/images/country-flags/249.png",
+        "id": "249",
+        "country": "Zimbábue",
+        "iso2Code": "ZW",
+        "iso3Code": "ZWE",
+        "internationalDialingCode": "263",
+        "active": "1"
     }
 ]

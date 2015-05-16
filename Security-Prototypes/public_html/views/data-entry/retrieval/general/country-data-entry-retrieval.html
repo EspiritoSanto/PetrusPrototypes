@@ -3,172 +3,57 @@
 <link href="/security/resources/css/data-entry/retrieval/general/country-data-entry-retrieval.css" rel="stylesheet" />
 
 <div ng-controller="countryDataEntryRetrievalCtrl">
-<!-- Header -->
-<div class="panel panel-default sys-template-child-header-panel">
-    <div class="panel-heading">
-        <span class="glyphicon glyphicon-th-list text-danger"></span>
-        <span>Países</span>
-    </div>
-</div>
-<!-- Header -->
 
-<!-- Filter -->
-<!--<div class="accordion" id="panelFilterAccordion">
-    <div class="panel panel-default">
-
+    <!-- Header -->
+    <div class="panel panel-default sys-template-child-header-panel">
         <div class="panel-heading">
-            <div class="row">
-
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="panel-title">
-                        <div class="btn-toolbar" role="toolbar" aria-label="Barra de Botões do Filtro">
-                            <div class="btn-group" role="group" aria-label="Botão Novo">
-                                <button type="button" class="btn btn-primary btn-sm gn1-margin-xs-top gn1-margin-xs-bottom">
-                                    <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
-                                    Novo
-                                </button>
-                            </div>
-                            <div class="btn-group" role="group" aria-label="Botão Filtro">
-                                <button type="button" class="btn btn-default btn-sm gn1-margin-xs-top gn1-margin-xs-bottom" data-toggle="collapse" data-parent="#panelFilterAccordion" data-target="#collapseFilter">
-                                    <span class="glyphicon glyphicon-filter" aria-hidden="true"></span>
-                                    Filtro
-                                </button>
-                                <button type="button" class="btn btn-default btn-sm gn1-margin-xs-top gn1-margin-xs-bottom" data-toggle="collapse" data-parent="#panelFilterAccordion" data-target="#collapseOrder">
-                                    <span class="glyphicon glyphicon-sort" aria-hidden="true"></span>
-                                    Ordem
-                                </button>
-                            </div>
-                            <div class="btn-group" role="group" aria-label="Botão Buscar">
-                                <button type="button" class="btn btn-default btn-sm gn1-margin-xs-top gn1-margin-xs-bottom">
-                                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                                    Buscar
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+            <span class="glyphicon glyphicon-th-list text-danger"></span>
+            <span>Países</span>
         </div>
-
-        <div id="collapseFilter" class="panel-collapse collapse">
-            <div class="panel-body">
-                <label>Filtrar pelo campo:</label>
-                <div class="row">
-                    <div class="col-md-3">
-                        <label class="gn1-margin-xs-top">Campo</label>
-                        <select class="form-control input-sm selectpicker" ng-model="filterField" ng-change="filterFieldChange()" ng-options="filterField.columnLabel for filterField in filterFields"></select>
-                    </div>
-                    <div class="col-md-3">
-                        <label class="gn1-margin-xs-top">Método</label>
-                        <select class="form-control input-sm selectpicker">
-                            <option value="asc">Igual a</option>
-                            <option value="asc">Maior que</option>
-                            <option value="asc">Menor que</option>
-                        </select>
-                    </div>
-                    <div class="col-md-6">
-                        <label  class="gn1-margin-xs-top">Parâmetro</label>
-                        <input type="text" class="form-control input-sm">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="collapseOrder" class="panel-collapse collapse">
-            <div class="panel-body">
-                <label>Ordenar pelo campo:</label>
-                <div class="checkbox">
-                    <label><input type="checkbox" value="active" name="activeOrderField" id="activeOrderField"><strong>Ativo</strong> e depois pelo campo...</label>
-                </div>
-                <div class="radio">
-                    <label><input type="radio" value="id" name="radioOrderField" id="radioOrderField">Código</label>
-                </div>
-                <div class="radio">
-                    <label><input type="radio" value="country" name="radioOrderField" id="radioOrderField" checked>País</label>
-                </div>
-                <div class="radio">
-                    <label><input type="radio" value="iso2Code" name="radioOrderField" id="radioOrderField">ISO Alfa-2</label>
-                </div>
-                <div class="radio">
-                    <label><input type="radio" value="iso3Code" name="radioOrderField" id="radioOrderField">ISO Alfa-3</label>
-                </div>
-                <div class="radio">
-                    <label><input type="radio" value="internationalDialingCode" name="radioOrderField" id="radioOrderField">Código de Discagem Internacional</label>
-                </div>
-            </div>
-        </div>
-
     </div>
-</div>-->
-<!-- /Filter -->
+    <!-- /Header -->
 
-<table id="CountryTable"
-    data-data-entry-retrieval-directive-load-data
-       data-classes="table table-hover table-condensed bs-table"
-       data-striped="true"
-       data-sort-name="country"
-       data-search="true"
-       data-show-refresh="true"
-       data-show-toggle="true"
-       data-show-columns="true"
-       data-pagination="true"
-       data-minimum-count-columns=0
-       data-id-field="id"
-       data-pagination-v-align="both"
-       data-search-align="left"
-       data-buttons-align="left"
-       data-pagination-h-align="left">  
-    <thead>
-        <tr>
-            <th class="col-xs-1" data-halign="right" data-align="right" data-sortable="true" data-switchable="true" data-field="id">Código</th>
-            <th class="col-xs-6" data-halign="left" data-align="left" data-sortable="true" data-switchable="false" data-field="country" data-formatter="countryFormatter">País</th>
-            <th class="col-xs-1" data-halign="center" data-align="center" data-sortable="false" data-switchable="true" data-field="flagPath" data-formatter="flagPathFormatter">Bandeira</th>
-            <th class="col-xs-1" data-halign="center" data-align="center" data-sortable="true" data-switchable="true" data-field="iso2Code">ISO Alfa 2</th>
-            <th class="col-xs-1" data-halign="center" data-align="center" data-sortable="true" data-switchable="true" data-field="iso3Code">ISO Alfa 3</th>
-            <th class="col-xs-1" data-halign="center" data-align="center" data-sortable="true" data-switchable="true" data-field="internationalDialingCode">CDI</th>
-            <th class="col-xs-1" data-halign="center" data-align="center" data-sortable="true" data-switchable="true" data-field="active">Ativo</th>
-        </tr>
-    </thead>
-</table>
+    <!-- Table -->
+    <div id="toolbar" class="btn-group">
+        <button ng-click="refresh()" type="button" class="btn btn-default">
+            <i class="glyphicon glyphicon-refresh"></i>
+        </button>
+        <button ng-click="new()" type="button" class="btn btn-default">
+            <i class="glyphicon glyphicon-plus"></i>
+        </button>
+    </div>
 
-
-<a href="#/security/data-entry/retrieval-detail/general/country-data-entry-retrieval-detail">Ir para o detalhe</a>
-
-
-<script src="/security/resources/bootstrap-table/bootstrap-table.js"></script>
-<script src="/security/resources/bootstrap-table/locale/bootstrap-table-pt-BR.min.js"></script>
-
-<style>
-
-    // custom
-    .bs-table td > a {
-        display: block;
-        margin: -8px;
-        padding: 8px;
-        text-decoration: none;
-    }
-    .bs-table td > a:hover {
-        text-decoration: none;
-    }
-</style>
-
-<script>
-    function countryFormatter(value, row) {
-        return '<a class="bs-table-link" href="#/security/data-entry/retrieval-detail/general/country-data-entry-retrieval-detail?id=' + row.id + '">' + value + '</a>';
-    }
-
-    function flagPathFormatter(value, row) {
-        return '<img src="' + value + '" alt="Country flag of ID: ' + row.id + '" style="width:30px" />';
-    }
-    
-    /*jQuery('#CountryTable').bootstrapTable({        
-        pageList: [10, 25, 50, 100, jQuery.fn.bootstrapTable.defaults.formatAllRows()]
-    });*/
-</script>
-<style>
-    //bootstrap-table
-
-</style>
+    <table id="countryTable"
+           data-data-entry-retrieval-directive-load-data
+           data-classes="table table-hover table-condensed bs-table"
+           data-striped="true"
+           data-sort-name="country"
+           data-search="true"
+           data-show-columns="true"
+           data-pagination="true"
+           data-minimum-count-columns=0
+           data-id-field="id"
+           data-pagination-v-align="both"
+           data-search-align="left"
+           data-buttons-align="left"
+           data-pagination-h-align="left"
+           data-toolbar="#toolbar">  
+        <thead>
+            <tr>
+                <th class="col-xs-1" data-halign="right" data-align="right" data-sortable="true" data-switchable="true" data-field="id">Código</th>
+                <th class="col-xs-6" data-halign="left" data-align="left" data-sortable="true" data-switchable="false" data-field="country" data-formatter="linkFormatter">País</th>
+                <th class="col-xs-1" data-halign="center" data-align="center" data-sortable="false" data-switchable="true" data-field="flagPath" data-formatter="flagFormatter">Bandeira</th>
+                <th class="col-xs-1" data-halign="center" data-align="center" data-sortable="true" data-switchable="true" data-field="iso2Code">ISO Alfa 2</th>
+                <th class="col-xs-1" data-halign="center" data-align="center" data-sortable="true" data-switchable="true" data-field="iso3Code">ISO Alfa 3</th>
+                <th class="col-xs-1" data-halign="center" data-align="center" data-sortable="true" data-switchable="true" data-field="internationalDialingCode">CDI</th>
+                <th class="col-xs-1" data-halign="center" data-align="center" data-sortable="true" data-switchable="true" data-field="active">Ativo</th>
+            </tr>
+        </thead>
+    </table>
+    <!-- /Table -->
 
 </div> 
+
+<script src="/security/resources/bootstrap-table/bootstrap-table.js"></script>
+<script src="/security/resources/bootstrap-table/locale/bootstrap-table-en-US.min.js"></script>
+<script src="/security/resources/js/data-entry/retrieval/general/country-data-entry-retrieval.js"></script>
