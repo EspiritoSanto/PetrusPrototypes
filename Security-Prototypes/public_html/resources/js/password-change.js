@@ -1,2 +1,2 @@
-/* Put your JS here. */
+/* JS */
 

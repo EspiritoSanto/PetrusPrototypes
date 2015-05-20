@@ -15,6 +15,9 @@
         formatLoadingMessage: function () {
             return 'Cargando, por favor espera...';
         },
+        formatNew: function () {
+            return 'Nuevo';
+        },
         formatNoMatches: function () {
             return 'No se han encontrado registros.';
         },
@@ -31,7 +34,7 @@
             return 'Buscar';
         },
         formatShowingRows: function (pageFrom, pageTo, totalRows) {
-            return 'Viendo ' + pageFrom + ' a ' + pageTo + ' de ' + totalRows + ' registros.';
+            return pageFrom + ' a ' + pageTo + ' de ' + totalRows + ' registros.';
         },
         formatToggle: function () {
             return 'Alternar';

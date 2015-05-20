@@ -1,7 +1,38 @@
-.accordion-title-link {
-    cursor: pointer;
-    display: block;
-    font-size: 18px;
-    text-decoration: none;
+#sysDataEntryRetrievalPendingEvaluationAccordion .panel-heading {
+    padding: 0;
+    height: 42px;
 }
 
+#sysDataEntryRetrievalPendingEvaluationAccordion .panel-heading .panel-title a {
+    text-decoration:none;
+    display: block;
+    padding: 12px 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#sysDataEntryRetrievalPendingEvaluationAccordion .panel-collapse > .panel-body > h3 {
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+
+#sysDataEntryRetrievalPendingEvaluationAccordion .panel-collapse .nav > li > a {
+    cursor: pointer;
+}
+
+#sysDataEntryRetrievalPendingEvaluationAccordion .panel-collapse .tab-content > .tab-pane {
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 1px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+#sysDataEntryRetrievalPendingEvaluationAccordion .panel-collapse .nav-tabs {
+    border-bottom: none;
+}

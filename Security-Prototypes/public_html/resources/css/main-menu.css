@@ -1,78 +1,55 @@
-/* Elements with non-responsive attributes */
+/* AngularJs elements */
 
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
     display: none !important;
 }
 
-#sideMenu {
+/* Page elements */
+
+#sysMainMenuSideMenu {
     margin-top: 10px; 
 }
 
-#sideMenuModuleHeading {
+#sysMainMenuSideMenu > .container-fluid {
     padding: 0;
     font-size: 22px;
 }
 
-#sideMenuButton {
-    display: none;
+#sysMainMenuSideMenuButton {
     margin-bottom: 10px;
     width: 100%;
 }
+@media (max-width: 992px) {
+    #sysMainMenuSideMenuButton {
+        display: block;
+    }
+}
+@media (min-width: 992px) {
+    #sysMainMenuSideMenuButton {
+        display: none;
+    }
+}
 
-#sideMenuAccordion .panel-heading {
+@media (min-width: 992px) {
+    #sysMainMenuSideMenuAccordion {
+        display: block;        
+        height: auto !important;
+    }
+}
+
+#sysMainMenuSideMenuAccordion .panel-heading {
     padding: 0; 
 }
 
-.panel-heading > a {
+#sysMainMenuSideMenuAccordion .panel-heading > a {
     text-decoration: none;
     cursor: pointer;
 }
 
-.panel-heading > a > .panel-title {
+#sysMainMenuSideMenuAccordion .panel-heading > a > .panel-title {
     padding: 10px;
 }
 
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus {
-    color: #337ab7;
-    background-color: #e3e3e3;
-    outline: 0;
-}
-
-.sys-template-child-header-panel {
-    font-size: 22px;    
-}
-
-#childTemplateView {
+#sysMainMenuChildTemplateView {
     margin-top: 10px;
-}
-
-/* Put here elements with responsive attributes */
-
-@media (max-width: 768px) {
-    #sideMenuButton{
-        display: block;
-    }
-    .sys-template-child-header-panel {
-        font-size: 14px;
-        font-weight: bolder;
-    }
-}
-@media (min-width: 768px) and (max-width: 992px) {
-    #sideMenuButton {
-        display: block;
-    }
-}
-@media (min-width: 992px) and (max-width: 1200px) {
-    #sideMenuAccordion {
-        height: auto !important;
-        display: block;
-    }
-}
-@media (min-width: 1200px) {
-    #sideMenuAccordion {
-        display: block;        
-        height: auto !important;
-    }
 }

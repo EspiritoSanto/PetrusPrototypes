@@ -15,6 +15,9 @@
         formatLoadingMessage: function () {
             return 'Loading, please wait...';
         },
+        formatNew: function () {
+            return 'New';
+        },
         formatNoMatches: function () {
             return 'No matching records found.';
         },
@@ -31,7 +34,7 @@
             return 'Search';
         },
         formatShowingRows: function (pageFrom, pageTo, totalRows) {
-            return 'Showing ' + pageFrom + ' to ' + pageTo + ' of ' + totalRows + ' records.';
+            return pageFrom + ' to ' + pageTo + ' of ' + totalRows + ' records.';
         },
         formatToggle: function () {
             return 'Toggle';

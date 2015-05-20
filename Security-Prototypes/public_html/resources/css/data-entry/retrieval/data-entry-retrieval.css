@@ -1,18 +1,6 @@
-/* Elements with non-responsive attributes */
-
-.bs-table-image {
-    width: 30px;
-    border: 1px solid;
-}
-
-.bs-table-link {
-    display: block;
-    margin: -8px;
-    padding: 8px;
-    text-decoration: none;
-}
-.bs-table-link:hover {
-    text-decoration: none;
+.bootstrap-table #toolbar {
+    vertical-align: top;
+    padding-right: 10px;
 }
 
 .fixed-table-toolbar .bars,
@@ -21,18 +9,74 @@
     margin-top: 0;
 }
 
-.bootstrap-table #toolbar {
-    vertical-align: top;
+.bootstrap-table .pagination-detail {
     padding-right: 10px;
 }
 
-/* Put here elements with responsive attributes */
+.sys-data-entry-retrieval-image-xs {
+    width: 30px;
+    border: 1px solid;
+}
 
-@media (max-width: 768px) {
+.sys-data-entry-retrieval-image-sm {
+    width: 50px;
+    border: 1px solid;
 }
-@media (min-width: 768px) and (max-width: 992px) {
+
+.sys-data-entry-retrieval-image-md {
+    width: 100px;
+    border: 1px solid;
 }
-@media (min-width: 992px) and (max-width: 1200px) {
+
+.sys-data-entry-retrieval-image-lg {
+    width: 150px;
+    border: 1px solid;
 }
-@media (min-width: 1200px) {
+
+.sys-data-entry-retrieval-image-xl {
+    width: 200px;
+    border: 1px solid;
 }
+
+.sys-data-entry-retrieval-link-xs {
+    display: block;
+    margin: -8px;
+    padding: 8px;
+    text-decoration: none;
+}
+.sys-data-entry-retrieval-link-sm {
+    display: block;
+    margin: -8px;
+    padding: 8px;
+    padding-bottom: 16px;
+    text-decoration: none;
+}
+.sys-data-entry-retrieval-link-md {
+    display: block;
+    margin: -8px;
+    padding: 8px;
+    padding-bottom: 46px;
+    text-decoration: none;
+}
+.sys-data-entry-retrieval-link-lg {
+    display: block;
+    margin: -8px;
+    padding: 8px;
+    padding-bottom: 76px;
+    text-decoration: none;
+}
+.sys-data-entry-retrieval-link-xl {
+    display: block;
+    margin: -8px;
+    padding: 8px;
+    padding-bottom: 124px;
+    text-decoration: none;
+}
+.sys-data-entry-retrieval-link-xs:hover,
+.sys-data-entry-retrieval-link-sm:hover,
+.sys-data-entry-retrieval-link-md:hover,
+.sys-data-entry-retrieval-link-lg:hover,
+.sys-data-entry-retrieval-link-xl:hover {
+    text-decoration: none;
+}
+

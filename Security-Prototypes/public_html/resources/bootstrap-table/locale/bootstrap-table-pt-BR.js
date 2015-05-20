@@ -16,26 +16,29 @@
         formatLoadingMessage: function () {
             return 'Carregando, por favor aguarde...';
         },
-        formatRecordsPerPage: function (pageNumber) {
-            return pageNumber + ' registros por página.';
+        formatNewRecord: function () {
+            return 'Novo';
         },
-        formatShowingRows: function (pageFrom, pageTo, totalRows) {
-            return 'Exibindo ' + pageFrom + ' até ' + pageTo + ' de ' + totalRows + ' registros.';
-        },
-        formatSearch: function () {
-            return 'Pesquisar';
-        },
-        formatRefresh: function () {
-            return 'Recarregar';
-        },
-        formatToggle: function () {
-            return 'Alternar';
+        formatNoMatches: function () {
+            return 'Nenhum registro encontrado.';
         },
         formatPaginationSwitch: function () {
             return 'Ocultar/Exibir paginação';
         },
-        formatNoMatches: function () {
-            return 'Nenhum registro encontrado.';
+        formatRecordsPerPage: function (pageNumber) {
+            return pageNumber + ' registros por página.';
+        },
+        formatRefresh: function () {
+            return 'Recarregar';
+        },
+        formatSearch: function () {
+            return 'Pesquisar';
+        },
+        formatShowingRows: function (pageFrom, pageTo, totalRows) {
+            return pageFrom + ' até ' + pageTo + ' de ' + totalRows + ' registros.';
+        },
+        formatToggle: function () {
+            return 'Alternar';
         }
     };
 

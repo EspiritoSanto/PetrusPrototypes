@@ -5,57 +5,54 @@
         {
             "denomination": "Submissão",
             "alias": "Submission",
-            "icon": "glyphicon glyphicon-cloud-upload text-primary",
             "menuItens": [
                 {
                     "url": "medicalresidency/data-entry/retrieval/licensed-s/healthservicechief-data-entry-retrieval",
                     "name": "Chefes de Serviços de Saúde",
                     "alias": "healthservicechief-data-entry-retrieval",
-                    "icon": "glyphicon glyphicon-user text-success"
+                    "icon": "glyphicon glyphicon-th-list text-danger"
                 },
                 {
                     "url": "medicalresidency/data-entry/retrieval/licensed-s/healthservice-data-entry-retrieval",
                     "name": "Serviços de Saúde",
                     "alias": "healthservice-data-entry-retrieval",
-                    "icon": "glyphicon glyphicon-plus-sign text-danger"
+                    "icon": "glyphicon glyphicon-th-list text-danger"
                 },
                 {
                     "url": "medicalresidency/data-entry/retrieval/licensed-s/datasheetsubmission-data-entry-retrieval",
-                    "name": "Submissão de Memorial Descritivo",
+                    "name": "Submissões de Memoriais Descritivos",
                     "alias": "datasheetsubmission-data-entry-retrieval",
-                    "icon": "glyphicon glyphicon-open-file text-primary"
+                    "icon": "glyphicon glyphicon-th-list text-danger"
                 }
             ]
         },
         {
             "denomination": "Revisão",
             "alias": "Review",
-            "icon": "glyphicon glyphicon-search text-warning",
             "menuItens": [
                 {
                     "url": "medicalresidency/data-entry/retrieval/licensed-s/datasheetreview-data-entry-retrieval",
-                    "name": "Revisão de Memorial Descritivo",
+                    "name": "Revisões de Memoriais Descritivos",
                     "alias": "datasheetreview-data-entry-retrieval",
-                    "icon": "glyphicon glyphicon-duplicate text-primary"
+                    "icon": "glyphicon glyphicon-th-list text-danger"
                 }
             ]
         },
         {
             "denomination": "Avaliação",
             "alias": "Evaluation",
-            "icon": "glyphicon glyphicon-eye-open text-danger",
             "menuItens": [
                 {
                     "url": "medicalresidency/data-entry/retrieval/licensed-s/pendingevaluation-data-entry-retrieval",
                     "name": "Avaliações Pendentes",
                     "alias": "pendingevaluation-data-entry-retrieval",
-                    "icon": "glyphicon glyphicon-edit text-danger"
+                    "icon": "glyphicon glyphicon-th-list text-danger"
                 },
                 {
                     "url": "medicalresidency/data-entry/retrieval/licensed-s/completeevaluation-data-entry-retrieval",
                     "name": "Avaliações Concluídas",
                     "alias": "completeevaluation-data-entry-retrieval",
-                    "icon": "glyphicon glyphicon-check text-primary"
+                    "icon": "glyphicon glyphicon-th-list text-danger"
                 }
             ]
         }

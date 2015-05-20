@@ -1,11 +1,3 @@
-/* Elements with non-responsive attributes */
-
-.jumbotron {
-    margin-top: 10%;
-}
-
-/* Put here elements with responsive attributes */
-
 @media (max-width: 768px) {
     .jumbotron {
         margin-top: 10px;
@@ -17,6 +9,12 @@
     }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
+    .jumbotron {
+        margin-top: 10%;
+    }
 }
 @media (min-width: 1200px) {
+    .jumbotron {
+        margin-top: 15%;
+    }
 }

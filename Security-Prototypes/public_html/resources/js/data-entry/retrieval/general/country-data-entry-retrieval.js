@@ -24,18 +24,21 @@ system.registerCtrl('countryDataEntryRetrievalCtrl', [
             dataEntryRetrievalServiceLoadData) {
 
         $scope.refresh = function () {
-            dataEntryRetrievalServiceLoadData.refresh('security', 'country')
+            var module = 'security';
+            var functionality = 'country';
+
+            dataEntryRetrievalServiceLoadData.list(module, functionality)
                     .then(function (response) {
                         $scope.data = response.data;
                     })
                     .catch(function (data, status) {
-                        console.log('não deu certo');
+                        window.location.replace('/security/views/message.html?messageCode=failInDataEntryRetrievalLoadData&module=' + module + '&functionality=' + functionality);
                     });
         };
-        
+
         $scope.new = function () {
             $location.path('/security/data-entry/retrieval-form/general/country-data-entry-retrieval-form');
         };
-        
+
         $scope.refresh();
     }]);

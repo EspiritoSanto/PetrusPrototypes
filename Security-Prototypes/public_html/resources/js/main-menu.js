@@ -68,12 +68,12 @@ system.controller('SystemCtrl', [
         $scope.setMainMenuStructure = function (moduleName) {
             if ($rootScope.currentModule !== moduleName) {
                 $rootScope.currentModule = moduleName;
-                $http.get('/security/json/indexes/' + $rootScope.currentModule + '-index.json')
+                $http.get('/security/fake/json/indexes/' + $rootScope.currentModule + '-index.json')
                         .success(function (data, status, headers, config) {
                             $scope.mainMenuStructure = data;
                         })
                         .error(function (data, status, headers, config) {
-                            window.location.replace('/security/views/message.html?messageCode=failInMenuLoad&module' + $rootScope.currentModule);
+                            window.location.replace('/security/views/message.html?messageCode=failInMainMenuLoad&module' + $rootScope.currentModule);
                         });
             }
         };
@@ -103,7 +103,7 @@ system.directive('menuItemLink', ['$location', function ($location) {
 
                     var newValueDataEntryRetrievalDetailSufix = newValue.substring(newValue.length - 27);
                     var newValueDataEntryRetrievalFormSufix = newValue.substring(newValue.length - 25);
-                    var newValueDataEntryFormSufix = newValue.substring(newValue.length - 15);
+                    var newValueDataEntryDetailFormSufix = newValue.substring(newValue.length - 22);
 
                     if (newValueDataEntryRetrievalDetailSufix === 'data-entry-retrieval-detail') {
                         newValue = newValue.substring(0, newValue.length - 27).replace('-detail', '') + 'data-entry-retrieval';
@@ -111,13 +111,13 @@ system.directive('menuItemLink', ['$location', function ($location) {
                     if (newValueDataEntryRetrievalFormSufix === 'data-entry-retrieval-form') {
                         newValue = newValue.substring(0, newValue.length - 25).replace('-form', '') + 'data-entry-retrieval';
                     }
-                    if (newValueDataEntryFormSufix === 'data-entry-form') {
-                        newValue = newValue.substring(0, newValue.length - 15).replace('/form', '/form-detail') + 'data-entry-form-detail';
+                    if (newValueDataEntryDetailFormSufix === 'data-entry-detail-form') {
+                        newValue = newValue.substring(0, newValue.length - 22).replace('-form', '') + 'data-entry-detail';
                     }
 
                     var oldValueDataEntryRetrievalDetailSufix = oldValue.substring(oldValue.length - 27);
                     var oldValueDataEntryRetrievalFormSufix = oldValue.substring(oldValue.length - 25);
-                    var oldValueDataEntryFormSufix = oldValue.substring(oldValue.length - 15);
+                    var oldValueDataEntryDetailFormSufix = oldValue.substring(oldValue.length - 22);
 
                     if (oldValueDataEntryRetrievalDetailSufix === 'data-entry-retrieval-detail') {
                         oldValue = oldValue.substring(0, oldValue.length - 27).replace('-detail', '') + 'data-entry-retrieval';
@@ -125,8 +125,8 @@ system.directive('menuItemLink', ['$location', function ($location) {
                     if (oldValueDataEntryRetrievalFormSufix === 'data-entry-retrieval-form') {
                         oldValue = oldValue.substring(0, oldValue.length - 25).replace('-form', '') + 'data-entry-retrieval';
                     }
-                    if (oldValueDataEntryFormSufix === 'data-entry-form') {
-                        oldValue = oldValue.substring(0, oldValue.length - 15).replace('/form', '/form-detail') + 'data-entry-form-detail';
+                    if (oldValueDataEntryDetailFormSufix === 'data-entry-detail-form') {
+                        oldValue = oldValue.substring(0, oldValue.length - 22).replace('-form', '') + 'data-entry-detail';
                     }
 
                     if ('#' + newValue === element[0].attributes['href'].value) {

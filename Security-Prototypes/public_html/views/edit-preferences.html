@@ -29,13 +29,13 @@
                     <div class="container">
                         <div class="row">
 
-                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 sys-header-column-first">
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 sys-header-column-first-or-middle">
                                 <a href="/security/views/index.html">
-                                    <img src="/security/resources/images/logos/petrus-logo.png" alt="Suite Logo" class="sys-header-logo">
+                                    <img src="/security/resources/images/logos/petrus-logo.png" alt="Suite Logo">
                                 </a>
                             </div>
 
-                            <div class="col-lg-offset-4 col-md-offset-2 col-sm-offset-0 col-xs-offset-0 col-lg-5 col-md-6 col-sm-8 col-xs-12 sys-header-column sys-header-column-mobile">
+                            <div class="col-lg-offset-4 col-md-offset-2 col-sm-offset-0 col-xs-offset-0 col-lg-5 col-md-6 col-sm-8 col-xs-12 sys-header-column-first-or-middle sys-header-column-mobile">
                                 <div class="dropdown">
                                     <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" id="dropdownMenuLoggedUser">
                                         <span class="glyphicon glyphicon-user"></span>
@@ -44,7 +44,7 @@
                                         &nbsp;
                                         <span class="caret"></span>
                                     </button>
-                                    <ul class="dropdown-menu sys-dropdown-menu-mobile" role="menu" aria-labelledby="dropdownMenuLoggedUser">
+                                    <ul class="dropdown-menu sys-dropdown-menu-logged-user" role="menu" aria-labelledby="dropdownMenuLoggedUser">
                                         <li role="presentation">
                                             <p class="text-center">
                                                 <img src="/security/resources/images/icons/user-icon.png" alt="User image" height="150" width="150" class="img-rounded">
@@ -58,7 +58,6 @@
                                             Administrador de Sistema Geral
                                         </li>
                                         <li role="presentation" class="divider"></li>
-                                        <!--<li role="presentation" ><a role="menuitem" tabindex="-1" href="/security/views/edit-preferences.html">Editar preferências</a></li>-->
                                         <li role="presentation" ><a role="menuitem" tabindex="-1" href="/security/views/password-change.html">Alterar Senha</a></li>
                                         <li role="presentation" class="divider"></li>
                                         <li role="presentation" ><a role="menuitem" tabindex="-1" href="/security/views/home.html">Sair</a></li>
@@ -66,173 +65,173 @@
                                 </div>
                             </div>
 
-                            <div class="col-lg-1 col-md-2 col-sm-2 col-xs-12 sys-header-column-last sys-header-column-mobile">
+                            <div class="col-lg-1 col-md-2 col-sm-2 col-xs-12 sys-header-column-last-or-single sys-header-column-mobile">
                                 <div class="dropdown">
                                     <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" id="dropdownMenuIndex">
                                         &nbsp;&nbsp;<span class="glyphicon glyphicon-th"></span>&nbsp; 
                                     </button>
-                                    <ul class="dropdown-menu sys-dropdown-menu-mobile sys-dropdown-menu-index" role="menu" aria-labelledby="dropdownMenuIndex">
+                                    <ul class="dropdown-menu sys-dropdown-menu-index" role="menu" aria-labelledby="dropdownMenuIndex">
                                         <li role="presentation">
 
-                                            <div class="row text-center sys-dropdown-menu-index-row">
+                                            <div class="row text-center">
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="/security/views/main-menu.html#/accounting/default" class="thumbnail sys-dropdown-menu-index-thumbnail">
-                                                        <img class="sys-padding-sm-top sys-dropdown-menu-index-thumbnail-image" src="/security/resources/images/icons/softwares/accounting-software-icon.png" alt="Accounting software icon">
+                                                    <a href="/security/views/main-menu.html#/accounting/default" class="thumbnail">
+                                                        <img src="/security/resources/images/icons/softwares/accounting-software-icon.png" alt="Accounting software icon">
                                                         <div class="caption">
-                                                            <p class="sys-dropdown-menu-index-thumbnail-title">Accounting</p>
+                                                            <p>Accounting</p>
                                                         </div>
                                                     </a>
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="/security/views/main-menu.html#/associates/default" class="thumbnail sys-dropdown-menu-index-thumbnail">
-                                                        <img class="sys-padding-sm-top sys-dropdown-menu-index-thumbnail-image" src="/security/resources/images/icons/softwares/associates-software-icon.png" alt="Associates software icon">
+                                                    <a href="/security/views/main-menu.html#/associates/default" class="thumbnail">
+                                                        <img src="/security/resources/images/icons/softwares/associates-software-icon.png" alt="Associates software icon">
                                                         <div class="caption">
-                                                            <p class="sys-dropdown-menu-index-thumbnail-title">Associates</p>
+                                                            <p>Associates</p>
                                                         </div>
                                                     </a>
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="/security/views/main-menu.html#/associationsite/default" class="thumbnail sys-dropdown-menu-index-thumbnail">
-                                                        <img class="sys-padding-sm-top sys-dropdown-menu-index-thumbnail-image" src="/security/resources/images/icons/softwares/associationsite-software-icon.png" alt="Association site software icon">
+                                                    <a href="/security/views/main-menu.html#/associationsite/default" class="thumbnail">
+                                                        <img src="/security/resources/images/icons/softwares/associationsite-software-icon.png" alt="Association site software icon">
                                                         <div class="caption">
-                                                            <p class="sys-dropdown-menu-index-thumbnail-title">Association Site</p>
+                                                            <p>Association Site</p>
                                                         </div>
                                                     </a>
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="/security/views/main-menu.html#/bookkeeping/default" class="thumbnail sys-dropdown-menu-index-thumbnail">
-                                                        <img class="sys-padding-sm-top sys-dropdown-menu-index-thumbnail-image" src="/security/resources/images/icons/softwares/bookkeeping-software-icon.png" alt="Bookkeeping software icon">
+                                                    <a href="/security/views/main-menu.html#/bookkeeping/default" class="thumbnail">
+                                                        <img src="/security/resources/images/icons/softwares/bookkeeping-software-icon.png" alt="Bookkeeping software icon">
                                                         <div class="caption">
-                                                            <p class="sys-dropdown-menu-index-thumbnail-title">Bookkeeping</p>
+                                                            <p>Bookkeeping</p>
                                                         </div>
                                                     </a>
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="/security/views/main-menu.html#/contracts/default" class="thumbnail sys-dropdown-menu-index-thumbnail">
-                                                        <img class="sys-padding-sm-top sys-dropdown-menu-index-thumbnail-image" src="/security/resources/images/icons/softwares/contracts-software-icon.png" alt="Contracts software icon">
+                                                    <a href="/security/views/main-menu.html#/contracts/default" class="thumbnail">
+                                                        <img src="/security/resources/images/icons/softwares/contracts-software-icon.png" alt="Contracts software icon">
                                                         <div class="caption">
-                                                            <p class="sys-dropdown-menu-index-thumbnail-title">Contracts</p>
+                                                            <p>Contracts</p>
                                                         </div>
                                                     </a>
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="/security/views/main-menu.html#/costing/default" class="thumbnail sys-dropdown-menu-index-thumbnail">
-                                                        <img class="sys-padding-sm-top sys-dropdown-menu-index-thumbnail-image" src="/security/resources/images/icons/softwares/costing-software-icon.png" alt="Costing software icon">
+                                                    <a href="/security/views/main-menu.html#/costing/default" class="thumbnail">
+                                                        <img src="/security/resources/images/icons/softwares/costing-software-icon.png" alt="Costing software icon">
                                                         <div class="caption">
-                                                            <p class="sys-dropdown-menu-index-thumbnail-title">Costing</p>
+                                                            <p>Costing</p>
                                                         </div>
                                                     </a>
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="/security/views/main-menu.html#/events/default" class="thumbnail sys-dropdown-menu-index-thumbnail">
-                                                        <img class="sys-padding-sm-top sys-dropdown-menu-index-thumbnail-image" src="/security/resources/images/icons/softwares/events-software-icon.png" alt="Events software icon">
+                                                    <a href="/security/views/main-menu.html#/events/default" class="thumbnail">
+                                                        <img src="/security/resources/images/icons/softwares/events-software-icon.png" alt="Events software icon">
                                                         <div class="caption">
-                                                            <p class="sys-dropdown-menu-index-thumbnail-title">Events</p>
+                                                            <p>Events</p>
                                                         </div>
                                                     </a>
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="/security/views/main-menu.html#/journalsales/default" class="thumbnail sys-dropdown-menu-index-thumbnail">
-                                                        <img class="sys-padding-sm-top sys-dropdown-menu-index-thumbnail-image" src="/security/resources/images/icons/softwares/journalsales-software-icon.png" alt="Journal Sales software icon">
+                                                    <a href="/security/views/main-menu.html#/journalsales/default" class="thumbnail">
+                                                        <img src="/security/resources/images/icons/softwares/journalsales-software-icon.png" alt="Journal Sales software icon">
                                                         <div class="caption">
-                                                            <p class="sys-dropdown-menu-index-thumbnail-title">Journal Sales</p>
+                                                            <p>Journal Sales</p>
                                                         </div>
                                                     </a>
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="/security/views/main-menu.html#/journalsite/default" class="thumbnail sys-dropdown-menu-index-thumbnail">
-                                                        <img class="sys-padding-sm-top sys-dropdown-menu-index-thumbnail-image" src="/security/resources/images/icons/softwares/journalsite-software-icon.png" alt="Journal Site software icon">
+                                                    <a href="/security/views/main-menu.html#/journalsite/default" class="thumbnail">
+                                                        <img src="/security/resources/images/icons/softwares/journalsite-software-icon.png" alt="Journal Site software icon">
                                                         <div class="caption">
-                                                            <p class="sys-dropdown-menu-index-thumbnail-title">Journal Site</p>
+                                                            <p>Journal Site</p>
                                                         </div>
                                                     </a>
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="/security/views/main-menu.html#/medicalimproving/default" class="thumbnail sys-dropdown-menu-index-thumbnail">
-                                                        <img class="sys-padding-sm-top sys-dropdown-menu-index-thumbnail-image" src="/security/resources/images/icons/softwares/medicalimproving-software-icon.png" alt="Medical Improving software icon">
+                                                    <a href="/security/views/main-menu.html#/medicalimproving/default" class="thumbnail">
+                                                        <img src="/security/resources/images/icons/softwares/medicalimproving-software-icon.png" alt="Medical Improving software icon">
                                                         <div class="caption">
-                                                            <p class="sys-dropdown-menu-index-thumbnail-title">Medical Improving</p>
+                                                            <p>Medical Improving</p>
                                                         </div>
                                                     </a>
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="/security/views/main-menu.html#/medicalresidency/default" class="thumbnail sys-dropdown-menu-index-thumbnail">
-                                                        <img class="sys-padding-sm-top sys-dropdown-menu-index-thumbnail-image" src="/security/resources/images/icons/softwares/medicalresidency-software-icon.png" alt="Medical Residency software icon">
+                                                    <a href="/security/views/main-menu.html#/medicalresidency/default" class="thumbnail">
+                                                        <img src="/security/resources/images/icons/softwares/medicalresidency-software-icon.png" alt="Medical Residency software icon">
                                                         <div class="caption">
-                                                            <p class="sys-dropdown-menu-index-thumbnail-title">Medical Residency</p>
+                                                            <p>Medical Residency</p>
                                                         </div>
                                                     </a>
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="/security/views/main-menu.html#/money/default" class="thumbnail sys-dropdown-menu-index-thumbnail">
-                                                        <img class="sys-padding-sm-top sys-dropdown-menu-index-thumbnail-image" src="/security/resources/images/icons/softwares/money-software-icon.png" alt="Money software icon">
+                                                    <a href="/security/views/main-menu.html#/money/default" class="thumbnail">
+                                                        <img src="/security/resources/images/icons/softwares/money-software-icon.png" alt="Money software icon">
                                                         <div class="caption">
-                                                            <p class="sys-dropdown-menu-index-thumbnail-title">Money</p>
+                                                            <p>Money</p>
                                                         </div>
                                                     </a>
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="/security/views/main-menu.html#/papers/default" class="thumbnail sys-dropdown-menu-index-thumbnail">
-                                                        <img class="sys-padding-sm-top sys-dropdown-menu-index-thumbnail-image" src="/security/resources/images/icons/softwares/papers-software-icon.png" alt="Papers software icon">
+                                                    <a href="/security/views/main-menu.html#/papers/default" class="thumbnail">
+                                                        <img src="/security/resources/images/icons/softwares/papers-software-icon.png" alt="Papers software icon">
                                                         <div class="caption">
-                                                            <p class="sys-dropdown-menu-index-thumbnail-title">Papers</p>
+                                                            <p>Papers</p>
                                                         </div>
                                                     </a>
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="/security/views/main-menu.html#/productsales/default" class="thumbnail sys-dropdown-menu-index-thumbnail">
-                                                        <img class="sys-padding-sm-top sys-dropdown-menu-index-thumbnail-image" src="/security/resources/images/icons/softwares/productsales-software-icon.png" alt="Product Sales software icon">
+                                                    <a href="/security/views/main-menu.html#/productsales/default" class="thumbnail">
+                                                        <img src="/security/resources/images/icons/softwares/productsales-software-icon.png" alt="Product Sales software icon">
                                                         <div class="caption">
-                                                            <p class="sys-dropdown-menu-index-thumbnail-title">Product Sales</p>
+                                                            <p>Product Sales</p>
                                                         </div>
                                                     </a>
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="/security/views/main-menu.html#/purchases/default" class="thumbnail sys-dropdown-menu-index-thumbnail">
-                                                        <img  class="sys-padding-sm-top sys-dropdown-menu-index-thumbnail-image" src="/security/resources/images/icons/softwares/purchases-software-icon.png" alt="Purchases software icon">
+                                                    <a href="/security/views/main-menu.html#/purchases/default" class="thumbnail">
+                                                        <img src="/security/resources/images/icons/softwares/purchases-software-icon.png" alt="Purchases software icon">
                                                         <div class="caption">
-                                                            <p class="sys-dropdown-menu-index-thumbnail-title">Purchases</p>
+                                                            <p>Purchases</p>
                                                         </div>
                                                     </a>
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="/security/views/main-menu.html#/security/default" class="thumbnail sys-dropdown-menu-index-thumbnail">
-                                                        <img class="sys-padding-sm-top sys-dropdown-menu-index-thumbnail-image" src="/security/resources/images/icons/softwares/security-software-icon.png" alt="Security software icon">
+                                                    <a href="/security/views/main-menu.html#/security/default" class="thumbnail">
+                                                        <img src="/security/resources/images/icons/softwares/security-software-icon.png" alt="Security software icon">
                                                         <div class="caption">
-                                                            <p class="sys-dropdown-menu-index-thumbnail-title">Security</p>
+                                                            <p>Security</p>
                                                         </div>
                                                     </a>
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="/security/views/main-menu.html#/specialisttitle/default" class="thumbnail sys-dropdown-menu-index-thumbnail">
-                                                        <img class="sys-padding-sm-top sys-dropdown-menu-index-thumbnail-image" src="/security/resources/images/icons/softwares/specialisttitle-software-icon.png" alt="Specialist Title software icon">
+                                                    <a href="/security/views/main-menu.html#/specialisttitle/default" class="thumbnail">
+                                                        <img src="/security/resources/images/icons/softwares/specialisttitle-software-icon.png" alt="Specialist Title software icon">
                                                         <div class="caption">
-                                                            <p class="sys-dropdown-menu-index-thumbnail-title">Specialist Title</p>
+                                                            <p>Specialist Title</p>
                                                         </div>
                                                     </a>
                                                 </div>
 
                                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                                    <a href="/security/views/main-menu.html#/workteam/default" class="thumbnail sys-dropdown-menu-index-thumbnail">
-                                                        <img class="sys-padding-sm-top sys-dropdown-menu-index-thumbnail-image" src="/security/resources/images/icons/softwares/workteam-software-icon.png" alt="Work Team software icon">
+                                                    <a href="/security/views/main-menu.html#/workteam/default" class="thumbnail">
+                                                        <img src="/security/resources/images/icons/softwares/workteam-software-icon.png" alt="Work Team software icon">
                                                         <div class="caption">
-                                                            <p class="sys-dropdown-menu-index-thumbnail-title">Work Team</p>
+                                                            <p>Work Team</p>
                                                         </div>
                                                     </a>
                                                 </div>
@@ -293,6 +292,7 @@
         <script src="/security/resources/jquery/jquery.min.js"></script>
         <script src="/security/resources/bootstrap/js/bootstrap.min.js"></script>
 
-        <script src="/security/resources/system/js/system.js"></script>
+        <script src="/security/resources/js/system.js"></script>
+        <script src="/security/resources/js/edit-preferences.js"></script>
     </body>
 </html>

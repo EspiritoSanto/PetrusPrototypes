@@ -51,7 +51,7 @@
                 {
                     "url": "security/data-entry/retrieval/general/nonbusinessdays-data-entry-retrieval",
                     "name": "Dias Não Úteis",
-                    "alias": "non-businessdays-data-entry-retrieval",
+                    "alias": "nonbusinessdays-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-th-list text-danger"
                 }
             ]
@@ -91,9 +91,9 @@
             "alias": "Tables",
             "menuItens": [
                 {
-                    "url": "security/data-entry/form-detail/licensed-s/parameters-data-entry-form-detail",
+                    "url": "security/data-entry/detail/licensed-s/parameters-data-entry-detail",
                     "name": "Parâmetros",
-                    "alias": "parameters-data-entry-form-detail",
+                    "alias": "parameters-data-entry-detail",
                     "icon": "glyphicon glyphicon-th-list text-danger"
                 },
                 {

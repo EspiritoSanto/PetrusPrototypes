@@ -1,13 +1,13 @@
 function tableLinkFormatter(classes, path, text) {
     if (!classes || classes === null) {
-        classes = 'bs-table-link';
+        classes = 'sys-data-entry-retrieval-link-xs';
     }
     return '<a class="' + classes + '" href="' + path + '">' + text + '</a>';
 }
 
 function tableImageFormatter(classes, path, altText) {
     if (!classes || classes === null) {
-        classes = 'bs-table-image';
+        classes = 'sys-data-entry-retrieval-image-xs';
     }
     return '<img class="' + classes + '" src="' + path + '" alt="' + altText + '" />';
 }
@@ -33,21 +33,13 @@ dataEntryRetrieval.factory('dataEntryRetrievalServiceLoadData', [
     '$http',
     function ($http) {
 
-        function getPathRefresh(module, funcionality, model) {
-            return '/' + module + '/json/retrievals/' + funcionality + '.json';
-        }
-
-        function getPathFind(module, funcionality, id) {
-            return '/' + module + '/json/records/' + funcionality + '/' + funcionality + id + '.json';
+        function getPathList(module, funcionality, model) {
+            return '/' + module + '/fake/json/data-entry/retrieval/' + funcionality + '.json';
         }
 
         return {
-            refresh: function (module, funcionality, model) {
-                var path = getPathRefresh(module, funcionality, model);
-                return $http.get(path);
-            },
-            find: function (module, funcionality, id) {
-                var path = getPathFind(module, funcionality, id);
+            list: function (module, funcionality, model) {
+                var path = getPathList(module, funcionality, model);
                 return $http.get(path);
             }
         };
