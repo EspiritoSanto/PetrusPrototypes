@@ -1,0 +1,191 @@
+[
+    {
+        "id": "1",
+        "admDivision": "Acre",
+        "acronym": "AC",
+        "brFederalUnitType": "Estado",
+        "active": "Sim"
+    },
+    {
+        "id": "2",
+        "admDivision": "Alagoas",
+        "acronym": "AL",
+        "brFederalUnitType": "Estado",
+        "active": "Sim"
+    },
+    {
+        "id": "3",
+        "admDivision": "Amazonas",
+        "acronym": "AM",
+        "brFederalUnitType": "Estado",
+        "active": "Sim"
+    },
+    {
+        "id": "4",
+        "admDivision": "Amapá",
+        "acronym": "AP",
+        "brFederalUnitType": "Estado",
+        "active": "Sim"
+    },
+    {
+        "id": "5",
+        "admDivision": "Bahia",
+        "acronym": "BA",
+        "brFederalUnitType": "Estado",
+        "active": "Sim"
+    },
+    {
+        "id": "6",
+        "admDivision": "Ceará",
+        "acronym": "CE",
+        "brFederalUnitType": "Estado",
+        "active": "Sim"
+    },
+    {
+        "id": "7",
+        "admDivision": "Distrito Federal",
+        "acronym": "DF",
+        "brFederalUnitType": "Distrito Federal",
+        "active": "Sim"
+    },
+    {
+        "id": "8",
+        "admDivision": "Espírito Santo",
+        "acronym": "ES",
+        "brFederalUnitType": "Estado",
+        "active": "Sim"
+    },
+    {
+        "id": "9",
+        "admDivision": "Goiás",
+        "acronym": "GO",
+        "brFederalUnitType": "Estado",
+        "active": "Sim"
+    },
+    {
+        "id": "10",
+        "admDivision": "Maranhão",
+        "acronym": "MA",
+        "brFederalUnitType": "Estado",
+        "active": "Sim"
+    },
+    {
+        "id": "11",
+        "admDivision": "Mato Grosso",
+        "acronym": "MT",
+        "brFederalUnitType": "Estado",
+        "active": "Sim"
+    },
+    {
+        "id": "12",
+        "admDivision": "Mato Grosso do Sul",
+        "acronym": "MS",
+        "brFederalUnitType": "Estado",
+        "active": "Sim"
+    },
+    {
+        "id": "13",
+        "admDivision": "Minas Gerais",
+        "acronym": "MG",
+        "brFederalUnitType": "Estado",
+        "active": "Sim"
+    },
+    {
+        "id": "14",
+        "admDivision": "Pará",
+        "acronym": "PA",
+        "brFederalUnitType": "Estado",
+        "active": "Sim"
+    },
+    {
+        "id": "15",
+        "admDivision": "Paraiba",
+        "acronym": "PB",
+        "brFederalUnitType": "Estado",
+        "active": "Sim"
+    },
+    {
+        "id": "16",
+        "admDivision": "Paraná",
+        "acronym": "PR",
+        "brFederalUnitType": "Estado",
+        "active": "Sim"
+    },
+    {
+        "id": "17",
+        "admDivision": "Pernambuco",
+        "acronym": "PE",
+        "brFederalUnitType": "Estado",
+        "active": "Sim"
+    },
+    {
+        "id": "18",
+        "admDivision": "Piauí",
+        "acronym": "PI",
+        "brFederalUnitType": "Estado",
+        "active": "Sim"
+    },
+    {
+        "id": "19",
+        "admDivision": "Rio de Janeiro",
+        "acronym": "RJ",
+        "brFederalUnitType": "Estado",
+        "active": "Sim"
+    },
+    {
+        "id": "20",
+        "admDivision": "Rio Grande do Norte",
+        "acronym": "RN",
+        "brFederalUnitType": "Estado",
+        "active": "Sim"
+    },
+    {
+        "id": "21",
+        "admDivision": "Rio Grande do Sul",
+        "acronym": "RS",
+        "brFederalUnitType": "Estado",
+        "active": "Sim"
+    },
+    {
+        "id": "22",
+        "admDivision": "Rondônia",
+        "acronym": "RD",
+        "brFederalUnitType": "Estado",
+        "active": "Sim"
+    },
+    {
+        "id": "23",
+        "admDivision": "Roraima",
+        "acronym": "RR",
+        "brFederalUnitType": "Estado",
+        "active": "Sim"
+    },
+    {
+        "id": "24",
+        "admDivision": "Santa Catarina",
+        "acronym": "SC",
+        "brFederalUnitType": "Estado",
+        "active": "Sim"
+    },
+    {
+        "id": "25",
+        "admDivision": "São Paulo",
+        "acronym": "SP",
+        "brFederalUnitType": "Estado",
+        "active": "Sim"
+    },
+    {
+        "id": "26",
+        "admDivision": "Sergipe",
+        "acronym": "SE",
+        "brFederalUnitType": "Estado",
+        "active": "Sim"
+    },
+    {
+        "id": "27",
+        "admDivision": "Tocantins",
+        "acronym": "TO",
+        "brFederalUnitType": "Estado",
+        "active": "Sim"
+    }
+]

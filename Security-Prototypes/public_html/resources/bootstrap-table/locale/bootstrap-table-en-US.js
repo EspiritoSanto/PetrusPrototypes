@@ -15,7 +15,7 @@
         formatLoadingMessage: function () {
             return 'Loading, please wait...';
         },
-        formatNew: function () {
+        formatNewRecord: function () {
             return 'New';
         },
         formatNoMatches: function () {

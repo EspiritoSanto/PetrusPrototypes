@@ -5,7 +5,7 @@
 (function ($) {
     'use strict';
 
-    $.fn.bootstrapTable.locales['es-SP'] = {
+    $.fn.bootstrapTable.locales['es'] = {
         formatAllRows: function () {
             return 'Todos';
         },
@@ -15,7 +15,7 @@
         formatLoadingMessage: function () {
             return 'Cargando, por favor espera...';
         },
-        formatNew: function () {
+        formatNewRecord: function () {
             return 'Nuevo';
         },
         formatNoMatches: function () {

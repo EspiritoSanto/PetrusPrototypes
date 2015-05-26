@@ -9,7 +9,7 @@ function linkFormatter(value, row) {
 function flagFormatter(value, row) {
     var classes = null;
     var path = value;
-    var altText = 'Country flag of the ID: ' + row.id;
+    var altText = 'Flag of the ID: ' + row.id;
 
     return tableImageFormatter(classes, path, altText);
 }
@@ -22,7 +22,7 @@ system.registerCtrl('countryDataEntryRetrievalCtrl', [
             $scope,
             $location,
             dataEntryRetrievalServiceLoadData) {
-
+                
         $scope.refresh = function () {
             var module = 'security';
             var functionality = 'country';
@@ -42,3 +42,6 @@ system.registerCtrl('countryDataEntryRetrievalCtrl', [
 
         $scope.refresh();
     }]);
+
+jQuery("#btnRefresh").attr("title", jQuery.fn.bootstrapTable.defaults.formatRefresh());
+jQuery("#btnNew").attr('title', jQuery.fn.bootstrapTable.defaults.formatNewRecord());

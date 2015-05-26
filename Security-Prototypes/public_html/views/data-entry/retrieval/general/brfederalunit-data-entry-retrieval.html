@@ -3,7 +3,7 @@
 <link href="/security/resources/css/data-entry/retrieval/data-entry-retrieval.css" rel="stylesheet" />
 <link href="/security/resources/css/data-entry/retrieval/general/brfederalunit-data-entry-retrieval.css" rel="stylesheet" />
 
-<div>
+<div ng-controller="brfederalunitDataEntryRetrievalCtrl">
 
     <!-- Header -->
     <div class="panel panel-default sys-template-child-header-panel">
@@ -13,6 +13,43 @@
         </div>
     </div>
     <!-- Header -->
+
+    <!-- Table -->
+    <div id="toolbar" class="btn-group">
+        <button ng-click="refresh()" type="button" class="btn btn-default" id="btnRefresh">
+            <i class="glyphicon glyphicon-refresh"></i>
+        </button>
+        <button ng-click="new ()" type="button" class="btn btn-default" id="btnNew">
+            <i class="glyphicon glyphicon-plus"></i>
+        </button>
+    </div>
+
+    <table id="brfederalunitTable"
+           data-data-entry-retrieval-directive-load-data
+           data-classes="table table-hover table-condensed bs-table"
+           data-striped="true"
+           data-sort-name="admDivision"
+           data-search="true"
+           data-show-columns="true"
+           data-pagination="true"
+           data-minimum-count-columns=0
+           data-id-field="id"
+           data-pagination-v-align="both"
+           data-search-align="left"
+           data-buttons-align="left"
+           data-pagination-h-align="left"
+           data-toolbar="#toolbar">  
+        <thead>
+            <tr>
+                <th class="col-xs-1" data-halign="center" data-align="right" data-sortable="true" data-switchable="true" data-field="id">Código</th>
+                <th class="col-xs-7" data-halign="left" data-align="left" data-sortable="true" data-switchable="false" data-field="admDivision" data-formatter="linkFormatter">Denominação</th>
+                <th class="col-xs-1" data-halign="center" data-align="center" data-sortable="true" data-switchable="true" data-field="acronym">Sigla</th>
+                <th class="col-xs-2" data-halign="center" data-align="center" data-sortable="true" data-switchable="true" data-field="brFederalUnitType">Tipo</th>
+                <th class="col-xs-1" data-halign="center" data-align="center" data-sortable="true" data-switchable="true" data-field="active">Ativo</th>
+            </tr>
+        </thead>
+    </table>
+    <!-- /Table -->
 
 </div> 
 

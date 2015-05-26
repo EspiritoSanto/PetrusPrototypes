@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "admDivisionStructure": "Estado, Distrito Estadual",
+        "wsCountry": "Brasil - BR (32)",
+        "amountOfAdmDivisionLevels": "2",
+        "active": "Sim"
+    },
+    {
+        "id": "2",
+        "admDivisionStructure": "Estado, Município",
+        "wsCountry": "Brasil - BR (32)",
+        "amountOfAdmDivisionLevels": "2",
+        "active": "Sim"
+    },
+    {
+        "id": "3",
+        "admDivisionStructure": "Estado, Município, Distrito Municipal",
+        "wsCountry": "Brasil - BR (32)",
+        "amountOfAdmDivisionLevels": "3",
+        "active": "Sim"
+    },
+    {
+        "id": "4",
+        "admDivisionStructure": "Distrito Federal, Região Administrativa",
+        "wsCountry": "Brasil - BR (32)",
+        "amountOfAdmDivisionLevels": "2",
+        "active": "Sim"
+    }
+]
