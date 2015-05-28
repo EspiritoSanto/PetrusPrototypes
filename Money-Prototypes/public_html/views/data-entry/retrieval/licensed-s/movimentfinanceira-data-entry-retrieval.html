@@ -1,25 +1,17 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="/security/resources/bootstrap-table/bootstrap-table.min.css" rel="stylesheet" />
 
-        <title>Movimentação financeira</title>
+<link href="/security/resources/css/data-entry/retrieval/data-entry-retrieval.css" rel="stylesheet" />
+<!--<link href="/security/resources/css/data-entry/retrieval/general/country-data-entry-retrieval.css" rel="stylesheet" />-->
 
-        <link href="/security/resources/system/css/system-ng-data-entry-retrieval.css" rel="stylesheet" />
-    </head>
-    <body>
+<div ng-controller="countryDataEntryRetrievalCtrl">
 
-        <!-- Header -->
-        <div class="container-fluid sys-container-heading-functionality">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <span class="glyphicon glyphicon-usd text-success"></span>
-                    <span>Movimentação financeira</span>
-                </div>
-            </div>
+    <!-- Header -->
+    <div class="panel panel-default sys-template-child-header-panel">
+        <div class="panel-heading">
+            <span class="glyphicon glyphicon-usd text-danger"></span>
+            <span>Movimentação financeira</span>
         </div>
-        <!-- Header -->
+    </div>
 
         <!-- Filter -->
         <div class="accordion" id="panelFilterAccordion">
@@ -112,7 +104,7 @@
         </div>
         <!-- /Filter -->
         
-        <h4>Período: 02/05/2015 a 04/05/2015, valores em Reais (R$)</h4>
+        <h4>Período: 04/05/2015 a 04/05/2015, valores em Reais (R$)</h4>
         <div class="table-responsive">
             <table class="table table-striped table-hover">
                 <thead>
@@ -134,38 +126,110 @@
                     <tr>
                         <td class="text-muted">145</td>
                         <td>04/05/2015</td>
-                        <td>1234</td>
-                        <td>Comercialização de estande boo boo boooo boboobo bobobb bobo bobobobo</td>
+                        <td>BL-1234-1/1</td>
+                        <td>Venda de estande</td>
                         <td class="text-right text-info">15.000,00</td>
                         <td></td>
                         <td class="text-right">65.000,00</td>
                     </tr>
                     <tr>
-                        <td class="text-muted">187</td>
+                        <td class="text-muted">146</td>
                         <td>04/05/2015</td>
-                        <td>968</td>
-                        <td>Recebimento de anuidade</td>
-                        <td class="text-right text-info">500,00</td>
+                        <td>BL-1235-2/2</td>
+                        <td>Venda de estande</td>
+                        <td class="text-right text-info">7.500,00</td>
                         <td></td>
-                        <td class="text-right">65.500,00</td>
+                        <td class="text-right">72.500,00</td>
                     </tr>
                     <tr>
-                        <td class="text-muted">221</td>
+                        <td class="text-muted">147</td>
                         <td>04/05/2015</td>
-                        <td>123</td>
+                        <td>BL-1236-1/1</td>
+                        <td>Anuidade</td>
+                        <td class="text-right text-info">400,00</td>
+                        <td></td>
+                        <td class="text-right">72.900,00</td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted">148</td>
+                        <td>04/05/2015</td>
+                        <td>BL-1237-1/3</td>
+                        <td>Inscrição - Título de Especialista</td>
+                        <td class="text-right text-info">200,00</td>
+                        <td></td>
+                        <td class="text-right">73.100,00</td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted">149</td>
+                        <td>04/05/2015</td>
+                        <td>BL-1238-1/1</td>
+                        <td>Inscrição - 45º Congresso Anual</td>
+                        <td class="text-right text-info">500,00</td>
+                        <td></td>
+                        <td class="text-right">73.600,00</td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted">150</td>
+                        <td>04/05/2015</td>
+                        <td>BL-1238-1/2</td>
+                        <td>Inscrição - 45º Congresso Anual<</td>
+                        <td class="text-right text-info">250,00</td>
+                        <td></td>
+                        <td class="text-right">73.850,00</td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted">151</td>
+                        <td>04/05/2015</td>
+                        <td>BT-56123</td>
                         <td>Compra de passagem aérea</td>
                         <td></td>
                         <td class="text-right text-danger">2.535,90</td>
-                        <td class="text-right">62.964,10</td>
+                        <td class="text-right">71.314,10</td>
                     </tr>
                     <tr>
-                        <td class="text-muted">235</td>
+                        <td class="text-muted">152</td>
                         <td>04/05/2015</td>
-                        <td>4123-2</td>
+                        <td>RC-41232</td>
                         <td>Hospedagem</td>
                         <td></td>
                         <td class="text-right text-danger">975,99</td>
-                        <td class="text-right">61.988,11</td>
+                        <td class="text-right">70.338,11</td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted">153</td>
+                        <td>04/05/2015</td>
+                        <td>NF-123</td>
+                        <td>Alimentação em Viagem</td>
+                        <td></td>
+                        <td class="text-right text-danger">235,90</td>
+                        <td class="text-right">70.102,21</td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted">154</td>
+                        <td>04/05/2015</td>
+                        <td>FT-05-2015</td>
+                        <td>Energia Elétrica</td>
+                        <td></td>
+                        <td class="text-right text-danger">628,58</td>
+                        <td class="text-right">69.473,63</td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted">155</td>
+                        <td>04/05/2015</td>
+                        <td>BL-45123</td>
+                        <td>Seguro Veicular</td>
+                        <td></td>
+                        <td class="text-right text-danger">1.535,90</td>
+                        <td class="text-right">67.937,73</td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted">156</td>
+                        <td>04/05/2015</td>
+                        <td>PC-2015-2/10</td>
+                        <td>IPTU</td>
+                        <td></td>
+                        <td class="text-right text-danger">575,99</td>
+                        <td class="text-right">67.361,74</td>
                     </tr>
                     <!-- <tr>
                         <td></td>
@@ -182,6 +246,12 @@
                 </tbody>
             </table>
         </div>
-        
-    </body>
-</html>
+</div> 
+
+<script src="/security/resources/bootstrap-table/bootstrap-table.js"></script>
+<script src="/security/resources/bootstrap-table/locale/bootstrap-table-pt-BR.js"></script>
+
+<script src="/security/resources/js/data-entry/retrieval/data-entry-retrieval.js"></script>
+<!--<script src="/security/resources/js/data-entry/retrieval/general/country-data-entry-retrieval.js"></script>-->
+
+

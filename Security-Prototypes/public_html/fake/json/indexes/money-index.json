@@ -8,9 +8,9 @@
             "icon": "glyphicon glyphicon-list-alt text-primary",
             "menuItens": [
                 {
-                    "url": "money/data-entry/retrieval/general/moneyoption1-data-entry-retrieval",
+                    "url": "money/data-entry/retrieval/general/contasapagar-data-entry-retrieval",
                     "name": "Contas a pagar",
-                    "alias": "moneyoption1-data-entry-retrieval",
+                    "alias": "contasapagar-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-list-alt text-success",
                     "activeClass": ""
                 },
@@ -22,9 +22,9 @@
                     "activeClass": ""
                 },
                 {
-                    "url": "money/data-entry/retrieval/licensed-s/moneyoption3-data-entry-retrieval",
+                    "url": "money/data-entry/retrieval/licensed-s/movimentfinanceira-data-entry-retrieval",
                     "name": "Movimentação financeira",
-                    "alias": "moneyoption3-data-entry-retrieval",
+                    "alias": "movimentfinanceira-data-entry-retrieval",
                     "icon": "glyphicon glyphicon-usd text-success",
                     "activeClass": ""
                 },

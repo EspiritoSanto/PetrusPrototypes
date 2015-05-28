@@ -1,4 +1,5 @@
-[{
+[
+    {
         "id": "29",
         "admDivision": "Acrelândia",
         "brFederalUnit.acronym": "AC",
@@ -11613,7 +11614,7 @@
     },
     {
         "id": "1688",
-        "admDivision": "Brasópolis",
+        "admDivision": "Brazópolis",
         "brFederalUnit.acronym": "MG",
         "useGeneralZipcode": "Não",
         "active": "Sim"
@@ -19320,7 +19321,7 @@
     },
     {
         "id": "2789",
-        "admDivision": "Seridó",
+        "admDivision": "São Vicente do Seridó",
         "brFederalUnit.acronym": "PB",
         "useGeneralZipcode": "Não",
         "active": "Sim"
@@ -22407,7 +22408,7 @@
     },
     {
         "id": "3230",
-        "admDivision": "Belém de São Francisco",
+        "admDivision": "Belém do São Francisco",
         "brFederalUnit.acronym": "PE",
         "useGeneralZipcode": "Não",
         "active": "Sim"
@@ -26565,7 +26566,7 @@
     },
     {
         "id": "3824",
-        "admDivision": "Presidente Juscelino",
+        "admDivision": "Serra Caiada",
         "brFederalUnit.acronym": "RN",
         "useGeneralZipcode": "Não",
         "active": "Sim"
@@ -28623,7 +28624,7 @@
     },
     {
         "id": "4118",
-        "admDivision": "Maçambara",
+        "admDivision": "Maçambará",
         "brFederalUnit.acronym": "RS",
         "useGeneralZipcode": "Não",
         "active": "Sim"
@@ -35406,7 +35407,7 @@
     },
     {
         "id": "5087",
-        "admDivision": "Moji Mirim",
+        "admDivision": "Mogi Mirim",
         "brFederalUnit.acronym": "SP",
         "useGeneralZipcode": "Não",
         "active": "Sim"

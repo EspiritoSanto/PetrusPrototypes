@@ -84,10 +84,14 @@ body {
     }
 }
 
+.sys-header-column-first-or-middle:first-child {
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
 .sys-header .sys-header-column-first-or-middle > a > img,
 .sys-header .sys-header-column-last-or-single > a > img {
-    height: 34px;
-    width: 150px; 
+    height: 46px;
 }
 
 #dropdownMenuLoggedUser {
