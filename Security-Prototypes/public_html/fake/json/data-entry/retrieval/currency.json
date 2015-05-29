@@ -1,0 +1,1246 @@
+[
+    {
+        "id": "1",
+        "currency": "Dirém dos Emirados Árabes Unidos",
+        "currencyCode": "AED",
+        "numericCode": "784",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "2",
+        "currency": "Afegane",
+        "currencyCode": "AFN",
+        "numericCode": "971",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "3",
+        "currency": "Lek Albanês",
+        "currencyCode": "ALL",
+        "numericCode": "8",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "4",
+        "currency": "Dram armênio",
+        "currencyCode": "AMD",
+        "numericCode": "51",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "5",
+        "currency": "Guilder das Antilhas Holandesas",
+        "currencyCode": "ANG",
+        "numericCode": "532",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "6",
+        "currency": "Cuanza angolano",
+        "currencyCode": "AOA",
+        "numericCode": "973",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "7",
+        "currency": "Peso argentino",
+        "currencyCode": "ARS",
+        "numericCode": "32",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "8",
+        "currency": "Dólar australiano",
+        "currencyCode": "AUD",
+        "numericCode": "36",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "9",
+        "currency": "Guilder de Aruba",
+        "currencyCode": "AWG",
+        "numericCode": "533",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "10",
+        "currency": "Manat do Azerbaijão",
+        "currencyCode": "AZN",
+        "numericCode": "944",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "11",
+        "currency": "Marco bósnio-herzegovino conversível",
+        "currencyCode": "BAM",
+        "numericCode": "977",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "12",
+        "currency": "Dólar de Barbados",
+        "currencyCode": "BBD",
+        "numericCode": "52",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "13",
+        "currency": "Taka de Bangladesh",
+        "currencyCode": "BDT",
+        "numericCode": "50",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "14",
+        "currency": "Lev novo búlgaro",
+        "currencyCode": "BGN",
+        "numericCode": "975",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "15",
+        "currency": "Dinar bareinita",
+        "currencyCode": "BHD",
+        "numericCode": "48",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "16",
+        "currency": "Franco do Burundi",
+        "currencyCode": "BIF",
+        "numericCode": "108",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "17",
+        "currency": "Dólar das Bermudas",
+        "currencyCode": "BMD",
+        "numericCode": "60",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "18",
+        "currency": "Dólar do Brunei",
+        "currencyCode": "BND",
+        "numericCode": "96",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "19",
+        "currency": "Boliviano",
+        "currencyCode": "BOB",
+        "numericCode": "68",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "20",
+        "currency": "Real brasileiro",
+        "currencyCode": "BRL",
+        "numericCode": "986",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "21",
+        "currency": "Dólar das Bahamas",
+        "currencyCode": "BSD",
+        "numericCode": "44",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "22",
+        "currency": "Ngultrum do Butão",
+        "currencyCode": "BTN",
+        "numericCode": "64",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "23",
+        "currency": "Pula botsuanesa",
+        "currencyCode": "BWP",
+        "numericCode": "72",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "24",
+        "currency": "Rublo bielorusso",
+        "currencyCode": "BYR",
+        "numericCode": "112",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "25",
+        "currency": "Dólar do Belize",
+        "currencyCode": "BZD",
+        "numericCode": "84",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "26",
+        "currency": "Dólar canadense",
+        "currencyCode": "CAD",
+        "numericCode": "124",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "27",
+        "currency": "Franco congolês",
+        "currencyCode": "CDF",
+        "numericCode": "976",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "28",
+        "currency": "Franco suíço",
+        "currencyCode": "CHF",
+        "numericCode": "756",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "30",
+        "currency": "Peso chileno",
+        "currencyCode": "CLP",
+        "numericCode": "152",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "31",
+        "currency": "Yuan Renminbi chinês",
+        "currencyCode": "CNY",
+        "numericCode": "156",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "32",
+        "currency": "Peso colombiano",
+        "currencyCode": "COP",
+        "numericCode": "170",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "33",
+        "currency": "Colon da Costa Rica",
+        "currencyCode": "CRC",
+        "numericCode": "188",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "34",
+        "currency": "Peso cubano",
+        "currencyCode": "CUP",
+        "numericCode": "192",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "35",
+        "currency": "Escudo cabo-verdiano",
+        "currencyCode": "CVE",
+        "numericCode": "132",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "36",
+        "currency": "Coroa checa",
+        "currencyCode": "CZK",
+        "numericCode": "203",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "37",
+        "currency": "Franco do Djibuti",
+        "currencyCode": "DJF",
+        "numericCode": "262",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "38",
+        "currency": "Coroa dinamarquesa",
+        "currencyCode": "DKK",
+        "numericCode": "208",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "39",
+        "currency": "Peso dominicano",
+        "currencyCode": "DOP",
+        "numericCode": "214",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "40",
+        "currency": "Dinar argelino",
+        "currencyCode": "DZD",
+        "numericCode": "12",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "41",
+        "currency": "Libra egípcia",
+        "currencyCode": "EGP",
+        "numericCode": "818",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "42",
+        "currency": "Nakfa da Eritreia",
+        "currencyCode": "ERN",
+        "numericCode": "232",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "43",
+        "currency": "Birr etíope",
+        "currencyCode": "ETB",
+        "numericCode": "230",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "44",
+        "currency": "Euro",
+        "currencyCode": "EUR",
+        "numericCode": "978",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "45",
+        "currency": "Dólar de Fiji",
+        "currencyCode": "FJD",
+        "numericCode": "242",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "46",
+        "currency": "Libra das Malvinas",
+        "currencyCode": "FKP",
+        "numericCode": "238",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    }, {
+        "id": "47",
+        "currency": "Libra esterlina britânica",
+        "currencyCode": "GBP",
+        "numericCode": "826",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "48",
+        "currency": "Lari georgiano",
+        "currencyCode": "GEL",
+        "numericCode": "981",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "49",
+        "currency": "Cedi ganês",
+        "currencyCode": "GHS",
+        "numericCode": "936",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "50",
+        "currency": "Libra de Gibraltar",
+        "currencyCode": "GIP",
+        "numericCode": "292",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "51",
+        "currency": "Dalasi de Gâmbia",
+        "currencyCode": "GMD",
+        "numericCode": "270",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "52",
+        "currency": "Franco de Guiné",
+        "currencyCode": "GNF",
+        "numericCode": "324",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "53",
+        "currency": "Quetçal da Guatemala",
+        "currencyCode": "GTQ",
+        "numericCode": "320",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "54",
+        "currency": "Peso da Guiné-Bissau",
+        "currencyCode": "GWP",
+        "numericCode": "624",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "55",
+        "currency": "Dólar da Guiana",
+        "currencyCode": "GYD",
+        "numericCode": "328",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "56",
+        "currency": "Dólar de Hong Kong",
+        "currencyCode": "HKD",
+        "numericCode": "344",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "57",
+        "currency": "Lempira de Honduras",
+        "currencyCode": "HNL",
+        "numericCode": "340",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "58",
+        "currency": "Kuna croata",
+        "currencyCode": "HRK",
+        "numericCode": "191",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "59",
+        "currency": "Gurde do Haiti",
+        "currencyCode": "HTG",
+        "numericCode": "332",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "60",
+        "currency": "Forinte húngaro",
+        "currencyCode": "HUF",
+        "numericCode": "348",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "61",
+        "currency": "Rupia indonésia",
+        "currencyCode": "IDR",
+        "numericCode": "360",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "62",
+        "currency": "Sheqel Novo israelita",
+        "currencyCode": "ILS",
+        "numericCode": "376",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "63",
+        "currency": "Rúpia indiana",
+        "currencyCode": "INR",
+        "numericCode": "356",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "64",
+        "currency": "Dinar iraquiano",
+        "currencyCode": "IQD",
+        "numericCode": "368",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "65",
+        "currency": "Rial iraniano",
+        "currencyCode": "IRR",
+        "numericCode": "364",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    }, {
+        "id": "66",
+        "currency": "Coroa islandesa",
+        "currencyCode": "ISK",
+        "numericCode": "352",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "67",
+        "currency": "Dólar jamaicano",
+        "currencyCode": "JMD",
+        "numericCode": "388",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "68",
+        "currency": "Dinar jordaniano",
+        "currencyCode": "JOD",
+        "numericCode": "400",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "69",
+        "currency": "Iene japonês",
+        "currencyCode": "JPY",
+        "numericCode": "392",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "70",
+        "currency": "Xelim queniano",
+        "currencyCode": "KES",
+        "numericCode": "404",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "71",
+        "currency": "Som quirguiz",
+        "currencyCode": "KGS",
+        "numericCode": "417",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "72",
+        "currency": "Riel cambojano",
+        "currencyCode": "KHR",
+        "numericCode": "116",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "73",
+        "currency": "Franco de Comores",
+        "currencyCode": "KMF",
+        "numericCode": "174",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "74",
+        "currency": "Won norte-coreano",
+        "currencyCode": "KPW",
+        "numericCode": "408",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "75",
+        "currency": "Won sul-coreano",
+        "currencyCode": "KRW",
+        "numericCode": "410",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "76",
+        "currency": "Dinar coveitiano",
+        "currencyCode": "KWD",
+        "numericCode": "414",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "77",
+        "currency": "Dólar das Ilhas Caiman",
+        "currencyCode": "KYD",
+        "numericCode": "136",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "78",
+        "currency": "Tenge do Cazaquistão",
+        "currencyCode": "KZT",
+        "numericCode": "398",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "79",
+        "currency": "Kip de Laos",
+        "currencyCode": "LAK",
+        "numericCode": "418",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "80",
+        "currency": "Libra libanesa",
+        "currencyCode": "LBP",
+        "numericCode": "422",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "81",
+        "currency": "Rupia do Sri Lanka",
+        "currencyCode": "LKR",
+        "numericCode": "144",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "82",
+        "currency": "Dólar liberiano",
+        "currencyCode": "LRD",
+        "numericCode": "430",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "83",
+        "currency": "Loti do Lesoto",
+        "currencyCode": "LSL",
+        "numericCode": "426",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "84",
+        "currency": "Dinar líbio",
+        "currencyCode": "LYD",
+        "numericCode": "434",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "85",
+        "currency": "Dirém marroquino",
+        "currencyCode": "MAD",
+        "numericCode": "504",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "86",
+        "currency": "Leu moldávio",
+        "currencyCode": "MDL",
+        "numericCode": "498",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "87",
+        "currency": "Ariary de Madagascar",
+        "currencyCode": "MGA",
+        "numericCode": "969",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    }, {
+        "id": "88",
+        "currency": "Dinar macedônio",
+        "currencyCode": "MKD",
+        "numericCode": "807",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "89",
+        "currency": "Kyat de Mianmar",
+        "currencyCode": "MMK",
+        "numericCode": "104",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "90",
+        "currency": "Tugrik mongol",
+        "currencyCode": "MNT",
+        "numericCode": "496",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "91",
+        "currency": "Pataca macaense",
+        "currencyCode": "MOP",
+        "numericCode": "446",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "92",
+        "currency": "Ouguiya da Mauritânia",
+        "currencyCode": "MRO",
+        "numericCode": "478",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    }, {
+        "id": "93",
+        "currency": "Rupia de Maurício",
+        "currencyCode": "MUR",
+        "numericCode": "480",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "94",
+        "currency": "Rupias das Ilhas Maldivas",
+        "currencyCode": "MVR",
+        "numericCode": "462",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "95",
+        "currency": "Cuacha do Maláui",
+        "currencyCode": "MWK",
+        "numericCode": "454",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "96",
+        "currency": "Peso mexicano",
+        "currencyCode": "MXN",
+        "numericCode": "484",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "97",
+        "currency": "Ringgit malaio",
+        "currencyCode": "MYR",
+        "numericCode": "458",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "98",
+        "currency": "Metical do Moçambique",
+        "currencyCode": "MZN",
+        "numericCode": "943",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "99",
+        "currency": "Dólar da Namíbia",
+        "currencyCode": "NAD",
+        "numericCode": "516",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "100",
+        "currency": "Naira nigeriana",
+        "currencyCode": "NGN",
+        "numericCode": "566",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "101",
+        "currency": "Córdoba Ouro nicaraguense",
+        "currencyCode": "NIO",
+        "numericCode": "558",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "102",
+        "currency": "Coroa norueguesa",
+        "currencyCode": "NOK",
+        "numericCode": "578",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "103",
+        "currency": "Rupia nepalesa",
+        "currencyCode": "NPR",
+        "numericCode": "524",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "104",
+        "currency": "Dólar da Nova Zelândia",
+        "currencyCode": "NZD",
+        "numericCode": "554",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "105",
+        "currency": "Rial de Omã",
+        "currencyCode": "OMR",
+        "numericCode": "512",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "106",
+        "currency": "Balboa panamenho",
+        "currencyCode": "PAB",
+        "numericCode": "590",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "107",
+        "currency": "Sol Novo peruano",
+        "currencyCode": "PEN",
+        "numericCode": "604",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "108",
+        "currency": "Kina da Papua-Nova Guiné",
+        "currencyCode": "PGK",
+        "numericCode": "598",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "109",
+        "currency": "Peso filipino",
+        "currencyCode": "PHP",
+        "numericCode": "608",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "110",
+        "currency": "Rupia paquistanesa",
+        "currencyCode": "PKR",
+        "numericCode": "586",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "111",
+        "currency": "Zloti polonês",
+        "currencyCode": "PLN",
+        "numericCode": "985",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "112",
+        "currency": "Guarani paraguaio",
+        "currencyCode": "PYG",
+        "numericCode": "600",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "113",
+        "currency": "Rial catariano",
+        "currencyCode": "QAR",
+        "numericCode": "634",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "114",
+        "currency": "Leu romeno",
+        "currencyCode": "RON",
+        "numericCode": "946",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "115",
+        "currency": "Dinar sérvio",
+        "currencyCode": "RSD",
+        "numericCode": "941",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "116",
+        "currency": "Rublo russo",
+        "currencyCode": "RUB",
+        "numericCode": "643",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "117",
+        "currency": "Franco ruandês",
+        "currencyCode": "RWF",
+        "numericCode": "646",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "118",
+        "currency": "Rial saudita",
+        "currencyCode": "SAR",
+        "numericCode": "682",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "119",
+        "currency": "Dólar das Ilhas Salomão",
+        "currencyCode": "SBD",
+        "numericCode": "90",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "120",
+        "currency": "Rupia das Seychelles",
+        "currencyCode": "SCR",
+        "numericCode": "690",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "121",
+        "currency": "Libra sudanesa",
+        "currencyCode": "SDG",
+        "numericCode": "938",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "122",
+        "currency": "Coroa sueca",
+        "currencyCode": "SEK",
+        "numericCode": "752",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "123",
+        "currency": "Dólar de Cingapura",
+        "currencyCode": "SGD",
+        "numericCode": "702",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "124",
+        "currency": "Libra de Santa Helena",
+        "currencyCode": "SHP",
+        "numericCode": "654",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "125",
+        "currency": "Leone de Serra Leoa",
+        "currencyCode": "SLL",
+        "numericCode": "694",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "126",
+        "currency": "Xelim somali",
+        "currencyCode": "SOS",
+        "numericCode": "706",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "127",
+        "currency": "Dólar do Suriname",
+        "currencyCode": "SRD",
+        "numericCode": "968",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "128",
+        "currency": "South Sudanese Pound",
+        "currencyCode": "SSP",
+        "numericCode": "728",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "129",
+        "currency": "Dobra de São Tomé e Príncipe",
+        "currencyCode": "STD",
+        "numericCode": "678",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "130",
+        "currency": "Colom salvadorenho",
+        "currencyCode": "SVC",
+        "numericCode": "222",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "131",
+        "currency": "Libra síria",
+        "currencyCode": "SYP",
+        "numericCode": "760",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "132",
+        "currency": "Lilangeni da Suazilândia",
+        "currencyCode": "SZL",
+        "numericCode": "748",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "133",
+        "currency": "Baht tailandês",
+        "currencyCode": "THB",
+        "numericCode": "764",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "134",
+        "currency": "Somoni tadjique",
+        "currencyCode": "TJS",
+        "numericCode": "972",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "135",
+        "currency": "Novo Manat do Turcomenistão",
+        "currencyCode": "TMT",
+        "numericCode": "934",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "136",
+        "currency": "Dinar tunisiano",
+        "currencyCode": "TND",
+        "numericCode": "788",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "137",
+        "currency": "Pa'anga de Tonga",
+        "currencyCode": "TOP",
+        "numericCode": "776",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "138",
+        "currency": "Lira turca",
+        "currencyCode": "TRY",
+        "numericCode": "949",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "139",
+        "currency": "Dólar de Trinidad e Tobago",
+        "currencyCode": "TTD",
+        "numericCode": "780",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "140",
+        "currency": "Dólar Novo de Taiwan",
+        "currencyCode": "TWD",
+        "numericCode": "901",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "141",
+        "currency": "Xelim da Tanzânia",
+        "currencyCode": "TZS",
+        "numericCode": "834",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "142",
+        "currency": "Hryvnia ucraniano",
+        "currencyCode": "UAH",
+        "numericCode": "980",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "143",
+        "currency": "Xelim ugandense",
+        "currencyCode": "UGX",
+        "numericCode": "800",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "144",
+        "currency": "Dólar norte-americano",
+        "currencyCode": "USD",
+        "numericCode": "840",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "145",
+        "currency": "Peso uruguaio",
+        "currencyCode": "UYU",
+        "numericCode": "858",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "146",
+        "currency": "Sum do Usbequistão",
+        "currencyCode": "UZS",
+        "numericCode": "860",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "147",
+        "currency": "Bolívar venezuelano forte",
+        "currencyCode": "VEF",
+        "numericCode": "937",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "148",
+        "currency": "Dong vietnamita",
+        "currencyCode": "VND",
+        "numericCode": "704",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "149",
+        "currency": "Vatu de Vanuatu",
+        "currencyCode": "VUV",
+        "numericCode": "548",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "150",
+        "currency": "Tala samoano",
+        "currencyCode": "WST",
+        "numericCode": "882",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "151",
+        "currency": "Franco CFA BEAC",
+        "currencyCode": "XAF",
+        "numericCode": "950",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "153",
+        "currency": "Dólar do Caribe Oriental",
+        "currencyCode": "XCD",
+        "numericCode": "951",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "154",
+        "currency": "Franco CFA BCEAO",
+        "currencyCode": "XOF",
+        "numericCode": "952",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "155",
+        "currency": "Franco CFP",
+        "currencyCode": "XPF",
+        "numericCode": "953",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "156",
+        "currency": "Rial iemenita",
+        "currencyCode": "YER",
+        "numericCode": "886",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "157",
+        "currency": "Rand sul-africano",
+        "currencyCode": "ZAR",
+        "numericCode": "710",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "158",
+        "currency": "Cuacha zambiano",
+        "currencyCode": "ZMW",
+        "numericCode": "967",
+        "useCustomSettings": "Não",
+        "active": "Sim"
+    }
+]

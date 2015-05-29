@@ -1,0 +1,3704 @@
+[
+    {
+        "id": "1",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "Africa/Abidjan",
+        "active": "1"
+    },
+    {
+        "id": "2",
+        "timeZone": "Fuso horário do meridiano de Gana",
+        "timeZoneId": "Africa/Accra",
+        "active": "1"
+    },
+    {
+        "id": "3",
+        "timeZone": "Fuso horário da África Oriental",
+        "timeZoneId": "Africa/Addis_Ababa",
+        "active": "1"
+    },
+    {
+        "id": "4",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Africa/Algiers",
+        "active": "1"
+    },
+    {
+        "id": "5",
+        "timeZone": "Fuso horário da África Oriental",
+        "timeZoneId": "Africa/Asmara",
+        "active": "1"
+    },
+    {
+        "id": "6",
+        "timeZone": "Fuso horário da África Oriental",
+        "timeZoneId": "Africa/Asmera",
+        "active": "1"
+    },
+    {
+        "id": "7",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "Africa/Bamako",
+        "active": "1"
+    },
+    {
+        "id": "8",
+        "timeZone": "Fuso horário da África Ocidental",
+        "timeZoneId": "Africa/Bangui",
+        "active": "1"
+    },
+    {
+        "id": "9",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "Africa/Banjul",
+        "active": "1"
+    },
+    {
+        "id": "10",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "Africa/Bissau",
+        "active": "1"
+    },
+    {
+        "id": "11",
+        "timeZone": "Fuso horário da África Central",
+        "timeZoneId": "Africa/Blantyre",
+        "active": "1"
+    },
+    {
+        "id": "12",
+        "timeZone": "Fuso horário da África Ocidental",
+        "timeZoneId": "Africa/Brazzaville",
+        "active": "1"
+    },
+    {
+        "id": "13",
+        "timeZone": "Fuso horário da África Central",
+        "timeZoneId": "Africa/Bujumbura",
+        "active": "1"
+    },
+    {
+        "id": "14",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "Africa/Cairo",
+        "active": "1"
+    },
+    {
+        "id": "15",
+        "timeZone": "Fuso horário da Europa Ocidental",
+        "timeZoneId": "Africa/Casablanca",
+        "active": "1"
+    },
+    {
+        "id": "16",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Africa/Ceuta",
+        "active": "1"
+    },
+    {
+        "id": "17",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "Africa/Conakry",
+        "active": "1"
+    },
+    {
+        "id": "18",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "Africa/Dakar",
+        "active": "1"
+    },
+    {
+        "id": "19",
+        "timeZone": "Fuso horário da África Oriental",
+        "timeZoneId": "Africa/Dar_es_Salaam",
+        "active": "1"
+    },
+    {
+        "id": "20",
+        "timeZone": "Fuso horário da África Oriental",
+        "timeZoneId": "Africa/Djibouti",
+        "active": "1"
+    },
+    {
+        "id": "21",
+        "timeZone": "Fuso horário da África Ocidental",
+        "timeZoneId": "Africa/Douala",
+        "active": "1"
+    },
+    {
+        "id": "22",
+        "timeZone": "Fuso horário da Europa Ocidental",
+        "timeZoneId": "Africa/El_Aaiun",
+        "active": "1"
+    },
+    {
+        "id": "23",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "Africa/Freetown",
+        "active": "1"
+    },
+    {
+        "id": "24",
+        "timeZone": "Fuso horário da África Central",
+        "timeZoneId": "Africa/Gaborone",
+        "active": "1"
+    },
+    {
+        "id": "25",
+        "timeZone": "Fuso horário da África Central",
+        "timeZoneId": "Africa/Harare",
+        "active": "1"
+    },
+    {
+        "id": "26",
+        "timeZone": "Fuso horário padrão da África do Sul",
+        "timeZoneId": "Africa/Johannesburg",
+        "active": "1"
+    },
+    {
+        "id": "27",
+        "timeZone": "Fuso horário da África Oriental",
+        "timeZoneId": "Africa/Juba",
+        "active": "1"
+    },
+    {
+        "id": "28",
+        "timeZone": "Fuso horário da África Oriental",
+        "timeZoneId": "Africa/Kampala",
+        "active": "1"
+    },
+    {
+        "id": "29",
+        "timeZone": "Fuso horário da África Oriental",
+        "timeZoneId": "Africa/Khartoum",
+        "active": "1"
+    },
+    {
+        "id": "30",
+        "timeZone": "Fuso horário da África Central",
+        "timeZoneId": "Africa/Kigali",
+        "active": "1"
+    },
+    {
+        "id": "31",
+        "timeZone": "Fuso horário da África Ocidental",
+        "timeZoneId": "Africa/Kinshasa",
+        "active": "1"
+    },
+    {
+        "id": "32",
+        "timeZone": "Fuso horário da África Ocidental",
+        "timeZoneId": "Africa/Lagos",
+        "active": "1"
+    },
+    {
+        "id": "33",
+        "timeZone": "Fuso horário da África Ocidental",
+        "timeZoneId": "Africa/Libreville",
+        "active": "1"
+    },
+    {
+        "id": "34",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "Africa/Lome",
+        "active": "1"
+    },
+    {
+        "id": "35",
+        "timeZone": "Fuso horário da África Ocidental",
+        "timeZoneId": "Africa/Luanda",
+        "active": "1"
+    },
+    {
+        "id": "36",
+        "timeZone": "Fuso horário da África Central",
+        "timeZoneId": "Africa/Lubumbashi",
+        "active": "1"
+    },
+    {
+        "id": "37",
+        "timeZone": "Fuso horário da África Central",
+        "timeZoneId": "Africa/Lusaka",
+        "active": "1"
+    },
+    {
+        "id": "38",
+        "timeZone": "Fuso horário da África Ocidental",
+        "timeZoneId": "Africa/Malabo",
+        "active": "1"
+    },
+    {
+        "id": "39",
+        "timeZone": "Fuso horário da África Central",
+        "timeZoneId": "Africa/Maputo",
+        "active": "1"
+    },
+    {
+        "id": "40",
+        "timeZone": "Fuso horário padrão da África do Sul",
+        "timeZoneId": "Africa/Maseru",
+        "active": "1"
+    },
+    {
+        "id": "41",
+        "timeZone": "Fuso horário padrão da África do Sul",
+        "timeZoneId": "Africa/Mbabane",
+        "active": "1"
+    },
+    {
+        "id": "42",
+        "timeZone": "Fuso horário da África Oriental",
+        "timeZoneId": "Africa/Mogadishu",
+        "active": "1"
+    },
+    {
+        "id": "43",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "Africa/Monrovia",
+        "active": "1"
+    },
+    {
+        "id": "44",
+        "timeZone": "Fuso horário da África Oriental",
+        "timeZoneId": "Africa/Nairobi",
+        "active": "1"
+    },
+    {
+        "id": "45",
+        "timeZone": "Fuso horário da África Ocidental",
+        "timeZoneId": "Africa/Ndjamena",
+        "active": "1"
+    },
+    {
+        "id": "46",
+        "timeZone": "Fuso horário da África Ocidental",
+        "timeZoneId": "Africa/Niamey",
+        "active": "1"
+    },
+    {
+        "id": "47",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "Africa/Nouakchott",
+        "active": "1"
+    },
+    {
+        "id": "48",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "Africa/Ouagadougou",
+        "active": "1"
+    },
+    {
+        "id": "49",
+        "timeZone": "Fuso horário da África Ocidental",
+        "timeZoneId": "Africa/Porto-Novo",
+        "active": "1"
+    },
+    {
+        "id": "50",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "Africa/Sao_Tome",
+        "active": "1"
+    },
+    {
+        "id": "51",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "Africa/Timbuktu",
+        "active": "1"
+    },
+    {
+        "id": "52",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "Africa/Tripoli",
+        "active": "1"
+    },
+    {
+        "id": "53",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Africa/Tunis",
+        "active": "1"
+    },
+    {
+        "id": "54",
+        "timeZone": "Fuso horário da África Ocidental",
+        "timeZoneId": "Africa/Windhoek",
+        "active": "1"
+    },
+    {
+        "id": "55",
+        "timeZone": "Fuso horário padrão do Havaí-Aleutian",
+        "timeZoneId": "America/Adak",
+        "active": "1"
+    },
+    {
+        "id": "56",
+        "timeZone": "Fuso horário padrão do Alaska",
+        "timeZoneId": "America/Anchorage",
+        "active": "1"
+    },
+    {
+        "id": "57",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/Anguilla",
+        "active": "1"
+    },
+    {
+        "id": "58",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/Antigua",
+        "active": "1"
+    },
+    {
+        "id": "59",
+        "timeZone": "Fuso horário de Brasília",
+        "timeZoneId": "America/Araguaina",
+        "active": "1"
+    },
+    {
+        "id": "60",
+        "timeZone": "Fuso horário da Argentina",
+        "timeZoneId": "America/Argentina/Buenos_Aires",
+        "active": "1"
+    },
+    {
+        "id": "61",
+        "timeZone": "Fuso horário da Argentina",
+        "timeZoneId": "America/Argentina/Catamarca",
+        "active": "1"
+    },
+    {
+        "id": "62",
+        "timeZone": "Fuso horário da Argentina",
+        "timeZoneId": "America/Argentina/ComodRivadavia",
+        "active": "1"
+    },
+    {
+        "id": "63",
+        "timeZone": "Fuso horário da Argentina",
+        "timeZoneId": "America/Argentina/Cordoba",
+        "active": "1"
+    },
+    {
+        "id": "64",
+        "timeZone": "Fuso horário da Argentina",
+        "timeZoneId": "America/Argentina/Jujuy",
+        "active": "1"
+    },
+    {
+        "id": "65",
+        "timeZone": "Fuso horário da Argentina",
+        "timeZoneId": "America/Argentina/La_Rioja",
+        "active": "1"
+    },
+    {
+        "id": "66",
+        "timeZone": "Fuso horário da Argentina",
+        "timeZoneId": "America/Argentina/Mendoza",
+        "active": "1"
+    },
+    {
+        "id": "67",
+        "timeZone": "Fuso horário da Argentina",
+        "timeZoneId": "America/Argentina/Rio_Gallegos",
+        "active": "1"
+    },
+    {
+        "id": "68",
+        "timeZone": "Fuso horário da Argentina",
+        "timeZoneId": "America/Argentina/Salta",
+        "active": "1"
+    },
+    {
+        "id": "69",
+        "timeZone": "Fuso horário da Argentina",
+        "timeZoneId": "America/Argentina/San_Juan",
+        "active": "1"
+    },
+    {
+        "id": "70",
+        "timeZone": "Fuso horário da Argentina",
+        "timeZoneId": "America/Argentina/San_Luis",
+        "active": "1"
+    },
+    {
+        "id": "71",
+        "timeZone": "Fuso horário da Argentina",
+        "timeZoneId": "America/Argentina/Tucuman",
+        "active": "1"
+    },
+    {
+        "id": "72",
+        "timeZone": "Fuso horário da Argentina",
+        "timeZoneId": "America/Argentina/Ushuaia",
+        "active": "1"
+    },
+    {
+        "id": "73",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/Aruba",
+        "active": "1"
+    },
+    {
+        "id": "74",
+        "timeZone": "Fuso horário do Paraguai",
+        "timeZoneId": "America/Asuncion",
+        "active": "1"
+    },
+    {
+        "id": "75",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "America/Atikokan",
+        "active": "1"
+    },
+    {
+        "id": "76",
+        "timeZone": "Fuso horário padrão do Havaí-Aleutian",
+        "timeZoneId": "America/Atka",
+        "active": "1"
+    },
+    {
+        "id": "77",
+        "timeZone": "Fuso horário de Brasília",
+        "timeZoneId": "America/Bahia",
+        "active": "1"
+    },
+    {
+        "id": "78",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "America/Bahia_Banderas",
+        "active": "1"
+    },
+    {
+        "id": "79",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/Barbados",
+        "active": "1"
+    },
+    {
+        "id": "80",
+        "timeZone": "Fuso horário de Brasília",
+        "timeZoneId": "America/Belem",
+        "active": "1"
+    },
+    {
+        "id": "81",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "America/Belize",
+        "active": "1"
+    },
+    {
+        "id": "82",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/Blanc-Sablon",
+        "active": "1"
+    },
+    {
+        "id": "83",
+        "timeZone": "Fuso horário do Amazonas",
+        "timeZoneId": "America/Boa_Vista",
+        "active": "1"
+    },
+    {
+        "id": "84",
+        "timeZone": "Fuso horário da Colômbia",
+        "timeZoneId": "America/Bogota",
+        "active": "1"
+    },
+    {
+        "id": "85",
+        "timeZone": "Fuso horário padrão das montanhas",
+        "timeZoneId": "America/Boise",
+        "active": "1"
+    },
+    {
+        "id": "86",
+        "timeZone": "Fuso horário da Argentina",
+        "timeZoneId": "America/Buenos_Aires",
+        "active": "1"
+    },
+    {
+        "id": "87",
+        "timeZone": "Fuso horário padrão das montanhas",
+        "timeZoneId": "America/Cambridge_Bay",
+        "active": "1"
+    },
+    {
+        "id": "88",
+        "timeZone": "Fuso horário do Amazonas",
+        "timeZoneId": "America/Campo_Grande",
+        "active": "1"
+    },
+    {
+        "id": "89",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "America/Cancun",
+        "active": "1"
+    },
+    {
+        "id": "90",
+        "timeZone": "Fuso horário da Venezuela",
+        "timeZoneId": "America/Caracas",
+        "active": "1"
+    },
+    {
+        "id": "91",
+        "timeZone": "Fuso horário da Argentina",
+        "timeZoneId": "America/Catamarca",
+        "active": "1"
+    },
+    {
+        "id": "92",
+        "timeZone": "Fuso horário da Guiana Francesa",
+        "timeZoneId": "America/Cayenne",
+        "active": "1"
+    },
+    {
+        "id": "93",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "America/Cayman",
+        "active": "1"
+    },
+    {
+        "id": "94",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "America/Chicago",
+        "active": "1"
+    },
+    {
+        "id": "95",
+        "timeZone": "Fuso horário padrão das montanhas",
+        "timeZoneId": "America/Chihuahua",
+        "active": "1"
+    },
+    {
+        "id": "96",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "America/Coral_Harbour",
+        "active": "1"
+    },
+    {
+        "id": "97",
+        "timeZone": "Fuso horário da Argentina",
+        "timeZoneId": "America/Cordoba",
+        "active": "1"
+    },
+    {
+        "id": "98",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "America/Costa_Rica",
+        "active": "1"
+    },
+    {
+        "id": "99",
+        "timeZone": "Fuso horário padrão das montanhas",
+        "timeZoneId": "America/Creston",
+        "active": "1"
+    },
+    {
+        "id": "100",
+        "timeZone": "Fuso horário do Amazonas",
+        "timeZoneId": "America/Cuiaba",
+        "active": "1"
+    },
+    {
+        "id": "101",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/Curacao",
+        "active": "1"
+    },
+    {
+        "id": "102",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "America/Danmarkshavn",
+        "active": "1"
+    },
+    {
+        "id": "103",
+        "timeZone": "Fuso horário padrão do Pacífico",
+        "timeZoneId": "America/Dawson",
+        "active": "1"
+    },
+    {
+        "id": "104",
+        "timeZone": "Fuso horário padrão das montanhas",
+        "timeZoneId": "America/Dawson_Creek",
+        "active": "1"
+    },
+    {
+        "id": "105",
+        "timeZone": "Fuso horário padrão das montanhas",
+        "timeZoneId": "America/Denver",
+        "active": "1"
+    },
+    {
+        "id": "106",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "America/Detroit",
+        "active": "1"
+    },
+    {
+        "id": "107",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/Dominica",
+        "active": "1"
+    },
+    {
+        "id": "108",
+        "timeZone": "Fuso horário padrão das montanhas",
+        "timeZoneId": "America/Edmonton",
+        "active": "1"
+    },
+    {
+        "id": "109",
+        "timeZone": "Fuso horário do Acre",
+        "timeZoneId": "America/Eirunepe",
+        "active": "1"
+    },
+    {
+        "id": "110",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "America/El_Salvador",
+        "active": "1"
+    },
+    {
+        "id": "111",
+        "timeZone": "Fuso horário padrão do Pacífico",
+        "timeZoneId": "America/Ensenada",
+        "active": "1"
+    },
+    {
+        "id": "112",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "America/Fort_Wayne",
+        "active": "1"
+    },
+    {
+        "id": "113",
+        "timeZone": "Fuso horário de Brasília",
+        "timeZoneId": "America/Fortaleza",
+        "active": "1"
+    },
+    {
+        "id": "114",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/Glace_Bay",
+        "active": "1"
+    },
+    {
+        "id": "115",
+        "timeZone": "Fuso horário da Groenlândia Ocidental",
+        "timeZoneId": "America/Godthab",
+        "active": "1"
+    },
+    {
+        "id": "116",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/Goose_Bay",
+        "active": "1"
+    },
+    {
+        "id": "117",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/Grand_Turk",
+        "active": "1"
+    },
+    {
+        "id": "118",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/Grenada",
+        "active": "1"
+    },
+    {
+        "id": "119",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/Guadeloupe",
+        "active": "1"
+    },
+    {
+        "id": "120",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "America/Guatemala",
+        "active": "1"
+    },
+    {
+        "id": "121",
+        "timeZone": "Fuso horário do Equador",
+        "timeZoneId": "America/Guayaquil",
+        "active": "1"
+    },
+    {
+        "id": "122",
+        "timeZone": "Fuso horário da Guiana",
+        "timeZoneId": "America/Guyana",
+        "active": "1"
+    },
+    {
+        "id": "123",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/Halifax",
+        "active": "1"
+    },
+    {
+        "id": "124",
+        "timeZone": "Fuso horário padrão de Cuba",
+        "timeZoneId": "America/Havana",
+        "active": "1"
+    },
+    {
+        "id": "125",
+        "timeZone": "Fuso horário padrão das montanhas",
+        "timeZoneId": "America/Hermosillo",
+        "active": "1"
+    },
+    {
+        "id": "126",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "America/Indiana/Indianapolis",
+        "active": "1"
+    },
+    {
+        "id": "127",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "America/Indiana/Knox",
+        "active": "1"
+    },
+    {
+        "id": "128",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "America/Indiana/Marengo",
+        "active": "1"
+    },
+    {
+        "id": "129",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "America/Indiana/Petersburg",
+        "active": "1"
+    },
+    {
+        "id": "130",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "America/Indiana/Tell_City",
+        "active": "1"
+    },
+    {
+        "id": "131",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "America/Indiana/Vevay",
+        "active": "1"
+    },
+    {
+        "id": "132",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "America/Indiana/Vincennes",
+        "active": "1"
+    },
+    {
+        "id": "133",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "America/Indiana/Winamac",
+        "active": "1"
+    },
+    {
+        "id": "134",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "America/Indianapolis",
+        "active": "1"
+    },
+    {
+        "id": "135",
+        "timeZone": "Fuso horário padrão das montanhas",
+        "timeZoneId": "America/Inuvik",
+        "active": "1"
+    },
+    {
+        "id": "136",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "America/Iqaluit",
+        "active": "1"
+    },
+    {
+        "id": "137",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "America/Jamaica",
+        "active": "1"
+    },
+    {
+        "id": "138",
+        "timeZone": "Fuso horário da Argentina",
+        "timeZoneId": "America/Jujuy",
+        "active": "1"
+    },
+    {
+        "id": "139",
+        "timeZone": "Fuso horário padrão do Alaska",
+        "timeZoneId": "America/Juneau",
+        "active": "1"
+    },
+    {
+        "id": "140",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "America/Kentucky/Louisville",
+        "active": "1"
+    },
+    {
+        "id": "141",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "America/Kentucky/Monticello",
+        "active": "1"
+    },
+    {
+        "id": "142",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "America/Knox_IN",
+        "active": "1"
+    },
+    {
+        "id": "143",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/Kralendijk",
+        "active": "1"
+    },
+    {
+        "id": "144",
+        "timeZone": "Fuso horário da Bolívia",
+        "timeZoneId": "America/La_Paz",
+        "active": "1"
+    },
+    {
+        "id": "145",
+        "timeZone": "Fuso horário do Peru",
+        "timeZoneId": "America/Lima",
+        "active": "1"
+    },
+    {
+        "id": "146",
+        "timeZone": "Fuso horário padrão do Pacífico",
+        "timeZoneId": "America/Los_Angeles",
+        "active": "1"
+    },
+    {
+        "id": "147",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "America/Louisville",
+        "active": "1"
+    },
+    {
+        "id": "148",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/Lower_Princes",
+        "active": "1"
+    },
+    {
+        "id": "149",
+        "timeZone": "Fuso horário de Brasília",
+        "timeZoneId": "America/Maceio",
+        "active": "1"
+    },
+    {
+        "id": "150",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "America/Managua",
+        "active": "1"
+    },
+    {
+        "id": "151",
+        "timeZone": "Fuso horário do Amazonas",
+        "timeZoneId": "America/Manaus",
+        "active": "1"
+    },
+    {
+        "id": "152",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/Marigot",
+        "active": "1"
+    },
+    {
+        "id": "153",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/Martinique",
+        "active": "1"
+    },
+    {
+        "id": "154",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "America/Matamoros",
+        "active": "1"
+    },
+    {
+        "id": "155",
+        "timeZone": "Fuso horário padrão das montanhas",
+        "timeZoneId": "America/Mazatlan",
+        "active": "1"
+    },
+    {
+        "id": "156",
+        "timeZone": "Fuso horário da Argentina",
+        "timeZoneId": "America/Mendoza",
+        "active": "1"
+    },
+    {
+        "id": "157",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "America/Menominee",
+        "active": "1"
+    },
+    {
+        "id": "158",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "America/Merida",
+        "active": "1"
+    },
+    {
+        "id": "159",
+        "timeZone": "Fuso horário padrão do Pacífico",
+        "timeZoneId": "America/Metlakatla",
+        "active": "1"
+    },
+    {
+        "id": "160",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "America/Mexico_City",
+        "active": "1"
+    },
+    {
+        "id": "161",
+        "timeZone": "Fuso horário padrão de São Pedro e Miquelon",
+        "timeZoneId": "America/Miquelon",
+        "active": "1"
+    },
+    {
+        "id": "162",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/Moncton",
+        "active": "1"
+    },
+    {
+        "id": "163",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "America/Monterrey",
+        "active": "1"
+    },
+    {
+        "id": "164",
+        "timeZone": "Fuso horário do Uruguai",
+        "timeZoneId": "America/Montevideo",
+        "active": "1"
+    },
+    {
+        "id": "165",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "America/Montreal",
+        "active": "1"
+    },
+    {
+        "id": "166",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/Montserrat",
+        "active": "1"
+    },
+    {
+        "id": "167",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "America/Nassau",
+        "active": "1"
+    },
+    {
+        "id": "168",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "America/New_York",
+        "active": "1"
+    },
+    {
+        "id": "169",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "America/Nipigon",
+        "active": "1"
+    },
+    {
+        "id": "170",
+        "timeZone": "Fuso horário padrão do Alaska",
+        "timeZoneId": "America/Nome",
+        "active": "1"
+    },
+    {
+        "id": "171",
+        "timeZone": "Fuso horário de Fernando de Noronha",
+        "timeZoneId": "America/Noronha",
+        "active": "1"
+    },
+    {
+        "id": "172",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "America/North_Dakota/Beulah",
+        "active": "1"
+    },
+    {
+        "id": "173",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "America/North_Dakota/Center",
+        "active": "1"
+    },
+    {
+        "id": "174",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "America/North_Dakota/New_Salem",
+        "active": "1"
+    },
+    {
+        "id": "175",
+        "timeZone": "Fuso horário padrão das montanhas",
+        "timeZoneId": "America/Ojinaga",
+        "active": "1"
+    },
+    {
+        "id": "176",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "America/Panama",
+        "active": "1"
+    },
+    {
+        "id": "177",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "America/Pangnirtung",
+        "active": "1"
+    },
+    {
+        "id": "178",
+        "timeZone": "Fuso horário do Suriname",
+        "timeZoneId": "America/Paramaribo",
+        "active": "1"
+    },
+    {
+        "id": "179",
+        "timeZone": "Fuso horário padrão das montanhas",
+        "timeZoneId": "America/Phoenix",
+        "active": "1"
+    },
+    {
+        "id": "180",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "America/Port-au-Prince",
+        "active": "1"
+    },
+    {
+        "id": "181",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/Port_of_Spain",
+        "active": "1"
+    },
+    {
+        "id": "182",
+        "timeZone": "Fuso horário do Acre",
+        "timeZoneId": "America/Porto_Acre",
+        "active": "1"
+    },
+    {
+        "id": "183",
+        "timeZone": "Fuso horário do Amazonas",
+        "timeZoneId": "America/Porto_Velho",
+        "active": "1"
+    },
+    {
+        "id": "184",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/Puerto_Rico",
+        "active": "1"
+    },
+    {
+        "id": "185",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "America/Rainy_River",
+        "active": "1"
+    },
+    {
+        "id": "186",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "America/Rankin_Inlet",
+        "active": "1"
+    },
+    {
+        "id": "187",
+        "timeZone": "Fuso horário de Brasília",
+        "timeZoneId": "America/Recife",
+        "active": "1"
+    },
+    {
+        "id": "188",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "America/Regina",
+        "active": "1"
+    },
+    {
+        "id": "189",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "America/Resolute",
+        "active": "1"
+    },
+    {
+        "id": "190",
+        "timeZone": "Fuso horário do Acre",
+        "timeZoneId": "America/Rio_Branco",
+        "active": "1"
+    },
+    {
+        "id": "191",
+        "timeZone": "Fuso horário da Argentina",
+        "timeZoneId": "America/Rosario",
+        "active": "1"
+    },
+    {
+        "id": "192",
+        "timeZone": "Fuso horário padrão do Pacífico",
+        "timeZoneId": "America/Santa_Isabel",
+        "active": "1"
+    },
+    {
+        "id": "193",
+        "timeZone": "Fuso horário de Brasília",
+        "timeZoneId": "America/Santarem",
+        "active": "1"
+    },
+    {
+        "id": "194",
+        "timeZone": "Fuso horário do Chile",
+        "timeZoneId": "America/Santiago",
+        "active": "1"
+    },
+    {
+        "id": "195",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/Santo_Domingo",
+        "active": "1"
+    },
+    {
+        "id": "196",
+        "timeZone": "Fuso horário de Brasília",
+        "timeZoneId": "America/Sao_Paulo",
+        "active": "1"
+    },
+    {
+        "id": "197",
+        "timeZone": "Fuso horário da Groenlândia Oriental",
+        "timeZoneId": "America/Scoresbysund",
+        "active": "1"
+    },
+    {
+        "id": "198",
+        "timeZone": "Fuso horário padrão das montanhas",
+        "timeZoneId": "America/Shiprock",
+        "active": "1"
+    },
+    {
+        "id": "199",
+        "timeZone": "Fuso horário padrão do Alaska",
+        "timeZoneId": "America/Sitka",
+        "active": "1"
+    },
+    {
+        "id": "200",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/St_Barthelemy",
+        "active": "1"
+    },
+    {
+        "id": "201",
+        "timeZone": "Fuso horário padrão de Terra Nova",
+        "timeZoneId": "America/St_Johns",
+        "active": "1"
+    },
+    {
+        "id": "202",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/St_Kitts",
+        "active": "1"
+    },
+    {
+        "id": "203",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/St_Lucia",
+        "active": "1"
+    },
+    {
+        "id": "204",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/St_Thomas",
+        "active": "1"
+    },
+    {
+        "id": "205",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/St_Vincent",
+        "active": "1"
+    },
+    {
+        "id": "206",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "America/Swift_Current",
+        "active": "1"
+    },
+    {
+        "id": "207",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "America/Tegucigalpa",
+        "active": "1"
+    },
+    {
+        "id": "208",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/Thule",
+        "active": "1"
+    },
+    {
+        "id": "209",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "America/Thunder_Bay",
+        "active": "1"
+    },
+    {
+        "id": "210",
+        "timeZone": "Fuso horário padrão do Pacífico",
+        "timeZoneId": "America/Tijuana",
+        "active": "1"
+    },
+    {
+        "id": "211",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "America/Toronto",
+        "active": "1"
+    },
+    {
+        "id": "212",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/Tortola",
+        "active": "1"
+    },
+    {
+        "id": "213",
+        "timeZone": "Fuso horário padrão do Pacífico",
+        "timeZoneId": "America/Vancouver",
+        "active": "1"
+    },
+    {
+        "id": "214",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "America/Virgin",
+        "active": "1"
+    },
+    {
+        "id": "215",
+        "timeZone": "Fuso horário padrão do Pacífico",
+        "timeZoneId": "America/Whitehorse",
+        "active": "1"
+    },
+    {
+        "id": "216",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "America/Winnipeg",
+        "active": "1"
+    },
+    {
+        "id": "217",
+        "timeZone": "Fuso horário padrão do Alaska",
+        "timeZoneId": "America/Yakutat",
+        "active": "1"
+    },
+    {
+        "id": "218",
+        "timeZone": "Fuso horário padrão das montanhas",
+        "timeZoneId": "America/Yellowknife",
+        "active": "1"
+    },
+    {
+        "id": "219",
+        "timeZone": "Horário-Padrão Ocidental (Austrália)",
+        "timeZoneId": "Antarctica/Casey",
+        "active": "1"
+    },
+    {
+        "id": "220",
+        "timeZone": "Fuso horário de Davis",
+        "timeZoneId": "Antarctica/Davis",
+        "active": "1"
+    },
+    {
+        "id": "221",
+        "timeZone": "Fuso horário de Dumont-d'Urville",
+        "timeZoneId": "Antarctica/DumontDUrville",
+        "active": "1"
+    },
+    {
+        "id": "222",
+        "timeZone": "Fuso Horário da Ilha de Macquarie",
+        "timeZoneId": "Antarctica/Macquarie",
+        "active": "1"
+    },
+    {
+        "id": "223",
+        "timeZone": "Fuso horário de Mawson",
+        "timeZoneId": "Antarctica/Mawson",
+        "active": "1"
+    },
+    {
+        "id": "224",
+        "timeZone": "Fuso horário padrão da Nova Zelândia",
+        "timeZoneId": "Antarctica/McMurdo",
+        "active": "1"
+    },
+    {
+        "id": "225",
+        "timeZone": "Fuso horário do Chile",
+        "timeZoneId": "Antarctica/Palmer",
+        "active": "1"
+    },
+    {
+        "id": "226",
+        "timeZone": "Fuso horário de Rothera",
+        "timeZoneId": "Antarctica/Rothera",
+        "active": "1"
+    },
+    {
+        "id": "227",
+        "timeZone": "Fuso horário padrão da Nova Zelândia",
+        "timeZoneId": "Antarctica/South_Pole",
+        "active": "1"
+    },
+    {
+        "id": "228",
+        "timeZone": "Fuso horário de Syowa",
+        "timeZoneId": "Antarctica/Syowa",
+        "active": "1"
+    },
+    {
+        "id": "229",
+        "timeZone": "Tempo universal coordenado",
+        "timeZoneId": "Antarctica/Troll",
+        "active": "1"
+    },
+    {
+        "id": "230",
+        "timeZone": "Fuso horário de Vostok",
+        "timeZoneId": "Antarctica/Vostok",
+        "active": "1"
+    },
+    {
+        "id": "231",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Arctic/Longyearbyen",
+        "active": "1"
+    },
+    {
+        "id": "232",
+        "timeZone": "Fuso horário padrão da Arábia",
+        "timeZoneId": "Asia/Aden",
+        "active": "1"
+    },
+    {
+        "id": "233",
+        "timeZone": "Fuso horário de Alma-Ata",
+        "timeZoneId": "Asia/Almaty",
+        "active": "1"
+    },
+    {
+        "id": "234",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "Asia/Amman",
+        "active": "1"
+    },
+    {
+        "id": "235",
+        "timeZone": "Fuso horário de Anadyr",
+        "timeZoneId": "Asia/Anadyr",
+        "active": "1"
+    },
+    {
+        "id": "236",
+        "timeZone": "Fuso horário de Aqtau",
+        "timeZoneId": "Asia/Aqtau",
+        "active": "1"
+    },
+    {
+        "id": "237",
+        "timeZone": "Fuso horário de Aqtobe",
+        "timeZoneId": "Asia/Aqtobe",
+        "active": "1"
+    },
+    {
+        "id": "238",
+        "timeZone": "Fuso horário do Turcomenistão",
+        "timeZoneId": "Asia/Ashgabat",
+        "active": "1"
+    },
+    {
+        "id": "239",
+        "timeZone": "Fuso horário do Turcomenistão",
+        "timeZoneId": "Asia/Ashkhabad",
+        "active": "1"
+    },
+    {
+        "id": "240",
+        "timeZone": "Fuso horário padrão da Arábia",
+        "timeZoneId": "Asia/Baghdad",
+        "active": "1"
+    },
+    {
+        "id": "241",
+        "timeZone": "Fuso horário padrão da Arábia",
+        "timeZoneId": "Asia/Bahrain",
+        "active": "1"
+    },
+    {
+        "id": "242",
+        "timeZone": "Fuso horário do Azerbaijão",
+        "timeZoneId": "Asia/Baku",
+        "active": "1"
+    },
+    {
+        "id": "243",
+        "timeZone": "Fuso horário da Indochina",
+        "timeZoneId": "Asia/Bangkok",
+        "active": "1"
+    },
+    {
+        "id": "244",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "Asia/Beirut",
+        "active": "1"
+    },
+    {
+        "id": "245",
+        "timeZone": "Fuso horário do Quirguistão",
+        "timeZoneId": "Asia/Bishkek",
+        "active": "1"
+    },
+    {
+        "id": "246",
+        "timeZone": "Fuso horário de Brunei",
+        "timeZoneId": "Asia/Brunei",
+        "active": "1"
+    },
+    {
+        "id": "247",
+        "timeZone": "Fuso horário padrão da Índia",
+        "timeZoneId": "Asia/Calcutta",
+        "active": "1"
+    },
+    {
+        "id": "248",
+        "timeZone": "Fuso horário de Irkutsk",
+        "timeZoneId": "Asia/Chita",
+        "active": "1"
+    },
+    {
+        "id": "249",
+        "timeZone": "Fuso horário de Choibalsan",
+        "timeZoneId": "Asia/Choibalsan",
+        "active": "1"
+    },
+    {
+        "id": "250",
+        "timeZone": "Fuso horário padrão da China",
+        "timeZoneId": "Asia/Chongqing",
+        "active": "1"
+    },
+    {
+        "id": "251",
+        "timeZone": "Fuso horário padrão da China",
+        "timeZoneId": "Asia/Chungking",
+        "active": "1"
+    },
+    {
+        "id": "252",
+        "timeZone": "Fuso horário padrão da Índia",
+        "timeZoneId": "Asia/Colombo",
+        "active": "1"
+    },
+    {
+        "id": "253",
+        "timeZone": "Fuso horário de Bangladesh",
+        "timeZoneId": "Asia/Dacca",
+        "active": "1"
+    },
+    {
+        "id": "254",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "Asia/Damascus",
+        "active": "1"
+    },
+    {
+        "id": "255",
+        "timeZone": "Fuso horário de Bangladesh",
+        "timeZoneId": "Asia/Dhaka",
+        "active": "1"
+    },
+    {
+        "id": "256",
+        "timeZone": "Fuso horário do Timor-Leste",
+        "timeZoneId": "Asia/Dili",
+        "active": "1"
+    },
+    {
+        "id": "257",
+        "timeZone": "Fuso horário padrão do golfo",
+        "timeZoneId": "Asia/Dubai",
+        "active": "1"
+    },
+    {
+        "id": "258",
+        "timeZone": "Fuso horário do Tadjiquistão",
+        "timeZoneId": "Asia/Dushanbe",
+        "active": "1"
+    },
+    {
+        "id": "259",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "Asia/Gaza",
+        "active": "1"
+    },
+    {
+        "id": "260",
+        "timeZone": "Fuso horário padrão da China",
+        "timeZoneId": "Asia/Harbin",
+        "active": "1"
+    },
+    {
+        "id": "261",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "Asia/Hebron",
+        "active": "1"
+    },
+    {
+        "id": "262",
+        "timeZone": "Fuso horário da Indochina",
+        "timeZoneId": "Asia/Ho_Chi_Minh",
+        "active": "1"
+    },
+    {
+        "id": "263",
+        "timeZone": "Fuso horário de Hong Kong",
+        "timeZoneId": "Asia/Hong_Kong",
+        "active": "1"
+    },
+    {
+        "id": "264",
+        "timeZone": "Fuso horário de Hovd",
+        "timeZoneId": "Asia/Hovd",
+        "active": "1"
+    },
+    {
+        "id": "265",
+        "timeZone": "Fuso horário de Irkutsk",
+        "timeZoneId": "Asia/Irkutsk",
+        "active": "1"
+    },
+    {
+        "id": "266",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "Asia/Istanbul",
+        "active": "1"
+    },
+    {
+        "id": "267",
+        "timeZone": "Fuso horário da Indonésia Ocidental",
+        "timeZoneId": "Asia/Jakarta",
+        "active": "1"
+    },
+    {
+        "id": "268",
+        "timeZone": "Fuso horário da Indonésia Oriental",
+        "timeZoneId": "Asia/Jayapura",
+        "active": "1"
+    },
+    {
+        "id": "269",
+        "timeZone": "Fuso horário padrão de Israel",
+        "timeZoneId": "Asia/Jerusalem",
+        "active": "1"
+    },
+    {
+        "id": "270",
+        "timeZone": "Fuso horário do Afeganistão",
+        "timeZoneId": "Asia/Kabul",
+        "active": "1"
+    },
+    {
+        "id": "271",
+        "timeZone": "Fuso horário de Petropavlovsk-Kamchatski",
+        "timeZoneId": "Asia/Kamchatka",
+        "active": "1"
+    },
+    {
+        "id": "272",
+        "timeZone": "Fuso horário do Paquistão",
+        "timeZoneId": "Asia/Karachi",
+        "active": "1"
+    },
+    {
+        "id": "273",
+        "timeZone": "Fuso horário padrão da China",
+        "timeZoneId": "Asia/Kashgar",
+        "active": "1"
+    },
+    {
+        "id": "274",
+        "timeZone": "Fuso horário do Nepal",
+        "timeZoneId": "Asia/Kathmandu",
+        "active": "1"
+    },
+    {
+        "id": "275",
+        "timeZone": "Fuso horário do Nepal",
+        "timeZoneId": "Asia/Katmandu",
+        "active": "1"
+    },
+    {
+        "id": "276",
+        "timeZone": "Horário de Khandyga",
+        "timeZoneId": "Asia/Khandyga",
+        "active": "1"
+    },
+    {
+        "id": "277",
+        "timeZone": "Fuso horário padrão da Índia",
+        "timeZoneId": "Asia/Kolkata",
+        "active": "1"
+    },
+    {
+        "id": "278",
+        "timeZone": "Fuso horário de Krasnoyarsk",
+        "timeZoneId": "Asia/Krasnoyarsk",
+        "active": "1"
+    },
+    {
+        "id": "279",
+        "timeZone": "Fuso horário da Malásia",
+        "timeZoneId": "Asia/Kuala_Lumpur",
+        "active": "1"
+    },
+    {
+        "id": "280",
+        "timeZone": "Fuso horário da Malásia",
+        "timeZoneId": "Asia/Kuching",
+        "active": "1"
+    },
+    {
+        "id": "281",
+        "timeZone": "Fuso horário padrão da Arábia",
+        "timeZoneId": "Asia/Kuwait",
+        "active": "1"
+    },
+    {
+        "id": "282",
+        "timeZone": "Fuso horário padrão da China",
+        "timeZoneId": "Asia/Macao",
+        "active": "1"
+    },
+    {
+        "id": "283",
+        "timeZone": "Fuso horário padrão da China",
+        "timeZoneId": "Asia/Macau",
+        "active": "1"
+    },
+    {
+        "id": "284",
+        "timeZone": "Fuso horário de Magadan",
+        "timeZoneId": "Asia/Magadan",
+        "active": "1"
+    },
+    {
+        "id": "285",
+        "timeZone": "Fuso horário da Indonésia Central",
+        "timeZoneId": "Asia/Makassar",
+        "active": "1"
+    },
+    {
+        "id": "286",
+        "timeZone": "Fuso horário das Filipinas",
+        "timeZoneId": "Asia/Manila",
+        "active": "1"
+    },
+    {
+        "id": "287",
+        "timeZone": "Fuso horário padrão do golfo",
+        "timeZoneId": "Asia/Muscat",
+        "active": "1"
+    },
+    {
+        "id": "288",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "Asia/Nicosia",
+        "active": "1"
+    },
+    {
+        "id": "289",
+        "timeZone": "Fuso horário de Krasnoyarsk",
+        "timeZoneId": "Asia/Novokuznetsk",
+        "active": "1"
+    },
+    {
+        "id": "290",
+        "timeZone": "Fuso horário de Novosibirsk",
+        "timeZoneId": "Asia/Novosibirsk",
+        "active": "1"
+    },
+    {
+        "id": "291",
+        "timeZone": "Fuso horário de Omsk",
+        "timeZoneId": "Asia/Omsk",
+        "active": "1"
+    },
+    {
+        "id": "292",
+        "timeZone": "Fuso horário de Uralsk",
+        "timeZoneId": "Asia/Oral",
+        "active": "1"
+    },
+    {
+        "id": "293",
+        "timeZone": "Fuso horário da Indochina",
+        "timeZoneId": "Asia/Phnom_Penh",
+        "active": "1"
+    },
+    {
+        "id": "294",
+        "timeZone": "Fuso horário da Indonésia Ocidental",
+        "timeZoneId": "Asia/Pontianak",
+        "active": "1"
+    },
+    {
+        "id": "295",
+        "timeZone": "Fuso horário padrão da Coreia",
+        "timeZoneId": "Asia/Pyongyang",
+        "active": "1"
+    },
+    {
+        "id": "296",
+        "timeZone": "Fuso horário padrão da Arábia",
+        "timeZoneId": "Asia/Qatar",
+        "active": "1"
+    },
+    {
+        "id": "297",
+        "timeZone": "Fuso horário de Kizil-Orda",
+        "timeZoneId": "Asia/Qyzylorda",
+        "active": "1"
+    },
+    {
+        "id": "298",
+        "timeZone": "Fuso horário de Mianmar",
+        "timeZoneId": "Asia/Rangoon",
+        "active": "1"
+    },
+    {
+        "id": "299",
+        "timeZone": "Fuso horário padrão da Arábia",
+        "timeZoneId": "Asia/Riyadh",
+        "active": "1"
+    },
+    {
+        "id": "300",
+        "timeZone": "Fuso horário da Indochina",
+        "timeZoneId": "Asia/Saigon",
+        "active": "1"
+    },
+    {
+        "id": "301",
+        "timeZone": "Fuso horário de Sakhalina",
+        "timeZoneId": "Asia/Sakhalin",
+        "active": "1"
+    },
+    {
+        "id": "302",
+        "timeZone": "Fuso horário do Uzbequistão",
+        "timeZoneId": "Asia/Samarkand",
+        "active": "1"
+    },
+    {
+        "id": "303",
+        "timeZone": "Fuso horário padrão da Coreia",
+        "timeZoneId": "Asia/Seoul",
+        "active": "1"
+    },
+    {
+        "id": "304",
+        "timeZone": "Fuso horário padrão da China",
+        "timeZoneId": "Asia/Shanghai",
+        "active": "1"
+    },
+    {
+        "id": "305",
+        "timeZone": "Fuso horário de Cingapura",
+        "timeZoneId": "Asia/Singapore",
+        "active": "1"
+    },
+    {
+        "id": "306",
+        "timeZone": "Fuso horário de Srednekolymsk",
+        "timeZoneId": "Asia/Srednekolymsk",
+        "active": "1"
+    },
+    {
+        "id": "307",
+        "timeZone": "Fuso horário padrão da China",
+        "timeZoneId": "Asia/Taipei",
+        "active": "1"
+    },
+    {
+        "id": "308",
+        "timeZone": "Fuso horário do Uzbequistão",
+        "timeZoneId": "Asia/Tashkent",
+        "active": "1"
+    },
+    {
+        "id": "309",
+        "timeZone": "Fuso horário da Geórgia",
+        "timeZoneId": "Asia/Tbilisi",
+        "active": "1"
+    },
+    {
+        "id": "310",
+        "timeZone": "Fuso horário do Irã",
+        "timeZoneId": "Asia/Tehran",
+        "active": "1"
+    },
+    {
+        "id": "311",
+        "timeZone": "Fuso horário padrão de Israel",
+        "timeZoneId": "Asia/Tel_Aviv",
+        "active": "1"
+    },
+    {
+        "id": "312",
+        "timeZone": "Fuso horário de Butão",
+        "timeZoneId": "Asia/Thimbu",
+        "active": "1"
+    },
+    {
+        "id": "313",
+        "timeZone": "Fuso horário de Butão",
+        "timeZoneId": "Asia/Thimphu",
+        "active": "1"
+    },
+    {
+        "id": "314",
+        "timeZone": "Fuso horário padrão do Japão",
+        "timeZoneId": "Asia/Tokyo",
+        "active": "1"
+    },
+    {
+        "id": "315",
+        "timeZone": "Fuso horário da Indonésia Central",
+        "timeZoneId": "Asia/Ujung_Pandang",
+        "active": "1"
+    },
+    {
+        "id": "316",
+        "timeZone": "Fuso horário de Ulan Bator",
+        "timeZoneId": "Asia/Ulaanbaatar",
+        "active": "1"
+    },
+    {
+        "id": "317",
+        "timeZone": "Fuso horário de Ulan Bator",
+        "timeZoneId": "Asia/Ulan_Bator",
+        "active": "1"
+    },
+    {
+        "id": "318",
+        "timeZone": "Fuso horário padrão da China",
+        "timeZoneId": "Asia/Urumqi",
+        "active": "1"
+    },
+    {
+        "id": "319",
+        "timeZone": "Horário de Ust-Nera",
+        "timeZoneId": "Asia/Ust-Nera",
+        "active": "1"
+    },
+    {
+        "id": "320",
+        "timeZone": "Fuso horário da Indochina",
+        "timeZoneId": "Asia/Vientiane",
+        "active": "1"
+    },
+    {
+        "id": "321",
+        "timeZone": "Fuso horário de Vladivostok",
+        "timeZoneId": "Asia/Vladivostok",
+        "active": "1"
+    },
+    {
+        "id": "322",
+        "timeZone": "Fuso horário de Yakutsk",
+        "timeZoneId": "Asia/Yakutsk",
+        "active": "1"
+    },
+    {
+        "id": "323",
+        "timeZone": "Fuso horário de Yekaterinburgo",
+        "timeZoneId": "Asia/Yekaterinburg",
+        "active": "1"
+    },
+    {
+        "id": "324",
+        "timeZone": "Fuso horário da Armênia",
+        "timeZoneId": "Asia/Yerevan",
+        "active": "1"
+    },
+    {
+        "id": "325",
+        "timeZone": "Fuso horário das Açores",
+        "timeZoneId": "Atlantic/Azores",
+        "active": "1"
+    },
+    {
+        "id": "326",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "Atlantic/Bermuda",
+        "active": "1"
+    },
+    {
+        "id": "327",
+        "timeZone": "Fuso horário da Europa Ocidental",
+        "timeZoneId": "Atlantic/Canary",
+        "active": "1"
+    },
+    {
+        "id": "328",
+        "timeZone": "Fuso horário de Cabo Verde",
+        "timeZoneId": "Atlantic/Cape_Verde",
+        "active": "1"
+    },
+    {
+        "id": "329",
+        "timeZone": "Fuso horário da Europa Ocidental",
+        "timeZoneId": "Atlantic/Faeroe",
+        "active": "1"
+    },
+    {
+        "id": "330",
+        "timeZone": "Fuso horário da Europa Ocidental",
+        "timeZoneId": "Atlantic/Faroe",
+        "active": "1"
+    },
+    {
+        "id": "331",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Atlantic/Jan_Mayen",
+        "active": "1"
+    },
+    {
+        "id": "332",
+        "timeZone": "Fuso horário da Europa Ocidental",
+        "timeZoneId": "Atlantic/Madeira",
+        "active": "1"
+    },
+    {
+        "id": "333",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "Atlantic/Reykjavik",
+        "active": "1"
+    },
+    {
+        "id": "334",
+        "timeZone": "Fuso horário padrão da Geórgia do Sul",
+        "timeZoneId": "Atlantic/South_Georgia",
+        "active": "1"
+    },
+    {
+        "id": "335",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "Atlantic/St_Helena",
+        "active": "1"
+    },
+    {
+        "id": "336",
+        "timeZone": "Fuso horário das Ilhas Falkland",
+        "timeZoneId": "Atlantic/Stanley",
+        "active": "1"
+    },
+    {
+        "id": "337",
+        "timeZone": "Horário-Padrão Oriental (Nova Gales do Sul)",
+        "timeZoneId": "Australia/ACT",
+        "active": "1"
+    },
+    {
+        "id": "338",
+        "timeZone": "Horário-Padrão Central (Austrália do Sul)",
+        "timeZoneId": "Australia/Adelaide",
+        "active": "1"
+    },
+    {
+        "id": "339",
+        "timeZone": "Horário-Padrão do Leste (Queensland)",
+        "timeZoneId": "Australia/Brisbane",
+        "active": "1"
+    },
+    {
+        "id": "340",
+        "timeZone": "Horário-Padrão Central (Austrália do Sul/Nova Gales do Sul)",
+        "timeZoneId": "Australia/Broken_Hill",
+        "active": "1"
+    },
+    {
+        "id": "341",
+        "timeZone": "Horário-Padrão Oriental (Nova Gales do Sul)",
+        "timeZoneId": "Australia/Canberra",
+        "active": "1"
+    },
+    {
+        "id": "342",
+        "timeZone": "Horário-Padrão Oriental (Nova Gales do Sul)",
+        "timeZoneId": "Australia/Currie",
+        "active": "1"
+    },
+    {
+        "id": "343",
+        "timeZone": "Horário-Padrão Central (Território do Norte)",
+        "timeZoneId": "Australia/Darwin",
+        "active": "1"
+    },
+    {
+        "id": "344",
+        "timeZone": "Fuso Horário Ocidental Central (Austrália)",
+        "timeZoneId": "Australia/Eucla",
+        "active": "1"
+    },
+    {
+        "id": "345",
+        "timeZone": "Horário-Padrão do Leste (Tasmânia)",
+        "timeZoneId": "Australia/Hobart",
+        "active": "1"
+    },
+    {
+        "id": "346",
+        "timeZone": "Fuso horário padrão de Lord Howe",
+        "timeZoneId": "Australia/LHI",
+        "active": "1"
+    },
+    {
+        "id": "347",
+        "timeZone": "Horário-Padrão do Leste (Queensland)",
+        "timeZoneId": "Australia/Lindeman",
+        "active": "1"
+    },
+    {
+        "id": "348",
+        "timeZone": "Fuso horário padrão de Lord Howe",
+        "timeZoneId": "Australia/Lord_Howe",
+        "active": "1"
+    },
+    {
+        "id": "349",
+        "timeZone": "Horário-Padrão do Leste (Victoria)",
+        "timeZoneId": "Australia/Melbourne",
+        "active": "1"
+    },
+    {
+        "id": "350",
+        "timeZone": "Horário-Padrão Oriental (Nova Gales do Sul)",
+        "timeZoneId": "Australia/NSW",
+        "active": "1"
+    },
+    {
+        "id": "351",
+        "timeZone": "Horário-Padrão Central (Território do Norte)",
+        "timeZoneId": "Australia/North",
+        "active": "1"
+    },
+    {
+        "id": "352",
+        "timeZone": "Horário-Padrão Ocidental (Austrália)",
+        "timeZoneId": "Australia/Perth",
+        "active": "1"
+    },
+    {
+        "id": "353",
+        "timeZone": "Horário-Padrão do Leste (Queensland)",
+        "timeZoneId": "Australia/Queensland",
+        "active": "1"
+    },
+    {
+        "id": "354",
+        "timeZone": "Horário-Padrão Central (Austrália do Sul)",
+        "timeZoneId": "Australia/South",
+        "active": "1"
+    },
+    {
+        "id": "355",
+        "timeZone": "Horário-Padrão Oriental (Nova Gales do Sul)",
+        "timeZoneId": "Australia/Sydney",
+        "active": "1"
+    },
+    {
+        "id": "356",
+        "timeZone": "Horário-Padrão do Leste (Tasmânia)",
+        "timeZoneId": "Australia/Tasmania",
+        "active": "1"
+    },
+    {
+        "id": "357",
+        "timeZone": "Horário-Padrão do Leste (Victoria)",
+        "timeZoneId": "Australia/Victoria",
+        "active": "1"
+    },
+    {
+        "id": "358",
+        "timeZone": "Horário-Padrão Ocidental (Austrália)",
+        "timeZoneId": "Australia/West",
+        "active": "1"
+    },
+    {
+        "id": "359",
+        "timeZone": "Horário-Padrão Central (Austrália do Sul/Nova Gales do Sul)",
+        "timeZoneId": "Australia/Yancowinna",
+        "active": "1"
+    },
+    {
+        "id": "360",
+        "timeZone": "Fuso horário do Acre",
+        "timeZoneId": "Brazil/Acre",
+        "active": "1"
+    },
+    {
+        "id": "361",
+        "timeZone": "Fuso horário de Fernando de Noronha",
+        "timeZoneId": "Brazil/DeNoronha",
+        "active": "1"
+    },
+    {
+        "id": "362",
+        "timeZone": "Fuso horário de Brasília",
+        "timeZoneId": "Brazil/East",
+        "active": "1"
+    },
+    {
+        "id": "363",
+        "timeZone": "Fuso horário do Amazonas",
+        "timeZoneId": "Brazil/West",
+        "active": "1"
+    },
+    {
+        "id": "364",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "CET",
+        "active": "1"
+    },
+    {
+        "id": "365",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "CST6CDT",
+        "active": "1"
+    },
+    {
+        "id": "366",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "Canada/Atlantic",
+        "active": "1"
+    },
+    {
+        "id": "367",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "Canada/Central",
+        "active": "1"
+    },
+    {
+        "id": "368",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "Canada/East-Saskatchewan",
+        "active": "1"
+    },
+    {
+        "id": "369",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "Canada/Eastern",
+        "active": "1"
+    },
+    {
+        "id": "370",
+        "timeZone": "Fuso horário padrão das montanhas",
+        "timeZoneId": "Canada/Mountain",
+        "active": "1"
+    },
+    {
+        "id": "371",
+        "timeZone": "Fuso horário padrão de Terra Nova",
+        "timeZoneId": "Canada/Newfoundland",
+        "active": "1"
+    },
+    {
+        "id": "372",
+        "timeZone": "Fuso horário padrão do Pacífico",
+        "timeZoneId": "Canada/Pacific",
+        "active": "1"
+    },
+    {
+        "id": "373",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "Canada/Saskatchewan",
+        "active": "1"
+    },
+    {
+        "id": "374",
+        "timeZone": "Fuso horário padrão do Pacífico",
+        "timeZoneId": "Canada/Yukon",
+        "active": "1"
+    },
+    {
+        "id": "375",
+        "timeZone": "Fuso horário do Chile",
+        "timeZoneId": "Chile/Continental",
+        "active": "1"
+    },
+    {
+        "id": "376",
+        "timeZone": "Fuso horário da Ilha de Páscoa",
+        "timeZoneId": "Chile/EasterIsland",
+        "active": "1"
+    },
+    {
+        "id": "377",
+        "timeZone": "Fuso horário padrão de Cuba",
+        "timeZoneId": "Cuba",
+        "active": "1"
+    },
+    {
+        "id": "378",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "EET",
+        "active": "1"
+    },
+    {
+        "id": "379",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "EST5EDT",
+        "active": "1"
+    },
+    {
+        "id": "380",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "Egypt",
+        "active": "1"
+    },
+    {
+        "id": "381",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "Eire",
+        "active": "1"
+    },
+    {
+        "id": "382",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "Etc/GMT",
+        "active": "1"
+    },
+    {
+        "id": "383",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "Etc/GMT+0",
+        "active": "1"
+    },
+    {
+        "id": "384",
+        "timeZone": "GMT-01:00",
+        "timeZoneId": "Etc/GMT+1",
+        "active": "1"
+    },
+    {
+        "id": "385",
+        "timeZone": "GMT-10:00",
+        "timeZoneId": "Etc/GMT+10",
+        "active": "1"
+    },
+    {
+        "id": "386",
+        "timeZone": "GMT-11:00",
+        "timeZoneId": "Etc/GMT+11",
+        "active": "1"
+    },
+    {
+        "id": "387",
+        "timeZone": "GMT-12:00",
+        "timeZoneId": "Etc/GMT+12",
+        "active": "1"
+    },
+    {
+        "id": "388",
+        "timeZone": "GMT-02:00",
+        "timeZoneId": "Etc/GMT+2",
+        "active": "1"
+    },
+    {
+        "id": "389",
+        "timeZone": "GMT-03:00",
+        "timeZoneId": "Etc/GMT+3",
+        "active": "1"
+    },
+    {
+        "id": "390",
+        "timeZone": "GMT-04:00",
+        "timeZoneId": "Etc/GMT+4",
+        "active": "1"
+    },
+    {
+        "id": "391",
+        "timeZone": "GMT-05:00",
+        "timeZoneId": "Etc/GMT+5",
+        "active": "1"
+    },
+    {
+        "id": "392",
+        "timeZone": "GMT-06:00",
+        "timeZoneId": "Etc/GMT+6",
+        "active": "1"
+    },
+    {
+        "id": "393",
+        "timeZone": "GMT-07:00",
+        "timeZoneId": "Etc/GMT+7",
+        "active": "1"
+    },
+    {
+        "id": "394",
+        "timeZone": "GMT-08:00",
+        "timeZoneId": "Etc/GMT+8",
+        "active": "1"
+    },
+    {
+        "id": "395",
+        "timeZone": "GMT-09:00",
+        "timeZoneId": "Etc/GMT+9",
+        "active": "1"
+    },
+    {
+        "id": "396",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "Etc/GMT-0",
+        "active": "1"
+    },
+    {
+        "id": "397",
+        "timeZone": "GMT+01:00",
+        "timeZoneId": "Etc/GMT-1",
+        "active": "1"
+    },
+    {
+        "id": "398",
+        "timeZone": "GMT+10:00",
+        "timeZoneId": "Etc/GMT-10",
+        "active": "1"
+    },
+    {
+        "id": "399",
+        "timeZone": "GMT+11:00",
+        "timeZoneId": "Etc/GMT-11",
+        "active": "1"
+    },
+    {
+        "id": "400",
+        "timeZone": "GMT+12:00",
+        "timeZoneId": "Etc/GMT-12",
+        "active": "1"
+    },
+    {
+        "id": "401",
+        "timeZone": "GMT+13:00",
+        "timeZoneId": "Etc/GMT-13",
+        "active": "1"
+    },
+    {
+        "id": "402",
+        "timeZone": "GMT+14:00",
+        "timeZoneId": "Etc/GMT-14",
+        "active": "1"
+    },
+    {
+        "id": "403",
+        "timeZone": "GMT+02:00",
+        "timeZoneId": "Etc/GMT-2",
+        "active": "1"
+    },
+    {
+        "id": "404",
+        "timeZone": "GMT+03:00",
+        "timeZoneId": "Etc/GMT-3",
+        "active": "1"
+    },
+    {
+        "id": "405",
+        "timeZone": "GMT+04:00",
+        "timeZoneId": "Etc/GMT-4",
+        "active": "1"
+    },
+    {
+        "id": "406",
+        "timeZone": "GMT+05:00",
+        "timeZoneId": "Etc/GMT-5",
+        "active": "1"
+    },
+    {
+        "id": "407",
+        "timeZone": "GMT+06:00",
+        "timeZoneId": "Etc/GMT-6",
+        "active": "1"
+    },
+    {
+        "id": "408",
+        "timeZone": "GMT+07:00",
+        "timeZoneId": "Etc/GMT-7",
+        "active": "1"
+    },
+    {
+        "id": "409",
+        "timeZone": "GMT+08:00",
+        "timeZoneId": "Etc/GMT-8",
+        "active": "1"
+    },
+    {
+        "id": "410",
+        "timeZone": "GMT+09:00",
+        "timeZoneId": "Etc/GMT-9",
+        "active": "1"
+    },
+    {
+        "id": "411",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "Etc/GMT0",
+        "active": "1"
+    },
+    {
+        "id": "412",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "Etc/Greenwich",
+        "active": "1"
+    },
+    {
+        "id": "413",
+        "timeZone": "Tempo universal coordenado",
+        "timeZoneId": "Etc/UCT",
+        "active": "1"
+    },
+    {
+        "id": "414",
+        "timeZone": "Tempo universal coordenado",
+        "timeZoneId": "Etc/UTC",
+        "active": "1"
+    },
+    {
+        "id": "415",
+        "timeZone": "Tempo universal coordenado",
+        "timeZoneId": "Etc/Universal",
+        "active": "1"
+    },
+    {
+        "id": "416",
+        "timeZone": "Tempo universal coordenado",
+        "timeZoneId": "Etc/Zulu",
+        "active": "1"
+    },
+    {
+        "id": "417",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Amsterdam",
+        "active": "1"
+    },
+    {
+        "id": "418",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Andorra",
+        "active": "1"
+    },
+    {
+        "id": "419",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "Europe/Athens",
+        "active": "1"
+    },
+    {
+        "id": "420",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "Europe/Belfast",
+        "active": "1"
+    },
+    {
+        "id": "421",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Belgrade",
+        "active": "1"
+    },
+    {
+        "id": "422",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Berlin",
+        "active": "1"
+    },
+    {
+        "id": "423",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Bratislava",
+        "active": "1"
+    },
+    {
+        "id": "424",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Brussels",
+        "active": "1"
+    },
+    {
+        "id": "425",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "Europe/Bucharest",
+        "active": "1"
+    },
+    {
+        "id": "426",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Budapest",
+        "active": "1"
+    },
+    {
+        "id": "427",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Busingen",
+        "active": "1"
+    },
+    {
+        "id": "428",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "Europe/Chisinau",
+        "active": "1"
+    },
+    {
+        "id": "429",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Copenhagen",
+        "active": "1"
+    },
+    {
+        "id": "430",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "Europe/Dublin",
+        "active": "1"
+    },
+    {
+        "id": "431",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Gibraltar",
+        "active": "1"
+    },
+    {
+        "id": "432",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "Europe/Guernsey",
+        "active": "1"
+    },
+    {
+        "id": "433",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "Europe/Helsinki",
+        "active": "1"
+    },
+    {
+        "id": "434",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "Europe/Isle_of_Man",
+        "active": "1"
+    },
+    {
+        "id": "435",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "Europe/Istanbul",
+        "active": "1"
+    },
+    {
+        "id": "436",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "Europe/Jersey",
+        "active": "1"
+    },
+    {
+        "id": "437",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "Europe/Kaliningrad",
+        "active": "1"
+    },
+    {
+        "id": "438",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "Europe/Kiev",
+        "active": "1"
+    },
+    {
+        "id": "439",
+        "timeZone": "Fuso horário da Europa Ocidental",
+        "timeZoneId": "Europe/Lisbon",
+        "active": "1"
+    },
+    {
+        "id": "440",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Ljubljana",
+        "active": "1"
+    },
+    {
+        "id": "441",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "Europe/London",
+        "active": "1"
+    },
+    {
+        "id": "442",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Luxembourg",
+        "active": "1"
+    },
+    {
+        "id": "443",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Madrid",
+        "active": "1"
+    },
+    {
+        "id": "444",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Malta",
+        "active": "1"
+    },
+    {
+        "id": "445",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "Europe/Mariehamn",
+        "active": "1"
+    },
+    {
+        "id": "446",
+        "timeZone": "Fuso horário padrão de Moscou",
+        "timeZoneId": "Europe/Minsk",
+        "active": "1"
+    },
+    {
+        "id": "447",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Monaco",
+        "active": "1"
+    },
+    {
+        "id": "448",
+        "timeZone": "Fuso horário padrão de Moscou",
+        "timeZoneId": "Europe/Moscow",
+        "active": "1"
+    },
+    {
+        "id": "449",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "Europe/Nicosia",
+        "active": "1"
+    },
+    {
+        "id": "450",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Oslo",
+        "active": "1"
+    },
+    {
+        "id": "451",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Paris",
+        "active": "1"
+    },
+    {
+        "id": "452",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Podgorica",
+        "active": "1"
+    },
+    {
+        "id": "453",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Prague",
+        "active": "1"
+    },
+    {
+        "id": "454",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "Europe/Riga",
+        "active": "1"
+    },
+    {
+        "id": "455",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Rome",
+        "active": "1"
+    },
+    {
+        "id": "456",
+        "timeZone": "Fuso horário de Samara",
+        "timeZoneId": "Europe/Samara",
+        "active": "1"
+    },
+    {
+        "id": "457",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/San_Marino",
+        "active": "1"
+    },
+    {
+        "id": "458",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Sarajevo",
+        "active": "1"
+    },
+    {
+        "id": "459",
+        "timeZone": "Fuso horário padrão de Moscou",
+        "timeZoneId": "Europe/Simferopol",
+        "active": "1"
+    },
+    {
+        "id": "460",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Skopje",
+        "active": "1"
+    },
+    {
+        "id": "461",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "Europe/Sofia",
+        "active": "1"
+    },
+    {
+        "id": "462",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Stockholm",
+        "active": "1"
+    },
+    {
+        "id": "463",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "Europe/Tallinn",
+        "active": "1"
+    },
+    {
+        "id": "464",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Tirane",
+        "active": "1"
+    },
+    {
+        "id": "465",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "Europe/Tiraspol",
+        "active": "1"
+    },
+    {
+        "id": "466",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "Europe/Uzhgorod",
+        "active": "1"
+    },
+    {
+        "id": "467",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Vaduz",
+        "active": "1"
+    },
+    {
+        "id": "468",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Vatican",
+        "active": "1"
+    },
+    {
+        "id": "469",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Vienna",
+        "active": "1"
+    },
+    {
+        "id": "470",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "Europe/Vilnius",
+        "active": "1"
+    },
+    {
+        "id": "471",
+        "timeZone": "Fuso horário padrão de Moscou",
+        "timeZoneId": "Europe/Volgograd",
+        "active": "1"
+    },
+    {
+        "id": "472",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Warsaw",
+        "active": "1"
+    },
+    {
+        "id": "473",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Zagreb",
+        "active": "1"
+    },
+    {
+        "id": "474",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "Europe/Zaporozhye",
+        "active": "1"
+    },
+    {
+        "id": "475",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Europe/Zurich",
+        "active": "1"
+    },
+    {
+        "id": "476",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "GB",
+        "active": "1"
+    },
+    {
+        "id": "477",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "GB-Eire",
+        "active": "1"
+    },
+    {
+        "id": "478",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "GMT",
+        "active": "1"
+    },
+    {
+        "id": "479",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "GMT0",
+        "active": "1"
+    },
+    {
+        "id": "480",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "Greenwich",
+        "active": "1"
+    },
+    {
+        "id": "481",
+        "timeZone": "Fuso horário de Hong Kong",
+        "timeZoneId": "Hongkong",
+        "active": "1"
+    },
+    {
+        "id": "482",
+        "timeZone": "Fuso horário do meridiano de Greenwich",
+        "timeZoneId": "Iceland",
+        "active": "1"
+    },
+    {
+        "id": "483",
+        "timeZone": "Fuso horário da África Oriental",
+        "timeZoneId": "Indian/Antananarivo",
+        "active": "1"
+    },
+    {
+        "id": "484",
+        "timeZone": "Fuso horário dos territórios do Oceano Índico",
+        "timeZoneId": "Indian/Chagos",
+        "active": "1"
+    },
+    {
+        "id": "485",
+        "timeZone": "Fuso horário das Ilhas Christmas",
+        "timeZoneId": "Indian/Christmas",
+        "active": "1"
+    },
+    {
+        "id": "486",
+        "timeZone": "Fuso horário das Ilhas Cocos",
+        "timeZoneId": "Indian/Cocos",
+        "active": "1"
+    },
+    {
+        "id": "487",
+        "timeZone": "Fuso horário da África Oriental",
+        "timeZoneId": "Indian/Comoro",
+        "active": "1"
+    },
+    {
+        "id": "488",
+        "timeZone": "Fuso horário das Terras Austrais e Antárticas Francesas",
+        "timeZoneId": "Indian/Kerguelen",
+        "active": "1"
+    },
+    {
+        "id": "489",
+        "timeZone": "Fuso horário das Seychelles",
+        "timeZoneId": "Indian/Mahe",
+        "active": "1"
+    },
+    {
+        "id": "490",
+        "timeZone": "Fuso horário das Maldivas",
+        "timeZoneId": "Indian/Maldives",
+        "active": "1"
+    },
+    {
+        "id": "491",
+        "timeZone": "Fuso horário das Ilhas Maurício",
+        "timeZoneId": "Indian/Mauritius",
+        "active": "1"
+    },
+    {
+        "id": "492",
+        "timeZone": "Fuso horário da África Oriental",
+        "timeZoneId": "Indian/Mayotte",
+        "active": "1"
+    },
+    {
+        "id": "493",
+        "timeZone": "Fuso horário de Reunião",
+        "timeZoneId": "Indian/Reunion",
+        "active": "1"
+    },
+    {
+        "id": "494",
+        "timeZone": "Fuso horário do Irã",
+        "timeZoneId": "Iran",
+        "active": "1"
+    },
+    {
+        "id": "495",
+        "timeZone": "Fuso horário padrão de Israel",
+        "timeZoneId": "Israel",
+        "active": "1"
+    },
+    {
+        "id": "496",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "Jamaica",
+        "active": "1"
+    },
+    {
+        "id": "497",
+        "timeZone": "Fuso horário padrão do Japão",
+        "timeZoneId": "Japan",
+        "active": "1"
+    },
+    {
+        "id": "498",
+        "timeZone": "Fuso horário das Ilhas Marshall",
+        "timeZoneId": "Kwajalein",
+        "active": "1"
+    },
+    {
+        "id": "499",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "Libya",
+        "active": "1"
+    },
+    {
+        "id": "500",
+        "timeZone": "Fuso horário da Europa Média",
+        "timeZoneId": "MET",
+        "active": "1"
+    },
+    {
+        "id": "501",
+        "timeZone": "Fuso horário padrão das montanhas",
+        "timeZoneId": "MST7MDT",
+        "active": "1"
+    },
+    {
+        "id": "502",
+        "timeZone": "Fuso horário padrão do Pacífico",
+        "timeZoneId": "Mexico/BajaNorte",
+        "active": "1"
+    },
+    {
+        "id": "503",
+        "timeZone": "Fuso horário padrão das montanhas",
+        "timeZoneId": "Mexico/BajaSur",
+        "active": "1"
+    },
+    {
+        "id": "504",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "Mexico/General",
+        "active": "1"
+    },
+    {
+        "id": "505",
+        "timeZone": "Fuso horário padrão da Nova Zelândia",
+        "timeZoneId": "NZ",
+        "active": "1"
+    },
+    {
+        "id": "506",
+        "timeZone": "Fuso horário padrão de Chatham",
+        "timeZoneId": "NZ-CHAT",
+        "active": "1"
+    },
+    {
+        "id": "507",
+        "timeZone": "Fuso horário padrão das montanhas",
+        "timeZoneId": "Navajo",
+        "active": "1"
+    },
+    {
+        "id": "508",
+        "timeZone": "Fuso horário padrão da China",
+        "timeZoneId": "PRC",
+        "active": "1"
+    },
+    {
+        "id": "509",
+        "timeZone": "Fuso horário padrão do Pacífico",
+        "timeZoneId": "PST8PDT",
+        "active": "1"
+    },
+    {
+        "id": "510",
+        "timeZone": "Fuso horário de Samoa Ocidental",
+        "timeZoneId": "Pacific/Apia",
+        "active": "1"
+    },
+    {
+        "id": "511",
+        "timeZone": "Fuso horário padrão da Nova Zelândia",
+        "timeZoneId": "Pacific/Auckland",
+        "active": "1"
+    },
+    {
+        "id": "512",
+        "timeZone": "Fuso horário padrão de Bougainville",
+        "timeZoneId": "Pacific/Bougainville",
+        "active": "1"
+    },
+    {
+        "id": "513",
+        "timeZone": "Fuso horário padrão de Chatham",
+        "timeZoneId": "Pacific/Chatham",
+        "active": "1"
+    },
+    {
+        "id": "514",
+        "timeZone": "Fuso Horário de Chuuk",
+        "timeZoneId": "Pacific/Chuuk",
+        "active": "1"
+    },
+    {
+        "id": "515",
+        "timeZone": "Fuso horário da Ilha de Páscoa",
+        "timeZoneId": "Pacific/Easter",
+        "active": "1"
+    },
+    {
+        "id": "516",
+        "timeZone": "Fuso horário de Vanuatu",
+        "timeZoneId": "Pacific/Efate",
+        "active": "1"
+    },
+    {
+        "id": "517",
+        "timeZone": "Fuso horário das Ilhas Fénix",
+        "timeZoneId": "Pacific/Enderbury",
+        "active": "1"
+    },
+    {
+        "id": "518",
+        "timeZone": "Fuso horário de Tokelau",
+        "timeZoneId": "Pacific/Fakaofo",
+        "active": "1"
+    },
+    {
+        "id": "519",
+        "timeZone": "Fuso horário de Fiji",
+        "timeZoneId": "Pacific/Fiji",
+        "active": "1"
+    },
+    {
+        "id": "520",
+        "timeZone": "Fuso horário de Tuvalu",
+        "timeZoneId": "Pacific/Funafuti",
+        "active": "1"
+    },
+    {
+        "id": "521",
+        "timeZone": "Fuso horário das Ilhas Galápagos",
+        "timeZoneId": "Pacific/Galapagos",
+        "active": "1"
+    },
+    {
+        "id": "522",
+        "timeZone": "Fuso horário de Gambier",
+        "timeZoneId": "Pacific/Gambier",
+        "active": "1"
+    },
+    {
+        "id": "523",
+        "timeZone": "Fuso horário das Ilhas Salomão",
+        "timeZoneId": "Pacific/Guadalcanal",
+        "active": "1"
+    },
+    {
+        "id": "524",
+        "timeZone": "Fuso horário padrão de Chamorro",
+        "timeZoneId": "Pacific/Guam",
+        "active": "1"
+    },
+    {
+        "id": "525",
+        "timeZone": "Fuso horário padrão do Havaí",
+        "timeZoneId": "Pacific/Honolulu",
+        "active": "1"
+    },
+    {
+        "id": "526",
+        "timeZone": "Fuso horário padrão do Havaí",
+        "timeZoneId": "Pacific/Johnston",
+        "active": "1"
+    },
+    {
+        "id": "527",
+        "timeZone": "Fuso horário das Espórades Equatoriais",
+        "timeZoneId": "Pacific/Kiritimati",
+        "active": "1"
+    },
+    {
+        "id": "528",
+        "timeZone": "Fuso horário de Kosrae",
+        "timeZoneId": "Pacific/Kosrae",
+        "active": "1"
+    },
+    {
+        "id": "529",
+        "timeZone": "Fuso horário das Ilhas Marshall",
+        "timeZoneId": "Pacific/Kwajalein",
+        "active": "1"
+    },
+    {
+        "id": "530",
+        "timeZone": "Fuso horário das Ilhas Marshall",
+        "timeZoneId": "Pacific/Majuro",
+        "active": "1"
+    },
+    {
+        "id": "531",
+        "timeZone": "Fuso horário das Ilhas Marquesas",
+        "timeZoneId": "Pacific/Marquesas",
+        "active": "1"
+    },
+    {
+        "id": "532",
+        "timeZone": "Fuso horário padrão de Samoa",
+        "timeZoneId": "Pacific/Midway",
+        "active": "1"
+    },
+    {
+        "id": "533",
+        "timeZone": "Fuso horário de Nauru",
+        "timeZoneId": "Pacific/Nauru",
+        "active": "1"
+    },
+    {
+        "id": "534",
+        "timeZone": "Fuso horário de Niue",
+        "timeZoneId": "Pacific/Niue",
+        "active": "1"
+    },
+    {
+        "id": "535",
+        "timeZone": "Fuso horário da Ilha de Norfolk",
+        "timeZoneId": "Pacific/Norfolk",
+        "active": "1"
+    },
+    {
+        "id": "536",
+        "timeZone": "Fuso horário da Nova Caledônia",
+        "timeZoneId": "Pacific/Noumea",
+        "active": "1"
+    },
+    {
+        "id": "537",
+        "timeZone": "Fuso horário padrão de Samoa",
+        "timeZoneId": "Pacific/Pago_Pago",
+        "active": "1"
+    },
+    {
+        "id": "538",
+        "timeZone": "Fuso horário de Palau",
+        "timeZoneId": "Pacific/Palau",
+        "active": "1"
+    },
+    {
+        "id": "539",
+        "timeZone": "Fuso horário padrão de Pitcairn",
+        "timeZoneId": "Pacific/Pitcairn",
+        "active": "1"
+    },
+    {
+        "id": "540",
+        "timeZone": "Fuso Horário de Pohnpei",
+        "timeZoneId": "Pacific/Pohnpei",
+        "active": "1"
+    },
+    {
+        "id": "541",
+        "timeZone": "Fuso Horário de Pohnpei",
+        "timeZoneId": "Pacific/Ponape",
+        "active": "1"
+    },
+    {
+        "id": "542",
+        "timeZone": "Fuso horário de Papua-Nova Guiné",
+        "timeZoneId": "Pacific/Port_Moresby",
+        "active": "1"
+    },
+    {
+        "id": "543",
+        "timeZone": "Fuso horário das Ilhas Cook",
+        "timeZoneId": "Pacific/Rarotonga",
+        "active": "1"
+    },
+    {
+        "id": "544",
+        "timeZone": "Fuso horário padrão de Chamorro",
+        "timeZoneId": "Pacific/Saipan",
+        "active": "1"
+    },
+    {
+        "id": "545",
+        "timeZone": "Fuso horário padrão de Samoa",
+        "timeZoneId": "Pacific/Samoa",
+        "active": "1"
+    },
+    {
+        "id": "546",
+        "timeZone": "Fuso horário do Taiti",
+        "timeZoneId": "Pacific/Tahiti",
+        "active": "1"
+    },
+    {
+        "id": "547",
+        "timeZone": "Fuso horário das Ilhas Gilbert",
+        "timeZoneId": "Pacific/Tarawa",
+        "active": "1"
+    },
+    {
+        "id": "548",
+        "timeZone": "Fuso horário de Tonga",
+        "timeZoneId": "Pacific/Tongatapu",
+        "active": "1"
+    },
+    {
+        "id": "549",
+        "timeZone": "Fuso Horário de Chuuk",
+        "timeZoneId": "Pacific/Truk",
+        "active": "1"
+    },
+    {
+        "id": "550",
+        "timeZone": "Fuso horário de Wake",
+        "timeZoneId": "Pacific/Wake",
+        "active": "1"
+    },
+    {
+        "id": "551",
+        "timeZone": "Fuso horário de Wallis e Futuna",
+        "timeZoneId": "Pacific/Wallis",
+        "active": "1"
+    },
+    {
+        "id": "552",
+        "timeZone": "Fuso Horário de Chuuk",
+        "timeZoneId": "Pacific/Yap",
+        "active": "1"
+    },
+    {
+        "id": "553",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "Poland",
+        "active": "1"
+    },
+    {
+        "id": "554",
+        "timeZone": "Fuso horário da Europa Ocidental",
+        "timeZoneId": "Portugal",
+        "active": "1"
+    },
+    {
+        "id": "555",
+        "timeZone": "Fuso horário padrão da Coreia",
+        "timeZoneId": "ROK",
+        "active": "1"
+    },
+    {
+        "id": "556",
+        "timeZone": "Fuso horário de Cingapura",
+        "timeZoneId": "Singapore",
+        "active": "1"
+    },
+    {
+        "id": "557",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "SystemV/AST4",
+        "active": "1"
+    },
+    {
+        "id": "558",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "SystemV/AST4ADT",
+        "active": "1"
+    },
+    {
+        "id": "559",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "SystemV/CST6",
+        "active": "1"
+    },
+    {
+        "id": "560",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "SystemV/CST6CDT",
+        "active": "1"
+    },
+    {
+        "id": "561",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "SystemV/EST5",
+        "active": "1"
+    },
+    {
+        "id": "562",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "SystemV/EST5EDT",
+        "active": "1"
+    },
+    {
+        "id": "563",
+        "timeZone": "Fuso horário padrão do Havaí",
+        "timeZoneId": "SystemV/HST10",
+        "active": "1"
+    },
+    {
+        "id": "564",
+        "timeZone": "Fuso horário padrão das montanhas",
+        "timeZoneId": "SystemV/MST7",
+        "active": "1"
+    },
+    {
+        "id": "565",
+        "timeZone": "Fuso horário padrão das montanhas",
+        "timeZoneId": "SystemV/MST7MDT",
+        "active": "1"
+    },
+    {
+        "id": "566",
+        "timeZone": "Fuso horário padrão do Pacífico",
+        "timeZoneId": "SystemV/PST8",
+        "active": "1"
+    },
+    {
+        "id": "567",
+        "timeZone": "Fuso horário padrão do Pacífico",
+        "timeZoneId": "SystemV/PST8PDT",
+        "active": "1"
+    },
+    {
+        "id": "568",
+        "timeZone": "Fuso horário padrão do Alaska",
+        "timeZoneId": "SystemV/YST9",
+        "active": "1"
+    },
+    {
+        "id": "569",
+        "timeZone": "Fuso horário padrão do Alaska",
+        "timeZoneId": "SystemV/YST9YDT",
+        "active": "1"
+    },
+    {
+        "id": "570",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "Turkey",
+        "active": "1"
+    },
+    {
+        "id": "571",
+        "timeZone": "Tempo universal coordenado",
+        "timeZoneId": "UCT",
+        "active": "1"
+    },
+    {
+        "id": "572",
+        "timeZone": "Fuso horário padrão do Alaska",
+        "timeZoneId": "US/Alaska",
+        "active": "1"
+    },
+    {
+        "id": "573",
+        "timeZone": "Fuso horário padrão do Havaí-Aleutian",
+        "timeZoneId": "US/Aleutian",
+        "active": "1"
+    },
+    {
+        "id": "574",
+        "timeZone": "Fuso horário padrão das montanhas",
+        "timeZoneId": "US/Arizona",
+        "active": "1"
+    },
+    {
+        "id": "575",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "US/Central",
+        "active": "1"
+    },
+    {
+        "id": "576",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "US/East-Indiana",
+        "active": "1"
+    },
+    {
+        "id": "577",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "US/Eastern",
+        "active": "1"
+    },
+    {
+        "id": "578",
+        "timeZone": "Fuso horário padrão do Havaí",
+        "timeZoneId": "US/Hawaii",
+        "active": "1"
+    },
+    {
+        "id": "579",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "US/Indiana-Starke",
+        "active": "1"
+    },
+    {
+        "id": "580",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "US/Michigan",
+        "active": "1"
+    },
+    {
+        "id": "581",
+        "timeZone": "Fuso horário padrão das montanhas",
+        "timeZoneId": "US/Mountain",
+        "active": "1"
+    },
+    {
+        "id": "582",
+        "timeZone": "Fuso horário padrão do Pacífico",
+        "timeZoneId": "US/Pacific",
+        "active": "1"
+    },
+    {
+        "id": "583",
+        "timeZone": "Fuso horário padrão do Pacífico",
+        "timeZoneId": "US/Pacific-New",
+        "active": "1"
+    },
+    {
+        "id": "584",
+        "timeZone": "Fuso horário padrão de Samoa",
+        "timeZoneId": "US/Samoa",
+        "active": "1"
+    },
+    {
+        "id": "585",
+        "timeZone": "Tempo universal coordenado",
+        "timeZoneId": "UTC",
+        "active": "1"
+    },
+    {
+        "id": "586",
+        "timeZone": "Tempo universal coordenado",
+        "timeZoneId": "Universal",
+        "active": "1"
+    },
+    {
+        "id": "587",
+        "timeZone": "Fuso horário padrão de Moscou",
+        "timeZoneId": "W-SU",
+        "active": "1"
+    },
+    {
+        "id": "588",
+        "timeZone": "Fuso horário da Europa Ocidental",
+        "timeZoneId": "WET",
+        "active": "1"
+    },
+    {
+        "id": "589",
+        "timeZone": "Tempo universal coordenado",
+        "timeZoneId": "Zulu",
+        "active": "1"
+    },
+    {
+        "id": "590",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "EST",
+        "active": "1"
+    },
+    {
+        "id": "591",
+        "timeZone": "Fuso horário padrão do Havaí",
+        "timeZoneId": "HST",
+        "active": "1"
+    },
+    {
+        "id": "592",
+        "timeZone": "Fuso horário padrão das montanhas",
+        "timeZoneId": "MST",
+        "active": "1"
+    },
+    {
+        "id": "593",
+        "timeZone": "Horário-Padrão Central (Território do Norte)",
+        "timeZoneId": "ACT",
+        "active": "1"
+    },
+    {
+        "id": "594",
+        "timeZone": "Horário-Padrão Oriental (Nova Gales do Sul)",
+        "timeZoneId": "AET",
+        "active": "1"
+    },
+    {
+        "id": "595",
+        "timeZone": "Fuso horário da Argentina",
+        "timeZoneId": "AGT",
+        "active": "1"
+    },
+    {
+        "id": "596",
+        "timeZone": "Fuso horário da Europa Oriental",
+        "timeZoneId": "ART",
+        "active": "1"
+    },
+    {
+        "id": "597",
+        "timeZone": "Fuso horário padrão do Alaska",
+        "timeZoneId": "AST",
+        "active": "1"
+    },
+    {
+        "id": "598",
+        "timeZone": "Fuso horário de Brasília",
+        "timeZoneId": "BET",
+        "active": "1"
+    },
+    {
+        "id": "599",
+        "timeZone": "Fuso horário de Bangladesh",
+        "timeZoneId": "BST",
+        "active": "1"
+    },
+    {
+        "id": "600",
+        "timeZone": "Fuso horário da África Central",
+        "timeZoneId": "CAT",
+        "active": "1"
+    },
+    {
+        "id": "601",
+        "timeZone": "Fuso horário padrão de Terra Nova",
+        "timeZoneId": "CNT",
+        "active": "1"
+    },
+    {
+        "id": "602",
+        "timeZone": "Fuso horário padrão central",
+        "timeZoneId": "CST",
+        "active": "1"
+    },
+    {
+        "id": "603",
+        "timeZone": "Fuso horário padrão da China",
+        "timeZoneId": "CTT",
+        "active": "1"
+    },
+    {
+        "id": "604",
+        "timeZone": "Fuso horário da África Oriental",
+        "timeZoneId": "EAT",
+        "active": "1"
+    },
+    {
+        "id": "605",
+        "timeZone": "Fuso horário da Europa Central",
+        "timeZoneId": "ECT",
+        "active": "1"
+    },
+    {
+        "id": "606",
+        "timeZone": "Fuso horário padrão oriental",
+        "timeZoneId": "IET",
+        "active": "1"
+    },
+    {
+        "id": "607",
+        "timeZone": "Fuso horário padrão da Índia",
+        "timeZoneId": "IST",
+        "active": "1"
+    },
+    {
+        "id": "608",
+        "timeZone": "Fuso horário padrão do Japão",
+        "timeZoneId": "JST",
+        "active": "1"
+    },
+    {
+        "id": "609",
+        "timeZone": "Fuso horário de Samoa Ocidental",
+        "timeZoneId": "MIT",
+        "active": "1"
+    },
+    {
+        "id": "610",
+        "timeZone": "Fuso horário da Armênia",
+        "timeZoneId": "NET",
+        "active": "1"
+    },
+    {
+        "id": "611",
+        "timeZone": "Fuso horário padrão da Nova Zelândia",
+        "timeZoneId": "NST",
+        "active": "1"
+    },
+    {
+        "id": "612",
+        "timeZone": "Fuso horário do Paquistão",
+        "timeZoneId": "PLT",
+        "active": "1"
+    },
+    {
+        "id": "613",
+        "timeZone": "Fuso horário padrão das montanhas",
+        "timeZoneId": "PNT",
+        "active": "1"
+    },
+    {
+        "id": "614",
+        "timeZone": "Fuso horário padrão do Atlântico",
+        "timeZoneId": "PRT",
+        "active": "1"
+    },
+    {
+        "id": "615",
+        "timeZone": "Fuso horário padrão do Pacífico",
+        "timeZoneId": "PST",
+        "active": "1"
+    },
+    {
+        "id": "616",
+        "timeZone": "Fuso horário das Ilhas Salomão",
+        "timeZoneId": "SST",
+        "active": "1"
+    },
+    {
+        "id": "617",
+        "timeZone": "Fuso horário da Indochina",
+        "timeZoneId": "VST",
+        "active": "1"
+    }
+]

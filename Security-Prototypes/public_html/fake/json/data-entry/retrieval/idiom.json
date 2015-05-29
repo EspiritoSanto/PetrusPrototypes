@@ -1,0 +1,1274 @@
+[
+    {
+        "id": "53",
+        "idiom": "Árabe (Emirados Árabes Unidos)",
+        "wsLocale": "ar-AE",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "111",
+        "idiom": "Árabe (Bahrain)",
+        "wsLocale": "ar-BH",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "50",
+        "idiom": "Árabe (Argélia)",
+        "wsLocale": "ar-DZ",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "121",
+        "idiom": "Árabe (Egito)",
+        "wsLocale": "ar-EG",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "10",
+        "idiom": "Árabe (Iraque)",
+        "wsLocale": "ar-IQ",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "79",
+        "idiom": "Árabe (Jordânia)",
+        "wsLocale": "ar-JO",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "120",
+        "idiom": "Árabe (Kuwait)",
+        "wsLocale": "ar-KW",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "147",
+        "idiom": "Árabe (Líbano)",
+        "wsLocale": "ar-LB",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "78",
+        "idiom": "Árabe (Líbia)",
+        "wsLocale": "ar-LY",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "32",
+        "idiom": "Árabe (Marrocos)",
+        "wsLocale": "ar-MA",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "130",
+        "idiom": "Árabe (Omã)",
+        "wsLocale": "ar-OM",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "2",
+        "idiom": "Árabe (Catar)",
+        "wsLocale": "ar-QA",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "9",
+        "idiom": "Árabe (Arábia Saudita)",
+        "wsLocale": "ar-SA",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "45",
+        "idiom": "Árabe (Sudão)",
+        "wsLocale": "ar-SD",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "59",
+        "idiom": "Árabe (Síria)",
+        "wsLocale": "ar-SY",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "39",
+        "idiom": "Árabe (Tunísia)",
+        "wsLocale": "ar-TN",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "19",
+        "idiom": "Árabe (Iêmen)",
+        "wsLocale": "ar-YE",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "31",
+        "idiom": "Árabe",
+        "wsLocale": "ar",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "43",
+        "idiom": "Bielo-Russo (Belarus)",
+        "wsLocale": "be-BY",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "133",
+        "idiom": "Bielo-Russo",
+        "wsLocale": "be",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "86",
+        "idiom": "Búlgaro (Bulgária)",
+        "wsLocale": "bg-BG",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "63",
+        "idiom": "Búlgaro",
+        "wsLocale": "bg",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "72",
+        "idiom": "Catalão (Espanha)",
+        "wsLocale": "ca-ES",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "132",
+        "idiom": "Catalão",
+        "wsLocale": "ca",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "124",
+        "idiom": "Tcheco (República Tcheca)",
+        "wsLocale": "cs-CZ",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "126",
+        "idiom": "Tcheco",
+        "wsLocale": "cs",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "68",
+        "idiom": "Dinamarquês (Dinamarca)",
+        "wsLocale": "da-DK",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "15",
+        "idiom": "Dinamarquês",
+        "wsLocale": "da",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "14",
+        "idiom": "Alemão (Áustria)",
+        "wsLocale": "de-AT",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "118",
+        "idiom": "Alemão (Suíça)",
+        "wsLocale": "de-CH",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "148",
+        "idiom": "Alemão (Alemanha)",
+        "wsLocale": "de-DE",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "157",
+        "idiom": "Alemão (Grécia)",
+        "wsLocale": "de-GR",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "108",
+        "idiom": "Alemão (Luxemburgo)",
+        "wsLocale": "de-LU",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "34",
+        "idiom": "Alemão",
+        "wsLocale": "de",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "154",
+        "idiom": "Grego (Chipre)",
+        "wsLocale": "el-CY",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "104",
+        "idiom": "Grego (Grécia)",
+        "wsLocale": "el-GR",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "117",
+        "idiom": "Grego",
+        "wsLocale": "el",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "142",
+        "idiom": "Inglês (Austrália)",
+        "wsLocale": "en-AU",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "22",
+        "idiom": "Inglês (Canadá)",
+        "wsLocale": "en-CA",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "16",
+        "idiom": "Inglês (Reino Unido)",
+        "wsLocale": "en-GB",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "128",
+        "idiom": "Inglês (Irlanda)",
+        "wsLocale": "en-IE",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "129",
+        "idiom": "Inglês (Índia)",
+        "wsLocale": "en-IN",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "6",
+        "idiom": "Inglês (Malta)",
+        "wsLocale": "en-MT",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "144",
+        "idiom": "Inglês (Nova Zelândia)",
+        "wsLocale": "en-NZ",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "152",
+        "idiom": "Inglês (Filipinas)",
+        "wsLocale": "en-PH",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "93",
+        "idiom": "Inglês (Cingapura)",
+        "wsLocale": "en-SG",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "28",
+        "idiom": "Inglês (Estados Unidos)",
+        "wsLocale": "en-US",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Sim",
+        "active": "Sim"
+    },
+    {
+        "id": "37",
+        "idiom": "Inglês (África Do Sul)",
+        "wsLocale": "en-ZA",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "66",
+        "idiom": "Inglês",
+        "wsLocale": "en",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "52",
+        "idiom": "Espanhol (Argentina)",
+        "wsLocale": "es-AR",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "49",
+        "idiom": "Espanhol (Bolívia)",
+        "wsLocale": "es-BO",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "12",
+        "idiom": "Espanhol (Chile)",
+        "wsLocale": "es-CL",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "151",
+        "idiom": "Espanhol (Colômbia)",
+        "wsLocale": "es-CO",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "69",
+        "idiom": "Espanhol (Costa Rica)",
+        "wsLocale": "es-CR",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "158",
+        "idiom": "Espanhol (Cuba)",
+        "wsLocale": "es-CU",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "75",
+        "idiom": "Espanhol (República Dominicana)",
+        "wsLocale": "es-DO",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "94",
+        "idiom": "Espanhol (Equador)",
+        "wsLocale": "es-EC",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "62",
+        "idiom": "Espanhol (Espanha)",
+        "wsLocale": "es-ES",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "84",
+        "idiom": "Espanhol (Guatemala)",
+        "wsLocale": "es-GT",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "27",
+        "idiom": "Espanhol (Honduras)",
+        "wsLocale": "es-HN",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "141",
+        "idiom": "Espanhol (México)",
+        "wsLocale": "es-MX",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "96",
+        "idiom": "Espanhol (Nicarágua)",
+        "wsLocale": "es-NI",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "17",
+        "idiom": "Espanhol (Panamá)",
+        "wsLocale": "es-PA",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "123",
+        "idiom": "Espanhol (Peru)",
+        "wsLocale": "es-PE",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "11",
+        "idiom": "Espanhol (Porto Rico)",
+        "wsLocale": "es-PR",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "85",
+        "idiom": "Espanhol (Paraguai)",
+        "wsLocale": "es-PY",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "100",
+        "idiom": "Espanhol (El Salvador)",
+        "wsLocale": "es-SV",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "25",
+        "idiom": "Espanhol (Estados Unidos)",
+        "wsLocale": "es-US",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "127",
+        "idiom": "Espanhol (Uruguai)",
+        "wsLocale": "es-UY",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "76",
+        "idiom": "Espanhol (Venezuela)",
+        "wsLocale": "es-VE",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "56",
+        "idiom": "Espanhol",
+        "wsLocale": "es",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Sim",
+        "active": "Sim"
+    },
+    {
+        "id": "153",
+        "idiom": "Estoniano (Estônia)",
+        "wsLocale": "et-EE",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "103",
+        "idiom": "Estoniano",
+        "wsLocale": "et",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "4",
+        "idiom": "Finlandês (Finlândia)",
+        "wsLocale": "fi-FI",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "13",
+        "idiom": "Finlandês",
+        "wsLocale": "fi",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "61",
+        "idiom": "Francês (Bélgica)",
+        "wsLocale": "fr-BE",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "54",
+        "idiom": "Francês (Canadá)",
+        "wsLocale": "fr-CA",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "109",
+        "idiom": "Francês (Suíça)",
+        "wsLocale": "fr-CH",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "156",
+        "idiom": "Francês (França)",
+        "wsLocale": "fr-FR",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "90",
+        "idiom": "Francês (Luxemburgo)",
+        "wsLocale": "fr-LU",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "29",
+        "idiom": "Francês",
+        "wsLocale": "fr",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "122",
+        "idiom": "Irlandês (Irlanda)",
+        "wsLocale": "ga-IE",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "83",
+        "idiom": "Irlandês",
+        "wsLocale": "ga",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "102",
+        "idiom": "Híndi (Índia)",
+        "wsLocale": "hi-IN",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "159",
+        "idiom": "Híndi",
+        "wsLocale": "hi",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "87",
+        "idiom": "Croata (Croácia)",
+        "wsLocale": "hr-HR",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "36",
+        "idiom": "Croata",
+        "wsLocale": "hr",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "82",
+        "idiom": "Húngaro (Hungria)",
+        "wsLocale": "hu-HU",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "155",
+        "idiom": "Húngaro",
+        "wsLocale": "hu",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "35",
+        "idiom": "Indonésio (Indonésia)",
+        "wsLocale": "in-ID",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "40",
+        "idiom": "Indonésio",
+        "wsLocale": "in",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "3",
+        "idiom": "Islandês (Islândia)",
+        "wsLocale": "is-IS",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "47",
+        "idiom": "Islandês",
+        "wsLocale": "is",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "7",
+        "idiom": "Italiano (Suíça)",
+        "wsLocale": "it-CH",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "106",
+        "idiom": "Italiano (Itália)",
+        "wsLocale": "it-IT",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "80",
+        "idiom": "Italiano",
+        "wsLocale": "it",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "64",
+        "idiom": "Hebraico (Israel)",
+        "wsLocale": "iw-IL",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "67",
+        "idiom": "Hebraico",
+        "wsLocale": "iw",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "48",
+        "idiom": "Japonês (Japão,Jp)",
+        "wsLocale": "ja-JP-JP",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "107",
+        "idiom": "Japonês (Japão)",
+        "wsLocale": "ja-JP",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "41",
+        "idiom": "Japonês",
+        "wsLocale": "ja",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "38",
+        "idiom": "Coreano (Coréia, Sul)",
+        "wsLocale": "ko-KR",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "135",
+        "idiom": "Coreano",
+        "wsLocale": "ko",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "57",
+        "idiom": "Lituano (Lituânia)",
+        "wsLocale": "lt-LT",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "92",
+        "idiom": "Lituano",
+        "wsLocale": "lt",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "138",
+        "idiom": "Letão (Letônia)",
+        "wsLocale": "lv-LV",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "33",
+        "idiom": "Letão",
+        "wsLocale": "lv",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "20",
+        "idiom": "Macedônio (Macedônia)",
+        "wsLocale": "mk-MK",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "21",
+        "idiom": "Macedônio",
+        "wsLocale": "mk",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "1",
+        "idiom": "Malaio (Malásia)",
+        "wsLocale": "ms-MY",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "51",
+        "idiom": "Malaio",
+        "wsLocale": "ms",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "110",
+        "idiom": "Maltês (Malta)",
+        "wsLocale": "mt-MT",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "99",
+        "idiom": "Maltês",
+        "wsLocale": "mt",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "8",
+        "idiom": "Holandês (Bélgica)",
+        "wsLocale": "nl-BE",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "24",
+        "idiom": "Holandês (Holanda)",
+        "wsLocale": "nl-NL",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "101",
+        "idiom": "Holandês",
+        "wsLocale": "nl",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "143",
+        "idiom": "Norueguês (Noruega,Nynorsk)",
+        "wsLocale": "no-NO-NY",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "116",
+        "idiom": "Norueguês (Noruega)",
+        "wsLocale": "no-NO",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "91",
+        "idiom": "Norueguês",
+        "wsLocale": "no",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "77",
+        "idiom": "Polonês (Polônia)",
+        "wsLocale": "pl-PL",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "5",
+        "idiom": "Polonês",
+        "wsLocale": "pl",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "115",
+        "idiom": "Português (Brasil)",
+        "wsLocale": "pt-BR",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Sim",
+        "active": "Sim"
+    },
+    {
+        "id": "137",
+        "idiom": "Português (Portugal)",
+        "wsLocale": "pt-PT",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "46",
+        "idiom": "Português",
+        "wsLocale": "pt",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "89",
+        "idiom": "Romeno (Romênia)",
+        "wsLocale": "ro-RO",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "146",
+        "idiom": "Romeno",
+        "wsLocale": "ro",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "60",
+        "idiom": "Russo (Rússia)",
+        "wsLocale": "ru-RU",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "98",
+        "idiom": "Russo",
+        "wsLocale": "ru",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "140",
+        "idiom": "Eslovaco (Eslováquia)",
+        "wsLocale": "sk-SK",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "97",
+        "idiom": "Eslovaco",
+        "wsLocale": "sk",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "105",
+        "idiom": "Eslovênio (Eslovênia)",
+        "wsLocale": "sl-SI",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "55",
+        "idiom": "Eslovênio",
+        "wsLocale": "sl",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "136",
+        "idiom": "Albanês (Albânia)",
+        "wsLocale": "sq-AL",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "112",
+        "idiom": "Albanês",
+        "wsLocale": "sq",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "88",
+        "idiom": "Sérvio (Latin,Bósnia-Herzegovina)",
+        "wsLocale": "sr-BA",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "95",
+        "idiom": "Sérvio (Bósnia-Herzegovina)",
+        "wsLocale": "sr-BA",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "58",
+        "idiom": "Sérvio (Latin,Montenegro)",
+        "wsLocale": "sr-ME",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "114",
+        "idiom": "Sérvio (Montenegro)",
+        "wsLocale": "sr-ME",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "42",
+        "idiom": "Sérvio (Serbia)",
+        "wsLocale": "sr-RS",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "139",
+        "idiom": "Sérvio (Latin,Serbia)",
+        "wsLocale": "sr-RS",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "131",
+        "idiom": "Sérvio (Sérvia E Montenegro)",
+        "wsLocale": "sr",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "134",
+        "idiom": "Sérvio (Latin)",
+        "wsLocale": "sr",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "18",
+        "idiom": "Sérvio",
+        "wsLocale": "sr",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "145",
+        "idiom": "Sueco (Suécia)",
+        "wsLocale": "sv-SE",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "65",
+        "idiom": "Sueco",
+        "wsLocale": "sv",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "149",
+        "idiom": "Tailandês (Tailândia,Th)",
+        "wsLocale": "th-TH-TH",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "73",
+        "idiom": "Tailandês (Tailândia)",
+        "wsLocale": "th-TH",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "30",
+        "idiom": "Tailandês",
+        "wsLocale": "th",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "125",
+        "idiom": "Turco (Turquia)",
+        "wsLocale": "tr-TR",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "150",
+        "idiom": "Turco",
+        "wsLocale": "tr",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "74",
+        "idiom": "Ucraniano (Ucrânia)",
+        "wsLocale": "uk-UA",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "81",
+        "idiom": "Ucraniano",
+        "wsLocale": "uk",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "23",
+        "idiom": "Vietnamita (Vietnã)",
+        "wsLocale": "vi-VN",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "113",
+        "idiom": "Vietnamita",
+        "wsLocale": "vi",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "26",
+        "idiom": "Chinês (China)",
+        "wsLocale": "zh-CN",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "70",
+        "idiom": "Chinês (Hong Kong, Região Admin. Especial Da China)",
+        "wsLocale": "zh-HK",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "119",
+        "idiom": "Chinês (Cingapura)",
+        "wsLocale": "zh-SG",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "44",
+        "idiom": "Chinês (Taiwan)",
+        "wsLocale": "zh-TW",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    },
+    {
+        "id": "71",
+        "idiom": "Chinês",
+        "wsLocale": "zh",
+        "useCustomSettings": "Não",
+        "existResourceFile": "Não",
+        "active": "Sim"
+    }
+]
